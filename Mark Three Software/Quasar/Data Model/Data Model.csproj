@@ -1,0 +1,199 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B677580-B71F-4D19-AF42-D0FBE8ECC236}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Data Model</AssemblyName>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>true</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MarkThree.Quasar</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Appraisal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AppraisalSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppraisalSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Broker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataSetQuasar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetQuasar.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataModel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MarketValue.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MarketValueFlags.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Price.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Quantity.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Relation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Security.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Trading.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TradingSupport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="AppraisalSet.xsc">
+      <DependentUpon>AppraisalSet.xsd</DependentUpon>
+    </None>
+    <None Include="AppraisalSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppraisalSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="AppraisalSet.xss">
+      <DependentUpon>AppraisalSet.xsd</DependentUpon>
+    </None>
+    <None Include="AppraisalSet.xsx">
+      <DependentUpon>AppraisalSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetQuasar.xsc">
+      <DependentUpon>DataSetQuasar.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetQuasar.xsd">
+      <SubType>Designer</SubType>
+      <Generator>Middle Tier Generator</Generator>
+      <LastGenOutput>DataSetQuasar.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetQuasar.xss">
+      <DependentUpon>DataSetQuasar.xsd</DependentUpon>
+    </None>
+    <None Include="Public Key.snk" />
+    <EmbeddedResource Include="DataModel.resx">
+      <DependentUpon>DataModel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Batch\Batch.csproj">
+      <Project>{D8E26866-EB0B-4868-AF59-F2A1F94CBC41}</Project>
+      <Name>Batch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Configuration Sections\Configuration Sections.csproj">
+      <Project>{1B311B69-1820-4BF1-8FEA-B7C8CAC24728}</Project>
+      <Name>Configuration Sections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Mark Three Library\Mark Three Library.csproj">
+      <Project>{734051D9-B2A3-44E9-A88B-7B4FDB90109F}</Project>
+      <Name>Mark Three Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Quasar Library\Quasar Library.csproj">
+      <Project>{7EBF09C2-CDA4-4C45-BA29-AD3CF4527D86}</Project>
+      <Name>Quasar Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

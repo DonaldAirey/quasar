@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="PartyType">
+  <transaction>
+		<method assembly="External Service" type="MarkThree.Guardian.External.PartyType" name="Load">
+			<partyTypeCode>0</partyTypeCode>
+			<mnemonic>Agency</mnemonic>
+			<description>The Desk of a Agency Broker</description>
+			<externalId0>AGENCY</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.PartyType" name="Load">
+			<partyTypeCode>1</partyTypeCode>
+			<mnemonic>Broker</mnemonic>
+			<description>The Desk of a Broker/Dealer</description>
+			<externalId0>BROKER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.PartyType" name="Load">
+      <partyTypeCode>2</partyTypeCode>
+      <mnemonic>Hedge</mnemonic>
+      <description>Hedge Fund</description>
+      <externalId0>HEDGE FUND</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.PartyType" name="Load">
+      <partyTypeCode>3</partyTypeCode>
+      <mnemonic>Institution</mnemonic>
+      <description>Traditional Mutual Fund or Money Manager</description>
+      <externalId0>INSTITUTION</externalId0>
+    </method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.PartyType" name="Load">
+      <partyTypeCode>4</partyTypeCode>
+      <mnemonic>Use Parent</mnemonic>
+      <description>Use the parent setting</description>
+      <externalId0>USE PARENT</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.PartyType" name="Load">
+      <partyTypeCode>5</partyTypeCode>
+      <mnemonic>Not Valid</mnemonic>
+      <description>Not a valid counter party</description>
+      <externalId0>NOT VALID</externalId0>
+    </method>
+  </transaction>
+</batch>

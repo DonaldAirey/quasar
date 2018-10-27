@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="BlotterMap">
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0001</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>AUD</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0002</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>CAD</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0003</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>CHF</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0004</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>DEM</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0005</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>DKK</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0006</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>EUR</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0007</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>FRF</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0008</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>GBP</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0009</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>MXN</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0010</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>NLG</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0011</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>NOK</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0012</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>SEK</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>DEFAULT</configurationId>
+		<blotterMapId>BM0013</blotterMapId>
+		<blotterId>SCHUNTRADER</blotterId>
+		<securityId>USD</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0014</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>912795KS9</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0015</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>912795LD1</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0016</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>912795LF6</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0017</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>912810EC8</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0018</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>912810EV6</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0019</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>9128276F4</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0020</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>912827J78</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0021</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>912827R87</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0022</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>912827Y55</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0023</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>5758234N6</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0024</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>64970KQA8</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0025</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>9860813R6</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0026</blotterMapId>
+		<blotterId>RCORTTRADER</blotterId>
+		<securityId>130174KK0</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0027</blotterMapId>
+		<blotterId>TRUSSTRADER</blotterId>
+		<securityId>149123AZ4</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0028</blotterMapId>
+		<blotterId>TRUSSTRADER</blotterId>
+		<securityId>539830AK5</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0029</blotterMapId>
+		<blotterId>TRUSSTRADER</blotterId>
+		<securityId>742718AU3</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0030</blotterMapId>
+		<blotterId>TRUSSTRADER</blotterId>
+		<securityId>887315AV1</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0031</blotterMapId>
+		<blotterId>TRUSSTRADER</blotterId>
+		<securityId>370425RP7</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0032</blotterMapId>
+		<blotterId>TRUSSTRADER</blotterId>
+		<securityId>925524AJ9</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0033</blotterMapId>
+		<blotterId>TRUSSTRADER</blotterId>
+		<securityId>0000000002</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<blotterMapId>BM0034</blotterMapId>
+		<blotterId>TRUSSTRADER</blotterId>
+		<securityId>0000000004</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0035</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>ADSK</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0036</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>AHC</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0037</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>AIG</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0038</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>T</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0039</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>BJS</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0040</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>CIEN</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0041</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>F</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0042</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>GE</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0043</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>GM</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0044</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>HAL</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0045</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>HDI</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0046</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>MDS</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0047</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>MOT</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0048</blotterMapId>
+		<blotterId>CHILLTRADER</blotterId>
+		<securityId>MSFT</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0049</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>VIA</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0050</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>WGO</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0051</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>SBC</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0052</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>SEBL</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0053</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>SUN</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0054</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>FON</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0055</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>NBR</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0056</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>NT</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0057</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>ORCL</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<blotterMapId>BM0058</blotterMapId>
+		<blotterId>FCAMBTRADER</blotterId>
+		<securityId>P</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<blotterMapId>BM0059</blotterMapId>
+		<blotterId>JKURTTRADER</blotterId>
+		<securityId>BBD.B</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<blotterMapId>BM0060</blotterMapId>
+		<blotterId>JKURTTRADER</blotterId>
+		<securityId>RIM</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<blotterMapId>BM0061</blotterMapId>
+		<blotterId>JKURTTRADER</blotterId>
+		<securityId>AL</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<blotterMapId>BM0062</blotterMapId>
+		<blotterId>JKURTTRADER</blotterId>
+		<securityId>NT</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<blotterMapId>BM0063</blotterMapId>
+		<blotterId>JKURTTRADER</blotterId>
+		<securityId>BP/</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<blotterMapId>BM0064</blotterMapId>
+		<blotterId>JKURTTRADER</blotterId>
+		<securityId>GSK</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<blotterMapId>BM0065</blotterMapId>
+		<blotterId>JKURTTRADER</blotterId>
+		<securityId>RTO</securityId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<blotterMapId>BM0066</blotterMapId>
+		<blotterId>JKURTTRADER</blotterId>
+		<securityId>VOD</securityId>
+	</method>
+</batch>

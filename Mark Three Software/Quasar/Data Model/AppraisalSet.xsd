@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="AppraisalSet" targetNamespace="http://tempuri.org/AppraisalSet.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/AppraisalSet.xsd" xmlns:mstns="http://tempuri.org/AppraisalSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="AppraisalSet" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Object">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ObjectId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ObjectTree">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ParentId" type="xs:int" />
+							<xs:element name="ChildId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Scheme">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SchemeId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Sector">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SectorId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Security">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SecurityId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Position">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Account">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AccountId" type="xs:int" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="PKAccount" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:AccountId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:key>
+		<xs:key name="PKObject" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ObjectId" />
+		</xs:key>
+		<xs:key name="PKObjectTree" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ObjectTree" />
+			<xs:field xpath="mstns:ParentId" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:key>
+		<xs:key name="PKPosition" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Position" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:key>
+		<xs:key name="PKScheme" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Scheme" />
+			<xs:field xpath="mstns:SchemeId" />
+		</xs:key>
+		<xs:key name="PKSector" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Sector" />
+			<xs:field xpath="mstns:SectorId" />
+		</xs:key>
+		<xs:key name="PKSecurity" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Security" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:key>
+		<xs:keyref name="FKObjectObjectTreeParentId" refer="PKObject">
+			<xs:selector xpath=".//mstns:ObjectTree" />
+			<xs:field xpath="mstns:ParentId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectObjectTreeChildId" refer="PKObject">
+			<xs:selector xpath=".//mstns:ObjectTree" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectScheme" refer="PKObject">
+			<xs:selector xpath=".//mstns:Scheme" />
+			<xs:field xpath="mstns:SchemeId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectSector" refer="PKObject">
+			<xs:selector xpath=".//mstns:Sector" />
+			<xs:field xpath="mstns:SectorId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectSecurity" refer="PKObject">
+			<xs:selector xpath=".//mstns:Security" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityPosition" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Position" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKPositionAccount" refer="PKPosition">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

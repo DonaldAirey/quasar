@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Status">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Status" name="Load">
+		<statusCode>0</statusCode>
+		<mnemonic>NEW</mnemonic>
+		<description>New</description>
+		<externalId0>NEW</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Status" name="Load">
+		<statusCode>1</statusCode>
+		<mnemonic>OPEN</mnemonic>
+		<description>Open</description>
+		<externalId0>OPEN</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Status" name="Load">
+		<statusCode>2</statusCode>
+		<mnemonic>DONE</mnemonic>
+		<description>Closed</description>
+		<externalId0>DONE</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Status" name="Load">
+		<statusCode>3</statusCode>
+		<mnemonic>PEND</mnemonic>
+		<description>Pending</description>
+		<externalId0>PEND</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Status" name="Load">
+		<statusCode>4</statusCode>
+		<mnemonic>CONF</mnemonic>
+		<description>Confirmed</description>
+		<externalId0>CONF</externalId0>
+	</method>
+</batch>

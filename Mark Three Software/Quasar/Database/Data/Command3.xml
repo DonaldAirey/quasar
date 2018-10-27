@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0001</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0002</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0003</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0004</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0005</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0006</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0007</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0008</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0009</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0010</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0011</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0012</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0013</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0014</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0015</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0016</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0017</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0018</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0019</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0020</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0021</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0022</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0023</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0024</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0025</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0026</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0027</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0028</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0029</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0030</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0031</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0032</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0033</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0034</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0035</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0036</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0037</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0038</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0039</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0040</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0041</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0042</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0043</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0044</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0045</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0046</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0047</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0048</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0049</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0050</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0051</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0052</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0053</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0054</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0055</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0056</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0057</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0058</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0059</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0060</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0061</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0062</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0063</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0064</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0065</blotterMapId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.BlotterMap" name="Delete">
+			<blotterMapId>BM0066</blotterMapId>
+		</method>
+	</transaction>
+</batch>

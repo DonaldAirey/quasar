@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="IssuerType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.IssuerType" name="Load">
+		<issuerTypeCode>0</issuerTypeCode>
+		<description>National Government</description>
+		<externalId0>NATIONAL GOVERNMENT</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.IssuerType" name="Load">
+		<issuerTypeCode>1</issuerTypeCode>
+		<description>Regional Government</description>
+		<externalId0>REGIONAL GOVERNMENT</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.IssuerType" name="Load">
+		<issuerTypeCode>2</issuerTypeCode>
+		<description>Municipal Government</description>
+		<externalId0>MUNICIPAL GOVERNMENT</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.IssuerType" name="Load">
+		<issuerTypeCode>3</issuerTypeCode>
+		<description>Corporation</description>
+		<externalId0>CORPORATION</externalId0>
+	</method>
+</batch>

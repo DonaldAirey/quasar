@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="Start Real Time Pricing">
+  <method assembly="Real Time Pricing" type="MarkThree.Guardian.Server.RealTimePricing" name="Start" >
+  <symbolFilepath>C:\Program Files\Mark Three Software\Guardian Server\Data\SP500 Symbol List.xml </symbolFilepath>
+  </method>
+</batch>

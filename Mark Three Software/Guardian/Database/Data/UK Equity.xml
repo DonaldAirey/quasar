@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="UK Equity">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>ARM</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>ARM HOLDINGS</name>
+      <symbol>ARM</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>BA/A</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>BAE SYSTEMS</name>
+      <symbol>BA/A</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>BP/</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>BP</name>
+      <symbol>BP/</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>BATS</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>BRITISH AMERICAN TOBACCO</name>
+      <symbol>BATS</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>CWG</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>CANARY WHARF GROUP</name>
+      <symbol>CWG</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>CPG</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>COMPASS GROUP</name>
+      <symbol>CPG</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>FP/</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>FRIENDS PROVIDENT</name>
+      <symbol>FP/</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>GSK</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>GLAXOSMITHKLINE</name>
+      <symbol>GSK</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>HSBA</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>HSBC HLDGS</name>
+      <symbol>HSBA</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>ICI</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>IMPERIAL CHEMICAL INDUSTRIES (NIL PD)</name>
+      <symbol>ICI</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>ISYS</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>INVENSYS</name>
+      <symbol>ISYS</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>LANE</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>LAND SECURITIES</name>
+      <symbol>LANE</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>LOG</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>LOGICA</name>
+      <symbol>LOG</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>MKS</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>MARKS &amp; SPECER</name>
+      <symbol>MKS</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>NXT</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>NEXT</name>
+      <symbol>NXT</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>NRK</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>NORTHERN ROCK</name>
+      <symbol>NRK</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>PSON</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>PEARSON</name>
+      <symbol>PSON</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>REED</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>REED INTERNATIONAL</name>
+      <symbol>REED</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>RTO</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>RENTOKIL INITIAL</name>
+      <symbol>RTO</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>RTR</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>REUTERS GROUP</name>
+      <symbol>RTR</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>SGE</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>SAGE GROUP</name>
+      <symbol>SGE</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>SPW</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>SCOTTISH POWER</name>
+      <symbol>SPW</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>SAB</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+      <minimumQuantity>25000</minimumQuantity>
+      <name>SOUTH AFRICAN BREWERIES</name>
+      <symbol>SAB</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>TSCO</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>TESCO</name>
+      <symbol>TSCO</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>ULVR</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>UNILEVER</name>
+      <symbol>ULVR</symbol>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Equity" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <equityId>VOD</equityId>
+      <countryId>GB</countryId>
+      <exchangeId>LSE</exchangeId>
+      <settlementId>GBP</settlementId>
+      <equityTypeCode>COMMON STOCK</equityTypeCode>
+			<minimumQuantity>25000</minimumQuantity>
+			<name>VODAFONE GROUP</name>
+      <symbol>VOD</symbol>
+    </method>
+  </transaction>
+</batch>

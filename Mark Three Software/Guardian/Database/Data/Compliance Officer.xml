@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Compliance Officers">
+  <method assembly="External Service" type="MarkThree.Guardian.External.ComplianceOfficer" name="Load">
+    <complianceOfficerId>JASMINE CRUZ</complianceOfficerId>
+    <name>Jasmine Cruz</name>
+    <userName>Jasmine Cruz</userName>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ComplianceOfficer" name="Load">
+    <complianceOfficerId>VICTOR MARGOLIN</complianceOfficerId>
+    <name>Victor Margolin</name>
+    <userName>Victor Margolin</userName>
+  </method>
+</batch>

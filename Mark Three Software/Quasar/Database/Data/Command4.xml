@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>61771</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>16500</quantity>
+		<cost>21.88</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>10991</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>12000</quantity>
+		<cost>25.17</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>10992</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>14600</quantity>
+		<cost>25.17</cost>
+	</method>
+</batch>

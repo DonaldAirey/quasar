@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Blotter Hierarchy">
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>ZODIAC CAPITAL ZODIAC EQUITY DESK MAPPING</objectTreeId>
+		<parentId>ZODIAC CAPITAL</parentId>
+    <childId>ZODIAC EQUITY DESK BLOTTER</childId>
+  </method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>ZODIAC EQUITY DESK VICTOR MARGOLIN MAPPING</objectTreeId>
+		<parentId>ZODIAC EQUITY DESK BLOTTER</parentId>
+		<childId>VICTOR MARGOLIN BLOTTER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>ZODIAC EQUITY DESK RUSSELL JACKSON MAPPING</objectTreeId>
+		<parentId>ZODIAC EQUITY DESK BLOTTER</parentId>
+		<childId>RUSSELL JACKSON BLOTTER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>BOUTIQUE ASSET MANAGEMENT ELAINE RUSSO MAPPING</objectTreeId>
+		<parentId>BOUTIQUE ASSET MANAGEMENT</parentId>
+		<childId>ELAINE RUSSO BLOTTER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>BOUTIQUE ASSET MANAGEMENT ROBERTO GARCIA MAPPING</objectTreeId>
+		<parentId>BOUTIQUE ASSET MANAGEMENT</parentId>
+		<childId>ROBERTO GARCIA BLOTTER</childId>
+	</method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GLOBAL ASSET MANAGEMENT GLOBAL STRATEGY DESK MAPPING</objectTreeId>
+		<parentId>GLOBAL ASSET MANAGEMENT</parentId>
+    <childId>GLOBAL STRATEGY DESK BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GLOBAL ASSET MANAGEMENT GLOBAL EQUITY DESK MAPPING</objectTreeId>
+		<parentId>GLOBAL ASSET MANAGEMENT</parentId>
+    <childId>GLOBAL EQUITY DESK BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GLOBAL EQUITY DESK MANNY CORTEZ MAPPING</objectTreeId>
+		<parentId>GLOBAL EQUITY DESK BLOTTER</parentId>
+    <childId>MANNY CORTEZ BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GLOBAL EQUITY DESK KATE SCHWARTZ MAPPING</objectTreeId>
+		<parentId>GLOBAL EQUITY DESK BLOTTER</parentId>
+    <childId>KATE SCHWARTZ BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GLOBAL EQUITY DESK CHARLES RODRIGUEZ MAPPING</objectTreeId>
+		<parentId>GLOBAL EQUITY DESK BLOTTER</parentId>
+    <childId>CHARLES RODRIGUEZ BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GLOBAL ASSET MANAGEMENT GLOBAL BOND DESK MAPPING</objectTreeId>
+		<parentId>GLOBAL ASSET MANAGEMENT</parentId>
+    <childId>GLOBAL BOND DESK BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>HARRIS BROTHERS HARRIS DALLAS MAPPING</objectTreeId>
+		<parentId>HARRIS BROTHERS</parentId>
+    <childId>HARRIS DALLAS</childId>
+  </method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>HARRIS BROTHERS HARRIS BOSTON MAPPING</objectTreeId>
+		<parentId>HARRIS BROTHERS</parentId>
+		<childId>HARRIS BOSTON</childId>
+	</method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>HARRIS BOSTON CHRIS HENDERSON MAPPING</objectTreeId>
+		<parentId>HARRIS BOSTON</parentId>
+    <childId>CHRIS HENDERSON BLOTTER</childId>
+  </method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>HARRIS BOSTON YOSHIO SHIMURA MAPPING</objectTreeId>
+		<parentId>HARRIS BOSTON</parentId>
+		<childId>YOSHIO SHIMURA BLOTTER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>HARRIS DALLAS GILBERT HOROWITZ MAPPING</objectTreeId>
+		<parentId>HARRIS DALLAS</parentId>
+    <childId>GILBERT HOROWITZ BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>HARRIS BROTHERS HARRIS NEW YORK MAPPING</objectTreeId>
+		<parentId>HARRIS BROTHERS</parentId>
+    <childId>HARRIS NEW YORK</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>HARRIS NEW YORK SUSAN CHUNG MAPPING</objectTreeId>
+		<parentId>HARRIS NEW YORK</parentId>
+    <childId>SUSAN CHUNG BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>HARRIS NEW YORK TONY DE SILVA MAPPING</objectTreeId>
+		<parentId>HARRIS NEW YORK</parentId>
+    <childId>TONY DE SILVA BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>SCHOONER SECURITIES SCHOONER NEW YORK MAPPING</objectTreeId>
+		<parentId>SCHOONER SECURITIES</parentId>
+    <childId>SCHOONER NEW YORK</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>SCHOONER NEW YORK CAROL HILL MAPPING</objectTreeId>
+		<parentId>SCHOONER NEW YORK</parentId>
+    <childId>CAROL HILL BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>SCHOONER NEW YORK GARY BROWN MAPPING</objectTreeId>
+		<parentId>SCHOONER NEW YORK</parentId>
+    <childId>GARY BROWN BLOTTER</childId>
+  </method>
+</batch>

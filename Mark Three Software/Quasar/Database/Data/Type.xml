@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Type">
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Account</typeCode>
+			<specification>MarkThree.Quasar.Account, Object Library</specification>
+			<description>A Collection of Securities</description>
+			<externalId0>ACCOUNT</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>AccountBase</typeCode>
+			<specification>MarkThree.Quasar.AccountBase, Object Library</specification>
+			<description>A Group of Accounts</description>
+			<externalId0>ACCOUNTBASE</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Account Group</typeCode>
+			<specification>MarkThree.Quasar.AccountGroup, Object Library</specification>
+			<description>A Collection of Accounts</description>
+			<externalId0>ACCOUNT GROUP</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Blotter</typeCode>
+			<specification>MarkThree.Quasar.Blotter, Object Library</specification>
+			<description>The work surface for a trader</description>
+			<externalId0>BLOTTER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Broker</typeCode>
+			<specification>MarkThree.Quasar.Broker, Object Library</specification>
+			<description>Trades Securities for itself and clients</description>
+			<externalId0>BROKER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Branch</typeCode>
+			<specification>MarkThree.Quasar.Branch, Object Library</specification>
+			<description>A localized group of users</description>
+			<externalId0>BRANCH</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Clearing Broker</typeCode>
+			<specification>MarkThree.Quasar.ClearingBroker, Object Library</specification>
+			<description>Broker Service that clears trades.</description>
+			<externalId0>CLEARING BROKER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Compliance Officer</typeCode>
+			<specification>MarkThree.Quasar.ComplianceOfficer, Object Library</specification>
+			<description>A person who enforces trading rules</description>
+			<externalId0>COMPLIANCE OFFICER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Currency</typeCode>
+			<specification>MarkThree.Quasar.Currency, Object Library</specification>
+			<description>Circulation as a medium of exchange</description>
+			<externalId0>CURRENCY</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Debt</typeCode>
+			<specification>MarkThree.Quasar.Debt, Object Library</specification>
+			<description>An obligation made binding by a money forfeit</description>
+			<externalId0>DEBT</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Equity</typeCode>
+			<specification>MarkThree.Quasar.Equity, Object Library</specification>
+			<description>The common stock of a corporation</description>
+			<externalId0>EQUITY</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Folder</typeCode>
+			<specification>MarkThree.Quasar.Folder, Object Library</specification>
+			<description>A collection of financial objects</description>
+			<externalId0>FOLDER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Institution</typeCode>
+			<specification>MarkThree.Quasar.Institution, Object Library</specification>
+			<description>Manages Security Assets</description>
+			<externalId0>INSTITUTION</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Issuer</typeCode>
+			<specification>MarkThree.Quasar.Issuer, Object Library</specification>
+			<description>An entity that issues debt (Bonds, Notes, Bills, etc.)</description>
+			<externalId0>ISSUER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Object</typeCode>
+			<specification>MarkThree.Quasar.Object, Object Library</specification>
+			<description>A generic object</description>
+			<externalId0>OBJECT</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Security</typeCode>
+			<specification>MarkThree.Quasar.Security, Object Library</specification>
+			<description>Anything that can be traded for another thing</description>
+			<externalId0>SECURITY</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>System Folder</typeCode>
+			<specification>MarkThree.Quasar.SystemFolder, Object Library</specification>
+			<description>A root folder for a user's collection of finacial objects</description>
+			<externalId0>SYSTEM FOLDER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Source</typeCode>
+			<specification>MarkThree.Quasar.Source, Object Library</specification>
+			<description>A business that trades Securities</description>
+			<externalId0>SOURCE</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Trader</typeCode>
+			<specification>MarkThree.Quasar.Trader, Object Library</specification>
+			<description>A business that handles the details of exchanging securities</description>
+			<externalId0>TRADER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>User</typeCode>
+			<specification>MarkThree.Quasar.User, Object Library</specification>
+			<description>A User of the Quasar Electronic Execution Network</description>
+			<externalId0>USER</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Scheme</typeCode>
+			<specification>MarkThree.Quasar.Scheme, Object Library</specification>
+			<description>A Scheme used to classify securities.</description>
+			<externalId0>SCHEME</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Sector</typeCode>
+			<specification>MarkThree.Quasar.Sector, Object Library</specification>
+			<description>A grouping of securities within a classification scheme.</description>
+			<externalId0>SECTOR</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Type" name="Load">
+			<typeCode>Model</typeCode>
+			<specification>MarkThree.Quasar.Model, Object Library</specification>
+			<description>An abstract portfolio used for rebalancing.</description>
+			<externalId0>SECTOR</externalId0>
+		</method>
+	</transaction>
+</batch>

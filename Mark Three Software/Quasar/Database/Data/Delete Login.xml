@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Login">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Login" name="Archive">
+		<loginId>FCAMB</loginId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Login" name="Archive">
+		<loginId>RCORT</loginId>
+	</method>
+</batch>

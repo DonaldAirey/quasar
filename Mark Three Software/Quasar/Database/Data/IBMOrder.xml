@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Archive Securities">
+	<method assembly="Service.Trading" type="Shadows.WebService.Trading.WebOrder" name="Insert">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>IBM</securityId>
+		<settlementId>USD</settlementId>
+		<transactionTypeCode>BUY</transactionTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<orderTypeCode>MKT</orderTypeCode>
+		<quantity>5500</quantity>
+	</method>
+</batch>

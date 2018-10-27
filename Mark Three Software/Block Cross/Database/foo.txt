@@ -1,0 +1,51 @@
+						<ss:Column mts:ColumnId="StatusName" ss:Width="40" ss:StyleID="CenterText" mts:PrintWidth="35" mts:Description="Status" />
+						<ss:Column mts:ColumnId="CreatedTime" ss:Width="65" ss:StyleID="DateTime" mts:PrintWidth="65" mts:Description="Created" />
+						<ss:Column mts:ColumnId="DirectionMnemonic" ss:Width="40" ss:StyleID="LeftText" mts:PrintWidth="45" mts:Description="Direction" />
+						<ss:Column mts:ColumnId="StagedOrderId" ss:Width="30" ss:StyleID="RightText" mts:PrintWidth="24" mts:Description="Id" />
+						<ss:Column mts:ColumnId="SecurityId" ss:Width="60" ss:StyleID="RightText" mts:Description="Security Id" mts:Printed="False" />
+						<ss:Column mts:ColumnId="SecuritySymbol" ss:Width="35" ss:StyleID="LeftText" mts:PrintWidth="31" mts:Description="Name" />
+						<ss:Column mts:ColumnId="QuantityStaged" ss:Width="40" ss:StyleID="Quantity" mts:PrintWidth="35" mts:Description="Staged" />
+						<ss:Column mts:ColumnId="QuantityCanceled" ss:Width="40" ss:StyleID="Quantity" mts:Description="Canceled" mts:Printed="False" />
+						<ss:Column mts:ColumnId="QuantityLeaves" ss:Width="40" ss:StyleID="Quantity" mts:PrintWidth="35" mts:Description="Leaves" />
+						<ss:Column mts:ColumnId="QuantityWorking" ss:Width="40" ss:StyleID="Quantity" mts:PrintWidth="37" mts:Description="Working" />
+						<ss:Column mts:ColumnId="QuantityOrdered" ss:Width="40" ss:StyleID="Quantity" mts:PrintWidth="37" mts:Description="Ordered" />
+						<ss:Column mts:ColumnId="QuantityFilled" ss:Width="40" ss:StyleID="Quantity" mts:PrintWidth="37" mts:Description="Filled" />
+						<ss:Column mts:ColumnId="LastPrice" ss:Width="40" ss:StyleID="Price" mts:Description="Last" mts:Printed="False" />
+						<ss:Column mts:ColumnId="AskPrice" ss:Width="40" ss:StyleID="Price" mts:Description="Ask" mts:Printed="False" />
+						<ss:Column mts:ColumnId="BidPrice" ss:Width="40" ss:StyleID="Price" mts:Description="Bid" mts:Printed="False" />
+						<ss:Column mts:ColumnId="AveragePrice" ss:Width="40" ss:StyleID="Price" mts:PrintWidth="37" mts:Description="Avg" />
+						<ss:Column mts:ColumnId="LimitPrice" ss:Width="40" ss:StyleID="Price" mts:PrintWidth="37" mts:Description="Limit" />
+						<ss:Column mts:ColumnId="LimitTypeMnemonic" ss:Width="50" ss:StyleID="LeftText" mts:Description="Limit Type" />
+						<ss:Column mts:ColumnId="Destination" ss:Width="55" ss:StyleID="LeftText" mts:Description="Destination" />
+						<ss:Column mts:ColumnId="IsAllocated" ss:Width="40" ss:StyleID="CenterText" mts:PrintWidth="25" mts:Description="Allocated" />
+						<ss:Column mts:ColumnId="AccountName" ss:Width="50" ss:StyleID="LeftText" mts:Description="Account" mts:Printed="False" />
+						<ss:Column mts:ColumnId="CommissionRateType" ss:Width="52" ss:StyleID="LeftText" mts:Description="Comm Type" mts:Printed="False" />
+						<ss:Column mts:ColumnId="CommissionRate" ss:Width="50" ss:StyleID="RightText" mts:Description="Comm Rate" mts:Printed="False" />
+						<ss:Column mts:ColumnId="Commission" ss:Width="50" ss:StyleID="Price" mts:PrintWidth="45" mts:Description="Comission" />
+						<ss:Column mts:ColumnId="TimeInForce" ss:Width="30" ss:StyleID="LeftText" mts:PrintWidth="33" mts:Description="TIF" />
+						<ss:Column mts:ColumnId="StopLimit" ss:Width="30" ss:StyleID="Price" mts:Description="Stop" />
+						<ss:Column mts:ColumnId="Market" ss:Width="45" ss:StyleID="LeftText" mts:Description="Market" />
+						<ss:Column mts:ColumnId="CreatedByName" ss:Width="80" ss:StyleID="LeftText" mts:Description="Created By" mts:Printed="False" />
+						<ss:Column mts:ColumnId="Type" ss:Width="30" ss:StyleID="LeftText" mts:Description="Type" mts:Printed="False" />
+						<ss:Column mts:ColumnId="Aon" ss:Width="25" ss:StyleID="CenterText" mts:Description="AON" mts:Printed="False" />
+						<ss:Column mts:ColumnId="CmtaBroker" ss:Width="55" ss:StyleID="LeftText" mts:Description="CMTA Broker" mts:Printed="False" />
+						<ss:Column mts:ColumnId="DiscretionInstruction" ss:Width="85" ss:StyleID="CenterText" mts:Description="Discretion Instruction" mts:Printed="False" />
+						<ss:Column mts:ColumnId="DiscretionOffset" ss:Width="80" ss:StyleID="LeftText" mts:Description="Discresion Offset." mts:Printed="False" />
+						<ss:Column mts:ColumnId="QuantityDisplay" ss:Width="40" ss:StyleID="Quantity" mts:Description="Display" mts:Printed="False" />
+						<ss:Column mts:ColumnId="FilledGross" ss:Width="50" ss:StyleID="MarketValue" mts:Description="Filled Gross" mts:Printed="False" />
+						<ss:Column mts:ColumnId="FixNote" ss:Width="40" ss:StyleID="LeftText" mts:Description="FIX Note" mts:Printed="False" />
+						<ss:Column mts:ColumnId="ImportId" ss:Width="50" ss:StyleID="LeftText" mts:Description="Import Id" mts:Printed="False" />
+						<ss:Column mts:ColumnId="QuantityMinimum" ss:Width="40" ss:StyleID="Quantity" mts:Description="Minimum" mts:Printed="False" />
+						<ss:Column mts:ColumnId="OmsFixNote" ss:Width="60" ss:StyleID="LeftText" mts:Description="OMS Fix Note" mts:Printed="False" />
+						<ss:Column mts:ColumnId="RuleParam1" ss:Width="80" ss:StyleID="RightText" mts:Description="Param #1/Wave" mts:Printed="False" />
+						<ss:Column mts:ColumnId="RuleParam2" ss:Width="50" ss:StyleID="RightText" mts:Description="Param #2" mts:Printed="False" />
+						<ss:Column mts:ColumnId="RuleParam3" ss:Width="50" ss:StyleID="RightText" mts:Description="Param #3" mts:Printed="False" />
+						<ss:Column mts:ColumnId="RuleParam4" ss:Width="50" ss:StyleID="RightText" mts:Description="Param #4" mts:Printed="False" />
+						<ss:Column mts:ColumnId="PeggedDifference" ss:Width="70" ss:StyleID="Price" mts:Description="Peg Difference" mts:Printed="False" />
+						<ss:Column mts:ColumnId="Proactive" ss:Width="40" ss:StyleID="LeftText" mts:Description="Proactive" mts:Printed="False" />
+						<ss:Column mts:ColumnId="Rule" ss:Width="60" ss:StyleID="LeftText" mts:Description="Rule" mts:Printed="False" />
+						<ss:Column mts:ColumnId="TradeDate" ss:Width="50" ss:StyleID="ShortDate" mts:Description="Trade Date" mts:Printed="False" />
+						<ss:Column mts:ColumnId="BlotterName" ss:Width="70" ss:StyleID="LeftText" mts:Description="Blotter" mts:Printed="False" />
+						<ss:Column mts:ColumnId="FilledNet" ss:Width="50" ss:StyleID="MarketValue" mts:Description="Filled Net" mts:Printed="False" />
+						<ss:Column mts:ColumnId="UploadTime" ss:Width="65" ss:StyleID="Time" mts:Description="Upload Date" mts:Printed="False" />
+						<ss:Column mts:ColumnId="Unfilled" ss:Width="50" ss:StyleID="Quantity" mts:Description="Unfilled" mts:Printed="False" />

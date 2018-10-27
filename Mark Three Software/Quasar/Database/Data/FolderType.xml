@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="FolderType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.FolderType" name="Load">
+		<folderTypeCode>0</folderTypeCode>
+		<description>System Folder</description>
+		<externalId0>SYSTEM FOLDER</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.FolderType" name="Load">
+		<folderTypeCode>1</folderTypeCode>
+		<description>Folder</description>
+		<externalId0>FOLDER</externalId0>
+	</method>
+</batch>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ExecutionSet" targetNamespace="http://tempuri.org/ExecutionSet.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/ExecutionSet.xsd" xmlns:mstns="http://tempuri.org/ExecutionSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ExecutionSet" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="BlockOrder">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BlockOrderId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Execution">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RowVersion" type="xs:long" default="1" />
+							<xs:element name="ExecutionId" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" />
+							<xs:element name="BlockOrderId" type="xs:int" />
+							<xs:element name="BrokerId" type="xs:int" minOccurs="0" />
+							<xs:element name="Quantity" type="xs:decimal" default="0.0" />
+							<xs:element name="Price" type="xs:decimal" default="0.0" />
+							<xs:element name="Commission" type="xs:decimal" default="0.0" />
+							<xs:element name="AccruedInterest" type="xs:decimal" default="0.0" />
+							<xs:element name="UserFee0" type="xs:decimal" default="0.0" />
+							<xs:element name="UserFee1" type="xs:decimal" default="0.0" />
+							<xs:element name="UserFee2" type="xs:decimal" default="0.0" />
+							<xs:element name="UserFee3" type="xs:decimal" default="0.0" />
+							<xs:element name="TradeDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="SettlementDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreatedTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreatedLoginId" type="xs:int" minOccurs="0" />
+							<xs:element name="ModifiedTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ModifiedLoginId" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ExecutionMap">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="LocalId" type="xs:int" minOccurs="0" />
+							<xs:element name="GlobalId" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="BlockOrderKey" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:BlockOrder" />
+			<xs:field xpath="mstns:BlockOrderId" />
+		</xs:key>
+		<xs:key name="ExecutionKey" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Execution" />
+			<xs:field xpath="mstns:ExecutionId" />
+		</xs:key>
+		<xs:key name="ExecutionMapKey" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ExecutionMap" />
+			<xs:field xpath="mstns:LocalId" />
+		</xs:key>
+		<xs:keyref name="BlockOrderExecution" refer="BlockOrderKey">
+			<xs:selector xpath=".//mstns:Execution" />
+			<xs:field xpath="mstns:BlockOrderId" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

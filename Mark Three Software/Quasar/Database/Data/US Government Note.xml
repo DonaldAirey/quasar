@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="US Government Note">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912827G55</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912827G55</symbol>
+		<coupon>0.063750000</coupon>
+		<maturityDate>08/15/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128276F4</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128276F4</symbol>
+		<coupon>0.063750000</coupon>
+		<maturityDate>06/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912827J78</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912827J78</symbol>
+		<coupon>0.062500000</coupon>
+		<maturityDate>02/15/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912827R87</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912827R87</symbol>
+		<coupon>0.078750000</coupon>
+		<maturityDate>11/15/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912827Y55</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912827Y55</symbol>
+		<coupon>0.070000000</coupon>
+		<maturityDate>07/15/2006</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128276W7</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128276W7</symbol>
+		<coupon>0.040000000</coupon>
+		<maturityDate>04/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AP5</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AP5</symbol>
+		<coupon>0.040000000</coupon>
+		<maturityDate>11/15/2012</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128276Z0</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128276Z0</symbol>
+		<coupon>0.038750000</coupon>
+		<maturityDate>06/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128277A4</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128277A4</symbol>
+		<coupon>0.038750000</coupon>
+		<maturityDate>07/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AU4</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AU4</symbol>
+		<coupon>0.038750000</coupon>
+		<maturityDate>02/15/2013</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AA8</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AA8</symbol>
+		<coupon>0.036250000</coupon>
+		<maturityDate>03/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128277F3</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128277F3</symbol>
+		<coupon>0.035000000</coupon>
+		<maturityDate>11/15/2006</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AB6</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AB6</symbol>
+		<coupon>0.033750000</coupon>
+		<maturityDate>04/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128277H9</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128277H9</symbol>
+		<coupon>0.032500000</coupon>
+		<maturityDate>12/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AD2</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AD2</symbol>
+		<coupon>0.032500000</coupon>
+		<maturityDate>05/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AH3</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AH3</symbol>
+		<coupon>0.032500000</coupon>
+		<maturityDate>08/15/2007</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128277G1</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128277G1</symbol>
+		<coupon>0.030000000</coupon>
+		<maturityDate>11/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128277K2</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128277K2</symbol>
+		<coupon>0.030000000</coupon>
+		<maturityDate>01/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128277M8</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128277M8</symbol>
+		<coupon>0.030000000</coupon>
+		<maturityDate>02/29/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AN0</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AN0</symbol>
+		<coupon>0.030000000</coupon>
+		<maturityDate>11/15/2007</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AT7</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AT7</symbol>
+		<coupon>0.030000000</coupon>
+		<maturityDate>02/15/2008</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AE0</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AE0</symbol>
+		<coupon>0.028750000</coupon>
+		<maturityDate>06/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128277D8</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128277D8</symbol>
+		<coupon>0.027500000</coupon>
+		<maturityDate>09/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>9128277E6</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>9128277E6</symbol>
+		<coupon>0.027500000</coupon>
+		<maturityDate>10/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AG5</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AG5</symbol>
+		<coupon>0.022500000</coupon>
+		<maturityDate>07/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AK6</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AK6</symbol>
+		<coupon>0.021250000</coupon>
+		<maturityDate>08/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AM2</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AM2</symbol>
+		<coupon>0.021250000</coupon>
+		<maturityDate>10/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AQ3</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AQ3</symbol>
+		<coupon>0.020000000</coupon>
+		<maturityDate>11/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AL4</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AL4</symbol>
+		<coupon>0.018750000</coupon>
+		<maturityDate>09/30/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AR1</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AR1</symbol>
+		<coupon>0.017500000</coupon>
+		<maturityDate>12/31/2004</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AS9</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AS9</symbol>
+		<coupon>0.016250000</coupon>
+		<maturityDate>01/31/2005</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AW0</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AW0</symbol>
+		<coupon>0.016250000</coupon>
+		<maturityDate>03/31/2005</maturityDate>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Debt" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<debtId>912828AV2</debtId>
+		<countryId>US</countryId>
+		<settlementId>USD</settlementId>
+		<debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+		<name>US TREASURY NOTE </name>
+		<symbol>912828AV2</symbol>
+		<coupon>0.015000000</coupon>
+		<maturityDate>02/28/2005</maturityDate>
+	</method>
+</batch>

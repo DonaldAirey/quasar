@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Stop Matching Service">
+  <method assembly="Matching Service" type="MarkThree.Guardian.Server.MatchingService" name="Stop" />
+</batch>

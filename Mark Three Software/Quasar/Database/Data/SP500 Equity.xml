@@ -1,0 +1,5003 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="S&amp;P500 Equity">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MMM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>3M COMPANY</name>
+		<symbol>MMM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ABBOTT LABS</name>
+		<symbol>ABT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ACE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ACE LIMITED</name>
+		<symbol>ACE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ADCT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ADC TELECOMMUNICATIONS</name>
+		<symbol>ADCT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ADBE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ADOBE SYSTEMS</name>
+		<symbol>ADBE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AMD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ADVANCED MICRO DEVICES</name>
+		<symbol>AMD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AES</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AES CORP.</name>
+		<symbol>AES</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AET</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AETNA INC. (NEW)</name>
+		<symbol>AET</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AFL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AFLAC CORPORATION</name>
+		<symbol>AFL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>A</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AGILENT TECHNOLOGIES</name>
+		<symbol>A</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>APD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AIR PRODUCTS &amp; CHEMICALS</name>
+		<symbol>APD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ACV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALBERTO-CULVER</name>
+		<symbol>ACV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALBERTSON'S</name>
+		<symbol>ABS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALCOA INC</name>
+		<symbol>AA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AYE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALLEGHENY ENERGY</name>
+		<symbol>AYE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ATI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALLEGHENY TECHNOLOGIES INC</name>
+		<symbol>ATI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AGN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALLERGAN, INC.</name>
+		<symbol>AGN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALLIED WASTE INDUSTRIES</name>
+		<symbol>AW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ALL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALLSTATE CORP.</name>
+		<symbol>ALL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALLTEL CORP.</name>
+		<symbol>AT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ALTR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALTERA CORP.</name>
+		<symbol>ALTR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMBAC FINANCIAL GROUP</name>
+		<symbol>ABK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AHC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMERADA HESS</name>
+		<symbol>AHC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AEE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMEREN CORPORATION</name>
+		<symbol>AEE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AEP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMERICAN ELECTRIC POWER</name>
+		<symbol>AEP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AXP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMERICAN EXPRESS</name>
+		<symbol>AXP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMERICAN GREETINGS CLASS A</name>
+		<symbol>AM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AIG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMERICAN INT'L. GROUP</name>
+		<symbol>AIG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>APCC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMERICAN POWER CONVERSION</name>
+		<symbol>APCC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ASD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMERICAN STANDARD</name>
+		<symbol>ASD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMERISOURCEBERGEN CORP.</name>
+		<symbol>ABC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AMGN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMGEN</name>
+		<symbol>AMGN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AMR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMR CORP.</name>
+		<symbol>AMR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ASO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AMSOUTH BANCORPORATION</name>
+		<symbol>ASO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>APC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ANADARKO PETROLEUM</name>
+		<symbol>APC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ADI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ANALOG DEVICES</name>
+		<symbol>ADI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ANDW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ANDREW CORP.</name>
+		<symbol>ANDW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BUD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ANHEUSER-BUSCH</name>
+		<symbol>BUD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ATH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ANTHEM, INC.</name>
+		<symbol>ATH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AOL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AOL TIME WARNER INC.</name>
+		<symbol>AOL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AOC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AON CORP.</name>
+		<symbol>AOC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>APA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>APACHE CORP.</name>
+		<symbol>APA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>APOL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>APOLLO GROUP</name>
+		<symbol>APOL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAPL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>APPLE COMPUTER</name>
+		<symbol>AAPL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>APPLERA CORP-APPLIED BIOSYSTEMS GROUP</name>
+		<symbol>ABI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AMAT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>APPLIED MATERIALS</name>
+		<symbol>AMAT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AMCC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>APPLIED MICRO CIRCUITS</name>
+		<symbol>AMCC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ADM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ARCHER-DANIELS-MIDLAND</name>
+		<symbol>ADM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ASH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ASHLAND INC.</name>
+		<symbol>ASH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>T</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AT&amp;T CORP.</name>
+		<symbol>T</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AWE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AT&amp;T WIRELESS SERVICES</name>
+		<symbol>AWE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ADSK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AUTODESK, INC.</name>
+		<symbol>ADSK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ADP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AUTOMATIC DATA PROCESSING INC.</name>
+		<symbol>ADP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AZO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AUTOZONE INC.</name>
+		<symbol>AZO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AVAYA INC.</name>
+		<symbol>AV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AVY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AVERY DENNISON CORP.</name>
+		<symbol>AVY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AVP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AVON PRODUCTS</name>
+		<symbol>AVP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BHI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BAKER HUGHES</name>
+		<symbol>BHI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BLL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BALL CORP.</name>
+		<symbol>BLL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BAC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BANK OF AMERICA CORP.</name>
+		<symbol>BAC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BANK OF NEW YORK</name>
+		<symbol>BK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ONE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BANK ONE CORP.</name>
+		<symbol>ONE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BCR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BARD (C.R.) INC.</name>
+		<symbol>BCR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BOL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BAUSCH &amp; LOMB</name>
+		<symbol>BOL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BAX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BAXTER INTERNATIONAL INC.</name>
+		<symbol>BAX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BBT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BB&amp;T CORPORATION</name>
+		<symbol>BBT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BSC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BEAR STEARNS COS.</name>
+		<symbol>BSC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BDX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BECTON</name>
+		<symbol>BDX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BBBY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BED BATH &amp; BEYOND</name>
+		<symbol>BBBY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BLS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BELLSOUTH</name>
+		<symbol>BLS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BMS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BEMIS COMPANY</name>
+		<symbol>BMS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BBY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BEST BUY CO., INC.</name>
+		<symbol>BBY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BLI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BIG LOTS, INC.</name>
+		<symbol>BLI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BGEN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BIOGEN INC.</name>
+		<symbol>BGEN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BMET</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BIOMET, INC.</name>
+		<symbol>BMET</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BJS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BJ SERVICES</name>
+		<symbol>BJS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BDK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BLACK &amp; DECKER CORP.</name>
+		<symbol>BDK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HRB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BLOCK H&amp;R</name>
+		<symbol>HRB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BMC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BMC SOFTWARE</name>
+		<symbol>BMC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BOEING COMPANY</name>
+		<symbol>BA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BCC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BOISE CASCADE</name>
+		<symbol>BCC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BSX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BOSTON SCIENTIFIC</name>
+		<symbol>BSX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BMY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BRISTOL-MYERS SQUIBB</name>
+		<symbol>BMY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BRCM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BROADCOM CORPORATION</name>
+		<symbol>BRCM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BF.B</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BROWN-FORMAN CORP.</name>
+		<symbol>BF.B</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BRUNSWICK CORP.</name>
+		<symbol>BC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BNI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BURLINGTON NORTHERN SANTA FE C</name>
+		<symbol>BNI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BURLINGTON RESOURCES</name>
+		<symbol>BR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CPN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CALPINE CORP.</name>
+		<symbol>CPN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CPB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CAMPBELL SOUP</name>
+		<symbol>CPB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>COF</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CAPITAL ONE FINANCIAL</name>
+		<symbol>COF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CAH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CARDINAL HEALTH, INC.</name>
+		<symbol>CAH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CCL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CARNIVAL CORP.</name>
+		<symbol>CCL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CAT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CATERPILLAR INC.</name>
+		<symbol>CAT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CENDANT CORPORATION</name>
+		<symbol>CD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CNP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CENTERPOINT ENERGY</name>
+		<symbol>CNP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CTX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CENTEX CORP.</name>
+		<symbol>CTX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CTL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CENTURY TELEPHONE</name>
+		<symbol>CTL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SCH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CHARLES SCHWAB</name>
+		<symbol>SCH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CF</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CHARTER ONE FINANCIAL</name>
+		<symbol>CF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CVX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CHEVRONTEXACO CORP.</name>
+		<symbol>CVX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CHIR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CHIRON CORP.</name>
+		<symbol>CHIR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CHUBB CORP.</name>
+		<symbol>CB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CIEN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CIENA CORP.</name>
+		<symbol>CIEN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CIGNA CORP.</name>
+		<symbol>CI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CINF</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CINCINNATI FINANCIAL</name>
+		<symbol>CINF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CIN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CINERGY CORP.</name>
+		<symbol>CIN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CTAS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CINTAS CORPORATION</name>
+		<symbol>CTAS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CIRCUIT CITY GROUP</name>
+		<symbol>CC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CSCO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CISCO SYSTEMS</name>
+		<symbol>CSCO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>C</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CITIGROUP INC.</name>
+		<symbol>C</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CZN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CITIZENS COMMUNICATIONS</name>
+		<symbol>CZN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CTXS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CITRIX SYSTEMS</name>
+		<symbol>CTXS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CCU</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CLEAR CHANNEL COMMUNICATIONS</name>
+		<symbol>CCU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CLX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CLOROX CO.</name>
+		<symbol>CLX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CMS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CMS ENERGY</name>
+		<symbol>CMS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COCA COLA CO.</name>
+		<symbol>KO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CCE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COCA-COLA ENTERPRISES</name>
+		<symbol>CCE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COLGATE-PALMOLIVE</name>
+		<symbol>CL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CMCSA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COMCAST CORP.</name>
+		<symbol>CMCSA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CMA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COMERICA INC.</name>
+		<symbol>CMA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COMPUTER ASSOCIATES INTL.</name>
+		<symbol>CA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CSC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COMPUTER SCIENCES CORP.</name>
+		<symbol>CSC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CPWR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COMPUWARE CORP.</name>
+		<symbol>CPWR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CMVT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COMVERSE TECHNOLOGY</name>
+		<symbol>CMVT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CAG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CONAGRA FOODS, INC.</name>
+		<symbol>CAG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CONCORD EFS INC.</name>
+		<symbol>CE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>COP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CONOCOPHILLIPS</name>
+		<symbol>COP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ED</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CONSOLIDATED EDISON</name>
+		<symbol>ED</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CEG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CONSTELLATION ENERGY GROUP</name>
+		<symbol>CEG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CVG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CONVERGYS CORP.</name>
+		<symbol>CVG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CBE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COOPER INDUSTRIES</name>
+		<symbol>CBE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CTB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COOPER TIRE &amp; RUBBER</name>
+		<symbol>CTB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RKY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COORS (ADOLPH)</name>
+		<symbol>RKY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GLW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CORNING INC.</name>
+		<symbol>GLW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>COST</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COSTCO CO.</name>
+		<symbol>COST</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CFC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>COUNTRYWIDE FINANCIAL CORP.</name>
+		<symbol>CFC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CRANE COMPANY</name>
+		<symbol>CR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CSX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CSX CORP.</name>
+		<symbol>CSX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CUM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CUMMINS  INC.</name>
+		<symbol>CUM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>CVS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CVS CORP.</name>
+		<symbol>CVS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DCN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DANA CORP.</name>
+		<symbol>DCN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DHR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DANAHER CORP.</name>
+		<symbol>DHR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DRI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DARDEN RESTAURANTS</name>
+		<symbol>DRI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DEERE &amp; CO.</name>
+		<symbol>DE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DELL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DELL COMPUTER</name>
+		<symbol>DELL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DPH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DELPHI CORPORATION</name>
+		<symbol>DPH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DAL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DELTA AIR LINES</name>
+		<symbol>DAL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DLX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DELUXE CORP.</name>
+		<symbol>DLX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DVN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DEVON ENERGY CORP.</name>
+		<symbol>DVN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DDS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DILLARD INC.</name>
+		<symbol>DDS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DOLLAR GENERAL</name>
+		<symbol>DG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>D</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DOMINION RESOURCES</name>
+		<symbol>D</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DNY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DONNELLEY (R.R.) &amp; SONS</name>
+		<symbol>DNY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DOV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DOVER CORP.</name>
+		<symbol>DOV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DOW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DOW CHEMICAL</name>
+		<symbol>DOW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DJ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DOW JONES &amp; CO.</name>
+		<symbol>DJ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DTE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DTE ENERGY CO.</name>
+		<symbol>DTE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DU PONT (E.I.)</name>
+		<symbol>DD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DUK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DUKE ENERGY</name>
+		<symbol>DUK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DYN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DYNEGY INC. (NEW) CLASS A</name>
+		<symbol>DYN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EMN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EASTMAN CHEMICAL</name>
+		<symbol>EMN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EASTMAN KODAK</name>
+		<symbol>EK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ETN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EATON CORP.</name>
+		<symbol>ETN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EBAY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EBAY INC.</name>
+		<symbol>EBAY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ECL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ECOLAB INC.</name>
+		<symbol>ECL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EIX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EDISON INT'L</name>
+		<symbol>EIX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EL PASO CORP.</name>
+		<symbol>EP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ERTS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ELECTRONIC ARTS</name>
+		<symbol>ERTS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EDS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ELECTRONIC DATA SYSTEMS</name>
+		<symbol>EDS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EMC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EMC CORP.</name>
+		<symbol>EMC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EMR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EMERSON ELECTRIC</name>
+		<symbol>EMR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ENGELHARD CORP.</name>
+		<symbol>EC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ETR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ENTERGY CORP.</name>
+		<symbol>ETR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EOG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EOG RESOURCES</name>
+		<symbol>EOG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EFX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EQUIFAX INC.</name>
+		<symbol>EFX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EOP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EQUITY OFFICE PROPERTIES</name>
+		<symbol>EOP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EQR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EQUITY RESIDENTIAL</name>
+		<symbol>EQR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>EXC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EXELON CORP.</name>
+		<symbol>EXC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>XOM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>EXXON MOBIL CORP.</name>
+		<symbol>XOM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FDO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FAMILY DOLLAR STORES</name>
+		<symbol>FDO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FNM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FANNIE MAE</name>
+		<symbol>FNM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FDX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FEDERAL EXPRESS</name>
+		<symbol>FDX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FRE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FEDERAL HOME LOAN MTG.</name>
+		<symbol>FRE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FEDERATED DEPT. STORES</name>
+		<symbol>FD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FITB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FIFTH THIRD BANCORP</name>
+		<symbol>FITB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FDC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FIRST DATA</name>
+		<symbol>FDC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FTN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FIRST TENNESSEE NATIONAL</name>
+		<symbol>FTN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FIRSTENERGY CORP.</name>
+		<symbol>FE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FISV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FISERV INC.</name>
+		<symbol>FISV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FBF</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FLEET BOSTON FINANCIAL GROUP</name>
+		<symbol>FBF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FLR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FLUOR CORP. (NEW)</name>
+		<symbol>FLR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>F</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FORD MOTOR</name>
+		<symbol>F</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FRX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FOREST LABORATORIES</name>
+		<symbol>FRX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FORTUNE BRANDS, INC.</name>
+		<symbol>FO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FPL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FPL GROUP</name>
+		<symbol>FPL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>BEN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FRANKLIN RESOURCES</name>
+		<symbol>BEN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FCX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FREEPORT-MCMORAN CP &amp; GLD</name>
+		<symbol>FCX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GCI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GANNETT CO.</name>
+		<symbol>GCI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GPS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GAP (THE)</name>
+		<symbol>GPS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GTW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GATEWAY INC.</name>
+		<symbol>GTW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GENERAL DYNAMICS</name>
+		<symbol>GD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GENERAL ELECTRIC</name>
+		<symbol>GE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GIS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GENERAL MILLS</name>
+		<symbol>GIS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GENERAL MOTORS</name>
+		<symbol>GM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GPC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GENUINE PARTS</name>
+		<symbol>GPC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GENZ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GENZYME CORP.</name>
+		<symbol>GENZ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GEORGIA-PACIFIC GROUP</name>
+		<symbol>GP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>G</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GILLETTE CO.</name>
+		<symbol>G</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GDW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GOLDEN WEST FINANCIAL</name>
+		<symbol>GDW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GOLDMAN SACHS GROUP</name>
+		<symbol>GS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GOODRICH CORPORATION</name>
+		<symbol>GR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GOODYEAR TIRE &amp; RUBBER</name>
+		<symbol>GT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GWW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GRAINGER (W.W.) INC.</name>
+		<symbol>GWW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GLK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GREAT LAKES CHEMICAL</name>
+		<symbol>GLK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GDT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>GUIDANT CORP.</name>
+		<symbol>GDT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HAL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HALLIBURTON CO.</name>
+		<symbol>HAL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HDI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HARLEY-DAVIDSON</name>
+		<symbol>HDI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HET</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HARRAH'S ENTERTAINMENT</name>
+		<symbol>HET</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HIG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HARTFORD FINANCIAL SVC.GP.</name>
+		<symbol>HIG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HAS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HASBRO INC.</name>
+		<symbol>HAS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HCA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HCA INC.</name>
+		<symbol>HCA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HMA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HEALTH MANAGEMENT ASSOC.</name>
+		<symbol>HMA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HRC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HEALTHSOUTH CORP.</name>
+		<symbol>HRC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HNZ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HEINZ (H.J.)</name>
+		<symbol>HNZ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HPC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HERCULES, INC.</name>
+		<symbol>HPC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HSY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HERSHEY FOODS</name>
+		<symbol>HSY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HPQ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HEWLETT-PACKARD</name>
+		<symbol>HPQ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HLT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HILTON HOTELS</name>
+		<symbol>HLT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HOME DEPOT</name>
+		<symbol>HD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HON</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HONEYWELL INT'L INC.</name>
+		<symbol>HON</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HOUSEHOLD INTERNATIONAL</name>
+		<symbol>HI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HUM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HUMANA INC.</name>
+		<symbol>HUM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HBAN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HUNTINGTON BANCSHARES</name>
+		<symbol>HBAN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ITW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ILLINOIS TOOL WORKS</name>
+		<symbol>ITW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>IMS HEALTH INC.</name>
+		<symbol>RX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>IR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INGERSOLL-RAND CO. LTD.</name>
+		<symbol>IR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>INTC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INTEL CORP.</name>
+		<symbol>INTC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>IBM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INTERNATIONAL BUS. MACHINES</name>
+		<symbol>IBM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>IFF</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INTERNATIONAL FLAV/FRAG</name>
+		<symbol>IFF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>IGT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INTERNATIONAL GAME TECHNOLOGY</name>
+		<symbol>IGT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>IP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INTERNATIONAL PAPER</name>
+		<symbol>IP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>IPG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INTERPUBLIC GROUP</name>
+		<symbol>IPG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>INTU</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INTUIT, INC.</name>
+		<symbol>INTU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ITT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ITT INDUSTRIES, INC.</name>
+		<symbol>ITT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JPM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>J.P. MORGAN CHASE &amp; CO.</name>
+		<symbol>JPM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JBL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>JABIL CIRCUIT</name>
+		<symbol>JBL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JNS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>JANUS CAPITAL GROUP</name>
+		<symbol>JNS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JDSU</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>JDS UNIPHASE CORP</name>
+		<symbol>JDSU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>JEFFERSON-PILOT</name>
+		<symbol>JP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JHF</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>JOHN HANCOCK FINANCIAL</name>
+		<symbol>JHF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JNJ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>JOHNSON &amp; JOHNSON</name>
+		<symbol>JNJ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JCI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>JOHNSON CONTROLS</name>
+		<symbol>JCI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JNY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>JONES APPAREL GROUP</name>
+		<symbol>JNY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KBH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KB HOME</name>
+		<symbol>KBH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>K</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KELLOGG CO.</name>
+		<symbol>K</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KMG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KERR-MCGEE</name>
+		<symbol>KMG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KEY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KEYCORP</name>
+		<symbol>KEY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KSE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KEYSPAN ENERGY</name>
+		<symbol>KSE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KMB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KIMBERLY-CLARK</name>
+		<symbol>KMB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KMI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KINDER MORGAN</name>
+		<symbol>KMI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KING PHARMACEUTICALS</name>
+		<symbol>KG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KLAC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KLA-TENCOR CORP.</name>
+		<symbol>KLAC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KRI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KNIGHT-RIDDER INC.</name>
+		<symbol>KRI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KSS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KOHL'S CORP.</name>
+		<symbol>KSS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>KROGER CO.</name>
+		<symbol>KR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LEG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LEGGETT &amp; PLATT</name>
+		<symbol>LEG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LEH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LEHMAN BROS.</name>
+		<symbol>LEH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LXK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LEXMARK INT'L INC</name>
+		<symbol>LXK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LLY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LILLY (ELI) &amp; CO.</name>
+		<symbol>LLY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LTD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LIMITED BRANDS, INC.</name>
+		<symbol>LTD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LNC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LINCOLN NATIONAL</name>
+		<symbol>LNC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LLTC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LINEAR TECHNOLOGY CORP.</name>
+		<symbol>LLTC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LIZ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LIZ CLAIBORNE, INC.</name>
+		<symbol>LIZ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LMT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LOCKHEED MARTIN CORP.</name>
+		<symbol>LMT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LTR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LOEWS CORP.</name>
+		<symbol>LTR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LPX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LOUISIANA PACIFIC</name>
+		<symbol>LPX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LOW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LOWE'S COS.</name>
+		<symbol>LOW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LSI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LSI LOGIC</name>
+		<symbol>LSI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LU</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>LUCENT TECHNOLOGIES</name>
+		<symbol>LU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HCR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MANOR CARE INC.</name>
+		<symbol>HCR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MRO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MARATHON OIL CORP.</name>
+		<symbol>MRO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MAR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MARRIOTT INT'L.</name>
+		<symbol>MAR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MMC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MARSH &amp; MCLENNAN</name>
+		<symbol>MMC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MARSHALL &amp; ILSLEY CORP.</name>
+		<symbol>MI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MAS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MASCO CORP.</name>
+		<symbol>MAS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MAT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MATTEL, INC.</name>
+		<symbol>MAT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MXIM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MAXIM INTEGRATED PROD</name>
+		<symbol>MXIM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MAY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MAY DEPT. STORES</name>
+		<symbol>MAY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MYG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MAYTAG CORP.</name>
+		<symbol>MYG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MBI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MBIA INC.</name>
+		<symbol>MBI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>KRB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MBNA CORP.</name>
+		<symbol>KRB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MDR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MCDERMOTT INTERNATIONAL</name>
+		<symbol>MDR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MCD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MCDONALD'S CORP.</name>
+		<symbol>MCD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MHP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MCGRAW-HILL</name>
+		<symbol>MHP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MCK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MCKESSON CORP. (NEW)</name>
+		<symbol>MCK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MWV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MEADWESTVACO CORPORATION</name>
+		<symbol>MWV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MEDI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MEDIMMUNE INC.</name>
+		<symbol>MEDI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MDT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MEDTRONIC INC.</name>
+		<symbol>MDT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MEL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MELLON BANK CORP.</name>
+		<symbol>MEL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MRK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MERCK &amp; CO.</name>
+		<symbol>MRK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MERQ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MERCURY INTERACTIVE</name>
+		<symbol>MERQ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MDP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MEREDITH CORP.</name>
+		<symbol>MDP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MER</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MERRILL LYNCH</name>
+		<symbol>MER</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MET</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>METLIFE INC.</name>
+		<symbol>MET</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MTG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MGIC INVESTMENT</name>
+		<symbol>MTG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MU</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MICRON TECHNOLOGY</name>
+		<symbol>MU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MSFT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MICROSOFT CORP.</name>
+		<symbol>MSFT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MIL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MILLIPORE CORP.</name>
+		<symbol>MIL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MIR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MIRANT CORPORATION</name>
+		<symbol>MIR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MOLX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MOLEX INC.</name>
+		<symbol>MOLX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MON</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MONSANTO CO.</name>
+		<symbol>MON</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MCO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MOODY'S CORP</name>
+		<symbol>MCO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MWD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MORGAN STANLEY</name>
+		<symbol>MWD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MOT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MOTOROLA INC.</name>
+		<symbol>MOT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NBR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NABORS INDUSTRIES LTD.</name>
+		<symbol>NBR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NCC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NATIONAL CITY CORP.</name>
+		<symbol>NCC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NSM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NATIONAL SEMICONDUCTOR</name>
+		<symbol>NSM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NAV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NAVISTAR INTERNATIONAL CORP.</name>
+		<symbol>NAV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NCR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NCR CORP.</name>
+		<symbol>NCR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NTAP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NETWORK APPLIANCE</name>
+		<symbol>NTAP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NYT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NEW YORK TIMES CL. A</name>
+		<symbol>NYT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NWL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NEWELL RUBBERMAID CO.</name>
+		<symbol>NWL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NEM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NEWMONT MINING CORP. (HLDG. CO.)</name>
+		<symbol>NEM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NXTL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NEXTEL COMMUNICATIONS</name>
+		<symbol>NXTL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>GAS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NICOR INC.</name>
+		<symbol>GAS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NKE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NIKE INC.</name>
+		<symbol>NKE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NISOURCE INC.</name>
+		<symbol>NI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NOBLE CORPORATION</name>
+		<symbol>NE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JWN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NORDSTROM</name>
+		<symbol>JWN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NSC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NORFOLK SOUTHERN CORP.</name>
+		<symbol>NSC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NFB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NORTH FORK BANCORPORATION</name>
+		<symbol>NFB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NTRS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NORTHERN TRUST CORP.</name>
+		<symbol>NTRS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NOC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NORTHROP GRUMMAN CORP.</name>
+		<symbol>NOC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NOVL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NOVELL INC.</name>
+		<symbol>NOVL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NVLS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NOVELLUS SYSTEMS</name>
+		<symbol>NVLS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NUE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NUCOR CORP.</name>
+		<symbol>NUE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>NVDA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NVIDIA CORP.</name>
+		<symbol>NVDA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>OXY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>OCCIDENTAL PETROLEUM</name>
+		<symbol>OXY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ODP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>OFFICE DEPOT</name>
+		<symbol>ODP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>OMC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>OMNICOM GROUP</name>
+		<symbol>OMC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ORCL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ORACLE CORP.</name>
+		<symbol>ORCL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PCAR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PACCAR INC.</name>
+		<symbol>PCAR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PTV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PACTIV CORP.</name>
+		<symbol>PTV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PLL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PALL CORP.</name>
+		<symbol>PLL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PMTCE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PARAMETRIC TECHNOLOGY</name>
+		<symbol>PMTCE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PARKER-HANNIFIN</name>
+		<symbol>PH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PAYX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PAYCHEX INC.</name>
+		<symbol>PAYX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>JCP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PENNEY (J.C.)</name>
+		<symbol>JCP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PGL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PEOPLES ENERGY</name>
+		<symbol>PGL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PSFT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PEOPLESOFT INC.</name>
+		<symbol>PSFT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PBG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PEPSI BOTTLING GROUP</name>
+		<symbol>PBG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PEP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PEPSICO INC.</name>
+		<symbol>PEP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PKI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PERKINELMER</name>
+		<symbol>PKI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PFE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PFIZER, INC.</name>
+		<symbol>PFE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PCG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PG&amp;E CORP.</name>
+		<symbol>PCG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PHA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PHARMACIA CORP</name>
+		<symbol>PHA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PD</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PHELPS DODGE</name>
+		<symbol>PD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>MO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PHILIP MORRIS</name>
+		<symbol>MO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PNW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PINNACLE WEST CAPITAL</name>
+		<symbol>PNW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PBI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PITNEY-BOWES</name>
+		<symbol>PBI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PCL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PLUM CREEK TIMBER CO.</name>
+		<symbol>PCL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PMCS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PMC-SIERRA INC.</name>
+		<symbol>PMCS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PNC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PNC BANK CORP.</name>
+		<symbol>PNC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PWER</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>POWER-ONE INC.</name>
+		<symbol>PWER</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PPG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PPG INDUSTRIES</name>
+		<symbol>PPG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PPL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PPL CORP.</name>
+		<symbol>PPL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PRAXAIR, INC.</name>
+		<symbol>PX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PFG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PRINCIPAL FINANCIAL GROUP</name>
+		<symbol>PFG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PROCTER &amp; GAMBLE</name>
+		<symbol>PG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PGN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PROGRESS ENERGY, INC.</name>
+		<symbol>PGN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PGR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PROGRESSIVE CORP.</name>
+		<symbol>PGR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PVN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PROVIDIAN FINANCIAL CORP.</name>
+		<symbol>PVN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PRU</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PRUDENTIAL FINANCIAL</name>
+		<symbol>PRU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PEG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PUBLIC SERV. ENTERPRISE INC.</name>
+		<symbol>PEG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PHM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PULTE HOMES, INC.</name>
+		<symbol>PHM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>QLGC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>QLOGIC CORP.</name>
+		<symbol>QLGC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>QCOM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>QUALCOMM INC.</name>
+		<symbol>QCOM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DGX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>QUEST DIAGNOSTICS</name>
+		<symbol>DGX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>QTRN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>QUINTILES TRANSNATIONAL</name>
+		<symbol>QTRN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>Q</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>QWEST COMMUNICATIONS INT</name>
+		<symbol>Q</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RSH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>RADIOSHACK CORP</name>
+		<symbol>RSH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RATL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>RATIONAL SOFTWARE</name>
+		<symbol>RATL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RTN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>RAYTHEON CO. (NEW)</name>
+		<symbol>RTN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RBK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>REEBOK INTERNATIONAL</name>
+		<symbol>RBK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RF</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>REGIONS FINANCIAL CORP.</name>
+		<symbol>RF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RJR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>RJ REYNOLDS TOBACCO</name>
+		<symbol>RJR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RHI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ROBERT HALF INTERNATIONAL</name>
+		<symbol>RHI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ROK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ROCKWELL AUTOMATION, INC.</name>
+		<symbol>ROK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>COL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ROCKWELL COLLINS</name>
+		<symbol>COL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ROH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ROHM &amp; HAAS</name>
+		<symbol>ROH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RDC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ROWAN COS.</name>
+		<symbol>RDC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>R</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>RYDER SYSTEM</name>
+		<symbol>R</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TSG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SABRE HOLDING CORP.</name>
+		<symbol>TSG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SAFC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SAFECO CORP.</name>
+		<symbol>SAFC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SWY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SAFEWAY INC.</name>
+		<symbol>SWY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SANM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SANMINA-SCI CORP.</name>
+		<symbol>SANM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SLE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SARA LEE CORP.</name>
+		<symbol>SLE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SBC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SBC COMMUNICATIONS INC.</name>
+		<symbol>SBC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SGP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SCHERING-PLOUGH</name>
+		<symbol>SGP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SLB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SCHLUMBERGER LTD.</name>
+		<symbol>SLB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SFA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SCIENTIFIC-ATLANTA</name>
+		<symbol>SFA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SEE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SEALED AIR CORP.(NEW)</name>
+		<symbol>SEE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>S</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SEARS</name>
+		<symbol>S</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SRE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SEMPRA ENERGY</name>
+		<symbol>SRE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SHW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SHERWIN-WILLIAMS</name>
+		<symbol>SHW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SEBL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SIEBEL  SYSTEMS INC</name>
+		<symbol>SEBL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SIAL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SIGMA-ALDRICH</name>
+		<symbol>SIAL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SPG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>"SIMON PROPERTY GROUP, INC.</name>
+		<symbol>SPG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SLM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SLM CORPORATION</name>
+		<symbol>SLM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SNA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SNAP-ON INC.</name>
+		<symbol>SNA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SLR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SOLECTRON</name>
+		<symbol>SLR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SOUTHERN CO.</name>
+		<symbol>SO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SOTR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SOUTHTRUST CORP.</name>
+		<symbol>SOTR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>LUV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SOUTHWEST AIRLINES</name>
+		<symbol>LUV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>FON</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SPRINT CORP. FON</name>
+		<symbol>FON</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>PCS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SPRINT CORP. PCS</name>
+		<symbol>PCS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>STJ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ST JUDE MEDICAL</name>
+		<symbol>STJ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SPC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ST. PAUL COS.</name>
+		<symbol>SPC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SWK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>STANLEY WORKS</name>
+		<symbol>SWK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SPLS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>STAPLES INC.</name>
+		<symbol>SPLS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SBUX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>STARBUCKS CORP.</name>
+		<symbol>SBUX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>HOT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>STARWOOD HOTELS &amp; RESORTS</name>
+		<symbol>HOT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>STT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>STATE STREET CORP.</name>
+		<symbol>STT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SYK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>STRYKER CORP.</name>
+		<symbol>SYK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SUNW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SUN MICROSYSTEMS</name>
+		<symbol>SUNW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SDS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SUNGARD DATA SYSTEMS</name>
+		<symbol>SDS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SUN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SUNOCO., INC.</name>
+		<symbol>SUN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>STI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SUNTRUST BANKS</name>
+		<symbol>STI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SVU</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SUPERVALU INC.</name>
+		<symbol>SVU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SBL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SYMBOL TECHNOLOGIES</name>
+		<symbol>SBL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SNV</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SYNOVUS FINANCIAL</name>
+		<symbol>SNV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>SYY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SYSCO CORP.</name>
+		<symbol>SYY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TROW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>T. ROWE PRICE GROUP</name>
+		<symbol>TROW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TGT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TARGET CORP.</name>
+		<symbol>TGT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TECO ENERGY</name>
+		<symbol>TE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TEK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TEKTRONIX INC.</name>
+		<symbol>TEK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TLAB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TELLABS, INC.</name>
+		<symbol>TLAB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TIN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TEMPLE-INLAND</name>
+		<symbol>TIN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>THC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TENET HEALTHCARE CORP.</name>
+		<symbol>THC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TER</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TERADYNE INC.</name>
+		<symbol>TER</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TXN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TEXAS INSTRUMENTS</name>
+		<symbol>TXN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TXT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TEXTRON INC.</name>
+		<symbol>TXT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TMO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>THERMO ELECTRON</name>
+		<symbol>TMO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TNB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>THOMAS &amp; BETTS</name>
+		<symbol>TNB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TIF</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TIFFANY &amp; CO.</name>
+		<symbol>TIF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TJX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TJX COMPANIES INC.</name>
+		<symbol>TJX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TMPW</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TMP WORLDWIDE</name>
+		<symbol>TMPW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TMK</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TORCHMARK CORP.</name>
+		<symbol>TMK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TOY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TOYS R US, INC.</name>
+		<symbol>TOY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>RIG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TRANSOCEAN INC.</name>
+		<symbol>RIG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TAP.B</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TRAVELERS PROPERTY CASUALTY CORP.</name>
+		<symbol>TAP.B</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TRB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TRIBUNE CO.</name>
+		<symbol>TRB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TUP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TUPPERWARE CORP.</name>
+		<symbol>TUP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TXU</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TXU CORP.</name>
+		<symbol>TXU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>TYC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TYCO INTERNATIONAL</name>
+		<symbol>TYC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>USB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>U.S. BANCORP</name>
+		<symbol>USB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UNP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNION PACIFIC</name>
+		<symbol>UNP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UPC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNION PLANTERS CORPORATION</name>
+		<symbol>UPC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UIS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNISYS CORP.</name>
+		<symbol>UIS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UNH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNITED HEALTH GROUP INC.</name>
+		<symbol>UNH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UPS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNITED PARCEL SERVICE</name>
+		<symbol>UPS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>X</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNITED STATES STEEL CORP.</name>
+		<symbol>X</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UTX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNITED TECHNOLOGIES</name>
+		<symbol>UTX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UVN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNIVISION COMMUNICATIONS</name>
+		<symbol>UVN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UCL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNOCAL CORP.</name>
+		<symbol>UCL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UNM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNUM CORP.</name>
+		<symbol>UNM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>UST</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UST INC.</name>
+		<symbol>UST</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>VFC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>V.F. CORP.</name>
+		<symbol>VFC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>VRTS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>VERITAS SOFTWARE</name>
+		<symbol>VRTS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>VZ</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>VERIZON COMMUNICATIONS</name>
+		<symbol>VZ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>VIA.B</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>VIACOM INC.</name>
+		<symbol>VIA.B</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>VC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>VISTEON CORP.</name>
+		<symbol>VC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>VMC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>VULCAN MATERIALS</name>
+		<symbol>VMC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WACHOVIA CORP. (NEW)</name>
+		<symbol>WB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WAG</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WALGREEN CO.</name>
+		<symbol>WAG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WMT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WAL-MART STORES</name>
+		<symbol>WMT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>DIS</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WALT DISNEY CO.</name>
+		<symbol>DIS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WASHINGTON MUTUAL</name>
+		<symbol>WM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WMI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WASTE MANAGEMENT INC.</name>
+		<symbol>WMI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WAT</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WATERS CORPORATION</name>
+		<symbol>WAT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WPI</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WATSON PHARMACEUTICALS</name>
+		<symbol>WPI</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WLP</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WELLPOINT HEALTH NETWORKS</name>
+		<symbol>WLP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WFC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WELLS FARGO</name>
+		<symbol>WFC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WEN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WENDY'S INTERNATIONAL</name>
+		<symbol>WEN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WEYERHAEUSER CORP.</name>
+		<symbol>WY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WHR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WHIRLPOOL CORP.</name>
+		<symbol>WHR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WMB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WILLIAMS COS.</name>
+		<symbol>WMB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WIN</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WINN-DIXIE</name>
+		<symbol>WIN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WOR</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WORTHINGTON IND.</name>
+		<symbol>WOR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WWY</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WRIGLEY (WM) JR.</name>
+		<symbol>WWY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>WYE</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>WYETH</name>
+		<symbol>WYE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>XEL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>XCEL ENERGY INC</name>
+		<symbol>XEL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>XRX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>XEROX CORP.</name>
+		<symbol>XRX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>XLNX</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>XILINX, INC.</name>
+		<symbol>XLNX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>XL</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>XL CAPITAL</name>
+		<symbol>XL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>YHOO</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>YAHOO INC.</name>
+		<symbol>YHOO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>YUM</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>YUM! BRANDS, INC.</name>
+		<symbol>YUM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ZMH</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ZIMMER HOLDINGS</name>
+		<symbol>ZMH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ZION</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ZIONS BANCORP</name>
+		<symbol>ZION</symbol>
+	</method>
+</batch>

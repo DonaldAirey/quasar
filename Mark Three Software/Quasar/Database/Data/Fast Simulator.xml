@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch>
+	<method assembly="Market.Simulator" type="Shadows.Quasar.Market.Simulator" name="SetHeuristics">
+		<tickerRate>100000.0</tickerRate>
+	</method>
+</batch>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="AddressMapSet" targetNamespace="http://tempuri.org/AddressMapSet.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/AddressMapSet.xsd" xmlns:mstns="http://tempuri.org/AddressMapSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="AddressMapSet" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="AddressMap">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PlacementId" type="xs:int" minOccurs="0" />
+							<xs:element name="ColumnType" type="xs:int" minOccurs="0" />
+							<xs:element name="DocumentVersion" type="xs:int" minOccurs="0" />
+							<xs:element name="RowIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="ColumnIndex" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ColumnIndexMap">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ColumnId" type="xs:int" minOccurs="0" />
+							<xs:element name="ColumnIndex" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ColumnIdMap">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ColumnIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="ColumnId" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="ColumnIndexMapKey" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ColumnIndexMap" />
+			<xs:field xpath="mstns:ColumnId" />
+		</xs:key>
+		<xs:key name="ColumnIdMap" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ColumnIdMap" />
+			<xs:field xpath="mstns:ColumnIndex" />
+		</xs:key>
+		<xs:key name="AddressMapKey" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:AddressMap" />
+			<xs:field xpath="mstns:PlacementId" />
+			<xs:field xpath="mstns:ColumnType" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

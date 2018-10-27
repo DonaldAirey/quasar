@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="State Data">
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>0</stateCode>
+    <mnemonic>Initial</mnemonic>
+    <description>Initial</description>
+	<externalId0>New</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>1</stateCode>
+    <mnemonic>Sent</mnemonic>
+    <description>Sent</description>
+	<externalId0>SENT</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>2</stateCode>
+    <mnemonic>Acknowledged</mnemonic>
+    <description>Acknowledged</description>
+	<externalId0>ACKNOWLEDGED</externalId0>
+  </method>
+ <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>3</stateCode>
+    <mnemonic>Rejected</mnemonic>
+    <description>Rejected</description>
+	<externalId0>REJECTED</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>4</stateCode>
+    <mnemonic>Cancel Pending</mnemonic>
+    <description>Cancel Pending</description>
+	<externalId0>CANCEL PENDING</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>5</stateCode>
+    <mnemonic>Cancel Ack</mnemonic>
+    <description>Cancel Acknowledged</description>
+	<externalId0>CANCEL ACKNOWLEDGED</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>6</stateCode>
+    <mnemonic>Cancel Rejected</mnemonic>
+    <description>Cancel Rejected</description>
+	<externalId0>CANCEL REJECTED</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>7</stateCode>
+    <mnemonic>Cancelled</mnemonic>
+    <description>Cancelled</description>
+	<externalId0>CANCELLED</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>8</stateCode>
+    <mnemonic>Replace Pending</mnemonic>
+    <description>Replace Pending</description>
+	<externalId0>REPLACE PENDING</externalId0>
+  </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>9</stateCode>
+    <mnemonic>Replace Ack</mnemonic>
+    <description>Replace Acknowledged</description>
+	<externalId0>REPLACE ACKNOWLEDGED</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>10</stateCode>
+    <mnemonic>Replace Rejected</mnemonic>
+    <description>Replace Rejected</description>
+	<externalId0>REPLACE REJECTED</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>11</stateCode>
+    <mnemonic>Replaced</mnemonic>
+    <description>Replaced</description>
+	<externalId0>REPLACED</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>12</stateCode>
+    <mnemonic>Done For Day</mnemonic>
+    <description>Done For Day</description>
+	<externalId0>DONE FOR DAY</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>13</stateCode>
+    <mnemonic>Stopped</mnemonic>
+    <description>Stopped</description>
+	<externalId0>STOPPED</externalId0>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.State" name="Load">
+	<stateCode>14</stateCode>
+    <mnemonic>Error</mnemonic>
+    <description>Error</description>
+	<externalId0>ERROR</externalId0>
+  </method>
+</batch>

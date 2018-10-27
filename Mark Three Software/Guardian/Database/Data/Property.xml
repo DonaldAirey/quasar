@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="Property">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>0</propertyCode>
+      <name>Scheme</name>
+      <externalId0>SCHEME</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>1</propertyCode>
+      <name>Model</name>
+      <externalId0>MODEL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>2</propertyCode>
+      <name>Time in Force</name>
+      <externalId0>TIME IN FORCE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>3</propertyCode>
+      <name>Blotter</name>
+      <externalId0>BLOTTER</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>4</propertyCode>
+      <name>Name</name>
+      <externalId0>NAME</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>5</propertyCode>
+      <name>Description</name>
+      <externalId0>DESCRIPTION</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>6</propertyCode>
+      <name>Algorithm</name>
+      <externalId0>ALGORITHM</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>7</propertyCode>
+      <name>Read Only</name>
+      <externalId0>READ ONLY</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>8</propertyCode>
+      <name>Hidden</name>
+      <externalId0>HIDDEN</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>9</propertyCode>
+      <name>Deleted</name>
+      <externalId0>DELETED</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>10</propertyCode>
+      <name>Security Self</name>
+      <externalId0>SECURITY SELF</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>11</propertyCode>
+      <name>Sector Self</name>
+      <externalId0>SECTOR SELF</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>12</propertyCode>
+      <name>Currency</name>
+      <externalId0>CURRENCY</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>13</propertyCode>
+      <name>Lot Handling</name>
+      <externalId0>LOT HANDLING</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>14</propertyCode>
+      <name>Name 0</name>
+      <externalId0>NAME 0</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>15</propertyCode>
+      <name>Name 1</name>
+      <externalId0>NAME 1</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>16</propertyCode>
+      <name>Name 2</name>
+      <externalId0>NAME 2</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>17</propertyCode>
+      <name>Name 3</name>
+      <externalId0>NAME 3</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>18</propertyCode>
+      <name>Address 0</name>
+      <externalId0>ADDRESS 0</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>19</propertyCode>
+      <name>Address 1</name>
+      <externalId0>ADDRESS 1</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>20</propertyCode>
+      <name>Address 2</name>
+      <externalId0>ADDRESS 2</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>21</propertyCode>
+      <name>City</name>
+      <externalId0>CITY</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>22</propertyCode>
+      <name>Province</name>
+      <externalId0>PROVINCE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>23</propertyCode>
+      <name>Country</name>
+      <externalId0>COUNTRY</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>24</propertyCode>
+      <name>Postal Code</name>
+      <externalId0>POSTAL CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>25</propertyCode>
+      <name>Show Home Page</name>
+      <externalId0>SHOW HOME PAGE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>26</propertyCode>
+      <name>Home Page URL</name>
+      <externalId0>HOME PAGE URL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>27</propertyCode>
+      <name>Default</name>
+      <externalId0>DEFAULT</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>28</propertyCode>
+      <name>Stylesheet</name>
+      <externalId0>STYLESHEET</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>29</propertyCode>
+      <name>Blocking Code</name>
+      <externalId0>BLOCKING CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>30</propertyCode>
+      <name>Block Order Stylesheet</name>
+      <externalId0>BLOCK ORDER TEMPLATE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>31</propertyCode>
+      <name>DestinationOrder Stylesheet</name>
+      <externalId0>PLACEMENT TEMPLATE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>32</propertyCode>
+      <name>Execution Stylesheet</name>
+      <externalId0>EXECUTION TEMPLATE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>33</propertyCode>
+      <name>Folder</name>
+      <externalId0>FOLDER</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>34</propertyCode>
+      <name>Ticket Stylesheet</name>
+      <externalId0>TICKET TEMPLATE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>35</propertyCode>
+      <name>Symbol</name>
+      <externalId0>SYMBOL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>36</propertyCode>
+      <name>Phone</name>
+      <externalId0>PHONE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>37</propertyCode>
+      <name>User Id 0</name>
+      <externalId0>USER ID 0</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>38</propertyCode>
+      <name>User Id 1</name>
+      <externalId0>USER ID 1</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>39</propertyCode>
+      <name>User Id 2</name>
+      <externalId0>USER ID 2</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>40</propertyCode>
+      <name>User Id 3</name>
+      <externalId0>USER ID 3</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>41</propertyCode>
+      <name>User Id 4</name>
+      <externalId0>USER ID 4</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>42</propertyCode>
+      <name>User Id 5</name>
+      <externalId0>USER ID 5</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>43</propertyCode>
+      <name>User Id 6</name>
+      <externalId0>USER ID 6</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>44</propertyCode>
+      <name>User Id 7</name>
+      <externalId0>USER ID 7</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>45</propertyCode>
+      <name>Document Type</name>
+      <externalId0>DOCUMENT TYPE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>46</propertyCode>
+      <name>Text</name>
+      <externalId0>TEXT</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>47</propertyCode>
+      <name>Account Id</name>
+      <externalId0>ACCOUNT ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>48</propertyCode>
+      <name>Algorithm Id</name>
+      <externalId0>ALGORITHM ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>49</propertyCode>
+      <name>Asset Type Code</name>
+      <externalId0>ASSET TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>51</propertyCode>
+      <name>Blotter Id</name>
+      <externalId0>BLOTTER ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>52</propertyCode>
+      <name>Broker Id</name>
+      <externalId0>BROKER ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>53</propertyCode>
+      <name>Child Id</name>
+      <externalId0>CHILD ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>54</propertyCode>
+      <name>Condition Code</name>
+      <externalId0>CONDITION CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>55</propertyCode>
+      <name>Country Id</name>
+      <externalId0>COUNTRY ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>56</propertyCode>
+      <name>Currency Id</name>
+      <externalId0>CURRENCY ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>57</propertyCode>
+      <name>Document Type Code</name>
+      <externalId0>DOCUMENT TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>58</propertyCode>
+      <name>Exchange Id</name>
+      <externalId0>EXCHANGE ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>59</propertyCode>
+      <name>Folder Id</name>
+      <externalId0>FOLDER ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>60</propertyCode>
+      <name>Holiday Type Code</name>
+      <externalId0>HOLIDAY TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>61</propertyCode>
+      <name>Issuer Id</name>
+      <externalId0>ISSUER ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>62</propertyCode>
+      <name>Login Id</name>
+      <externalId0>LOGIN ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>63</propertyCode>
+      <name>LotHandling Id</name>
+      <externalId0>LOT HANDLING ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>64</propertyCode>
+      <name>Model Id</name>
+      <externalId0>MODEL ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>65</propertyCode>
+      <name>Object Id</name>
+      <externalId0>OBJECT ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>66</propertyCode>
+      <name>Object Type Code</name>
+      <externalId0>OBJECT TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>67</propertyCode>
+      <name>Order Type Code</name>
+      <externalId0>ORDER TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>68</propertyCode>
+      <name>Parent Id</name>
+      <externalId0>PARENT ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>69</propertyCode>
+      <name>Position Type Code</name>
+      <externalId0>POSITION TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>70</propertyCode>
+      <name>Property CodeColumn</name>
+      <externalId0>PROPERTY CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>71</propertyCode>
+      <name>Province Id</name>
+      <externalId0>PROVINCE ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>72</propertyCode>
+      <name>Scheme Id</name>
+      <externalId0>SCHEME ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>73</propertyCode>
+      <name>Sector Id</name>
+      <externalId0>SECTOR ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>74</propertyCode>
+      <name>Security Id</name>
+      <externalId0>SECURITY ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>75</propertyCode>
+      <name>Security Type Code</name>
+      <externalId0>SECURITY TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>76</propertyCode>
+      <name>TaxLot Id</name>
+      <externalId0>TAXLOT ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>77</propertyCode>
+      <name>Stylesheet Id</name>
+      <externalId0>TEMPLATE ID</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>78</propertyCode>
+      <name>Time In Force Code</name>
+      <externalId0>TIME IN FORCE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>79</propertyCode>
+      <name>TransactionType Type Code</name>
+      <externalId0>TRANSACTION TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>80</propertyCode>
+      <name>Status Code</name>
+      <externalId0>STATUS CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>81</propertyCode>
+      <name>Connected</name>
+      <externalId0>CONNECTED</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>82</propertyCode>
+      <name>User Data 0</name>
+      <externalId0>USER DATA 0</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>83</propertyCode>
+      <name>User Data 1</name>
+      <externalId0>USER DATA 1</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>84</propertyCode>
+      <name>User Data 2</name>
+      <externalId0>USER DATA 2</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>85</propertyCode>
+      <name>User Data 3</name>
+      <externalId0>USER DATA 3</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>86</propertyCode>
+      <name>User Data 4</name>
+      <externalId0>USER DATA 4</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>87</propertyCode>
+      <name>User Data 5</name>
+      <externalId0>USER DATA 5</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>88</propertyCode>
+      <name>User Data 6</name>
+      <externalId0>USER DATA 6</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>89</propertyCode>
+      <name>User Data 7</name>
+      <externalId0>USER DATA 7</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>90</propertyCode>
+      <name>Mnemonic</name>
+      <externalId0>MNEMONIC</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>91</propertyCode>
+      <name>Algorithm Type Code</name>
+      <externalId0>ALGORITHM TYPE CODE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>92</propertyCode>
+      <name>Module Name</name>
+      <externalId0>MODULE NAME</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>93</propertyCode>
+      <name>Type Name</name>
+      <externalId0>TYPE NAME</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>94</propertyCode>
+      <name>Severity</name>
+      <externalId0>SEVERITY</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>95</propertyCode>
+      <name>Approval</name>
+      <externalId0>APPROVAL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Property" name="Load">
+      <propertyCode>96</propertyCode>
+      <name>Temporary</name>
+      <externalId0>TEMPORARY</externalId0>
+    </method>
+  </transaction>
+</batch>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Algorithm">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Algorithm" name="Load">
+		<algorithmId>REBALANCER SECURITY</algorithmId>
+		<algorithmTypeCode>REBALANCER</algorithmTypeCode>
+		<name>Security</name>
+		<description>Rebalance a group or single account to security level targets.</description>
+		<assembly>Library.Rebalancer</assembly>
+		<type>Shadows.Quasar.Library.Rebalancer.Security</type>
+		<method>Rebalance</method>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Algorithm" name="Load">
+		<algorithmId>REBALANCER SECTOR WRAP</algorithmId>
+		<algorithmTypeCode>REBALANCER</algorithmTypeCode>
+		<name>Sector Wrap</name>
+		<description>Rebalance a group or single account to sector level targets.  Each account is rebalanced individually.</description>
+		<assembly>Library.Rebalancer</assembly>
+		<type>Shadows.Quasar.Library.Rebalancer.SectorWrap</type>
+		<method>Rebalance</method>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Algorithm" name="Load">
+		<algorithmId>REBALANCER SECTOR MERGE</algorithmId>
+		<algorithmTypeCode>REBALANCER</algorithmTypeCode>
+		<name>Sector Merge</name>
+		<description>Rebalance a group or single account to sector level targets.  The account are aggregated and rebalanced to the total NAV.</description>
+		<assembly>Library.Rebalancer</assembly>
+		<type>Shadows.Quasar.Library.Rebalancer.SectorMerge</type>
+		<method>Rebalance</method>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Algorithm" name="Load">
+		<algorithmId>REBALANCER SELECTED SECURITY</algorithmId>
+		<algorithmTypeCode>REBALANCER</algorithmTypeCode>
+		<name>Selected Security</name>
+		<description>Rebalance a group or single account to security level targets.  Only the selected security are rebalanced.</description>
+		<assembly>Library.Rebalancer</assembly>
+		<type>Shadows.Quasar.Library.Rebalancer.SelectedSecurity</type>
+		<method>Rebalance</method>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Algorithm" name="Load">
+		<algorithmId>BLOCKER MULTICURRENCY</algorithmId>
+		<algorithmTypeCode>BLOCKER</algorithmTypeCode>
+		<name>Multicurrency</name>
+		<description>Block order by security but not settlement currency.  This is useful for currency trading.</description>
+		<assembly>Library.Blocker</assembly>
+		<type>Shadows.Quasar.Library.Blocker.Security</type>
+		<method>Open</method>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Algorithm" name="Load">
+		<algorithmId>BLOCKER SECURITY</algorithmId>
+		<algorithmTypeCode>BLOCKER</algorithmTypeCode>
+		<name>Security</name>
+		<description>Block order by security only.</description>
+		<assembly>Library.Blocker</assembly>
+		<type>Shadows.Quasar.Library.Blocker.SecurityCurrency</type>
+		<method>Open</method>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Algorithm" name="Load">
+		<algorithmId>BLOCKER ACCOUNT</algorithmId>
+		<algorithmTypeCode>BLOCKER</algorithmTypeCode>
+		<name>Account</name>
+		<description>Block order by account, security and settlement currency.  This is useful for an aggregate cash transactionType for a given account.</description>
+		<assembly>Library.Blocker</assembly>
+		<type>Shadows.Quasar.Library.Blocker.AccountSecurityCurrency</type>
+		<method>Open</method>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Algorithm" name="Load">
+		<algorithmId>ALLOCATOR PRORATA</algorithmId>
+		<algorithmTypeCode>ALLOCATOR</algorithmTypeCode>
+		<name>Pro rata</name>
+		<description>Allocate trade back to the account in the same proportion that they were ordered.</description>
+		<assembly>Allocator</assembly>
+		<type>Shadows.Quasar.Allocator.ProRata</type>
+		<method>Allocate</method>
+	</method>
+</batch>

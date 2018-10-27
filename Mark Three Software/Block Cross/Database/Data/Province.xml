@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="Province">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>AL</provinceId>
+      <countryId>US</countryId>
+      <name>ALABAMA</name>
+      <abbreviation>AL</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>AK</provinceId>
+      <countryId>US</countryId>
+      <name>ALASKA</name>
+      <abbreviation>AK</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>AS</provinceId>
+      <countryId>US</countryId>
+      <name>AMERICAN SAMOA</name>
+      <abbreviation>AS</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>AZ</provinceId>
+      <countryId>US</countryId>
+      <name>ARIZONA</name>
+      <abbreviation>AZ</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>AR</provinceId>
+      <countryId>US</countryId>
+      <name>ARKANSAS</name>
+      <abbreviation>AR</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>CA</provinceId>
+      <countryId>US</countryId>
+      <name>CALIFORNIA</name>
+      <abbreviation>CA</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>CO</provinceId>
+      <countryId>US</countryId>
+      <name>COLORADO</name>
+      <abbreviation>CO</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>CT</provinceId>
+      <countryId>US</countryId>
+      <name>CONNECTICUT</name>
+      <abbreviation>CT</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>DE</provinceId>
+      <countryId>US</countryId>
+      <name>DELAWARE</name>
+      <abbreviation>DE</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>DC</provinceId>
+      <countryId>US</countryId>
+      <name>DISTRICT OF COLUMBIA</name>
+      <abbreviation>DC</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>FM</provinceId>
+      <countryId>US</countryId>
+      <name>FEDERATED STATES OF MICRONESIA</name>
+      <abbreviation>FM</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>FL</provinceId>
+      <countryId>US</countryId>
+      <name>FLORIDA</name>
+      <abbreviation>FL</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>GA</provinceId>
+      <countryId>US</countryId>
+      <name>GEORGIA</name>
+      <abbreviation>GA</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>GU</provinceId>
+      <countryId>US</countryId>
+      <name>GUAM</name>
+      <abbreviation>GU</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>HI</provinceId>
+      <countryId>US</countryId>
+      <name>HAWAII</name>
+      <abbreviation>HI</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>ID</provinceId>
+      <countryId>US</countryId>
+      <name>IDAHO</name>
+      <abbreviation>ID</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>IL</provinceId>
+      <countryId>US</countryId>
+      <name>ILLINOIS</name>
+      <abbreviation>IL</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>IN</provinceId>
+      <countryId>US</countryId>
+      <name>INDIANA</name>
+      <abbreviation>IN</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>IA</provinceId>
+      <countryId>US</countryId>
+      <name>IOWA</name>
+      <abbreviation>IA</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>KS</provinceId>
+      <countryId>US</countryId>
+      <name>KANSAS</name>
+      <abbreviation>KS</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>KY</provinceId>
+      <countryId>US</countryId>
+      <name>KENTUCKY</name>
+      <abbreviation>KY</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>LA</provinceId>
+      <countryId>US</countryId>
+      <name>LOUISIANA</name>
+      <abbreviation>LA</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>ME</provinceId>
+      <countryId>US</countryId>
+      <name>MAINE</name>
+      <abbreviation>ME</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MH</provinceId>
+      <countryId>US</countryId>
+      <name>MARSHALL ISLANDS</name>
+      <abbreviation>MH</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MD</provinceId>
+      <countryId>US</countryId>
+      <name>MARYLAND</name>
+      <abbreviation>MD</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MA</provinceId>
+      <countryId>US</countryId>
+      <name>MASSACHUSETTS</name>
+      <abbreviation>MA</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MI</provinceId>
+      <countryId>US</countryId>
+      <name>MICHIGAN</name>
+      <abbreviation>MI</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MN</provinceId>
+      <countryId>US</countryId>
+      <name>MINNESOTA</name>
+      <abbreviation>MN</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MS</provinceId>
+      <countryId>US</countryId>
+      <name>MISSISSIPPI</name>
+      <abbreviation>MS</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MO</provinceId>
+      <countryId>US</countryId>
+      <name>MISSOURI</name>
+      <abbreviation>MO</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MT</provinceId>
+      <countryId>US</countryId>
+      <name>MONTANA</name>
+      <abbreviation>MT</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>NE</provinceId>
+      <countryId>US</countryId>
+      <name>NEBRASKA</name>
+      <abbreviation>NE</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>NV</provinceId>
+      <countryId>US</countryId>
+      <name>NEVADA</name>
+      <abbreviation>NV</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>NH</provinceId>
+      <countryId>US</countryId>
+      <name>NEW HAMPSHIRE</name>
+      <abbreviation>NH</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>NJ</provinceId>
+      <countryId>US</countryId>
+      <name>NEW JERSEY</name>
+      <abbreviation>NJ</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>NM</provinceId>
+      <countryId>US</countryId>
+      <name>NEW MEXICO</name>
+      <abbreviation>NM</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>NY</provinceId>
+      <countryId>US</countryId>
+      <name>NEW YORK</name>
+      <abbreviation>NY</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>NC</provinceId>
+      <countryId>US</countryId>
+      <name>NORTH CAROLINA</name>
+      <abbreviation>NC</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>ND</provinceId>
+      <countryId>US</countryId>
+      <name>NORTH DAKOTA</name>
+      <abbreviation>ND</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>MP</provinceId>
+      <countryId>US</countryId>
+      <name>NORTHERN MARIANA ISLANDS</name>
+      <abbreviation>MP</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>OH</provinceId>
+      <countryId>US</countryId>
+      <name>OHIO</name>
+      <abbreviation>OH</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>OK</provinceId>
+      <countryId>US</countryId>
+      <name>OKLAHOMA</name>
+      <abbreviation>OK</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>OR</provinceId>
+      <countryId>US</countryId>
+      <name>OREGON</name>
+      <abbreviation>OR</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>PW</provinceId>
+      <countryId>US</countryId>
+      <name>PALAU</name>
+      <abbreviation>PW</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>PA</provinceId>
+      <countryId>US</countryId>
+      <name>PENNSYLVANIA</name>
+      <abbreviation>PA</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>PR</provinceId>
+      <countryId>US</countryId>
+      <name>PUERTO RICO</name>
+      <abbreviation>PR</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>RI</provinceId>
+      <countryId>US</countryId>
+      <name>RHODE ISLAND</name>
+      <abbreviation>RI</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>SC</provinceId>
+      <countryId>US</countryId>
+      <name>SOUTH CAROLINA</name>
+      <abbreviation>SC</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>SD</provinceId>
+      <countryId>US</countryId>
+      <name>SOUTH DAKOTA</name>
+      <abbreviation>SD</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>TN</provinceId>
+      <countryId>US</countryId>
+      <name>TENNESSEE</name>
+      <abbreviation>TN</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>TX</provinceId>
+      <countryId>US</countryId>
+      <name>TEXAS</name>
+      <abbreviation>TX</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>UT</provinceId>
+      <countryId>US</countryId>
+      <name>UTAH</name>
+      <abbreviation>UT</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>VT</provinceId>
+      <countryId>US</countryId>
+      <name>VERMONT</name>
+      <abbreviation>VT</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>VI</provinceId>
+      <countryId>US</countryId>
+      <name>VIRGIN ISLANDS</name>
+      <abbreviation>VI</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>VA</provinceId>
+      <countryId>US</countryId>
+      <name>VIRGINIA</name>
+      <abbreviation>VA</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>WA</provinceId>
+      <countryId>US</countryId>
+      <name>WASHINGTON</name>
+      <abbreviation>WA</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>WV</provinceId>
+      <countryId>US</countryId>
+      <name>WEST VIRGINIA</name>
+      <abbreviation>WV</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>WI</provinceId>
+      <countryId>US</countryId>
+      <name>WISCONSIN</name>
+      <abbreviation>WI</abbreviation>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Province" name="Load">
+      <provinceId>WY</provinceId>
+      <countryId>US</countryId>
+      <name>WYOMING</name>
+      <abbreviation>WY</abbreviation>
+    </method>
+  </transaction>
+</batch>

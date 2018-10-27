@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Configuration">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<parameterId>childId</parameterId>
+		<columnIndex>1</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<parameterId>securityId</parameterId>
+		<columnIndex>1</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<parameterId>equityId</parameterId>
+		<columnIndex>1</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<parameterId>childId</parameterId>
+		<columnIndex>2</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<parameterId>securityId</parameterId>
+		<columnIndex>2</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<parameterId>equityId</parameterId>
+		<columnIndex>2</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<parameterId>childId</parameterId>
+		<columnIndex>3</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<parameterId>securityId</parameterId>
+		<columnIndex>3</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<parameterId>equityId</parameterId>
+		<columnIndex>3</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<parameterId>childId</parameterId>
+		<columnIndex>4</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<parameterId>securityId</parameterId>
+		<columnIndex>4</columnIndex>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Configuration" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<parameterId>debtId</parameterId>
+		<columnIndex>4</columnIndex>
+	</method>
+</batch>

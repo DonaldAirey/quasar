@@ -1,0 +1,187 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A3D75839-6364-4396-AB89-6B97037B4178}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarkThree.Forms</RootNamespace>
+    <AssemblyName>Document Viewer</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DEBUGSOURCE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Animation.cs" />
+    <Compile Include="AnimationSequence.cs" />
+    <Compile Include="AttributeNode.cs" />
+    <Compile Include="BackgroundContext.cs" />
+    <Compile Include="ColumnCursor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ColumnCursor.Designer.cs">
+      <DependentUpon>ColumnCursor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlashAnimation.cs" />
+    <Compile Include="ViewerFlashAnimation.cs" />
+    <Compile Include="DefaultAnimation.cs" />
+    <Compile Include="FadeAnimation.cs" />
+    <Compile Include="ViewerFadeAnimation.cs">
+    </Compile>
+    <Compile Include="ViewerAnimation.cs" />
+    <Compile Include="DestinationCursor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DestinationCursor.Designer.cs">
+      <DependentUpon>DestinationCursor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuadrantMouseEventArgs.cs" />
+    <Compile Include="TileLocationComparer.cs" />
+    <Compile Include="ViewerScale.cs" />
+    <Compile Include="ViewerSplit.cs">
+    </Compile>
+    <Compile Include="ViewerTileDepthComparer.cs" />
+    <Compile Include="CodeSnippet.cs" />
+    <Compile Include="ColumnSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColumnSelector.Designer.cs">
+      <DependentUpon>ColumnSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommentNode.cs" />
+    <Compile Include="TileDepthComparer.cs" />
+    <Compile Include="ViewerFont.cs" />
+    <Compile Include="ViewerFontBrush.cs" />
+    <Compile Include="ViewerImage.cs" />
+    <Compile Include="ViewerInteriorBrush.cs" />
+    <Compile Include="ViewerLeftBorder.cs" />
+    <Compile Include="ViewerNumberFormat.cs" />
+    <Compile Include="ViewerRightBorder.cs" />
+    <Compile Include="ViewerTopBorder.cs" />
+    <Compile Include="DataTransformInitializeViewMethod.cs" />
+    <Compile Include="DataTransform.cs" />
+    <Compile Include="DataTransformBuildViewMethod.cs" />
+    <Compile Include="DataTransformClass.cs" />
+    <Compile Include="DataTransformConstructor.cs" />
+    <Compile Include="DataTransformNamespace.cs" />
+    <Compile Include="DataTransformTemplateMethod.cs" />
+    <Compile Include="DataTransformtReader.cs" />
+    <Compile Include="DataTransformWriter.cs" />
+    <Compile Include="DefaultDocument.cs" />
+    <Compile Include="ElementNode.cs" />
+    <Compile Include="EndElementNode.cs" />
+    <Compile Include="Lexicon.cs" />
+    <Compile Include="DocumentView.cs" />
+    <Compile Include="DocumentViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DocumentViewer.Designer.cs">
+      <DependentUpon>DocumentViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NamespaceNode.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RectangleFLocationComparer.cs" />
+    <Compile Include="RootNode.cs" />
+    <Compile Include="SelectionChangeArgs.cs" />
+    <Compile Include="SelectionMode.cs" />
+    <Compile Include="SortClass.cs" />
+    <Compile Include="SortCompareMethod.cs" />
+    <Compile Include="SortDirection.cs" />
+    <Compile Include="SortedElementList.cs" />
+    <Compile Include="SortedNodeList.cs" />
+    <Compile Include="Style.cs" />
+    <Compile Include="TextNode.cs" />
+    <Compile Include="Tile.cs">
+    </Compile>
+    <Compile Include="Token.cs" />
+    <Compile Include="TokenHandler.cs" />
+    <Compile Include="ViewerAttribute.cs" />
+    <Compile Include="ViewerAttributeList.cs" />
+    <Compile Include="ViewerBorder.cs" />
+    <Compile Include="ViewerBottomBorder.cs" />
+    <Compile Include="ViewerCommand.cs" />
+    <Compile Include="ViewerStringFormat.cs" />
+    <Compile Include="ViewerTile.cs" />
+    <Compile Include="ViewerObject.cs" />
+    <Compile Include="ViewerRow.cs">
+    </Compile>
+    <Compile Include="ViewerStyle.cs" />
+    <Compile Include="ViewerTable.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BigEx.cur" />
+    <EmbeddedResource Include="ColumnSelector.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ColumnSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTransform.resx">
+      <DependentUpon>DataTransform.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTransformWriter.resx">
+      <DependentUpon>DataTransformWriter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DocumentViewer.resx">
+      <DependentUpon>DocumentViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mark Three Forms\Mark Three Forms.csproj">
+      <Project>{F2341647-233E-4DD4-92DB-6F94C8BF809A}</Project>
+      <Name>Mark Three Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Mark Three Library\Mark Three Library.csproj">
+      <Project>{734051D9-B2A3-44E9-A88B-7B4FDB90109F}</Project>
+      <Name>Mark Three Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SelectColumn.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="VerticalSplit.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SelectRow.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HorizontalSplit.cur" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

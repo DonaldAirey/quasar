@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Equity">
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<equityId>ULVR</equityId>
+		<countryId>GB</countryId>
+		<exchangeId>LSE</exchangeId>
+		<settlementId>GBP</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>UNILEVER</name>
+		<symbol>ULVR</symbol>
+	</method>
+</batch>

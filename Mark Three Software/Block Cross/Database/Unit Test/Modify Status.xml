@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Status">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>0</statusCode>
+      <mnemonic>FOOF</mnemonic>
+      <description>New</description>
+      <externalId0>NEW</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>US TICKER</configurationId>
+      <securityId>AMD</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>16</closePrice>
+      <lastPrice>17.2</lastPrice>
+    </method>
+  </transaction>
+</batch>

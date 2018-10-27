@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Folder">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Folder" name="Load">
+		<folderId>FOLDERA</folderId>
+		<folderTypeCode>FOLDER</folderTypeCode>
+		<name>Folder A</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Folder" name="Load">
+		<folderId>FOLDERB</folderId>
+		<folderTypeCode>FOLDER</folderTypeCode>
+		<name>Folder B</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>11000</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Group A.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>11100</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.A.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>11200</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.A.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12000</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Group A.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12100</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12200</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12300</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.C</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12400</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Group A.B.D</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12410</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.D.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12420</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.D.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12430</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.D.C</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12440</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.D.D</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12500</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Group A.B.E</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12510</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.E.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12520</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.E.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12600</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Group A.B.F</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12610</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.F.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12611</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>SUB-ACCOUNT</accountTypeCode>
+		<name>Sub-Account A.B.F.A.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12612</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>SUB-ACCOUNT</accountTypeCode>
+		<name>Sub-Account A.B.F.A.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12613</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>SUB-ACCOUNT</accountTypeCode>
+		<name>Sub-Account A.B.F.A.C</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12614</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>SUB-ACCOUNT</accountTypeCode>
+		<name>Sub-Account A.B.F.A.D</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12620</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.F.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12630</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.F.C</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12640</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.F.D</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>12650</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account A.B.F.E</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>21000</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Group B.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>21100</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.A.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>21200</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.A.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>22000</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Group B.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>22100</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.B.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>22200</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.B.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>22300</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.B.C</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>22400</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.B.D</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>22500</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.B.E</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>22600</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.B.F</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>23000</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Group B.C</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>23100</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.C.A</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>23200</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.C.B</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>23300</accountId>
+		<currencyId>USD</currencyId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Account B.C.C</name>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>FOLDERA</parentId>
+		<childId>11000</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>11000</parentId>
+		<childId>11100</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>11000</parentId>
+		<childId>11200</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>FOLDERA</parentId>
+		<childId>12000</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12000</parentId>
+		<childId>12100</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12000</parentId>
+		<childId>12200</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12000</parentId>
+		<childId>12300</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12000</parentId>
+		<childId>12400</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12400</parentId>
+		<childId>12410</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12400</parentId>
+		<childId>12420</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12400</parentId>
+		<childId>12430</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12400</parentId>
+		<childId>12440</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12000</parentId>
+		<childId>12500</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12500</parentId>
+		<childId>12510</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12500</parentId>
+		<childId>12520</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12000</parentId>
+		<childId>12600</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12600</parentId>
+		<childId>12610</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12610</parentId>
+		<childId>12611</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12610</parentId>
+		<childId>12612</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12610</parentId>
+		<childId>12613</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12610</parentId>
+		<childId>12614</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12600</parentId>
+		<childId>12620</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12600</parentId>
+		<childId>12630</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12600</parentId>
+		<childId>12640</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>12600</parentId>
+		<childId>12650</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>FOLDERB</parentId>
+		<childId>21000</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>21000</parentId>
+		<childId>21100</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>21000</parentId>
+		<childId>21200</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>FOLDERB</parentId>
+		<childId>22000</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>22000</parentId>
+		<childId>22100</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>22000</parentId>
+		<childId>22200</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>22000</parentId>
+		<childId>22300</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>22000</parentId>
+		<childId>22400</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>22000</parentId>
+		<childId>22500</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>22000</parentId>
+		<childId>22600</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>FOLDERB</parentId>
+		<childId>23000</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>23000</parentId>
+		<childId>23100</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>23000</parentId>
+		<childId>23200</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>23000</parentId>
+		<childId>23300</childId>
+	</method>
+</batch>

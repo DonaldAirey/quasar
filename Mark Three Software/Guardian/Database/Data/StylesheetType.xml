@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="StylesheetType">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+      <stylesheetTypeCode>0</stylesheetTypeCode>
+      <name>Working Order Viewer</name>
+      <description>Document used to view aggregate orders on a blotter.</description>
+      <externalId0>WORKING ORDER</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+      <stylesheetTypeCode>1</stylesheetTypeCode>
+      <name>DestinationOrder</name>
+      <description>Document used to manage orders that have been sent to a broker or ECN.</description>
+      <externalId0>DESTINATION ORDER</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+      <stylesheetTypeCode>2</stylesheetTypeCode>
+      <name>DestinationOrderDetail</name>
+      <description>Document used to manage orders that have been sent to a broker or ECN.</description>
+      <externalId0>DESTINATION ORDER DETAIL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+      <stylesheetTypeCode>3</stylesheetTypeCode>
+      <name>Execution</name>
+      <description>Document used to manage order Execution</description>
+      <externalId0>EXECUTION</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+      <stylesheetTypeCode>4</stylesheetTypeCode>
+      <name>ExecutionDetail</name>
+      <description>Document used to manage order Execution</description>
+      <externalId0>EXECUTION DETAIL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+      <stylesheetTypeCode>5</stylesheetTypeCode>
+      <name>SourceOrder</name>
+      <description>Document used to manage orders that have been sent to a broker or ECN.</description>
+      <externalId0>SOURCE ORDER</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+      <stylesheetTypeCode>6</stylesheetTypeCode>
+      <name>SourceOrderDetail</name>
+      <description>Document used to manage orders that have been sent to a broker or ECN.</description>
+      <externalId0>SOURCE ORDER DETAIL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+      <stylesheetTypeCode>7</stylesheetTypeCode>
+      <name>Match Viewer</name>
+      <description>Document used to view matching orders and negotiate a trade.</description>
+      <externalId0>MATCH</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+	    <stylesheetTypeCode>8</stylesheetTypeCode>
+	    <name>Match History Viewer</name>
+	    <description>Document used to view matching orders and negotiate a trade.</description>
+	    <externalId0>MATCH HISTORY</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.StylesheetType" name="Load">
+	    <stylesheetTypeCode>9</stylesheetTypeCode>
+	    <name>Quote Viewer</name>
+	    <description>Document used to view the quotes in the match tab.</description>
+	    <externalId0>QUOTE</externalId0>
+     </method>
+  </transaction>
+</batch>

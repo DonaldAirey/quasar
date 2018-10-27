@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="TransactionType">
+	<method assembly="Service.External" type="Shadows.WebService.External.TransactionType" name="Load">
+		<transactionTypeCode>0</transactionTypeCode>
+		<quantitySign>1.0000000</quantitySign>
+		<cashSign>1.0000000</cashSign>
+		<mnemonic>D</mnemonic>
+		<description>Deposit</description>
+		<externalId0>DEPOSIT</externalId0>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.TransactionType" name="Load">
+		<transactionTypeCode>1</transactionTypeCode>
+		<quantitySign>-1.0000000</quantitySign>
+		<cashSign>-1.0000000</cashSign>
+		<mnemonic>W</mnemonic>
+		<description>Withdraw</description>
+		<externalId0>WITHDRAW</externalId0>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.TransactionType" name="Load">
+		<transactionTypeCode>2</transactionTypeCode>
+		<quantitySign>1.0000000</quantitySign>
+		<cashSign>-1.0000000</cashSign>
+		<mnemonic>BYE</mnemonic>
+		<description>Buy</description>
+		<externalId0>BUY</externalId0>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.TransactionType" name="Load">
+		<transactionTypeCode>3</transactionTypeCode>
+		<quantitySign>-1.0000000</quantitySign>
+		<cashSign>1.0000000</cashSign>
+		<mnemonic>CELL</mnemonic>
+		<description>Sell</description>
+		<externalId0>SELL</externalId0>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.TransactionType" name="Load">
+		<transactionTypeCode>4</transactionTypeCode>
+		<quantitySign>-1.0000000</quantitySign>
+		<cashSign>1.0000000</cashSign>
+		<mnemonic>BC</mnemonic>
+		<description>Buy Cover</description>
+		<externalId0>BUY COVER</externalId0>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.TransactionType" name="Load">
+		<transactionTypeCode>5</transactionTypeCode>
+		<quantitySign>1.0000000</quantitySign>
+		<cashSign>-1.0000000</cashSign>
+		<mnemonic>SS</mnemonic>
+		<description>Sell Short</description>
+		<externalId0>SELL SHORT</externalId0>
+	</method>
+</batch>

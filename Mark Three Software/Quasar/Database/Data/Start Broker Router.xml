@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch>
+	<method assembly="Broker.Router" type="Shadows.Quasar.Market.Router.Broker" name="Start">
+		<name>GUAR</name>
+	</method>
+</batch>

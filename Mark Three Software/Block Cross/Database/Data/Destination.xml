@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Destination">
+  <method assembly="External Service" type="MarkThree.Guardian.External.Destination" name="Load">
+    <destinationId>GUARDIAN ECN</destinationId>
+    <fixAccount>FIXACCOUNT</fixAccount>
+    <fixExecBroker>FIXBROKER</fixExecBroker>
+    <fixExecDestinationListed>N</fixExecDestinationListed>
+    <fixOrderIdFormat>{0:00000}</fixOrderIdFormat>
+    <fixPassiveTag>8021=0</fixPassiveTag>
+    <fixSourceCompany>SIM_BS</fixSourceCompany>
+    <fixTargetCompany>SIM_SS</fixTargetCompany>
+    <fixTargetTrader>FIXTRADER</fixTargetTrader>
+    <fixVersion>4.2</fixVersion>
+    <isEcn>true</isEcn>
+    <modifiedTime>Jan 30 2004  9:24AM</modifiedTime>
+    <name>Guardian Electronic Exchange</name>
+    <oatsReceivingMpi>OATSMPI</oatsReceivingMpi>
+    <oatsSentMpi>FIXBROKER</oatsSentMpi>
+    <shortName>Guardian ECN</shortName>
+    <uniqueShortName>GUARDIAN ECN</uniqueShortName>
+  </method>
+</batch>

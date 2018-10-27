@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="User">
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Load">
+    <userId>GUARDIAN OPERATOR</userId>
+    <userName>Guardian Operator</userName>
+    <name>Guardian Operator</name>
+  </method>
+</batch>

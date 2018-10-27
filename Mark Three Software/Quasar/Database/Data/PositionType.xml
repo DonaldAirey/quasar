@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="PositionType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.PositionType" name="Load">
+		<positionTypeCode>0</positionTypeCode>
+		<mnemonic>LONG</mnemonic>
+		<sign>1.0</sign>
+		<externalId0>LONG</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.PositionType" name="Load">
+		<positionTypeCode>1</positionTypeCode>
+		<mnemonic>SHORT</mnemonic>
+		<sign>-1.0</sign>
+		<externalId0>SHORT</externalId0>
+	</method>
+</batch>

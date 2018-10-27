@@ -1,0 +1,100 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7EBF09C2-CDA4-4C45-BA29-AD3CF4527D86}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quasar_Library</RootNamespace>
+    <AssemblyName>Quasar Library</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountType.cs" />
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="BlockingStyle.cs" />
+    <Compile Include="CommandArgs.cs" />
+    <Compile Include="CommandHandlerArgs.cs" />
+    <Compile Include="CommandQueue.cs" />
+    <Compile Include="CommonButton.cs" />
+    <Compile Include="CommonElement.cs" />
+    <Compile Include="Condition.cs" />
+    <Compile Include="ElementNameTable.cs" />
+    <Compile Include="FolderType.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="HolidayType.cs" />
+    <Compile Include="Identifier.cs" />
+    <Compile Include="IntHashtable.cs" />
+    <Compile Include="LotHandling.cs" />
+    <Compile Include="MessageEventArgs.cs" />
+    <Compile Include="ModelType.cs" />
+    <Compile Include="ObjectArgs.cs" />
+    <Compile Include="ObjectType.cs" />
+    <Compile Include="OrderType.cs" />
+    <Compile Include="Percent.cs" />
+    <Compile Include="Position.cs" />
+    <Compile Include="PositionType.cs" />
+    <Compile Include="Prefereces.cs" />
+    <Compile Include="Pricing.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs" />
+    <Compile Include="RowVersion.cs" />
+    <Compile Include="SecurityType.cs" />
+    <Compile Include="ServiceQueue.cs" />
+    <Compile Include="Sounds.cs" />
+    <Compile Include="SpreadsheetColumn.cs" />
+    <Compile Include="SpreadsheetRow.cs" />
+    <Compile Include="Status.cs" />
+    <Compile Include="StylesheetType.cs" />
+    <Compile Include="ThreadQueue.cs" />
+    <Compile Include="TimeInForce.cs" />
+    <Compile Include="Timeouts.cs" />
+    <Compile Include="Trader.cs" />
+    <Compile Include="TransactionType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Mark Three Library\Mark Three Library.csproj">
+      <Project>{734051D9-B2A3-44E9-A88B-7B4FDB90109F}</Project>
+      <Name>Mark Three Library</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

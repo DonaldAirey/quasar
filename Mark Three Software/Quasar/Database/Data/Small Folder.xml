@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Small Folder">
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Folder" name="Load">
+			<folderTypeCode>FOLDER</folderTypeCode>
+			<folderId>MODELS</folderId>
+			<name>Models</name>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>MODELS</parentId>
+			<childId>SECURITY SELF</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>MODELS</parentId>
+			<childId>SECTOR SELF</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>MODELS</parentId>
+			<childId>MEDIUM RISK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>MODELS</parentId>
+			<childId>BLENDED RISK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>MODELS</parentId>
+			<childId>HIGH RISK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>MODELS</parentId>
+			<childId>LEOPARD</childId>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Folder" name="Load">
+			<folderTypeCode>SYSTEM FOLDER</folderTypeCode>
+			<folderId>ACOHEFOLDER</folderId>
+			<name>Adam Cohen</name>
+			<description>Person Folder of Adam Cohen</description>
+			<homePageURL>C:\Program Files\Mark Three Software\Quasar\Web Pages\Welcome.htm</homePageURL>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Login" name="Update">
+			<loginId>ACOHE</loginId>
+			<folderId>ACOHEFOLDER</folderId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>ACOHEFOLDER</parentId>
+			<childId>FOLDERA</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>ACOHEFOLDER</parentId>
+			<childId>FOLDERB</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>ACOHEFOLDER</parentId>
+			<childId>0234</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>ACOHEFOLDER</parentId>
+			<childId>9000</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>ACOHEFOLDER</parentId>
+			<childId>LPDFUND</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>ACOHEFOLDER</parentId>
+			<childId>ALLDESK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>ACOHEFOLDER</parentId>
+			<childId>MODELS</childId>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Folder" name="Load">
+			<folderTypeCode>SYSTEM FOLDER</folderTypeCode>
+			<folderId>JKURTFOLDER</folderId>
+			<name>Jeff Kurtz</name>
+			<description>Person Folder of Jeff Kurtz</description>
+			<homePageURL>C:\Program Files\Mark Three Software\Quasar\Web Pages\Welcome.htm</homePageURL>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Login" name="Update">
+			<loginId>JKURT</loginId>
+			<folderId>JKURTFOLDER</folderId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>JKURTFOLDER</parentId>
+			<childId>LPDFUND</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>JKURTFOLDER</parentId>
+			<childId>0234</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>JKURTFOLDER</parentId>
+			<childId>BONDDESK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>JKURTFOLDER</parentId>
+			<childId>EQUIDESK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>JKURTFOLDER</parentId>
+			<childId>MODELS</childId>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Folder" name="Load">
+			<folderTypeCode>SYSTEM FOLDER</folderTypeCode>
+			<folderId>CHILLFOLDER</folderId>
+			<name>Carol Hill</name>
+			<description>Person Folder of Carol Hill</description>
+			<homePageURL>C:\Program Files\Mark Three Software\Quasar\Web Pages\Welcome.htm</homePageURL>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Login" name="Update">
+			<loginId>CHILL</loginId>
+			<folderId>CHILLFOLDER</folderId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CHILLFOLDER</parentId>
+			<childId>ALLDESK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CHILLFOLDER</parentId>
+			<childId>LPDFUND</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CHILLFOLDER</parentId>
+			<childId>MODELS</childId>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Folder" name="Load">
+			<folderTypeCode>SYSTEM FOLDER</folderTypeCode>
+			<folderId>FCAMBFOLDER</folderId>
+			<name>Fred Cambell</name>
+			<description>Person Folder of Fred Cambell</description>
+			<homePageURL>C:\Program Files\Mark Three Software\Quasar\Web Pages\Welcome.htm</homePageURL>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>FCAMBFOLDER</parentId>
+			<childId>FCAMBTRADER</childId>
+		</method>
+	</transaction>
+</batch>

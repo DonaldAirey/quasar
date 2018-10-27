@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<batch name="Staged Orders">
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>AMD</securityId>
+		<settlementId>USD</settlementId>
+		<orderedQuantity>4500</orderedQuantity>
+		<orderTypeCode>BUY</orderTypeCode>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>10:00 AM</startTime>
+		<stopTime>3:30 PM</stopTime>
+		<maximumVolatility>0.05</maximumVolatility>
+		<minimumQuantity>500000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>TONY DE SILVA BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>CSCO</securityId>
+		<settlementId>USD</settlementId>
+		<orderedQuantity>21000</orderedQuantity>
+		<orderTypeCode>BUY</orderTypeCode>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>GTC</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>9:30 AM</startTime>
+		<stopTime>4:00 PM</stopTime>
+		<minimumQuantity>250000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>TONY DE SILVA BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>KO</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>SELL</orderTypeCode>
+		<orderedQuantity>5000</orderedQuantity>
+		<priceTypeCode>LMT</priceTypeCode>
+		<specifiedLimit>20.5</specifiedLimit>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<holdFlag>True</holdFlag>
+		<blotterId>TONY DE SILVA BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>LMT</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>BUY</orderTypeCode>
+		<orderedQuantity>4300</orderedQuantity>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>10:00 AM</startTime>
+		<stopTime>3:30 PM</stopTime>
+		<maximumVolatility>0.024</maximumVolatility>
+		<minimumQuantity>1000000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>TONY DE SILVA BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>AMD</securityId>
+		<settlementId>USD</settlementId>
+		<orderedQuantity>1400</orderedQuantity>
+		<orderTypeCode>BUY</orderTypeCode>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<holdFlag>True</holdFlag>
+		<blotterId>TONY DE SILVA BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>MOT</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>BUY</orderTypeCode>
+		<orderedQuantity>7300</orderedQuantity>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>GTC</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>9:30 AM</startTime>
+		<stopTime>4:00 PM</stopTime>
+		<maximumVolatility>0.023</maximumVolatility>
+		<minimumQuantity>100000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>SUSAN CHUNG BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>ORCL</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>BUY COVER</orderTypeCode>
+		<orderedQuantity>32800</orderedQuantity>
+		<priceTypeCode>STP</priceTypeCode>
+		<stopLimit>20.5</stopLimit>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>9:45 AM</startTime>
+		<stopTime>3:00 PM</stopTime>
+		<maximumVolatility>0.10</maximumVolatility>
+		<minimumQuantity>200000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>SUSAN CHUNG BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>R</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>SELL</orderTypeCode>
+		<orderedQuantity>13000</orderedQuantity>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>OPG</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<stopTime>3:30 PM</stopTime>
+		<minimumQuantity>500000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>SUSAN CHUNG BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>SEBL</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>BUY</orderTypeCode>
+		<orderedQuantity>5000</orderedQuantity>
+		<priceTypeCode>STPLMT</priceTypeCode>
+		<specifiedLimit>20.5</specifiedLimit>
+		<stopLimit>18.5</stopLimit>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>11:00 AM</startTime>
+		<stopTime>3:00 PM</stopTime>
+		<maximumVolatility>0.033</maximumVolatility>
+		<holdFlag>True</holdFlag>
+		<blotterId>SUSAN CHUNG BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>S</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>BUY</orderTypeCode>
+		<orderedQuantity>300</orderedQuantity>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>11:00 AM</startTime>
+		<stopTime>3:00 PM</stopTime>
+		<maximumVolatility>0.067</maximumVolatility>
+		<minimumQuantity>1500000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>SUSAN CHUNG BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>ORCL</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>BUY COVER</orderTypeCode>
+		<orderedQuantity>200</orderedQuantity>
+		<priceTypeCode>STP</priceTypeCode>
+		<stopLimit>19.0</stopLimit>
+		<timeInForceCode>GTC</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>10:00 AM</startTime>
+		<stopTime>3:30 PM</stopTime>
+		<minimumQuantity>500000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>SUSAN CHUNG BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>CSCO</securityId>
+		<settlementId>USD</settlementId>
+		<orderedQuantity>7000</orderedQuantity>
+		<orderTypeCode>BUY</orderTypeCode>
+		<priceTypeCode>LMT</priceTypeCode>
+		<specifiedLimit>23.42</specifiedLimit>
+		<timeInForceCode>GTC</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<minimumQuantity>20000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>TONY DE SILVA BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>F</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>SELL SHORT</orderTypeCode>
+		<orderedQuantity>6000</orderedQuantity>
+		<priceTypeCode>LMT</priceTypeCode>
+		<specifiedLimit>22.5</specifiedLimit>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>9:40 AM</startTime>
+		<minimumQuantity>250000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>GILBERT HOROWITZ BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>GM</securityId>
+		<settlementId>USD</settlementId>
+		<orderTypeCode>SELL SHORT</orderTypeCode>
+		<orderedQuantity>21800</orderedQuantity>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<stopTime>3:45 PM</stopTime>
+		<minimumQuantity>5000000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>GILBERT HOROWITZ BLOTTER</blotterId>
+	</method>
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>		<securityId>HDI</securityId>
+		<settlementId>USD</settlementId>
+		<orderedQuantity>23000</orderedQuantity>
+		<orderTypeCode>SELL</orderTypeCode>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>GTC</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<startTime>10:00 AM</startTime>
+		<maximumVolatility>0.15</maximumVolatility>
+		<minimumQuantity>300000</minimumQuantity>
+		<holdFlag>True</holdFlag>
+		<blotterId>GILBERT HOROWITZ BLOTTER</blotterId>
+	</method>
+</batch>

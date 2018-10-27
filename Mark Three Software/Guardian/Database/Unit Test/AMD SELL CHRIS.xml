@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<batch name="Staged Orders">
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<blotterId>CHRIS HENDERSON BLOTTER</blotterId>
+		<configurationId>US TICKER</configurationId>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<isAgencyMatch>true</isAgencyMatch>
+		<isHedgeMatch>false</isHedgeMatch>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<isPrincipalMatch>true</isPrincipalMatch>
+		<isHeld>True</isHeld>
+		<isSubmitted>True</isSubmitted>
+		<maximumVolatility>0.05</maximumVolatility>
+		<newsFreeTime>30</newsFreeTime>
+		<orderedQuantity>300000</orderedQuantity>
+		<orderTypeCode>SELL</orderTypeCode>
+		<priceTypeCode>MKT</priceTypeCode>
+		<securityId>AMD</securityId>
+		<settlementId>USD</settlementId>
+		<startTime>9:30 AM</startTime>
+		<stopTime>6:00 PM</stopTime>
+		<timeInForceCode>DAY</timeInForceCode>
+	</method>
+</batch>

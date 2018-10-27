@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Issuer">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AD</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AD</countryId>
+		<name>Government of Andorra</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AE</countryId>
+		<name>Government of United Arab Emirates</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AF</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AF</countryId>
+		<name>Government of Afghanistan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AG</countryId>
+		<name>Government of Antigua and Barbuda</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AI</countryId>
+		<name>Government of Anguilla</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AL</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AL</countryId>
+		<name>Government of Albania</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AM</countryId>
+		<name>Government of Armenia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AN</countryId>
+		<name>Government of Netherlands Antilles</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AO</countryId>
+		<name>Government of Angola</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AQ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AQ</countryId>
+		<name>Government of Antarctica</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AR</countryId>
+		<name>Government of Argentina</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AS</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AS</countryId>
+		<name>Government of American Samoa</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AT</countryId>
+		<name>Government of Austria</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AU</countryId>
+		<name>Government of Australia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AW</countryId>
+		<name>Government of Aruba</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV AZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>AZ</countryId>
+		<name>Government of Azerbaijan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BA</countryId>
+		<name>Government of Bosnia and Herzegovina</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BB</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BB</countryId>
+		<name>Government of Barbados</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BD</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BD</countryId>
+		<name>Government of Bangladesh</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BE</countryId>
+		<name>Government of Belgium</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BF</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BF</countryId>
+		<name>Government of Burkina Faso</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BG</countryId>
+		<name>Government of Bulgaria</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BH</countryId>
+		<name>Government of Bahrain</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BI</countryId>
+		<name>Government of Burundi</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BJ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BJ</countryId>
+		<name>Government of Benin</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BM</countryId>
+		<name>Government of Bermuda</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BN</countryId>
+		<name>Government of Brunei Darussalam</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BO</countryId>
+		<name>Government of Bolivia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BR</countryId>
+		<name>Government of Brazil</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BS</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BS</countryId>
+		<name>Government of Bahamas</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BT</countryId>
+		<name>Government of Bhutan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BV</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BV</countryId>
+		<name>Government of Bouvet Island</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BW</countryId>
+		<name>Government of Botswana</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BY</countryId>
+		<name>Government of Belarus</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV BZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>BZ</countryId>
+		<name>Government of Belize</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CA</countryId>
+		<name>Government of Canada</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CC</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CC</countryId>
+		<name>Government of Cocos (Keeling) Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CF</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CF</countryId>
+		<name>Government of Central African Republic</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CG</countryId>
+		<name>Government of Congo</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CH</countryId>
+		<name>Government of Switzerland</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CI</countryId>
+		<name>Government of Cote D'Ivoire (Ivory Coast)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CK</countryId>
+		<name>Government of Cook Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CL</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CL</countryId>
+		<name>Government of Chile</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CM</countryId>
+		<name>Government of Cameroon</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CN</countryId>
+		<name>Government of China</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CO</countryId>
+		<name>Government of Colombia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CR</countryId>
+		<name>Government of Costa Rica</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CS</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CS</countryId>
+		<name>Government of Czechoslovakia (former)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CU</countryId>
+		<name>Government of Cuba</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CV</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CV</countryId>
+		<name>Government of Cape Verde</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CX</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CX</countryId>
+		<name>Government of Christmas Island</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CY</countryId>
+		<name>Government of Cyprus</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV CZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>CZ</countryId>
+		<name>Government of Czech Republic</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV DE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>DE</countryId>
+		<name>Government of Germany</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV DJ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>DJ</countryId>
+		<name>Government of Djibouti</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV DK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>DK</countryId>
+		<name>Government of Denmark</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV DM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>DM</countryId>
+		<name>Government of Dominica</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV DO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>DO</countryId>
+		<name>Government of Dominican Republic</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV DZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>DZ</countryId>
+		<name>Government of Algeria</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV EC</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>EC</countryId>
+		<name>Government of Ecuador</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV EE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>EE</countryId>
+		<name>Government of Estonia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV EU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>EU</countryId>
+		<name>Government of Europe</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV EG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>EG</countryId>
+		<name>Government of Egypt</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV EH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>EH</countryId>
+		<name>Government of Western Sahara</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ER</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ER</countryId>
+		<name>Government of Eritrea</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ES</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ES</countryId>
+		<name>Government of Spain</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ET</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ET</countryId>
+		<name>Government of Ethiopia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV FI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>FI</countryId>
+		<name>Government of Finland</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV FJ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>FJ</countryId>
+		<name>Government of Fiji</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV FK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>FK</countryId>
+		<name>Government of Falkland Islands (Malvinas)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV FM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>FM</countryId>
+		<name>Government of Micronesia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV FO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>FO</countryId>
+		<name>Government of Faroe Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV FR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>FR</countryId>
+		<name>Government of France</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV FX</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>FX</countryId>
+		<name>Government of France, Metropolitan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GA</countryId>
+		<name>Government of Gabon</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GB</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GB</countryId>
+		<name>Government of Great Britain (UK)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GD</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GD</countryId>
+		<name>Government of Grenada</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GE</countryId>
+		<name>Government of Georgia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GF</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GF</countryId>
+		<name>Government of French Guiana</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GH</countryId>
+		<name>Government of Ghana</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GI</countryId>
+		<name>Government of Gibraltar</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GL</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GL</countryId>
+		<name>Government of Greenland</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GM</countryId>
+		<name>Government of Gambia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GN</countryId>
+		<name>Government of Guinea</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GP</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GP</countryId>
+		<name>Government of Guadeloupe</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GQ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GQ</countryId>
+		<name>Government of Equatorial Guinea</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GR</countryId>
+		<name>Government of Greece</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GS</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GS</countryId>
+		<name>Government of S. Georgia and S. Sandwich Isls.</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GT</countryId>
+		<name>Government of Guatemala</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GU</countryId>
+		<name>Government of Guam</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GW</countryId>
+		<name>Government of Guinea-Bissau</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV GY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>GY</countryId>
+		<name>Government of Guyana</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV HK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>HK</countryId>
+		<name>Government of Hong Kong</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV HM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>HM</countryId>
+		<name>Government of Heard and McDonald Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV HN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>HN</countryId>
+		<name>Government of Honduras</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV HR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>HR</countryId>
+		<name>Government of Croatia (Hrvatska)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV HT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>HT</countryId>
+		<name>Government of Haiti</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV HU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>HU</countryId>
+		<name>Government of Hungary</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ID</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ID</countryId>
+		<name>Government of Indonesia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV IE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>IE</countryId>
+		<name>Government of Ireland</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV IL</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>IL</countryId>
+		<name>Government of Israel</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV IN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>IN</countryId>
+		<name>Government of India</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV IO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>IO</countryId>
+		<name>Government of British Indian Ocean Territory</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV IQ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>IQ</countryId>
+		<name>Government of Iraq</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV IR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>IR</countryId>
+		<name>Government of Iran</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV IS</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>IS</countryId>
+		<name>Government of Iceland</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV IT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>IT</countryId>
+		<name>Government of Italy</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV JM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>JM</countryId>
+		<name>Government of Jamaica</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV JO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>JO</countryId>
+		<name>Government of Jordan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV JP</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>JP</countryId>
+		<name>Government of Japan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KE</countryId>
+		<name>Government of Kenya</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KG</countryId>
+		<name>Government of Kyrgyzstan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KH</countryId>
+		<name>Government of Cambodia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KI</countryId>
+		<name>Government of Kiribati</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KM</countryId>
+		<name>Government of Comoros</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KN</countryId>
+		<name>Government of Saint Kitts and Nevis</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KP</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KP</countryId>
+		<name>Government of Korea (North)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KR</countryId>
+		<name>Government of Korea (South)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KW</countryId>
+		<name>Government of Kuwait</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KY</countryId>
+		<name>Government of Cayman Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV KZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>KZ</countryId>
+		<name>Government of Kazakhstan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LA</countryId>
+		<name>Government of Laos</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LB</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LB</countryId>
+		<name>Government of Lebanon</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LC</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LC</countryId>
+		<name>Government of Saint Lucia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LI</countryId>
+		<name>Government of Liechtenstein</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LK</countryId>
+		<name>Government of Sri Lanka</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LR</countryId>
+		<name>Government of Liberia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LS</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LS</countryId>
+		<name>Government of Lesotho</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LT</countryId>
+		<name>Government of Lithuania</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LU</countryId>
+		<name>Government of Luxembourg</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LV</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LV</countryId>
+		<name>Government of Latvia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV LY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>LY</countryId>
+		<name>Government of Libya</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MA</countryId>
+		<name>Government of Morocco</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MC</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MC</countryId>
+		<name>Government of Monaco</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MD</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MD</countryId>
+		<name>Government of Moldova</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MG</countryId>
+		<name>Government of Madagascar</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MH</countryId>
+		<name>Government of Marshall Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MK</countryId>
+		<name>Government of Macedonia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ML</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ML</countryId>
+		<name>Government of Mali</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MM</countryId>
+		<name>Government of Myanmar</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MN</countryId>
+		<name>Government of Mongolia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MO</countryId>
+		<name>Government of Macau</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MP</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MP</countryId>
+		<name>Government of Northern Mariana Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MQ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MQ</countryId>
+		<name>Government of Martinique</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MR</countryId>
+		<name>Government of Mauritania</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MS</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MS</countryId>
+		<name>Government of Montserrat</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MT</countryId>
+		<name>Government of Malta</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MU</countryId>
+		<name>Government of Mauritius</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MV</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MV</countryId>
+		<name>Government of Maldives</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MW</countryId>
+		<name>Government of Malawi</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MX</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MX</countryId>
+		<name>Government of Mexico</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MY</countryId>
+		<name>Government of Malaysia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV MZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>MZ</countryId>
+		<name>Government of Mozambique</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NA</countryId>
+		<name>Government of Namibia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NC</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NC</countryId>
+		<name>Government of New Caledonia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NE</countryId>
+		<name>Government of Niger</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NF</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NF</countryId>
+		<name>Government of Norfolk Island</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NG</countryId>
+		<name>Government of Nigeria</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NI</countryId>
+		<name>Government of Nicaragua</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NL</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NL</countryId>
+		<name>Government of Netherlands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NO</countryId>
+		<name>Government of Norway</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NP</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NP</countryId>
+		<name>Government of Nepal</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NR</countryId>
+		<name>Government of Nauru</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NT</countryId>
+		<name>Government of Neutral Zone</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NU</countryId>
+		<name>Government of Niue</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV NZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>NZ</countryId>
+		<name>Government of New Zealand (Aotearoa)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV OM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>OM</countryId>
+		<name>Government of Oman</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PA</countryId>
+		<name>Government of Panama</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PE</countryId>
+		<name>Government of Peru</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PF</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PF</countryId>
+		<name>Government of French Polynesia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PG</countryId>
+		<name>Government of Papua New Guinea</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PH</countryId>
+		<name>Government of Philippines</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PK</countryId>
+		<name>Government of Pakistan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PL</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PL</countryId>
+		<name>Government of Poland</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PM</countryId>
+		<name>Government of St. Pierre and Miquelon</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PN</countryId>
+		<name>Government of Pitcairn</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PR</countryId>
+		<name>Government of Puerto Rico</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PT</countryId>
+		<name>Government of Portugal</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PW</countryId>
+		<name>Government of Palau</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV PY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>PY</countryId>
+		<name>Government of Paraguay</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV QA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>QA</countryId>
+		<name>Government of Qatar</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV RE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>RE</countryId>
+		<name>Government of Reunion</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV RO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>RO</countryId>
+		<name>Government of Romania</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV RU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>RU</countryId>
+		<name>Government of Russian Federation</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV RW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>RW</countryId>
+		<name>Government of Rwanda</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SA</countryId>
+		<name>Government of Saudi Arabia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV Sb</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>Sb</countryId>
+		<name>Government of Solomon Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SC</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SC</countryId>
+		<name>Government of Seychelles</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SD</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SD</countryId>
+		<name>Government of Sudan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SE</countryId>
+		<name>Government of Sweden</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SG</countryId>
+		<name>Government of Singapore</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SH</countryId>
+		<name>Government of St. Helena</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SI</countryId>
+		<name>Government of Slovenia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SJ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SJ</countryId>
+		<name>Government of Svalbard and Jan Mayen Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SK</countryId>
+		<name>Government of Slovak Republic</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SL</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SL</countryId>
+		<name>Government of Sierra Leone</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SM</countryId>
+		<name>Government of San Marino</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SN</countryId>
+		<name>Government of Senegal</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SO</countryId>
+		<name>Government of Somalia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SR</countryId>
+		<name>Government of SuriName</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ST</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ST</countryId>
+		<name>Government of Sao Tome and Principe</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SU</countryId>
+		<name>Government of USSR (former)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SV</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SV</countryId>
+		<name>Government of El Salvador</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SY</countryId>
+		<name>Government of Syria</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV SZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>SZ</countryId>
+		<name>Government of Swaziland</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TC</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TC</countryId>
+		<name>Government of Turks and Caicos Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TD</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TD</countryId>
+		<name>Government of Chad</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TF</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TF</countryId>
+		<name>Government of French Southern Territories</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TG</countryId>
+		<name>Government of Togo</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TH</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TH</countryId>
+		<name>Government of Thailand</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TJ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TJ</countryId>
+		<name>Government of Tajikistan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TK</countryId>
+		<name>Government of Tokelau</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TM</countryId>
+		<name>Government of Turkmenistan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TN</countryId>
+		<name>Government of Tunisia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TO</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TO</countryId>
+		<name>Government of Tonga</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TP</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TP</countryId>
+		<name>Government of East Timor</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TR</countryId>
+		<name>Government of Turkey</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TT</countryId>
+		<name>Government of Trinidad and Tobago</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TV</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TV</countryId>
+		<name>Government of Tuvalu</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TW</countryId>
+		<name>Government of Taiwan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV TZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>TZ</countryId>
+		<name>Government of Tanzania</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV UA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>UA</countryId>
+		<name>Government of Ukraine</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV UG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>UG</countryId>
+		<name>Government of Uganda</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV UK</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>UK</countryId>
+		<name>Government of United Kingdom</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV UM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>UM</countryId>
+		<name>Government of US Minor Outlying Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV US</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>US</countryId>
+		<name>Government of United States</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV UY</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>UY</countryId>
+		<name>Government of Uruguay</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV UZ</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>UZ</countryId>
+		<name>Government of Uzbekistan</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV VA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>VA</countryId>
+		<name>Government of Vatican City State (Holy See)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV VC</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>VC</countryId>
+		<name>Government of Saint Vincent and the Grenadines</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV VE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>VE</countryId>
+		<name>Government of Venezuela</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV VG</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>VG</countryId>
+		<name>Government of Virgin Islands (British)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV VI</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>VI</countryId>
+		<name>Government of Virgin Islands (U.S.)</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV VN</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>VN</countryId>
+		<name>Government of Viet Nam</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV VU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>VU</countryId>
+		<name>Government of Vanuatu</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV WF</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>WF</countryId>
+		<name>Government of Wallis and Futuna Islands</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV WS</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>WS</countryId>
+		<name>Government of Samoa</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV YE</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>YE</countryId>
+		<name>Government of Yemen</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV YT</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>YT</countryId>
+		<name>Government of Mayotte</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV YU</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>YU</countryId>
+		<name>Government of Yugoslavia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ZA</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ZA</countryId>
+		<name>Government of South Africa</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ZM</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ZM</countryId>
+		<name>Government of Zambia</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ZR</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ZR</countryId>
+		<name>Government of Zaire</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Issuer" name="Load">
+		<issuerId>NATGOV ZW</issuerId>
+		<issuerTypeCode>NATIONAL GOVERNMENT</issuerTypeCode>
+		<countryId>ZW</countryId>
+		<name>Government of Zimbabwe</name>
+	</method>
+</batch>

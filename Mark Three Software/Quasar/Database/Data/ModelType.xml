@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="ModelType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.ModelType" name="Load">
+		<modelTypeCode>0</modelTypeCode>
+		<description>Sector Model</description>
+		<externalId0>SECTOR MODEL</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ModelType" name="Load">
+		<modelTypeCode>1</modelTypeCode>
+		<description>Security Model</description>
+		<externalId0>SECURITY MODEL</externalId0>
+	</method>
+</batch>

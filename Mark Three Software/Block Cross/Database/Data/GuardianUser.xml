@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="User">
+  <method assembly="External Service" type="Arrowhead.Maslow.External.User" name="Load">
+    <userId>MASLOW OPERATOR</userId>
+    <userName>Maslow Operator</userName>
+    <name>Maslow Operator</name>
+    <omsInterfaceFlag>true</omsInterfaceFlag>
+    <allowCommissionChange>true</allowCommissionChange>
+    <allowEditExecutionsFlag>true</allowEditExecutionsFlag>
+    <enableFixReroutingFlag>false</enableFixReroutingFlag>
+    <level1PricingFlag>false</level1PricingFlag>
+    <level2PricingFlag>false</level2PricingFlag>
+    <webOnlyFlag>false</webOnlyFlag>
+    <viewSiblingsFlag>true</viewSiblingsFlag>
+    <lockedOut>false</lockedOut>
+    <defaultLotSize>100</defaultLotSize>
+    <lastFilledStagedOrder>Mar 11 2002  4:20PM</lastFilledStagedOrder>
+    <externalId0>OMS Interface</externalId0>
+  </method>
+</batch>

@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="US Fixed Income Price">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912795KS9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>99.604630</closePrice>
+      <lastPrice>99.604630</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912795LD1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>99.202962</closePrice>
+      <lastPrice>99.202962</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912795LF6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>99.109412</closePrice>
+      <lastPrice>99.109412</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912827G55</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>101.437500</closePrice>
+      <lastPrice>101.437500</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128276F4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.855469</closePrice>
+      <lastPrice>100.855469</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912827J78</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>103.237813</closePrice>
+      <lastPrice>103.237813</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912827R87</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>110.612781</closePrice>
+      <lastPrice>110.612781</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912827Y55</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>110.769031</closePrice>
+      <lastPrice>110.769031</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128276W7</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.050570</closePrice>
+      <lastPrice>100.050570</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AP5</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.227</closePrice>
+      <lastPrice>100.227</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128276Z0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.513506</closePrice>
+      <lastPrice>100.513506</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277A4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.735160</closePrice>
+      <lastPrice>100.735160</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AU4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>99.085</closePrice>
+      <lastPrice>99.085</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AA8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>102.204354</closePrice>
+      <lastPrice>102.204354</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277F3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>103.507</closePrice>
+      <lastPrice>103.507</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AB6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>102.118</closePrice>
+      <lastPrice>102.118</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277H9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>101.390655</closePrice>
+      <lastPrice>101.390655</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AD2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>102.113</closePrice>
+      <lastPrice>102.113</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AH3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>101.970</closePrice>
+      <lastPrice>101.970</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277G1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>101.063622</closePrice>
+      <lastPrice>101.063622</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277K2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>101.351061</closePrice>
+      <lastPrice>101.351061</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277M8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>101.471138</closePrice>
+      <lastPrice>101.471138</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AN0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.598</closePrice>
+      <lastPrice>100.598</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AT7</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.229</closePrice>
+      <lastPrice>100.229</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AE0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>101.791</closePrice>
+      <lastPrice>101.791</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277D8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.682807</closePrice>
+      <lastPrice>100.682807</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277E6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.795243</closePrice>
+      <lastPrice>100.795243</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AG5</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>101.083</closePrice>
+      <lastPrice>101.083</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AK6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.950</closePrice>
+      <lastPrice>100.950</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AM2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.979</closePrice>
+      <lastPrice>100.979</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AQ3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.761</closePrice>
+      <lastPrice>100.761</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AL4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.620</closePrice>
+      <lastPrice>100.620</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AR1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.326</closePrice>
+      <lastPrice>100.326</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AS9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.051</closePrice>
+      <lastPrice>100.051</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AW0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>99.916</closePrice>
+      <lastPrice>99.916</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912828AV2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>99.758</closePrice>
+      <lastPrice>99.758</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DQ8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>120.783</closePrice>
+      <lastPrice>120.783</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DG0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>105.892227</closePrice>
+      <lastPrice>105.892227</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DP0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>164.672</closePrice>
+      <lastPrice>164.672</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DS4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>159.895</closePrice>
+      <lastPrice>159.895</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DT2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>152.966</closePrice>
+      <lastPrice>152.966</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DV7</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>147.073</closePrice>
+      <lastPrice>147.073</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EA2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>148.634</closePrice>
+      <lastPrice>148.634</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EB0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>147.722</closePrice>
+      <lastPrice>147.722</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DZ8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>144.976</closePrice>
+      <lastPrice>144.976</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EC8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>146.440</closePrice>
+      <lastPrice>146.440</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810CE6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>103.982017</closePrice>
+      <lastPrice>103.982017</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DY1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>143.464</closePrice>
+      <lastPrice>143.464</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EF1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>146.175</closePrice>
+      <lastPrice>146.175</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EG9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>146.326</closePrice>
+      <lastPrice>146.326</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EE4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>142.951</closePrice>
+      <lastPrice>142.951</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810CC0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>102.211333</closePrice>
+      <lastPrice>102.211333</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EJ3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>138.134</closePrice>
+      <lastPrice>138.134</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810ED6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>139.238</closePrice>
+      <lastPrice>139.238</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EK0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>139.365</closePrice>
+      <lastPrice>139.365</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EL8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>137.984</closePrice>
+      <lastPrice>137.984</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EH7</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>136.020</closePrice>
+      <lastPrice>136.020</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EN4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>133.865</closePrice>
+      <lastPrice>133.865</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810ET1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>135.267</closePrice>
+      <lastPrice>135.267</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DX3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>129.963</closePrice>
+      <lastPrice>129.963</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810ES3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>133.463</closePrice>
+      <lastPrice>133.463</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810DW5</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>127.230</closePrice>
+      <lastPrice>127.230</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EM6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>128.944</closePrice>
+      <lastPrice>128.944</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EP9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>127.551</closePrice>
+      <lastPrice>127.551</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EV6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>125.174</closePrice>
+      <lastPrice>125.174</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EX2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>123.701</closePrice>
+      <lastPrice>123.701</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EZ7</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>122.193</closePrice>
+      <lastPrice>122.193</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EY0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>120.326</closePrice>
+      <lastPrice>120.326</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810FA1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>118.772</closePrice>
+      <lastPrice>118.772</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EQ7</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>116.358</closePrice>
+      <lastPrice>116.358</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810FM5</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>118.226</closePrice>
+      <lastPrice>118.226</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810FB9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>115.417</closePrice>
+      <lastPrice>115.417</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810FJ2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>115.935</closePrice>
+      <lastPrice>115.935</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810EW4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>113.347</closePrice>
+      <lastPrice>113.347</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810FE3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>106.620</closePrice>
+      <lastPrice>106.620</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810FP8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>107.069</closePrice>
+      <lastPrice>107.069</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810FF0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>103.127</closePrice>
+      <lastPrice>103.127</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>912810FG8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>103.227</closePrice>
+      <lastPrice>103.227</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9128277C0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>100.839741</closePrice>
+      <lastPrice>100.839741</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>575765UU4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>108.109000</closePrice>
+      <lastPrice>108.109000</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>5758234N6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>104.050000</closePrice>
+      <lastPrice>104.050000</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>64970KQA8</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>106.382000</closePrice>
+      <lastPrice>106.382000</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>650034MZ1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>105.509000</closePrice>
+      <lastPrice>105.509000</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>9860813R6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>107.072000</closePrice>
+      <lastPrice>107.072000</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>1307746M9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>109.008000</closePrice>
+      <lastPrice>109.008000</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>130174KK0</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>104.463000</closePrice>
+      <lastPrice>104.463000</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>797391HN2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>103.902000</closePrice>
+      <lastPrice>103.902000</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>674599BF1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>121.942566</closePrice>
+      <lastPrice>121.942566</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>149123AZ4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>125.969033</closePrice>
+      <lastPrice>125.969033</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>00209AAF3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>104.310836</closePrice>
+      <lastPrice>104.310836</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>539830AK5</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>120.601760</closePrice>
+      <lastPrice>120.601760</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>459200AG6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>117.975573</closePrice>
+      <lastPrice>117.975573</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>742718AU3</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>117.263345</closePrice>
+      <lastPrice>117.263345</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>060505AE4</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>109.918882</closePrice>
+      <lastPrice>109.918882</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>887315AV1</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>105.686313</closePrice>
+      <lastPrice>105.686313</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>718154CF2</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>108.583345</closePrice>
+      <lastPrice>108.583345</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>370425RP7</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>111.327556</closePrice>
+      <lastPrice>111.327556</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>617446DW6</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>109.192911</closePrice>
+      <lastPrice>109.192911</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>925524AJ9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>109.131869</closePrice>
+      <lastPrice>109.131869</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>00184AAC9</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>99.118737</closePrice>
+      <lastPrice>99.118737</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>0000000001</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>110.3</closePrice>
+      <lastPrice>110.3</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>0000000002</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>95.5</closePrice>
+      <lastPrice>95.5</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>0000000003</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>115.4</closePrice>
+      <lastPrice>115.4</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>0000000004</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>102.1</closePrice>
+      <lastPrice>102.1</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <securityId>0000000005</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>99.20</closePrice>
+      <lastPrice>99.20</lastPrice>
+    </method>
+  </transaction>
+</batch>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="AlgorithmType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.AlgorithmType" name="Load">
+		<algorithmTypeCode>0</algorithmTypeCode>
+		<name>Rebalancer</name>
+		<description>Algorithm used to rebalance account or account groups.</description>
+		<externalId0>REBALANCER</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.AlgorithmType" name="Load">
+		<algorithmTypeCode>1</algorithmTypeCode>
+		<name>Blocker</name>
+		<description>Algorithm used to BlockOrder together</description>
+		<externalId0>BLOCKER</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.AlgorithmType" name="Load">
+		<algorithmTypeCode>2</algorithmTypeCode>
+		<name>Allocator</name>
+		<description>Algorithm used to allocate trades back to the account.</description>
+		<externalId0>ALLOCATOR</externalId0>
+	</method>
+</batch>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Account">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>0240</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Gemini Fund</name>
+		<description>This is an example of a large, diversified equity fund.  It demonstrates 4 level classification scheme.</description>
+		<currencyId>USD</currencyId>
+		<lotHandlingCode>FIFO</lotHandlingCode>
+		<name>Gemini Diversified Equity Fund</name>
+		<address0>1 Financial Plaza</address0>
+		<address1>36th Floor</address1>
+		<city>Boston</city>
+		<provinceId>MA</provinceId>
+		<postalCode>02122</postalCode>
+		<countryId>US</countryId>
+		<schemeId>GICS</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+</batch>

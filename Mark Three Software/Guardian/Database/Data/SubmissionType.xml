@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="SubmissionType">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.SubmissionType" name="Load">
+      <submissionTypeCode>1</submissionTypeCode>
+      <mnemonic>ALWAYS MATCH</mnemonic>
+      <description>These orders are always in the matching box regardless of user preferences.</description>
+      <externalId0>ALWAYS MATCH</externalId0>
+    </method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.SubmissionType" name="Load">
+			<submissionTypeCode>2</submissionTypeCode>
+			<mnemonic>USE PREFERENCES</mnemonic>
+			<description>Defer to the user preferences for this order to decide when it is submitted to the matching box.</description>
+			<externalId0>USE PREFERENCES</externalId0>
+		</method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.SubmissionType" name="Load">
+      <submissionTypeCode>4</submissionTypeCode>
+      <mnemonic>NEVER MATCH</mnemonic>
+      <description>This order should never be placed in the matching box.</description>
+      <externalId0>NEVER MATCH</externalId0>
+    </method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.SubmissionType" name="Load">
+			<submissionTypeCode>8</submissionTypeCode>
+			<mnemonic>AWAY</mnemonic>
+			<description>Used to modify orders when the user is away from their desk.</description>
+			<externalId0>AWAY</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.SubmissionType" name="Load">
+			<submissionTypeCode>9</submissionTypeCode>
+			<mnemonic>AWAY ALWAYS</mnemonic>
+			<description>These orders are always in the matching box regardless of user preferences.</description>
+			<externalId0>AWAY ALWAYS MATCH</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.SubmissionType" name="Load">
+			<submissionTypeCode>10</submissionTypeCode>
+			<mnemonic>AWAY USE</mnemonic>
+			<description>Defer to the user preferences for this order to decide when it is submitted to the matching box.</description>
+			<externalId0>AWAY USE PREFERENCES</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.SubmissionType" name="Load">
+			<submissionTypeCode>12</submissionTypeCode>
+			<mnemonic>AWAY NEVER</mnemonic>
+			<description>This order should never be placed in the matching box.</description>
+			<externalId0>AWAY NEVER MATCH</externalId0>
+		</method>
+	</transaction>
+</batch>

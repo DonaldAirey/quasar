@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="StylesheetType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.StylesheetType" name="Load">
+		<stylesheetTypeCode>0</stylesheetTypeCode>
+		<name>Appraisal</name>
+		<description>Document used to view aggregate position grouped by account</description>
+		<externalId0>APPRAISAL</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.StylesheetType" name="Load">
+		<stylesheetTypeCode>1</stylesheetTypeCode>
+		<name>Block Order</name>
+		<description>Document used to view and maintain BlockOrder</description>
+		<externalId0>BLOCK ORDER</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.StylesheetType" name="Load">
+		<stylesheetTypeCode>2</stylesheetTypeCode>
+		<name>Placement</name>
+		<description>Document used to manage order Placement</description>
+		<externalId0>PLACEMENT</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.StylesheetType" name="Load">
+		<stylesheetTypeCode>3</stylesheetTypeCode>
+		<name>Execution</name>
+		<description>Document used to manage order Execution</description>
+		<externalId0>EXECUTION</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.StylesheetType" name="Load">
+		<stylesheetTypeCode>4</stylesheetTypeCode>
+		<name>Ticket</name>
+		<description>Document used to manage settlement of Tickets</description>
+		<externalId0>TICKET</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.StylesheetType" name="Load">
+		<stylesheetTypeCode>5</stylesheetTypeCode>
+		<name>Allocation</name>
+		<description>Allocation of Execution</description>
+		<externalId0>ALLOCATION</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.StylesheetType" name="Load">
+		<stylesheetTypeCode>6</stylesheetTypeCode>
+		<name>Order Entry Form</name>
+		<description>Form for entering Order</description>
+		<externalId0>ORDER</externalId0>
+	</method>
+</batch>

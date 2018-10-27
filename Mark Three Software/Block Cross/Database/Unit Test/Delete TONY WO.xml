@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<batch name="Staged Orders">
+	<method assembly="External Service" type="MarkThree.Guardian.External.WorkingOrder" name="Delete">
+		<configurationId>US TICKER</configurationId>
+		<workingOrderId>WORK001</workingOrderId>
+	</method>
+</batch>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Archive Securities">
+	<method assembly="Service.Trading" type="Shadows.WebService.Trading.WebOrder" name="Insert">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>NBR</securityId>
+		<settlementId>USD</settlementId>
+		<transactionTypeCode>BUY</transactionTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<orderTypeCode>MKT</orderTypeCode>
+		<quantity>43000</quantity>
+	</method>
+	<method assembly="Service.Trading" type="Shadows.WebService.Trading.WebOrder" name="Insert">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>HDI</securityId>
+		<settlementId>USD</settlementId>
+		<transactionTypeCode>BUY</transactionTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<orderTypeCode>MKT</orderTypeCode>
+		<quantity>65300</quantity>
+	</method>
+	<method assembly="Service.Trading" type="Shadows.WebService.Trading.WebOrder" name="Insert">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>GM</securityId>
+		<settlementId>USD</settlementId>
+		<transactionTypeCode>BUY</transactionTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<orderTypeCode>MKT</orderTypeCode>
+		<quantity>2200</quantity>
+	</method>
+	<method assembly="Service.Trading" type="Shadows.WebService.Trading.WebOrder" name="Insert">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>F</securityId>
+		<settlementId>USD</settlementId>
+		<transactionTypeCode>BUY</transactionTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<orderTypeCode>MKT</orderTypeCode>
+		<quantity>18200</quantity>
+	</method>
+	<method assembly="Service.Trading" type="Shadows.WebService.Trading.WebOrder" name="Insert">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>ORCL</securityId>
+		<settlementId>USD</settlementId>
+		<transactionTypeCode>SELL SHORT</transactionTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<orderTypeCode>MKT</orderTypeCode>
+		<quantity>8000</quantity>
+	</method>
+	<method assembly="Service.Trading" type="Shadows.WebService.Trading.WebOrder" name="Insert">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>SEBL</securityId>
+		<settlementId>USD</settlementId>
+		<transactionTypeCode>SELL SHORT</transactionTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<orderTypeCode>MKT</orderTypeCode>
+		<quantity>5500</quantity>
+	</method>
+</batch>

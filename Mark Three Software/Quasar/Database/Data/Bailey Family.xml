@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Bailey Family Accounts">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>0234</accountId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<name>Bailey Family</name>
+		<mnemonic>BAILFAM</mnemonic>
+		<description>This is the Bailey Family Trust.  This account demonstrates how several account can be managed as a single account.  Alternatively, the manager can drill down into individual account and manage them independantly of the group.</description>
+		<currencyId>USD</currencyId>
+		<blotterId>ALLDESK</blotterId>
+		<modelId>MEDIUM RISK</modelId>
+		<lotHandlingCode>FIFO</lotHandlingCode>
+		<address0>1 Financial Plaza</address0>
+		<address1>29th Floor</address1>
+		<city>Boston</city>
+		<provinceId>MA</provinceId>
+		<postalCode>02122</postalCode>
+		<countryId>US</countryId>
+		<schemeId>L1GICS</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<userData0>-2751710.825</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>0236</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Ed Bailey</name>
+		<mnemonic>BAILED</mnemonic>
+		<description>This is the example account for Edward Bailey.  Edward was the eldest son and ended up with the greatest portion of the estate.  His retirment horizon is 25 years away, so he's aggressively invested.'</description>
+		<currencyId>USD</currencyId>
+		<lotHandlingCode>FIFO</lotHandlingCode>
+		<modelId>HIGH RISK</modelId>
+		<address0>321 Birmingham Road.</address0>
+		<address1>Penthouse</address1>
+		<city>Atlanta</city>
+		<provinceId>GA</provinceId>
+		<postalCode>32102</postalCode>
+		<countryId>US</countryId>
+		<schemeId>L1GICS</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<userData0>-945888.0725</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>0237</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Carol Bailey</name>
+		<mnemonic>BAILCAR</mnemonic>
+		<description>This is the example account for Carol Hart.  Carol is part of the Bailey Family Trust.  Like her brother Edward, Carol has an aggressive portfolio.</description>
+		<currencyId>USD</currencyId>
+		<lotHandlingCode>LIFO</lotHandlingCode>
+		<modelId>SECURITY SELF</modelId>
+		<address0>38 Lombard Street</address0>
+		<city>London</city>
+		<postalCode>EC3V9BS</postalCode>
+		<countryId>UK</countryId>
+		<schemeId>L1GICS</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<userData0>-518772.5613</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>0239</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Craig Bailey</name>
+		<mnemonic>BAILCRAI</mnemonic>
+		<description>Craig is the poor cousin of Carol and Edward.  He has no interest in managing his own account.</description>
+		<currencyId>USD</currencyId>
+		<lotHandlingCode>LIFO</lotHandlingCode>
+		<modelId>SECTOR SELF</modelId>
+		<address0>2, rue Louis Bleriot</address0>
+		<city>Reuil-Malmaison</city>
+		<postalCode>BP 208 92502</postalCode>
+		<countryId>FR</countryId>
+		<schemeId>L1GICS</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<userData0>-273278.4031</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>0241</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Susan Bailey</name>
+		<mnemonic>BAILSUS</mnemonic>
+		<description>Susan is the mother of Ed, Craig and Carol.  Susan is still interested in quality growth stocks.</description>
+		<currencyId>USD</currencyId>
+		<lotHandlingCode>LIFO</lotHandlingCode>
+		<address0>650 Madison Ave.</address0>
+		<city>New York</city>
+		<postalCode>11523</postalCode>
+		<countryId>US</countryId>
+		<schemeId>L1GICS</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<userData0>-1089594.737</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>0234</parentId>
+		<childId>0236</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>0234</parentId>
+		<childId>0237</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>0234</parentId>
+		<childId>0239</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>0234</parentId>
+		<childId>0241</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>0234</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-505</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>0234</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-1851.3906</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>AL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-12415.62816</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-18244.54114</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-289624.9053</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>CIEN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-93955.6233</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-536797.3406</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-436388.5266</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-5090.4282</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-551904.5376</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>HAL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-216736.2381</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>HDI</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-314611.0543</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-58706.15713</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-171543.9656</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-261870.5638</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-562705.7955</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>ORCL</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-327314.0453</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>P</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-106247.3412</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-33560.52521</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-110851.4318</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-148851.7495</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-277609.7434</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-146953.1464</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-617007.2384</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0234</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-137184.599</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>83770</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>445347</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>78629</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>HAL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>12000</quantity>
+		<cost>40.34</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>20710</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>8300</quantity>
+		<cost>49.71</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>68794</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>23100</quantity>
+		<cost>28.20</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>66311</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>7800</quantity>
+		<cost>29.49</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>95350</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>32200</quantity>
+		<cost>28.89</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>6234</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>17500</quantity>
+		<cost>45.25</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>55553</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>HDI</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>22600</quantity>
+		<cost>37.41</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>83812</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>22100</quantity>
+		<cost>30.16</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>53700</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>9300</quantity>
+		<cost>47.35</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>47047</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>24600</quantity>
+		<cost>19.80</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>4808</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>21100</quantity>
+		<cost>28.61</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>74468</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>ORCL</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>11200</quantity>
+		<cost>32.48</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>87174</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1600</quantity>
+		<cost>59.37</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>61771</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>10000</quantity>
+		<cost>21.88</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>56480</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>7800</quantity>
+		<cost>46.90</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>10991</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2000</quantity>
+		<cost>25.17</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>10992</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>4600</quantity>
+		<cost>25.17</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<taxLotId>2500</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>AL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1600</quantity>
+		<cost>66.12</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<taxLotId>2502</taxLotId>
+		<accountId>0236</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>5000</quantity>
+		<cost>9.50</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>0236</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-449.80047</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>AL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-12415.62816</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-13031.8151</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-114914.0109</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-204554.7263</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-246191.6184</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-177542.82</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>HAL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-71255.7495</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>HDI</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-135175.0918</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-93777.36788</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-70591.19546</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-75696.24153</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-215187.6484</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>ORCL</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-80041.8626</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-79324.87778</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-22468.1886</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-87621.4614</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0236</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-68302.16663</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>22770</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>587713</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>22771</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>500000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>74362</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>14400</quantity>
+		<cost>53.14</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>33762</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>P</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>800</quantity>
+		<cost>59.33</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>46443</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>P</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>9800</quantity>
+		<cost>59.27</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>10263</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>P</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>900</quantity>
+		<cost>51.88</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>78915</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>9100</quantity>
+		<cost>27.51</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>7675</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1400</quantity>
+		<cost>25.79</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>70607</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>100</quantity>
+		<cost>22.38</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>75271</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2400</quantity>
+		<cost>23.51</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>27395</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>8000</quantity>
+		<cost>24.15</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>21205</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1800</quantity>
+		<cost>22.03</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>40264</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>12400</quantity>
+		<cost>53.47</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>36185</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>6300</quantity>
+		<cost>20.92</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>93704</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>6500</quantity>
+		<cost>18.51</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>8455</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1200</quantity>
+		<cost>17.99</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>70755</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1000</quantity>
+		<cost>19.61</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>11738</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>12900</quantity>
+		<cost>31.05</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>76459</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>CIEN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3900</quantity>
+		<cost>66.33</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>21838</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2300</quantity>
+		<cost>49.72</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>34699</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3300</quantity>
+		<cost>47.56</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>95345</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>500</quantity>
+		<cost>18.61</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>85832</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>3100</quantity>
+		<cost>19.20</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>44840</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>8800</quantity>
+		<cost>21.23</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>42094</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>3000</quantity>
+		<cost>19.25</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>33575</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1500</quantity>
+		<cost>33.69</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>41627</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>5000</quantity>
+		<cost>28.93</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>36302</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>ORCL</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>5200</quantity>
+		<cost>25.28</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>83469</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>ORCL</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>3100</quantity>
+		<cost>24.08</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>23262</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3100</quantity>
+		<cost>56.06</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>15931</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>6200</quantity>
+		<cost>20.80</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>96019</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>400</quantity>
+		<cost>48.49</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>64135</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>1500</quantity>
+		<cost>49.09</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>28209</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>1400</quantity>
+		<cost>53.56</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>16059</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>9500</quantity>
+		<cost>29.32</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>31980</taxLotId>
+		<accountId>0237</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>400</quantity>
+		<cost>25.95</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>0237</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-505</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>0237</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-593.59013</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-67076.5041</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>CIEN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-79658.02845</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-78137.36438</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-45813.8538</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-125801.7696</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-58706.15713</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-42506.5263</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-131328.419</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-66290.03388</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>ORCL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-59316.73746</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>P</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-65339.274</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-33560.52521</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-43532.11541</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-29774.283</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-25665.05655</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-77359.73625</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>80494</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>300000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>12983</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>9600</quantity>
+		<cost>61.49</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>6279</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>P</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>7200</quantity>
+		<cost>51.54</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>23716</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>12300</quantity>
+		<cost>29.22</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>75790</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>4400</quantity>
+		<cost>25.70</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>87816</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>4000</quantity>
+		<cost>22.29</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>49826</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3300</quantity>
+		<cost>64.45</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>30415</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1900</quantity>
+		<cost>17.39</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>76901</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>700</quantity>
+		<cost>17.89</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>72655</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>6100</quantity>
+		<cost>16.56</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>2072</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>800</quantity>
+		<cost>18.71</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>13228</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2100</quantity>
+		<cost>18.38</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>84147</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2900</quantity>
+		<cost>29.72</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>81219</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>CIEN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>700</quantity>
+		<cost>77.62</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>358</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>4400</quantity>
+		<cost>51.88</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>40265</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3100</quantity>
+		<cost>19.57</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>85230</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1400</quantity>
+		<cost>20.13</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>53176</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1000</quantity>
+		<cost>19.84</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>53377</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>400</quantity>
+		<cost>20.36</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>90746</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1000</quantity>
+		<cost>52.47</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>60544</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>6800</quantity>
+		<cost>25.86</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>3509</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>400</quantity>
+		<cost>25.01</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>41346</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>700</quantity>
+		<cost>27.31</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>2557</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>500</quantity>
+		<cost>51.16</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>87638</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>700</quantity>
+		<cost>48.08</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>5547</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>400</quantity>
+		<cost>16.61</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>62775</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1000</quantity>
+		<cost>19.24</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>46172</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>200</quantity>
+		<cost>17.47</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<taxLotId>2502</taxLotId>
+		<accountId>0239</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2000</quantity>
+		<cost>9.50</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>0239</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-303</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-5212.72604</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-15079.2141</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>CIEN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-14297.59485</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-53362.1025</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-5090.4282</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-31468.1016</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-33479.5032</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-22491.31994</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-33397.98495</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-87552.27936</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>P</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-40908.0672</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-12203.82735</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-14042.61788</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-34878.4458</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-6623.2404</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0239</accountId>
+		<securityId>WGO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-59824.8627</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>35723</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>500000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>51650</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>HAL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>24500</quantity>
+		<cost>38.16</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>14379</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>29400</quantity>
+		<cost>64.85</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>79007</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>4000</quantity>
+		<cost>26.51</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>44145</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>40200</quantity>
+		<cost>28.10</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>43072</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>31600</quantity>
+		<cost>24.38</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>39319</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>21200</quantity>
+		<cost>52.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>11176</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>HDI</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>30000</quantity>
+		<cost>32.38</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>7840</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>5100</quantity>
+		<cost>24.69</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>12988</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>12700</quantity>
+		<cost>27.58</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>57645</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>15200</quantity>
+		<cost>49.01</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>79722</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3600</quantity>
+		<cost>18.16</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>39417</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>6100</quantity>
+		<cost>21.18</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>15201</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1600</quantity>
+		<cost>18.43</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>41100</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3200</quantity>
+		<cost>18.18</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>10804</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>32900</quantity>
+		<cost>31.45</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>33107</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>ORCL</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>26300</quantity>
+		<cost>27.84</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>90269</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2200</quantity>
+		<cost>67.28</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>26328</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1800</quantity>
+		<cost>56.69</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>51758</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>900</quantity>
+		<cost>63.83</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>59125</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>8600</quantity>
+		<cost>15.72</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>99942</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2600</quantity>
+		<cost>19.86</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>11121</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1900</quantity>
+		<cost>48.66</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>55026</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>7400</quantity>
+		<cost>26.58</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>93371</taxLotId>
+		<accountId>0241</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>17000</quantity>
+		<cost>31.09</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>0241</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-505</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>ADSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-92555.1762</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-200743.1475</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-112914.9528</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>GM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-215080.4448</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>HAL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-145480.4886</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>HDI</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-179435.9625</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>MOT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-55275.27781</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>MSFT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-115374.8571</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>NBR</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-268128.8555</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-335529.5561</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>ORCL</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-187955.4452</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>SBC</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-19322.72664</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>SEBL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-68808.82759</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>SUN</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-125335.5532</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0241</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-46362.6828</userData0>
+	</method>
+</batch>

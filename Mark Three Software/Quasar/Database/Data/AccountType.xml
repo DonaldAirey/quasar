@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="AccountType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.AccountType" name="Load">
+		<accountTypeCode>0</accountTypeCode>
+		<description>Account Group</description>
+		<externalId0>ACCOUNT GROUP</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.AccountType" name="Load">
+		<accountTypeCode>1</accountTypeCode>
+		<description>Account</description>
+		<externalId0>ACCOUNT</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.AccountType" name="Load">
+		<accountTypeCode>2</accountTypeCode>
+		<description>Sub-Account</description>
+		<externalId0>SUB-ACCOUNT</externalId0>
+	</method>
+</batch>

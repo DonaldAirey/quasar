@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="US Equity Price">
+	<method assembly="Service.External" type="Shadows.WebService.External.Price" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<securityId>HAL</securityId>
+		<currencyId>USD</currencyId>
+		<closePrice>36.0625</closePrice>
+		<lastPrice>36.0625</lastPrice>
+	</method>
+</batch>

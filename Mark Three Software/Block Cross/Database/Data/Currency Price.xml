@@ -1,0 +1,605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="Price">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>10.5000000</lastPrice>
+      <closePrice>10.5000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>8.5903000</lastPrice>
+      <closePrice>8.5903000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>2.3593000</lastPrice>
+      <closePrice>2.3593000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>1.1555000</lastPrice>
+      <closePrice>1.1555000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>1.9259000</lastPrice>
+      <closePrice>1.9259000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>1.5921000</lastPrice>
+      <closePrice>1.5921000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>133.4600000</lastPrice>
+      <closePrice>133.4600000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>1.7078000</lastPrice>
+      <closePrice>1.7078000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.7054000</lastPrice>
+      <closePrice>0.7054000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>USD</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>14.8900000</lastPrice>
+      <closePrice>14.8900000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>12.1800000</lastPrice>
+      <closePrice>12.1800000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>3.3448000</lastPrice>
+      <closePrice>3.3448000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>1.6381000</lastPrice>
+      <closePrice>1.6381000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>2.7303000</lastPrice>
+      <closePrice>2.7303000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>2.2571000</lastPrice>
+      <closePrice>2.2571000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>189.2100000</lastPrice>
+      <closePrice>189.2100000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>2.4212000</lastPrice>
+      <closePrice>2.4212000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>GBP</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>1.4177000</lastPrice>
+      <closePrice>1.4177000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>6.1483000</lastPrice>
+      <closePrice>6.1483000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>5.0300000</lastPrice>
+      <closePrice>5.0300000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>1.3815000</lastPrice>
+      <closePrice>1.3815000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>0.6766000</lastPrice>
+      <closePrice>0.6766000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>1.1277000</lastPrice>
+      <closePrice>1.1277000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>0.9323000</lastPrice>
+      <closePrice>0.9323000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>78.1500000</lastPrice>
+      <closePrice>78.1500000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.4130000</lastPrice>
+      <closePrice>0.4130000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CHF</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>0.5856000</lastPrice>
+      <closePrice>0.5856000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>7.8675000</lastPrice>
+      <closePrice>7.8675000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>6.4366000</lastPrice>
+      <closePrice>6.4366000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>1.7678000</lastPrice>
+      <closePrice>1.7678000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>0.8658000</lastPrice>
+      <closePrice>0.8658000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>1.4430000</lastPrice>
+      <closePrice>1.4430000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>1.1929000</lastPrice>
+      <closePrice>1.1929000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>1.2796000</lastPrice>
+      <closePrice>1.2796000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.5285000</lastPrice>
+      <closePrice>0.5285000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>JPY</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>0.7493000</lastPrice>
+      <closePrice>0.7493000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>6.5951000</lastPrice>
+      <closePrice>6.5951000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>5.3956000</lastPrice>
+      <closePrice>5.3956000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>1.4819000</lastPrice>
+      <closePrice>1.4819000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>0.7258000</lastPrice>
+      <closePrice>0.7258000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>1.2096000</lastPrice>
+      <closePrice>1.2096000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>83.8300000</lastPrice>
+      <closePrice>83.8300000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>1.0727000</lastPrice>
+      <closePrice>1.0727000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.4430000</lastPrice>
+      <closePrice>0.4430000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>CAD</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>0.6281000</lastPrice>
+      <closePrice>0.6281000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>5.4521000</lastPrice>
+      <closePrice>5.4521000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>4.4605000</lastPrice>
+      <closePrice>4.4605000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>1.2251000</lastPrice>
+      <closePrice>1.2251000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>0.6000000</lastPrice>
+      <closePrice>0.6000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>0.8267000</lastPrice>
+      <closePrice>0.8267000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>69.3000000</lastPrice>
+      <closePrice>69.3000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>0.8868000</lastPrice>
+      <closePrice>0.8868000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.3663000</lastPrice>
+      <closePrice>0.3663000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>AUD</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>0.5193000</lastPrice>
+      <closePrice>0.5193000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>9.0872000</lastPrice>
+      <closePrice>9.0872000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>7.4344000</lastPrice>
+      <closePrice>7.4344000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>2.0419000</lastPrice>
+      <closePrice>2.0419000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>1.6667000</lastPrice>
+      <closePrice>1.6667000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>1.3779000</lastPrice>
+      <closePrice>1.3779000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>115.5000000</lastPrice>
+      <closePrice>115.5000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>1.4780000</lastPrice>
+      <closePrice>1.4780000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.6105000</lastPrice>
+      <closePrice>0.6105000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>EUR</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>0.8655000</lastPrice>
+      <closePrice>0.8655000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>4.4504000</lastPrice>
+      <closePrice>4.4504000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>3.6410000</lastPrice>
+      <closePrice>3.6410000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>0.4898000</lastPrice>
+      <closePrice>0.4898000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>0.8163000</lastPrice>
+      <closePrice>0.8163000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>0.6748000</lastPrice>
+      <closePrice>0.6748000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>56.5700000</lastPrice>
+      <closePrice>56.5700000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>0.7239000</lastPrice>
+      <closePrice>0.7239000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.2990000</lastPrice>
+      <closePrice>0.2990000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>NZD</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>0.4239000</lastPrice>
+      <closePrice>0.4239000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>1.2223000</lastPrice>
+      <closePrice>1.2223000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>0.2747000</lastPrice>
+      <closePrice>0.2747000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>0.1345000</lastPrice>
+      <closePrice>0.1345000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>0.2242000</lastPrice>
+      <closePrice>0.2242000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>0.1853000</lastPrice>
+      <closePrice>0.1853000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>15.5400000</lastPrice>
+      <closePrice>15.5400000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>0.1988000</lastPrice>
+      <closePrice>0.1988000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.0821000</lastPrice>
+      <closePrice>0.0821000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>DKK</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>0.1164000</lastPrice>
+      <closePrice>0.1164000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>SEK</currencyId>
+      <lastPrice>1.0000000</lastPrice>
+      <closePrice>1.0000000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>DKK</currencyId>
+      <lastPrice>0.8181000</lastPrice>
+      <closePrice>0.8181000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>NZD</currencyId>
+      <lastPrice>0.2247000</lastPrice>
+      <closePrice>0.2247000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>EUR</currencyId>
+      <lastPrice>0.1101000</lastPrice>
+      <closePrice>0.1101000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>AUD</currencyId>
+      <lastPrice>0.1834000</lastPrice>
+      <closePrice>0.1834000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>CAD</currencyId>
+      <lastPrice>0.1516000</lastPrice>
+      <closePrice>0.1516000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>JPY</currencyId>
+      <lastPrice>12.7100000</lastPrice>
+      <closePrice>12.7100000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>CHF</currencyId>
+      <lastPrice>0.1627000</lastPrice>
+      <closePrice>0.1627000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>GBP</currencyId>
+      <lastPrice>0.0672000</lastPrice>
+      <closePrice>0.0672000</closePrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <securityId>SEK</securityId>
+      <currencyId>USD</currencyId>
+      <lastPrice>0.0952000</lastPrice>
+      <closePrice>0.0952000</closePrice>
+    </method>
+  </transaction>
+</batch>

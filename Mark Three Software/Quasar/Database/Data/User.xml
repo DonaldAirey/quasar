@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="User">
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>DAEMON</userId>
+		<userName>ASPNET</userName>
+		<name>DAEMON</name>
+		<description>An attendant power or spirit</description>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>ADMIN</userId>
+		<userName>Quasar Administrator</userName>
+		<name>Administrator</name>
+		<description>The system administrator</description>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>ACOHE</userId>
+		<userName>Adam Cohen</userName>
+		<name>Adam Cohen</name>
+		<description>The President, CEO and Head Trader</description>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>JKURT</userId>
+		<userName>Jeff Kurtz</userName>
+		<name>Jeff Kurtz</name>
+		<description>Foriegn Equity Trader</description>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>CHILL</userId>
+		<userName>Carol Hill</userName>
+		<name>Carol Hill</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>FCAMB</userId>
+		<userName>Fred Cambell</userName>
+		<name>Fred Cambell</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>RCORT</userId>
+		<userName>Rey Cortes</userName>
+		<name>Rey Cortes</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>TRUSS</userId>
+		<userName>Tony Russo</userName>
+		<name>Tony Russo</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.User" name="Load">
+		<userId>SCHUN</userId>
+		<userName>Susan Chung</userName>
+		<name>Susan Chung</name>
+	</method>
+</batch>

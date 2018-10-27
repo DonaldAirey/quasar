@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Blotter">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>ALLDESK</blotterId>
+		<algorithmId>BLOCKER SECURITY</algorithmId>
+		<blockOrderStylesheetId>BLOCK ORDER</blockOrderStylesheetId>
+		<executionStylesheetId>EQUITY EXECUTION</executionStylesheetId>
+		<blotterTypeCode>DESK</blotterTypeCode>
+		<defaultBlotter>true</defaultBlotter>
+		<name>All</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>CURRDESK</blotterId>
+		<algorithmId>BLOCKER ACCOUNT</algorithmId>
+		<blockOrderStylesheetId>CURRENCY BLOCK ORDER</blockOrderStylesheetId>
+		<executionStylesheetId>EQUITY EXECUTION</executionStylesheetId>
+		<blotterTypeCode>DESK</blotterTypeCode>
+		<name>Currency Desk</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>SCHUNTRADER</blotterId>
+		<algorithmId>BLOCKER ACCOUNT</algorithmId>
+		<blockOrderStylesheetId>CURRENCY BLOCK ORDER</blockOrderStylesheetId>
+		<executionStylesheetId>EQUITY EXECUTION</executionStylesheetId>
+		<blotterTypeCode>TRADER</blotterTypeCode>
+		<name>Susan Chung</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>BONDDESK</blotterId>
+		<algorithmId>BLOCKER ACCOUNT</algorithmId>
+		<blockOrderStylesheetId>BOND BLOCK ORDER</blockOrderStylesheetId>
+		<executionStylesheetId>BOND EXECUTION</executionStylesheetId>
+		<blotterTypeCode>DESK</blotterTypeCode>
+		<name>Bond Desk</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>RCORTTRADER</blotterId>
+		<algorithmId>BLOCKER ACCOUNT</algorithmId>
+		<blockOrderStylesheetId>BOND BLOCK ORDER</blockOrderStylesheetId>
+		<executionStylesheetId>BOND EXECUTION</executionStylesheetId>
+		<blotterTypeCode>TRADER</blotterTypeCode>
+		<name>Rey Cortes</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>TRUSSTRADER</blotterId>
+		<algorithmId>BLOCKER ACCOUNT</algorithmId>
+		<blockOrderStylesheetId>BOND BLOCK ORDER</blockOrderStylesheetId>
+		<executionStylesheetId>BOND EXECUTION</executionStylesheetId>
+		<blotterTypeCode>TRADER</blotterTypeCode>
+		<name>Tony Russo</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>EQUIDESK</blotterId>
+		<algorithmId>BLOCKER SECURITY</algorithmId>
+		<blockOrderStylesheetId>EQUITY BLOCK ORDER</blockOrderStylesheetId>
+		<placementStylesheetId>EQUITY PLACEMENT</placementStylesheetId>
+		<executionStylesheetId>EQUITY EXECUTION</executionStylesheetId>
+		<ticketStylesheetId>EQUITY TICKET</ticketStylesheetId>
+		<blotterTypeCode>DESK</blotterTypeCode>
+		<name>Equity Desk</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>CHILLTRADER</blotterId>
+		<algorithmId>BLOCKER SECURITY</algorithmId>
+		<blockOrderStylesheetId>EQUITY BLOCK ORDER</blockOrderStylesheetId>
+		<placementStylesheetId>EQUITY PLACEMENT</placementStylesheetId>
+		<executionStylesheetId>EQUITY EXECUTION</executionStylesheetId>
+		<ticketStylesheetId>EQUITY TICKET</ticketStylesheetId>
+		<blotterTypeCode>TRADER</blotterTypeCode>
+		<name>Carol Hill</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>FCAMBTRADER</blotterId>
+		<algorithmId>BLOCKER SECURITY</algorithmId>
+		<blockOrderStylesheetId>EQUITY BLOCK ORDER</blockOrderStylesheetId>
+		<placementStylesheetId>EQUITY PLACEMENT</placementStylesheetId>
+		<executionStylesheetId>EQUITY EXECUTION</executionStylesheetId>
+		<ticketStylesheetId>EQUITY TICKET</ticketStylesheetId>
+		<blotterTypeCode>TRADER</blotterTypeCode>
+		<name>Fred Cambell</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Blotter" name="Load">
+		<blotterId>JKURTTRADER</blotterId>
+		<algorithmId>BLOCKER SECURITY</algorithmId>
+		<blockOrderStylesheetId>EQUITY BLOCK ORDER</blockOrderStylesheetId>
+		<placementStylesheetId>EQUITY PLACEMENT</placementStylesheetId>
+		<executionStylesheetId>EQUITY EXECUTION</executionStylesheetId>
+		<ticketStylesheetId>EQUITY TICKET</ticketStylesheetId>
+		<blotterTypeCode>TRADER</blotterTypeCode>
+		<name>Jeff Kurtz</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>ALLDESK</parentId>
+		<childId>BONDDESK</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>ALLDESK</parentId>
+		<childId>EQUIDESK</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>ALLDESK</parentId>
+		<childId>CURRDESK</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>EQUIDESK</parentId>
+		<childId>CHILLTRADER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>EQUIDESK</parentId>
+		<childId>FCAMBTRADER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>EQUIDESK</parentId>
+		<childId>JKURTTRADER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>BONDDESK</parentId>
+		<childId>RCORTTRADER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>BONDDESK</parentId>
+		<childId>TRUSSTRADER</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>CURRDESK</parentId>
+		<childId>SCHUNTRADER</childId>
+	</method>
+</batch>

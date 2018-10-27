@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<batch name="Staged Orders">
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.SourceOrder" name="InsertFile">
+		<configurationId>US TICKER</configurationId>
+		<securityId>AMD</securityId>
+		<settlementId>USD</settlementId>
+		<orderedQuantity>50000</orderedQuantity>
+		<submittedQuantity>25000</submittedQuantity>
+		<orderTypeCode>BUY</orderTypeCode>
+		<priceTypeCode>MKT</priceTypeCode>
+		<timeInForceCode>DAY</timeInForceCode>
+		<destinationId>GUARDIAN ECN</destinationId>
+		<newsFreeTime>30</newsFreeTime>
+		<isHeld>True</isHeld>
+		<isSubmitted>True</isSubmitted>
+		<blotterId>TONY DE SILVA BLOTTER</blotterId>
+	</method>
+</batch>

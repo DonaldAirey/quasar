@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Equus Fund">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9000</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Equus Funds</name>
+		<mnemonic>EQUUS</mnemonic>
+		<userData0>-8891439.592</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>0000000001</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-503131.47</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>0000000002</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-42189.025</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>0000000003</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-187484.76</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>0000000004</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-147746.87</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>0000000005</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-126904.98</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>00184AAC9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0> -8909.283</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>00209AAF3</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-87226.501</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>060505AE4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-18915.935</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>149123AZ4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-74109.467</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>370425RP7</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-11520.567</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>459200AG6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-31055.706</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>539830AK5</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-48984.796</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>617446DW6</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-84938.234</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>674599BF1</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-32147.894</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>718154CF2</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-47923.011</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>742718AU3</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-81222.194</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>887315AV1</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-55304.373</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>912810EC8</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-449529.86</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>912810EL8</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-747180.19</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>912810EV6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-380020.78</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>912810FB9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-406128.55</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>9128276F4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-615736.04</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>912827J78</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-1016804.0</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>912827R87</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-144201.64</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>912827Y55</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-472439.75</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9000</accountId>
+		<securityId>925524AJ9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-132054.32</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>9000</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-342650.00</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>9000</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-272720.00</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9000</accountId>
+		<securityId>AIG</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-1250396.5</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9000</accountId>
+		<securityId>BAX</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-1122096.5</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9000</accountId>
+		<securityId>BJS</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-330388.28</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9000</accountId>
+		<securityId>MDT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-591077.56</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9000</accountId>
+		<securityId>VIA</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-694952.24</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9100</accountId>
+		<currencyId>USD</currencyId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<modelId>CUSTOM MODEL</modelId>
+		<schemeId>L1GICS</schemeId>
+		<name>Product Blue</name>
+		<userData0>-7210519.834</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>00001</taxLotId>
+		<accountId>9100</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>10500000</quantity>
+		<cost>1.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>00002</taxLotId>
+		<accountId>9100</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>8560000</quantity>
+		<cost>1.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>0000000001</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-503131.47</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>0000000002</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-42189.025</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>0000000003</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-187484.76</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>0000000004</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-147746.87</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>0000000005</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-126904.98</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>00184AAC9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0> -8909.283</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>00209AAF3</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-87226.501</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>060505AE4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-18915.935</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>149123AZ4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-74109.467</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>370425RP7</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-11520.567</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>459200AG6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-31055.706</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>539830AK5</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-48984.796</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>617446DW6</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-84938.234</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>674599BF1</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-32147.894</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>718154CF2</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-47923.011</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>742718AU3</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-81222.194</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>887315AV1</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-55304.373</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>912810EC8</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-449529.86</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>912810EL8</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-747180.19</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>912810EV6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-380020.78</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>912810FB9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-406128.55</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>9128276F4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-615736.04</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>912827J78</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-1016804.0</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>912827R87</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-144201.64</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>912827Y55</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-472439.75</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9100</accountId>
+		<securityId>925524AJ9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-132054.32</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>9100</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-105000.00</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<accountId>9100</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0> -85600.00</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9100</accountId>
+		<securityId>AIG</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-1250396.5</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9100</accountId>
+		<securityId>BAX</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-1122096.5</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9100</accountId>
+		<securityId>BJS</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-330388.28</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9100</accountId>
+		<securityId>MDT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-591077.56</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9100</accountId>
+		<securityId>VIA</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-694952.24</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9110</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Government Bond Arb</name>
+		<mnemonic>BONDARB</mnemonic>
+		<userData0>-1796570.16</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>00004</taxLotId>
+		<accountId>9110</accountId>
+		<securityId>9128276F4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>5500000</quantity>
+		<cost>100.55469</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>00005</taxLotId>
+		<accountId>9110</accountId>
+		<securityId>912827J78</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>7900000</quantity>
+		<cost>103.37813</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>00006</taxLotId>
+		<accountId>9110</accountId>
+		<securityId>912827R87</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3400000</quantity>
+		<cost>110.12781</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>00007</taxLotId>
+		<accountId>9110</accountId>
+		<securityId>912827Y55</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>8200000</quantity>
+		<cost>109.9031</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>00008</taxLotId>
+		<accountId>9110</accountId>
+		<securityId>912810EC8</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>9433000</quantity>
+		<cost>100.795</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>00009</taxLotId>
+		<accountId>9110</accountId>
+		<securityId>912810EL8</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>7820000</quantity>
+		<cost>103.234</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000010</taxLotId>
+		<accountId>9110</accountId>
+		<securityId>912810EV6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3290000</quantity>
+		<cost>102.202</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000011</taxLotId>
+		<accountId>9110</accountId>
+		<securityId>912810FB9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>4000000</quantity>
+		<cost>105.542</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9110</accountId>
+		<securityId>912810EC8</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-155696.51</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9110</accountId>
+		<securityId>912810EL8</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-319638.35</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9110</accountId>
+		<securityId>912810EV6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-169419.27</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9110</accountId>
+		<securityId>912810FB9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-179980.87</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9110</accountId>
+		<securityId>9128276F4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-280132.77</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9110</accountId>
+		<securityId>912827J78</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-467623.08</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9110</accountId>
+		<securityId>912827R87</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-53296.649</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9110</accountId>
+		<securityId>912827Y55</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-190804.57</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9120</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Convertible Arb</name>
+		<mnemonic>CONVARB</mnemonic>
+		<userData0>-2384006.842</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000015</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>0000000001</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3856000</quantity>
+		<cost>104.3</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000016</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>0000000002</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1382000</quantity>
+		<cost>101.5</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000017</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>0000000003</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3560000</quantity>
+		<cost>120.4</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000018</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>0000000004</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2440000</quantity>
+		<cost>92.1</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000019</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>0000000005</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1753000</quantity>
+		<cost>89.20</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>000020</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>AIG</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>48200</quantity>
+		<cost>85.20</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>000021</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>BAX</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>50000</quantity>
+		<cost>75.30</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>000022</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>BJS</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>18000</quantity>
+		<cost>71.23</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>000023</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>MDT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>49000</quantity>
+		<cost>51.25</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>000024</taxLotId>
+		<accountId>9120</accountId>
+		<securityId>VIA</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>51000</quantity>
+		<cost>50.50</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9120</accountId>
+		<securityId>0000000001</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-503131.47</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9120</accountId>
+		<securityId>0000000002</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-42189.025</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9120</accountId>
+		<securityId>0000000003</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-187484.76</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9120</accountId>
+		<securityId>0000000004</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-147746.87</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9120</accountId>
+		<securityId>0000000005</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-126904.98</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9120</accountId>
+		<securityId>AIG</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-1250396.5</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9120</accountId>
+		<securityId>BAX</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-1122096.5</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9120</accountId>
+		<securityId>BJS</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-330388.28</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9120</accountId>
+		<securityId>MDT</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-591077.56</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>9120</accountId>
+		<securityId>VIA</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-694952.24</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9130</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Corporate Arb</name>
+		<mnemonic>CORPARB</mnemonic>
+		<userData0>-422874.361</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000025</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>674599BF1</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>456000</quantity>
+		<cost>102.20</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000026</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>149123AZ4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>823000</quantity>
+		<cost>105.20</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000027</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>00209AAF3</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>982000</quantity>
+		<cost>98.12</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000028</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>539830AK5</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>411000</quantity>
+		<cost>102.40</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000029</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>459200AG6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>234000</quantity>
+		<cost>95.22</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000030</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>742718AU3</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>549000</quantity>
+		<cost>89.23</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000031</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>060505AE4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>432000</quantity>
+		<cost>125.32</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000032</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>887315AV1</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>978000</quantity>
+		<cost>130.32</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000033</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>718154CF2</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>657000</quantity>
+		<cost>109.32</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000034</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>370425RP7</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>128000</quantity>
+		<cost>110.23</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000035</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>617446DW6</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>823000</quantity>
+		<cost>103.300</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000036</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>925524AJ9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>993000</quantity>
+		<cost>95.23</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>000037</taxLotId>
+		<accountId>9130</accountId>
+		<securityId>00184AAC9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>253000</quantity>
+		<cost>100.10</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>00184AAC9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0> -8909.283</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>00209AAF3</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-87226.501</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>060505AE4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-18915.935</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>149123AZ4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-74109.467</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>370425RP7</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-11520.567</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>459200AG6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-31055.706</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>539830AK5</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-48984.796</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>617446DW6</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-84938.234</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>674599BF1</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-32147.894</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>718154CF2</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-47923.011</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>742718AU3</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData0>-81222.194</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>887315AV1</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-55304.373</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<accountId>9130</accountId>
+		<securityId>925524AJ9</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData0>-132054.32</userData0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9200</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Product Yellow</name>
+		<mnemonic>YELLOW</mnemonic>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>000038</taxLotId>
+		<accountId>9200</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>8482000</quantity>
+		<cost>1.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>000039</taxLotId>
+		<accountId>9200</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>7320000</quantity>
+		<cost>1.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9210</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Precious Metal Arb</name>
+		<mnemonic>METALARB</mnemonic>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9220</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Futures Arb</name>
+		<mnemonic>FUTUREARB</mnemonic>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9230</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Options Arb</name>
+		<mnemonic>OPTIONARB</mnemonic>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9240</accountId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Commodities Arb</name>
+		<mnemonic>FUTUREARB</mnemonic>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9300</accountId>
+		<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Product Red</name>
+		<mnemonic>RED</mnemonic>
+		<modelId>CUSTOM MODEL</modelId>
+		<currencyId>USD</currencyId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>000040</taxLotId>
+		<accountId>9300</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>15283000</quantity>
+		<cost>1.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>000041</taxLotId>
+		<accountId>9300</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>11392000</quantity>
+		<cost>1.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9310</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Equity Arb</name>
+		<mnemonic>EQUITYARB</mnemonic>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9320</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Index Arb</name>
+		<mnemonic>INDEXARB</mnemonic>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>9330</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<schemeId>L1GICS</schemeId>
+		<name>Takeover Arb</name>
+		<mnemonic>TAKEOVERARB</mnemonic>
+		<stylesheetId>APPRAISAL</stylesheetId>
+		<currencyId>USD</currencyId>
+		<modelId>CUSTOM MODEL</modelId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9000</parentId>
+		<childId>9100</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9100</parentId>
+		<childId>9110</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9100</parentId>
+		<childId>9120</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9100</parentId>
+		<childId>9130</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9000</parentId>
+		<childId>9200</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9200</parentId>
+		<childId>9210</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9200</parentId>
+		<childId>9220</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9200</parentId>
+		<childId>9230</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9200</parentId>
+		<childId>9240</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9000</parentId>
+		<childId>9300</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9300</parentId>
+		<childId>9310</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9300</parentId>
+		<childId>9320</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>9300</parentId>
+		<childId>9330</childId>
+	</method>
+</batch>

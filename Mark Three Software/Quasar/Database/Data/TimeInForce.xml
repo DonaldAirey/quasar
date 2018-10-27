@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="TimeInForce">
+	<method assembly="External Service" type="MarkThree.Quasar.External.TimeInForce" name="Load">
+		<timeInForceCode>0</timeInForceCode>
+		<mnemonic>DAY</mnemonic>
+		<description>Day</description>
+		<externalId0>DAY</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TimeInForce" name="Load">
+		<timeInForceCode>1</timeInForceCode>
+		<mnemonic>GTC</mnemonic>
+		<description>Good 'til Canceled</description>
+		<externalId0>GTC</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TimeInForce" name="Load">
+		<timeInForceCode>2</timeInForceCode>
+		<mnemonic>FOK</mnemonic>
+		<description>Fill or Kill</description>
+		<externalId0>FOK</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TimeInForce" name="Load">
+		<timeInForceCode>3</timeInForceCode>
+		<mnemonic>IOC</mnemonic>
+		<description>Immediate or Cancel</description>
+		<externalId0>IOC</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TimeInForce" name="Load">
+		<timeInForceCode>4</timeInForceCode>
+		<mnemonic>OPG</mnemonic>
+		<description>At the Market Open</description>
+		<externalId0>OPG</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TimeInForce" name="Load">
+		<timeInForceCode>5</timeInForceCode>
+		<mnemonic>CLO</mnemonic>
+		<description>At the Market Close</description>
+		<externalId0>CLO</externalId0>
+	</method>
+</batch>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Status">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>0</statusCode>
+      <mnemonic>FRESH</mnemonic>
+      <description>New</description>
+      <externalId0>NEW</externalId0>
+    </method>
+  </transaction>
+</batch>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="DebtType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.DebtType" name="Load">
+		<debtTypeCode>0</debtTypeCode>
+		<description>Government Note</description>
+		<externalId0>GOVERNMENT NOTE</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.DebtType" name="Load">
+		<debtTypeCode>1</debtTypeCode>
+		<description>Municipal Bond</description>
+		<externalId0>MUNICIPAL BOND</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.DebtType" name="Load">
+		<debtTypeCode>2</debtTypeCode>
+		<description>Corporate Bond</description>
+		<externalId0>CORPORATE BOND</externalId0>
+	</method>
+</batch>

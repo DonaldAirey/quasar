@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="ClearingBroker">
+	<method assembly="External Service" type="MarkThree.Guardian.External.ClearingBroker" name="Load">
+		<clearingBrokerId>ATLAS BANK</clearingBrokerId>
+		<name>Atlas Bank</name>
+		<partyTypeCode>NOT VALID</partyTypeCode>
+		<shortName>Atlas</shortName>
+		<symbol>ATLAS</symbol>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ClearingBroker" name="Load">
+		<clearingBrokerId>WATER STREET GROUP</clearingBrokerId>
+		<name>Water Street Group</name>
+		<partyTypeCode>NOT VALID</partyTypeCode>
+		<shortName>Water St.</shortName>
+		<symbol>WSG</symbol>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+</batch>

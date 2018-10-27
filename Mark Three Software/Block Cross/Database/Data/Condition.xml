@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="Condition">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Condition" name="Load">
+      <conditionCode>0</conditionCode>
+      <mnemonic>AON</mnemonic>
+      <description>All or None</description>
+      <externalId0>AON</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Condition" name="Load">
+      <conditionCode>1</conditionCode>
+      <mnemonic>DNR</mnemonic>
+      <description>Do Not Reduce</description>
+      <externalId0>DNR</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Condition" name="Load">
+      <conditionCode>2</conditionCode>
+      <mnemonic>AONDNR</mnemonic>
+      <description>All or None/Do Not Reduce</description>
+      <externalId0>AONDNR</externalId0>
+    </method>
+  </transaction>
+</batch>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Institution">
+	<method assembly="External Service" type="MarkThree.Guardian.External.Institution" name="Load">
+		<institutionId>BOUTIQUE ASSET MANAGEMENT</institutionId>
+		<name>Boutique Asset Management</name>
+		<shortName>Boutique</shortName>
+		<partyTypeCode>INSTITUTION</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Institution" name="Load">
+		<institutionId>GLOBAL ASSET MANAGEMENT</institutionId>
+		<name>Global Asset Management</name>
+		<partyTypeCode>INSTITUTION</partyTypeCode>
+		<shortName>Global</shortName>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+</batch>

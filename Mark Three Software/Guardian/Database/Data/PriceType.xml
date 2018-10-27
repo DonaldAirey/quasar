@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="PriceType">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.PriceType" name="Load">
+      <priceTypeCode>0</priceTypeCode>
+      <mnemonic>MKT</mnemonic>
+      <description>Market</description>
+      <externalId0>MKT</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.PriceType" name="Load">
+      <priceTypeCode>1</priceTypeCode>
+      <mnemonic>LMT</mnemonic>
+      <description>Limit</description>
+      <externalId0>LMT</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.PriceType" name="Load">
+      <priceTypeCode>2</priceTypeCode>
+      <mnemonic>STP</mnemonic>
+      <description>Stop Loss</description>
+      <externalId0>STP</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.PriceType" name="Load">
+      <priceTypeCode>3</priceTypeCode>
+      <mnemonic>STPLMT</mnemonic>
+      <description>Stop Limit</description>
+      <externalId0>STPLMT</externalId0>
+    </method>
+  </transaction>
+</batch>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Broker">
+	<method assembly="External Service" type="MarkThree.Guardian.External.Broker" name="Load">
+		<brokerId>ZODIAC CAPITAL</brokerId>
+		<name>Zodiac Capital</name>
+		<partyTypeCode>HEDGE FUND</partyTypeCode>
+		<shortName>Zodiac</shortName>
+		<symbol>ZODI</symbol>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Broker" name="Load">
+		<brokerId>HARRIS BROTHERS</brokerId>
+		<name>Harris Brothers</name>
+		<partyTypeCode>NOT VALID</partyTypeCode>
+		<shortName>Harris</shortName>
+		<symbol>HARR</symbol>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Broker" name="Load">
+		<brokerId>SCHOONER SECURITIES</brokerId>
+		<name>Schooner Securities</name>
+		<partyTypeCode>BROKER</partyTypeCode>
+		<shortName>Schooner</shortName>
+		<symbol>SCHO</symbol>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+</batch>

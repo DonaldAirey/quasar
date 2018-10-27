@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="Start Business Rules">
+  <method assembly="Trading Service" type="MarkThree.Guardian.Server.BusinessRules" name="Start" />
+</batch>

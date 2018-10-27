@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="toolBarStandard.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="toolBarStandard.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarStandard.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarStandard.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="toolBarStandard.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="toolBarStandard.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="toolBarStandard.Appearance" type="System.Windows.Forms.ToolBarAppearance, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Flat</value>
+  </data>
+  <data name="toolBarStandard.AutoSize" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarStandard.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="toolBarStandard.ButtonSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>22, 23</value>
+  </data>
+  <data name="toolBarStandard.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top</value>
+  </data>
+  <data name="toolBarStandard.DropDownArrows" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarStandard.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarStandard.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="toolBarStandard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="toolBarStandard.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="toolBarStandard.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="toolBarStandard.ShowToolTips" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarStandard.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>509, 29</value>
+  </data>
+  <data name="toolBarStandard.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>2</value>
+  </data>
+  <data name="toolBarStandard.TextAlign" type="System.Windows.Forms.ToolBarTextAlign, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Underneath</value>
+  </data>
+  <data name="toolBarStandard.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarStandard.Wrappable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;toolBarStandard.Name">
+    <value>toolBarStandard</value>
+  </data>
+  <data name="&gt;&gt;toolBarStandard.Type">
+    <value>System.Windows.Forms.ToolBar, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolBarButtonQuasarToday.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonQuasarToday.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonQuasarToday.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonQuasarToday.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>11</value>
+  </data>
+  <data name="toolBarButtonQuasarToday.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonQuasarToday.ToolTipText">
+    <value>Quasar Today</value>
+  </data>
+  <data name="toolBarButtonQuasarToday.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButton1.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton1.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButton1.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="toolBarButton1.Text">
+    <value />
+  </data>
+  <data name="toolBarButton1.ToolTipText">
+    <value />
+  </data>
+  <data name="toolBarButton1.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonPrint.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonPrint.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonPrint.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonPrint.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>10</value>
+  </data>
+  <data name="toolBarButtonPrint.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonPrint.ToolTipText">
+    <value>Print</value>
+  </data>
+  <data name="toolBarButtonPrint.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonMoveToFolder.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonMoveToFolder.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonMoveToFolder.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonMoveToFolder.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>7</value>
+  </data>
+  <data name="toolBarButtonMoveToFolder.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonMoveToFolder.ToolTipText">
+    <value>Move to Folder</value>
+  </data>
+  <data name="toolBarButtonMoveToFolder.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonDelete.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonDelete.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonDelete.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonDelete.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>3</value>
+  </data>
+  <data name="toolBarButtonDelete.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonDelete.ToolTipText">
+    <value>Delete</value>
+  </data>
+  <data name="toolBarButtonDelete.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButton2.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton2.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButton2.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="toolBarButton2.Text">
+    <value />
+  </data>
+  <data name="toolBarButton2.ToolTipText">
+    <value />
+  </data>
+  <data name="toolBarButton2.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonCut.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonCut.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonCut.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonCut.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1</value>
+  </data>
+  <data name="toolBarButtonCut.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonCut.ToolTipText">
+    <value>Cut</value>
+  </data>
+  <data name="toolBarButtonCut.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonCopy.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonCopy.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonCopy.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonCopy.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="toolBarButtonCopy.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonCopy.ToolTipText">
+    <value>Copy</value>
+  </data>
+  <data name="toolBarButtonCopy.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonPaste.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonPaste.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonPaste.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonPaste.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="toolBarButtonPaste.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonPaste.ToolTipText">
+    <value>Paste</value>
+  </data>
+  <data name="toolBarButtonPaste.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButton3.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton3.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButton3.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="toolBarButton3.Text">
+    <value />
+  </data>
+  <data name="toolBarButton3.ToolTipText">
+    <value />
+  </data>
+  <data name="toolBarButton3.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonClearProposed.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonClearProposed.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonClearProposed.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonClearProposed.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>14</value>
+  </data>
+  <data name="toolBarButtonClearProposed.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonClearProposed.ToolTipText">
+    <value>Clear Proposed Trades</value>
+  </data>
+  <data name="toolBarButtonClearProposed.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonRebalance.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonRebalance.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonRebalance.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonRebalance.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>13</value>
+  </data>
+  <data name="toolBarButtonRebalance.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonRebalance.ToolTipText">
+    <value>Rebalance to Model Targets</value>
+  </data>
+  <data name="toolBarButtonRebalance.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonRebalanceSelection.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonRebalanceSelection.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonRebalanceSelection.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonRebalanceSelection.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>16</value>
+  </data>
+  <data name="toolBarButtonRebalanceSelection.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonRebalanceSelection.ToolTipText">
+    <value>Rebalance Selection</value>
+  </data>
+  <data name="toolBarButtonRebalanceSelection.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonSend.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonSend.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonSend.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonSend.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>15</value>
+  </data>
+  <data name="toolBarButtonSend.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonSend.ToolTipText">
+    <value>Send Orders to Traders</value>
+  </data>
+  <data name="toolBarButtonSend.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButton4.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButton4.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButton4.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="toolBarButton4.Text">
+    <value />
+  </data>
+  <data name="toolBarButton4.ToolTipText">
+    <value />
+  </data>
+  <data name="toolBarButton4.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonHelp.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonHelp.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="toolBarButtonHelp.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="toolBarButtonHelp.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>6</value>
+  </data>
+  <data name="toolBarButtonHelp.Text">
+    <value />
+  </data>
+  <data name="toolBarButtonHelp.ToolTipText">
+    <value>Help on Quasar</value>
+  </data>
+  <data name="toolBarButtonHelp.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="imageListStandard.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="imageListStandard.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="imageListStandard.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="imageListStandard.ImageSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>18, 18</value>
+  </data>
+  <data name="imageListStandard.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFpTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0xLjAuNTAw
+        MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZT
+        eXN0ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMA
+        AACAJQAAAk1TRnQBSQFMAgEBEQEAARMBAAEEAQABEgEAARIBAAT/ARkBEAj/AUIBTQE2BwABNgMAASgD
+        AAFIAwABWgMAAQEBAAEYBQAB8AFL/wD/AP8A/wD/AP8A3gADgAP/A8ADgBAAAv8BAAL/AwADwAOAygAC
+        /wEAAv/TAAL/AQAC/70AA4AKAAL/AQAC/wEAAv8BAAL/AQAC/wEAAv8BAAL/AQAC/7QAA4AKAAL/AQAC
+        /wEAAv8BAAL/AQAC/wEAAv8BAAL/AQAC/7QAA4ATAAL/AQAC/wMAA4C3AAOAEwAC/wEAAv8DAAOAtwAD
+        gAwAA4AEAAL/AQAC/wMAA4D/AP8A/wDnAAGlAaYBpQFKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0C
+        SgFNAkoBTQJKAU0CSgFNAUoJAAFKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0C
+        SgFNAkoBTQJKAU0CSgFNAkoBTQFKcgABpQFNAUoDAAGlAU0BSgGlAU0BSgGlAaYBpR7/AUoBTQFKCQAB
+        SgFNAkoF/wFKBf8BSgX/AUoF/wFKBf8BSgX/AUoC/wFKAU0BSn4AAaUBpgGlBv8BpQFNAUoBpQFNAUoB
+        pQFNAUoBpQFNAUoBpQFNAUoBpQFNAUoG/wFKAU0BSgkAAUoBTQFKA/8BSgX/AUoF/wFKBf8BSgX/AUoF
+        /wFKBf8BSgFNAUpCAAHGAcMCxgHDAsYBwwLGAcMCxgHDAsYBwwHGHgABpQFNAUoDAAGlAU0BSgGlAU0B
+        SgGlAaYBpR7/AUoBTQFKCQABSgFNAkoF/wFKBf8BpQGmAaUBSgFNAkoBTQJKAU0CSgFNAkoBTQJKBf8B
+        SgL/AUoBTQFKQgABxgHDAsYBwwLGAcMCxgHDAsYBwwLGAcMBxgQAAb4BvSQAAaUBpgGlBv8BpQFNAUoB
+        pQFNAUoBpQFNAUoBpQFNAUoBpQFNAUoBpQFNAUoG/wFKAU0BSgkAAUoBTQFKA/8BSgX/AUoC/wFKAU0C
+        SgX/AUoF/wFKBf8BSgX/AUoBTQFKQgABxgHDAsYBwwLGAcMCxgHDAsYBwwLGAcMBxgQAAb4BvQEAAb4B
+        vRUAAaUBTQFKAwABpQFNAUoBpQFNAUoBpQGmAaUY/wFKAU0BpQFKAU0BpQFKAU0BSgkAAUoBTQJKBf8B
+        SgX/AUoBTQFKA/8BSgX/AUoF/wFKBf8BSgL/AUoBTQFKRQAD/wEABf8BAAX/AQAC/wQAAb4BvQEAAb4B
+        vR4AAaUBpgGlGP8BSgFNAaUBSgFNAaUBSgFNAUoJAAFKAU0BSgP/AUoC/wFKAU0CSgFNAkoBTQJKAU0C
+        SgFNAkoF/wFKBf8BSgX/AUoBTQFKCQADgAP/A8ADgBIAA4AD/wPAA4AVAAP/AQAF/wEABf8BAAL/BAAB
+        vgG9AQABvgG9DwABSgFNAkoBTQJKAU0CSgFNAUoBpQGmAaUY/wHWAdMC1gHTAdYBSgFNAUoJAAFKAU0C
+        SgX/AUoC/wFKAU0CSgFNAkoBTQJKBf8BSgX/AUoF/wFKAv8BSgFNAUpLAAP/AQAF/wEABf8BAAL/BAAB
+        vgG9AQABvgG9DAABpQGmAaUJ/wFKAU0CSgFNAkoBTQJKAU0CSgFNAUoBpQGmAqUBpgKlAaYCpQGmAqUB
+        pgKlAaYBpQFKAU0BSgkAAUoBTQFKA/8BSgX/AUoC/wFKAU0CSgX/AUoF/wFKBf8BSgX/AUoBTQFKTgAD
+        /wEABf8BAAX/AQAC/wQAAb4BvQwAAaUBpgGlBv8BpQFNAUoBpQGmAqUBpgKlAaYCpQGmAqUBpgGlBv8B
+        SgFNAUoVAAFKAU0CSgX/AUoF/wFKBf8BSgX/AUoF/wFKBf8BSgL/AUoBTQFKDwADgBsAA4AhAAP/AQAF
+        /wEABf8BAAL/DwABpQGmAaUe/wFKAU0BSgGlAU0BSgGlAU0BSgMAAaUBTQFKCQABSgFNAkoBTQJKAU0C
+        SgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQFKEgADgBsAA4AkAAP/AQAF
+        /wEABf8BAAL/DAABpQGmAaUG/wGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgb/AUoB
+        TQFKGAABSgFNAkoF/wFKBf8BSgL/AUoBTQFKJAADgBsAA4BCAAGlAaYBpRj/AUoBTQGlAUoBTQGlAUoB
+        TQFKAaUBTQFKAaUBTQFKAwABpQFNAUoPAAFKAU0CSgFNAkoBTQJKAU0CSgFNAUonAAOAGwADgEIAAaUB
+        pgGlGP8BSgFNAaUBSgFNAaUBSgFNAUpRAAOADAADgAwAA4BCAAGlAaYBpRj/AdYB0wLWAdMB1gFKAU0B
+        SgGlAU0BSgGlAU0BSgMAAaUBTQFKqAABpQGmAqUBpgKlAaYCpQGmAqUBpgKlAaYCpQGmAqUBpgKlAaYC
+        pQGmAqUBpgGlAUoBTQFK/wD/AIEABk0nAAGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0B
+        SgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgkAAUoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0C
+        SgFNAUoeAAFKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAUokAAZNBtcD
+        TRUAAUoBTQJKAU0CSgFNAkoBTQJKAU0BSgGlAU0BShj/AaUBTQFKCQABpQGmAaUV/wFKAU0BShsAAUoB
+        TQFKAdYB0wLWAdMC1gHTAtYB0wLWAdMC1gHTAtYB0wLWAdMC1gHTAdYBSgFNAUoB1gHTAdYBSgFNAUob
+        AAZNCf8D1wNNEgABSgFNAUoBpQGmAaUBSgGmAqUBpgGlAUoBpgKlAaYCpQFNAUoD/wGlAU0BSgGlAU0B
+        SgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgP/AaUBTQFKCQABpQGmAaUD/wGlAaYCpQGmAqUBpgKlAaYC
+        pQGmAaUD/wFKAU0BShgAAUoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0C
+        SgFNAkoBTQFKAdYB0wHWAUoBTQFKEgAGTQn/AZkCMwb/A9cDTQ8AAUoBTQJKAaYCpQGmAaUBSgGmAqUB
+        pgGlAUoBpgKlAU0BShj/AaUBTQFKCQABpQGmAaUV/wFKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0B
+        SgYAAUoBTQFKAdYB0wLWAdMC1gHTAtYB0wLWAdMC1gHTAdYBSgL/AUoC/wFKAv8B1gHTAtYB0wHWAUoB
+        TQJKAU0CSgFNAUoPAANNCf8BmQIzAZkCMwz/A00PAAFKAU0BSgGlAaYBpQFKAaYCpQGmAaUBSgGmAqUB
+        pgKlAU0BSgP/AaUBTQFKAaUBTQFKAaUBTQFKA/8BpQFNAUoBpQFNAUoBpQFNAUoBpQFNAUoJAAGlAaYB
+        pQP/AaUBpgKlAaYCpQGmAqUBpgKlAaYBpQP/AUoBTQFKAdYB0wLWAdMC1gHTAtYB0wLWAdMB1gFKAU0B
+        SgYAAUoBTQFKAdYB0wLWAdMC1gHTAtYB0wLWAdMC1gHTAdYBpQGmAqUBpgKlAaYBpQHWAdMC1gHTAdYB
+        SgFNAUoB1gHTAdYBSgFNAUoPAAlNAZkCMwP/GE0JAAFKAU0CSgGmAqUBpgGlAUoBpgKlAaYBpQFKAaYC
+        pQFNAUoP/wGlAU0BSgP/AaUBTQFKDAABpQGmAaUV/wFKAU0BSgz/AdYB0wHWAUoBTQFKBgABSgFNAkoB
+        TQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAUoB1gHTAtYB0wHWAUoB
+        TQFKCQADTQP/BtcJTQb/ATMC/wNNBtcDTQkAAUoBTQFKAaUBpgGlAUoBpgKlAaYBpQFKAaYCpQGmAqUB
+        TQFKD/8BpQFNAUoBpQFNAUoPAAGlAaYBpQP/AaUBpgKlAaYBpQP/AUoBTQJKAU0CSgFNAkoBTQFKAaUB
+        TQFKCf8B1gHTAdYBSgFNAUoGAAFKAU0BSgHWAdMC1gHTAtYB0wLWAdMC1gHTAtYB0wLWAdMC1gHTAtYB
+        0wLWAdMB1gFKAU0BSgHWAdMB1gFKAU0BSgHWAdMB1gFKAU0BSgYAA00BMwv/BtcDTQb/ATMC/wNNA/8D
+        1wNNCQABSgFNAkoBpgKlAaYBpQFKAaYCpQGmAaUBSgGmAqUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUB
+        TQFKAaUBTQFKAaUBTQJKAU0BSg8AAaUBpgGlDP8BpQGmAaUG/wGlAaYBpQz/AdYB0wHWAUoBTQFKCQAB
+        SgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAUoB1gHTAdYBSgFNAUoB1gHTAdYB
+        SgFNAkoBTQFKBgABpAKgBv8BMwj/A9cDTQb/Bk0D/wPXA00JAAFKAU0BSgGlAaYBpQFKAaYCpQGmAaUB
+        SgGmAqUBpgGlAUoBpgKlAaYBpQFKAaYCpQGmAaUBSgGmAqUBpgGlAUoBpgGlAUoBTQFKDwABpQGmAaUM
+        /wGlAaYBpQP/AaUBpgKlAU0BSgGlAU0BSgP/AUoBTQGlAUoBTQGlAdYB0wHWAUoBTQFKDAABSgFNAUoY
+        /wFKAU0BSgHWAdMB1gFKAU0BSgHWAdMB1gFKAU0BSgYAAaQCoAP/CU0D/wNNAjMBmRL/AjMBmQNNBgAB
+        SgFNAkoBpgKlAaYBpQFKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAUoBpQGmAqUBpgGlAUoB
+        TQFKDwABpQGmAqUBpgKlAaYCpQGmAqUBpgKlAaYCpQGmAaUM/wFKAU0BpQFKAU0BpQHWAdMB1gFKAU0B
+        Sg8AAUoBTQFKA/8BSgFNAkoBTQJKAU0CSgFNAkoBTQFKA/8BSgFNAkoBTQJKAU0CSgFNAUoJAAGkAqAJ
+        /wNNATMC/wNNATMC/wIzAZkM/wIzAZkBMwL/A00GAAFKAU0BSgGlAaYCpQGmAaUBSgFNAUoB1gHTAtYB
+        0wLWAdMC1gHTAtYB0wLWAdMB1gFKAU0BSgGlAaYBpQFKAaYBpQFKAU0BShgAAaUBpgGlAdYB0wLWAdMC
+        1gHTAtYB0wLWAdMC1gHTAtYB0wLWAdMC1gHTAtYB0wHWAUoBTQFKDwABSgFNAUoY/wFKAU0BSg8AAaQC
+        oAn/A00G/wNNATMC/wIzAZkG/wIzAZkBMwL/A00JAAFKAU0CSgGmAqUBpgGlAUoBpgGlAUoBTQJKAv8B
+        SgFNAkoBTQJKAv8BSgFNAUoBpQGmAaUBSgGmAqUBpgGlAUoBTQFKGwABpQGmAaUY/wFKAU0BShUAAUoB
+        TQFKA/8BSgFNAkoBTQJKAU0CSgFNAkoBTQFKA/8BSgFNAUoSAAGkAqAG/wNNBv8BpAKgA00BMwL/AjMB
+        mQIzAZkBMwL/A00CMwGZDAABSgFNAkoBTQJKAU0CSgFNAkoBTQJKAv8BSgL/AUoBTQJKAU0CSgFNAkoB
+        TQJKAU0BSiEAAaUBpgGlEv8BSgFNAUoYAAFKAU0BShj/AUoBTQFKEgABpAKgAaQCoAGkAqABpAKgAaQC
+        oAYAA00BMwL/ATMC/wNNAjMBmQIzAZkYAAFKAU0CSgFNAkoBTQJKAU0BSjAAAaUBpgGlDP8BSgFNAUoe
+        AAFKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQFKKgAGTQMAAjMBmQIzAZlXAAGlAaYC
+        pQGmAqUBpgKlAaYBpf8A/wBCAAFKAU0CSgFNAUp1AAFKAU0BSiEAAUoBTQJKAU0CSgFNAkoBTQJKAU0C
+        SgFNAkoBTQJKAU0CSgFNAUobAAFKAU0BSgH/AU0BSgGlAU0CSgFNAUpvAAFKAU0CSgFNAUoeAAGlAaYB
+        pQOAAUoC/wOAAUoC/wOAAUoC/wOAAUoC/wOAAUoBTQFKDAABSgFNAkoBTQJKAU0CSgFNAkoBTQFKAf8B
+        TQFKAf8BTQFKAaUBTQJKAU0CSgFNAkoBTQJKAU0BShIAAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUB
+        TQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKEgAB
+        pQGmAqUBpgKlAaYCpQGmAqUBpgKlAaYBpQFKAU0CSgL/AUoBTQFKAaUBpgGlGwABpQGmAaUBSgX/AUoF
+        /wFKBf8BSgX/AUoC/wFKAU0BSgwAAaUBpgGlAdYB0wLWAdMC1gHTAtYB0wLWAdMB1gH/AU0BSgH/AU0B
+        SgGlAU0CSgFNAUoB1gHTAtYB0wHWAUoBTQFKDwABpQFNAUoJ/wGlAU0BShj/AaUBTQFKDwABSgFNAkoB
+        TQJKAU0CSgFNAkoBTQJKAU0CSgFNAUoG/wFKAU0CSgFNAUoBpQGmAaUYAAGlAaYBpQP/AUoF/wFKBf8B
+        SgX/AUoC/wOAAUoBTQFKDAABpQGmAaUT/wFNAUoB/wFNAUoBpQGmAaUBSgFNAkoBTQJKAU0BSg8AAaUB
+        TQFKCf8BpQFNAUoY/wGlAU0BSgwAAUoBTQFKCf8BSgX/AUoF/wFKC/8BSgFNAUoBpQGmAaUJAAFKAU0C
+        SgFNAkoBTQJKAU0BSgGlAaYBpQFKBf8BSgX/AUoF/wFKBf8BSgL/AUoBTQFKDAABpQGmAaUJ/wGlAU0B
+        SgGlAU0BSgGlAU0BSgGlAU0BSgHWAdMB1gGlAaYBpQL/AUoD/wGlAaYCSgFNAUoMAAGlAU0BSgP/AUoB
+        TQFKA/8BpQFNAUoG/wFKAU0CSgFNAkoBTQJKAU0BSgb/AaUBTQFKDAABSgFNAUoD/wFKC/8BpQFNAUoB
+        pQFNAUoG/wFKBf8BSgFNAUoBpQGmAaUJAAFKAU0BSgaAA8ABpQGmAaUD/wFKBf8BSgX/AUoF/wFKAv8D
+        gAFKAU0BSgwAAaUBpgGlAdYB0wLWAdMC1gHTAtYB0wHWCf8BpQGmAaUC/wFKBf8BSgGlAaYBpQL/AkoB
+        TQFKCQABpQFNAUoJ/wGlAU0BShj/AaUBTQFKDAABSgFNAUoJ/wFKC/8BSgv/AUoBTQFKAaUBpgGlCQAB
+        SgFNAUoG/wPAAaUBpgKlAaYCpQGmAqUBpgKlAaYBpQFKBf8BSgX/AUoC/wFKAU0BSgwAAaUBpgGlAdYB
+        0wLWAdMC1gHTAdYBpQFNAUoBpQFNAUoBpQFNAUoBpQFNAUoBpQGmAqUBTQFKAv8BSgP/AaUBpgFKA/8B
+        SgFNAUoJAAGlAU0BSgP/AUoBTQFKA/8BpQFNAUoG/wFKAU0CSgFNAkoBTQJKAU0BSgb/AaUBTQFKDAAB
+        SgFNAUoD/wFKC/8BpQFNAUoBpQGmAaUG/wFKBf8BSgFNAUoBpQGmAaUJAAFKAU0BSgb/A8ABpQGmAaUD
+        wAFKAv8DwAGlAaYCpQGmAqUBpgKlAaYCpQGmAqUBpgGlDwABpQGmAaUBSgFNAkoBTQJKAU0CSgFNAUoB
+        1gHTAtYB0wLWAdMB1gGlAaYBpQL/AUoF/wFKAaUBpgGlAv8CSgFNAUoJAAGlAU0BSgn/AaUBTQFKGP8B
+        pQFNAUoMAAFKAU0BSgn/AUoF/wGlAaYCpQFNAUoB1gHTAdYJ/wFKAU0BSgGlAaYBpQkAAUoBTQFKBv8D
+        wAP/AaUBpgKlAaYCpQGmAaUBSgFNAUoeAAGlAaYBpQHWAdMC1gHTAtYB0wLWAdMB1gFKAU0BSgHWAdMC
+        1gHTAtYB0wHWAaUBpgGlAv8BSgP/AaUBpgFKAaUBpgGlDAABpQFNAUoD/wFKAU0BSgP/AaUBTQFKBv8B
+        SgFNAkoBTQJKAU0CSgFNAUoG/wGlAU0BSgwAAUoBTQFKA/8BSgv/AUoC/wGlAaYCpQFNAUoBpQGmAaUB
+        SgX/AUoBTQFKAaUBpgGlCQABSgFNAUoJ/wnAA4ABSgFNAUoMAAGlAU0BSgwAAaUBpgGlA/8B1gHTAdYB
+        SgL/AdYB0wLWAdMC1gHTAdYBSgFNAUoB1gHTAtYB0wHWA/8BpQGmAqUBpgKlAaYBpQ8AAaUBTQFKCf8B
+        pQFNAUoY/wGlAU0BSgwAAUoBTQFKCf8BpQFNAUoBpQGmAaUG/wGlAU0BSgGlAU0BSgb/AUoBTQFKAaUB
+        pgGlCQABSgFNAUoS/wOAAUoBTQFKCQABpQFNAUoBpQFNAUoBpQFNAUoJAAGlAaYBpQFKBf8BSgFNAUoB
+        pQGmAaUB1gHTAtYB0wHWAUoBTQFKAaUBpgKlAaYCpQGmAqUBpgKlAaYBpQFKAU0BSg8AAaUBTQFKCf8B
+        pQFNAUoY/wGlAU0BSgwAAUoBTQFKA/8BSgX/AaUBTQFKAaUBTQJKAv8B1gHTAdYBpQFNAUoBpQFNAkoF
+        /wFKAU0BSgGlAaYBpQkAAUoBTQFKDP8BSgFNAkoBTQJKAU0CSgFNAUoGAAGlAU0BSgGlAU0BSgGlAU0B
+        SgGlAU0BSgGlAU0BSgYAAaUBpgGlA/8B1gHTAdYBSgFNAkoBTQJKAv8B1gHTAdYBSgFNAUohAAGlAU0B
+        SgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0B
+        SgGlAU0BSgGlAU0BSgGlAU0BSgwAAUoBTQFKCf8B1gHTAdYBpQFNAUoBpQFNAUoBpQFNAUoBpQFNAUoB
+        1gHTAdYG/wFKAU0BSgGlAaYBpQkAAUoBTQFKCf8DgAFKAU0BSgOAAUoBTQFKDwABpQFNAUoMAAGlAaYB
+        pQP/AUoBTQFKBv8BSgFNAUoB1gHTAdYBSgFNAUohAAGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0B
+        SgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgGlAU0BSgwAAUoB
+        TQFKA/8BSgv/AUoL/wFKBf8BSgFNAUoBpQGmAaUJAAFKAU0BSgn/A4ABSgFNAkoBTQFKCQABpQFNAUoB
+        pQFNAUoBpQFNAUoSAAGlAaYBpQz/AUoBTQFKWgABSgFNAUoJ/wFKC/8BSgv/AUoBTQFKDAABSgFNAkoB
+        TQJKAU0CSgFNAkoBTQJKAU0BSioAAaUBpgKlAaYCpQGmAqUBpgGlYAABSgFNAkoBTQJKAU0CSgFNAkoB
+        TQJKAU0CSgFNAkoBTQJKAU0CSgFNAkoBTQFK/wD/AOQAAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUB
+        TQFKAaUBTQFKAaUBTQFKAaUBTQFKAaUBTQFKFQABpQFNAUoBpQFNAUp+AAFKAU0BSgP/HgABpQFNAUoV
+        /wGlAU0BShIAAaUBTQFKBgABpQFNAUoGAAGlAU0BSgGlAU0BSlEAAUoBTQFKA/88AAGlAU0BSgP/AUoB
+        TQJKAU0CSgFNAkoBTQJKAU0BSgP/AaUBTQFKEgABpQFNAUoGAAGlAU0BSgMAAaUBTQFKBgABpQFNAUpL
+        AAFKAU0CSgFNAkoBTQFKA/8SAAFKAU0BSgP/DwABSgFNAkoBTQJKAU0CSgFNAkoBTQJKAU0BSgGlAU0B
+        ShX/AaUBTQFKEgABpQFNAUoGAAGlAU0BSgMAAaUBTQFKBgABpQFNAUpLAAFKAU0CSgFNAkoBTQFKA/8P
+        AAFKAU0BSgP/EgABSgFNAUoP/wGlAU0BSgP/AUoBTQJKAU0CSgFNAkoBTQJKAU0BSgP/AaUBTQFKFQAB
+        pQFNAUoBpQFNAUoBpQFNAUoDAAGlAU0BSgYAAaUBTQFKTgABSgFNAkoBTQJKAU0BSgP/CQABSgFNAkoB
+        TQFKA/8SAAFKAU0BSgP/AUoBTQJKAU0CSgFNAkoBTQFKAaUBTQFKFf8BpQFNAUobAAGlAU0BSgMAAaUB
+        TQFKAaUBTQFKAaUBTQFKVAABSgFNAkoBTQJKAU0BSgP/AwABSgFNAkoBTQFKA/8VAAFKAU0BSg//AaUB
+        TQFKA/8BSgFNAkoBTQFKA/8BpQFNAUoBpQFNAUoBpQFNAUoBpQFNAUobAAGlAU0CSgFNAUoBpQFNAUob
+        AAOAA/8DwAOAEgADgAP/A8ADgBgAAUoBTQJKAU0CSgFNAkoBTQJKAU0BSgP/GAABSgFNAUoD/wFKAU0C
+        SgFNAkoBTQJKAU0BSgGlAU0BSgz/AaUBTQFKA/8BpQFNAUohAAFKAU0BSmMAAUoBTQJKAU0CSgFNAUoD
+        /xsAAUoBTQFKD/8BpQFNAUoM/wGlAU0BSgGlAU0BSiEAAUoBTQJKAU0CSgFNAUpdAAFKAU0CSgFNAkoB
+        TQJKAU0CSgFNAUoD/xgAAUoBTQFKA/8BSgFNAkoBTQFKA/8BSgFNAUoBpQFNAUoBpQFNAUoBpQFNAUoB
+        pQFNAUoBpQFNAUoBpQFNAUokAAFKAU0BSgMAAUoBTQFKIQADgBsAA4AYAAFKAU0CSgFNAkoBTQFKA4AD
+        AAFKAU0BSgP/GAABSgFNAUoM/wFKAU0BSgP/AUoBTQFKLQABSgFNAkoBTQFKAwABSgFNAkoBTQFKHgAD
+        gBsAA4ASAAFKAU0CSgFNAkoBTQJKAU0BSgP/CQABSgFNAkoBTQFKA/8SAAFKAU0BSgz/AUoBTQJKAU0B
+        SjAAAUoBTQFKCQABSgFNAUoeAAOAGwADgA8AAUoBTQJKAU0CSgFNAkoBTQFKA/8PAAFKAU0CSgFNAUoD
+        /w8AAUoBTQJKAU0CSgFNAkoBTQJKAU0CSgFNAUozAAFKAU0BSgkAAUoBTQFKHgADgBsAA4APAAFKAU0C
+        SgFNAUoDgBgAAUoBTQJKAU0BSgP/UQABSgFNAUoJAAFKAU0BSh4AA4AMAAOADAADgP8A8AABQgFNAT4H
+        AAE+AwABKAMAAUgDAAFaAwABAQEAAQEFAAE4AQQWAAP/AQAC/wHACQAC/wHACQABwAEAAUAJAAH8AQcB
+        wAkAAf8BvwHACQAB/wG/AcAJAAH/Ab8BwAkAAeMBsAHACQABgAGgCgAB3QGjAUAJAAHdAYABQAkAAeMB
+        AAFACQAB9wEAAcAJAAH3AaEBwAkAAfcBoQHACQAB9wGlAcAJAAHwAQEBwAkAAv8BwAkACf8DAAf/AeAB
+        AQMAAcABAAFwAQABHwH/Af4BgAEBAwABwAEAAX8BAQH+AQMB/wHgAQEDAAHAAQABfwHvAfwBAQH+AYAB
+        AQMAAcABAAF/Ae8B/AEAAf8B4AEBAwABwAEAAX8B7wH8AQABfgGAAQEDAAHAAQABeAHuAT4BAAE/AeAB
+        AQMAAcABAAFgASgBDwEAAR4BAAEBAwABwAEAAXcBbQHfAYABDgEAAQEDAAHAAQABdwFtAd8BwAEOAQAB
+        HwMAAcABAAF4Ae4BPwHgAQ4BAAEFAwABwAEAAf0B7wF/AfABDgEAAR8DAAHgAT8B/QHvAX8B+AEeAQAB
+        BQMAAfABfwH9Ae8BfwH/Af4BAAEfAwAC/wH9Ae8BfwH/Af4BAAEFAwAC/wH8AQABfwH/Af4BAAEfAwAJ
+        /wMACf8DAAj/AT8DAAH+AQABcAEHAf4BAAE/AfwBHwMAAcABAAFwAQcB/AEAAR8B8AEfAwABgAEAAXAB
+        BwH4AQABDwHAAQ8DAAGAAQABcAEAARgBAAEPAYABDwMAAYABAAFwAQABGAEAAQ8BgAEDAwABgAEAAfAB
+        AAEYAQABBwEAAQMDAAGAAQEB8AEAARgBAAEGAQABAwMAAYABAQHwAQABHAEAAQYBAAEDAwABgAEBAfAB
+        AAEeAQABBgEAAQEDAAGAAQEB8AEAAR8BAAEOAQABAQMAAYABAQH+AQABHwEAAT4BAAEDAwABgAEBAf8B
+        AAE/AYABPwEAAQMDAAHAAQMB/wGAAX8BgAEfAYMBAwMAAfwBPwH/AcAB/wHAAR8B/wGTAwAD/wHhBf8D
+        AAn/AwAJ/wMAAf4BfwT/AX8B8AEHAwAB/AE/A/8B/gF/AeABAwMAAcABAwHwAQABPwEAAT8B4AEDAwAB
+        wAEBAfABAAE+AQABHwHgAQMDAAHAAQEB8AEAATwBAAEOAQABAwMAAcABAAHwAQABPAEAAQ4BAAEDAwAB
+        wAEAAXABAAE8AQABDgEAAQMDAAHAAQABcAEAATwBAAEOAQABBwMAAcABAAFwAQABPAEAAQ4BAAH/AwAB
+        wAEAAfABAAE8AQABDgEAAfcDAAGAAQEB8AEAATwBAAEOAQAB4wMAAYABAQHwAQABPAEAAQ4BAAHBAwAB
+        gAF/AfABAAE8AQABDgEBAfcDAAGAAX8B8AEAATwBAAEOAQMBjwMAAcAD/wH8AQABHgEHAf8DAAHhA/8B
+        /gEAAT8C/wMACf8DAAn/AwAJ/wMAAf8BAAF/AT8B/AEAAQcB/wHzAwAB/wEAAX4B2QH/AcABfwHPAf8D
+        AAH/AQABfgHWAf8B+wH/AYcB5wMAAcABAAF+AdYB/wH7Af8BhwHPAwABwAEAAX8BFgH/AfsB/wHDAY8D
+        AAHAAQABfwHRAf4BOwGPAeEBHwMAAcABAAF/AccB+AEKAQMB8AE/AwABwAEAAf8B7wH9AdsBdwH4AX8D
+        AAHAAQEB/wHHAf0B2wF3AfABPwMAAcABAwH/AdcB/gE7AY8B4QE/AwABwAE/Af8BkwH/AXsB3wGDAY8D
+        AAHAAX8B/wG7Af8BewHfAQcBxwMAAcAC/wG7Af8BewHfAR8B4wMAA/8BuwH/AXsB3wL/AwAF/wEAAR8C
+        /wMACf8ZAAs=
+</value>
+  </data>
+  <data name="tabControl.SnapToGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabControl.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="tabControl.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabControl.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="tabControl.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="tabControl.GridSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 8</value>
+  </data>
+  <data name="tabControl.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabControl.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabControl.Alignment" type="System.Windows.Forms.TabAlignment, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top</value>
+  </data>
+  <data name="tabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabControl.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Normal</value>
+  </data>
+  <data name="tabControl.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabControl.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabControl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="tabControl.ItemSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>55, 18</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl.Padding" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>6, 3</value>
+  </data>
+  <data name="tabControl.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="tabControl.ShowToolTips" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>512, 256</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="tabControl.Text">
+    <value />
+  </data>
+  <data name="tabControl.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="tabPageAppraisal.SnapToGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageAppraisal.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageAppraisal.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="tabPageAppraisal.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="tabPageAppraisal.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="tabPageAppraisal.GridSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 8</value>
+  </data>
+  <data name="tabPageAppraisal.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageAppraisal.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageAppraisal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabPageAppraisal.AutoScroll" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="tabPageAppraisal.AutoScrollMargin" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPageAppraisal.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPageAppraisal.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageAppraisal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="tabPageAppraisal.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageAppraisal.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageAppraisal.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="tabPageAppraisal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="tabPageAppraisal.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageAppraisal.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="tabPageAppraisal.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>504, 230</value>
+  </data>
+  <data name="tabPageAppraisal.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="tabPageAppraisal.Text">
+    <value>Appraisal</value>
+  </data>
+  <data name="tabPageAppraisal.ToolTipText">
+    <value />
+  </data>
+  <data name="tabPageAppraisal.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabPageAppraisal.Name">
+    <value>tabPageAppraisal</value>
+  </data>
+  <data name="&gt;&gt;tabPageAppraisal.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageAppraisal.Parent">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageAppraisal.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="appraisalViewer.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="appraisalViewer.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="appraisalViewer.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="appraisalViewer.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="appraisalViewer.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="appraisalViewer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="appraisalViewer.AutoScroll" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="appraisalViewer.AutoScrollMargin" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="appraisalViewer.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="appraisalViewer.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="appraisalViewer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Fill</value>
+  </data>
+  <data name="appraisalViewer.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="appraisalViewer.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="appraisalViewer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="appraisalViewer.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="appraisalViewer.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="appraisalViewer.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>504, 230</value>
+  </data>
+  <data name="appraisalViewer.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="appraisalViewer.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;appraisalViewer.Name">
+    <value>appraisalViewer</value>
+  </data>
+  <data name="&gt;&gt;appraisalViewer.Type">
+    <value>Shadows.Quasar.Viewers.Appraisal.AppraisalViewer, Viewer.Appraisal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a4d73499a481069c</value>
+  </data>
+  <data name="&gt;&gt;appraisalViewer.Parent">
+    <value>tabPageAppraisal</value>
+  </data>
+  <data name="&gt;&gt;appraisalViewer.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="tabPageSector.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="tabPageSector.SnapToGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageSector.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageSector.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="tabPageSector.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="tabPageSector.GridSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 8</value>
+  </data>
+  <data name="tabPageSector.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageSector.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageSector.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabPageSector.AutoScroll" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="tabPageSector.AutoScrollMargin" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPageSector.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPageSector.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageSector.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="tabPageSector.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageSector.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageSector.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="tabPageSector.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="tabPageSector.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageSector.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="tabPageSector.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>504, 230</value>
+  </data>
+  <data name="tabPageSector.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1</value>
+  </data>
+  <data name="tabPageSector.Text">
+    <value>Sectors</value>
+  </data>
+  <data name="tabPageSector.ToolTipText">
+    <value />
+  </data>
+  <data name="tabPageSector.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabPageSector.Name">
+    <value>tabPageSector</value>
+  </data>
+  <data name="&gt;&gt;tabPageSector.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageSector.Parent">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageSector.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="tabPageRisk.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="tabPageRisk.SnapToGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageRisk.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageRisk.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="tabPageRisk.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="tabPageRisk.GridSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 8</value>
+  </data>
+  <data name="tabPageRisk.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageRisk.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageRisk.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="tabPageRisk.AutoScroll" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="tabPageRisk.AutoScrollMargin" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPageRisk.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="tabPageRisk.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageRisk.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="tabPageRisk.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="tabPageRisk.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="tabPageRisk.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="tabPageRisk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="tabPageRisk.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPageRisk.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="tabPageRisk.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>504, 230</value>
+  </data>
+  <data name="tabPageRisk.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>2</value>
+  </data>
+  <data name="tabPageRisk.Text">
+    <value>Risk</value>
+  </data>
+  <data name="tabPageRisk.ToolTipText">
+    <value />
+  </data>
+  <data name="tabPageRisk.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabPageRisk.Name">
+    <value>tabPageRisk</value>
+  </data>
+  <data name="&gt;&gt;tabPageRisk.Type">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPageRisk.Parent">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPageRisk.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="contextMenu.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="contextMenu.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>160, 17</value>
+  </data>
+  <data name="contextMenu.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="contextMenu.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>No</value>
+  </data>
+  <data name="menuItemFile.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemFile.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemFile.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemFile.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItemFile.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemFile.Text">
+    <value>&amp;File</value>
+  </data>
+  <data name="menuItemFile.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem1.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItem1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItem1.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem1.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItem1.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem1.Text">
+    <value>-</value>
+  </data>
+  <data name="menuItem1.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemSaveAppraisal.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemSaveAppraisal.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemSaveAppraisal.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemSaveAppraisal.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItemSaveAppraisal.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemSaveAppraisal.Text">
+    <value>&amp;Save As...</value>
+  </data>
+  <data name="menuItemSaveAppraisal.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemAction.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemAction.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemAction.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemAction.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItemAction.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemAction.Text">
+    <value>&amp;Appraisal</value>
+  </data>
+  <data name="menuItemAction.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemCheckCompliance.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemCheckCompliance.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemCheckCompliance.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemCheckCompliance.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItemCheckCompliance.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemCheckCompliance.Text">
+    <value>Check Compliance</value>
+  </data>
+  <data name="menuItemCheckCompliance.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemRebalance.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemRebalance.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemRebalance.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemRebalance.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItemRebalance.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemRebalance.Text">
+    <value>&amp;Rebalance...</value>
+  </data>
+  <data name="menuItemRebalance.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemSendOrders.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemSendOrders.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemSendOrders.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemSendOrders.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItemSendOrders.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemSendOrders.Text">
+    <value>Send Orders</value>
+  </data>
+  <data name="menuItemSendOrders.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem2.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItem2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItem2.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem2.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItem2.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItem2.Text">
+    <value>&amp;Pricing</value>
+  </data>
+  <data name="menuItem2.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemLast.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemLast.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemLast.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemLast.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItemLast.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemLast.Text">
+    <value>&amp;Last</value>
+  </data>
+  <data name="menuItemLast.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemClose.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemClose.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="menuItemClose.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemClose.Shortcut" type="System.Windows.Forms.Shortcut, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="menuItemClose.ShowShortcut" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="menuItemClose.Text">
+    <value>&amp;Close</value>
+  </data>
+  <data name="menuItemClose.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Name">
+    <value>AccountViewer</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>55</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Private</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>8, 8</value>
+  </data>
+  <data name="$this.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoScrollMargin" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>512, 256</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonQuasarToday.Name">
+    <value>toolBarButtonQuasarToday</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonQuasarToday.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButton1.Name">
+    <value>toolBarButton1</value>
+  </data>
+  <data name="&gt;&gt;toolBarButton1.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonPrint.Name">
+    <value>toolBarButtonPrint</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonPrint.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonMoveToFolder.Name">
+    <value>toolBarButtonMoveToFolder</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonMoveToFolder.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonDelete.Name">
+    <value>toolBarButtonDelete</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonDelete.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButton2.Name">
+    <value>toolBarButton2</value>
+  </data>
+  <data name="&gt;&gt;toolBarButton2.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonCut.Name">
+    <value>toolBarButtonCut</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonCut.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonCopy.Name">
+    <value>toolBarButtonCopy</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonCopy.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonPaste.Name">
+    <value>toolBarButtonPaste</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonPaste.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButton3.Name">
+    <value>toolBarButton3</value>
+  </data>
+  <data name="&gt;&gt;toolBarButton3.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonClearProposed.Name">
+    <value>toolBarButtonClearProposed</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonClearProposed.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonRebalance.Name">
+    <value>toolBarButtonRebalance</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonRebalance.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonRebalanceSelection.Name">
+    <value>toolBarButtonRebalanceSelection</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonRebalanceSelection.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonSend.Name">
+    <value>toolBarButtonSend</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonSend.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButton4.Name">
+    <value>toolBarButton4</value>
+  </data>
+  <data name="&gt;&gt;toolBarButton4.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonHelp.Name">
+    <value>toolBarButtonHelp</value>
+  </data>
+  <data name="&gt;&gt;toolBarButtonHelp.Type">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageListStandard.Name">
+    <value>imageListStandard</value>
+  </data>
+  <data name="&gt;&gt;imageListStandard.Type">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Name">
+    <value>contextMenu</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Type">
+    <value>System.Windows.Forms.ContextMenu, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemFile.Name">
+    <value>menuItemFile</value>
+  </data>
+  <data name="&gt;&gt;menuItemFile.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem1.Name">
+    <value>menuItem1</value>
+  </data>
+  <data name="&gt;&gt;menuItem1.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSaveAppraisal.Name">
+    <value>menuItemSaveAppraisal</value>
+  </data>
+  <data name="&gt;&gt;menuItemSaveAppraisal.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemAction.Name">
+    <value>menuItemAction</value>
+  </data>
+  <data name="&gt;&gt;menuItemAction.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemCheckCompliance.Name">
+    <value>menuItemCheckCompliance</value>
+  </data>
+  <data name="&gt;&gt;menuItemCheckCompliance.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemRebalance.Name">
+    <value>menuItemRebalance</value>
+  </data>
+  <data name="&gt;&gt;menuItemRebalance.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemSendOrders.Name">
+    <value>menuItemSendOrders</value>
+  </data>
+  <data name="&gt;&gt;menuItemSendOrders.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItem2.Name">
+    <value>menuItem2</value>
+  </data>
+  <data name="&gt;&gt;menuItem2.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemLast.Name">
+    <value>menuItemLast</value>
+  </data>
+  <data name="&gt;&gt;menuItemLast.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuItemClose.Name">
+    <value>menuItemClose</value>
+  </data>
+  <data name="&gt;&gt;menuItemClose.Type">
+    <value>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>AccountViewer</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>Shadows.Quasar.Viewers.Viewer, Viewer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3ab51a9179054c8b</value>
+  </data>
+</root>

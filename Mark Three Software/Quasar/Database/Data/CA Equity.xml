@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Equity">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>CNR</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CANADIAN NATIONAL RAILWAY CO.</name>
+		<symbol>CNR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>N</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>INCO LIMITED</name>
+		<symbol>N</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>MG.A</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>MAGNA INTERNATIONAL INC. CL 'A' SV</name>
+		<symbol>MG.A</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>RY</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ROYAL BANK OF CANADA</name>
+		<symbol>RY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>SJR.B</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SHAW COMMUNICATIONS INC. CL 'B' NV</name>
+		<symbol>SJR.B</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>SU</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>SUNCOR ENERGY INC.</name>
+		<symbol>SU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>TLM</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TALISMAN ENERGY INC.</name>
+		<symbol>TLM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>BVF</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BIOVAIL CORPORATION</name>
+		<symbol>BVF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>PDG</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PLACER DOME INC.</name>
+		<symbol>PDG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>BBD.B</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BOMBARDIER INC. CL 'B' SV</name>
+		<symbol>BBD.B</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>BMO</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BANK OF MONTREAL</name>
+		<symbol>BMO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>FHR</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>FAIRMONT HOTELS &amp; RESORTS INC.</name>
+		<symbol>FHR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>NXY</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NEXEN INC.</name>
+		<symbol>NXY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>NRD</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NORANDA INC.</name>
+		<symbol>NRD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>PCA</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>PETRO-CANADA</name>
+		<symbol>PCA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>RIM</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>RESEARCH IN MOTION LIMITED</name>
+		<symbol>RIM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>TRP</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TRANSCANADA PIPELINES LTD.</name>
+		<symbol>TRP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>CLS</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CELESTICA INC. SV</name>
+		<symbol>CLS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>DFS</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>DOFASCO INC.</name>
+		<symbol>DFS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>NCX</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NOVA CHEMICALS CORPORATION</name>
+		<symbol>NCX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>TOC</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>THOMSON CORPORATION (THE)</name>
+		<symbol>TOC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>T</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TELUS CORPORATION</name>
+		<symbol>T</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>ABX</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BARRICK GOLD CORPORATION</name>
+		<symbol>ABX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>TEK.B</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TECK COMINCO LIMITED CL 'B' SV</name>
+		<symbol>TEK.B</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>CM</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CANADIAN IMPERIAL BANK OF COMMERCE</name>
+		<symbol>CM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>CTR.A</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>CANADIAN TIRE CORP. LTD. CL 'A' NV</name>
+		<symbol>CTR.A</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>TD</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TORONTO-DOMINION BANK (THE)</name>
+		<symbol>TD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>A</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ABITIBI-CONSOLIDATED INC.</name>
+		<symbol>A</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>BNS</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BANK OF NOVA SCOTIA (THE)</name>
+		<symbol>BNS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>AL</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALCAN INC.</name>
+		<symbol>AL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>BCE</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>BCE INC.</name>
+		<symbol>BCE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>HSE</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>HUSKY ENERGY INC.</name>
+		<symbol>HSE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>NA</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NATIONAL BANK OF CANADA</name>
+		<symbol>NA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>NT</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>NORTEL NETWORKS CORPORATION</name>
+		<symbol>NT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<equityId>TA</equityId>
+		<countryId>CA</countryId>
+		<exchangeId>TSE</exchangeId>
+		<settlementId>CAD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>TRANSALTA CORPORATION</name>
+		<symbol>TA</symbol>
+	</method>
+</batch>

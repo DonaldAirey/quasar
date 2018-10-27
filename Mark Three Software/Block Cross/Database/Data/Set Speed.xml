@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch>
+  <transaction>
+    <method assembly="Market.Simulator" type="MarkThree.Quasar.Market.Simulator" name="SetHeuristics">
+      <tickerRate>15.0</tickerRate>
+    </method>
+  </transaction>
+</batch>

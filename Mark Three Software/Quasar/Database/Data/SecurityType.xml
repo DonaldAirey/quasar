@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="SecurityType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>0</securityTypeCode>
+		<description>Currency</description>
+		<externalId0>CURRENCY</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>1</securityTypeCode>
+		<description>Equity</description>
+		<externalId0>EQUITY</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>2</securityTypeCode>
+		<description>Debt</description>
+		<externalId0>DEBT</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>3</securityTypeCode>
+		<description>Generic Bond</description>
+		<externalId0>GENERIC</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>4</securityTypeCode>
+		<description>List</description>
+		<externalId0>LIST</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>5</securityTypeCode>
+		<description>Fund</description>
+		<externalId0>FUND</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>6</securityTypeCode>
+		<description>Annuity</description>
+		<externalId0>ANNUITY</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>7</securityTypeCode>
+		<description>Derivative</description>
+		<externalId0>DERIVATIVE</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>8</securityTypeCode>
+		<description>Scheme</description>
+		<externalId0>SCHEME</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>9</securityTypeCode>
+		<description>Sector</description>
+		<externalId0>SECTOR</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>10</securityTypeCode>
+		<description>Option</description>
+		<externalId0>OPTION</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.SecurityType" name="Load">
+		<securityTypeCode>11</securityTypeCode>
+		<description>Future</description>
+		<externalId0>FUTURE</externalId0>
+	</method>
+</batch>

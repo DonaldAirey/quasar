@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Currency">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ADP</currencyId>
+		<countryId>AD</countryId>
+		<name>Andorran Peseta</name>
+		<symbol>ADP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>AED</currencyId>
+		<countryId>AE</countryId>
+		<name>UAE Dirham</name>
+		<symbol>AED</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>AFA</currencyId>
+		<countryId>AF</countryId>
+		<name>Afghani</name>
+		<symbol>AFA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ALL</currencyId>
+		<countryId>AL</countryId>
+		<name>Lek</name>
+		<symbol>ALL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>AMD</currencyId>
+		<countryId>AM</countryId>
+		<name>Armenian Dram</name>
+		<symbol>AMD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ANG</currencyId>
+		<countryId>AN</countryId>
+		<name>Netherlands Antillean Guilder</name>
+		<symbol>ANG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>AON</currencyId>
+		<countryId>AO</countryId>
+		<name>New Kwanza</name>
+		<symbol>AON</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>AOR</currencyId>
+		<countryId>AO</countryId>
+		<name>Kwanza Reajustado</name>
+		<symbol>AOR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ARS</currencyId>
+		<countryId>AR</countryId>
+		<name>Argentine Peso</name>
+		<symbol>ARS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ATS</currencyId>
+		<countryId>AT</countryId>
+		<name>Shilling</name>
+		<symbol>ATS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>AUD</currencyId>
+		<countryId>AU</countryId>
+		<name>Australian Dollar</name>
+		<symbol>AUD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>AWG</currencyId>
+		<countryId>AW</countryId>
+		<name>Aruban Guilder</name>
+		<symbol>AWG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>AZM</currencyId>
+		<countryId>AZ</countryId>
+		<name>Azerbaijanian Manat</name>
+		<symbol>AZM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BBD</currencyId>
+		<countryId>BB</countryId>
+		<name>Barbados Dollar</name>
+		<symbol>BBD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BDT</currencyId>
+		<countryId>BD</countryId>
+		<name>Taka</name>
+		<symbol>BDT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BEF</currencyId>
+		<countryId>BE</countryId>
+		<name>Belgian Franc</name>
+		<symbol>BEF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BGL</currencyId>
+		<countryId>BG</countryId>
+		<name>Lev</name>
+		<symbol>BGL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BHD</currencyId>
+		<countryId>BH</countryId>
+		<name>Bahraini Dinar</name>
+		<symbol>BHD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BIF</currencyId>
+		<countryId>BI</countryId>
+		<name>Burundi Franc</name>
+		<symbol>BIF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BMD</currencyId>
+		<countryId>BM</countryId>
+		<name>Bermudian Dollar</name>
+		<symbol>BMD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BND</currencyId>
+		<countryId>BN</countryId>
+		<name>Brunei Dollar</name>
+		<symbol>BND</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BOB</currencyId>
+		<countryId>BO</countryId>
+		<name>Boliviano</name>
+		<symbol>BOB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BOV</currencyId>
+		<countryId>BO</countryId>
+		<name>MVDol</name>
+		<symbol>BOV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BRL</currencyId>
+		<countryId>BR</countryId>
+		<name>Brazilian Real</name>
+		<symbol>BRL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BSD</currencyId>
+		<countryId>BS</countryId>
+		<name>Bahamian Dollar</name>
+		<symbol>BSD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BTN</currencyId>
+		<countryId>BT</countryId>
+		<name>Ngultrum</name>
+		<symbol>BTN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BWP</currencyId>
+		<countryId>BW</countryId>
+		<name>Pula</name>
+		<symbol>BWP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BYB</currencyId>
+		<countryId>BY</countryId>
+		<name>Belarussian Ruble</name>
+		<symbol>BYB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>BZD</currencyId>
+		<countryId>BZ</countryId>
+		<name>Belize Dollar</name>
+		<symbol>BZD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CAD</currencyId>
+		<countryId>CA</countryId>
+		<name>Candian Dollar</name>
+		<symbol>CAD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CHF</currencyId>
+		<countryId>CH</countryId>
+		<name>Swiss Franc</name>
+		<symbol>CHF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CLF</currencyId>
+		<countryId>CL</countryId>
+		<name>Unidades de Formento</name>
+		<symbol>CLF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CLP</currencyId>
+		<countryId>CL</countryId>
+		<name>Chilean Peso</name>
+		<symbol>CLP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CNY</currencyId>
+		<countryId>CN</countryId>
+		<name>Yuan Renminbi</name>
+		<symbol>CNY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>COP</currencyId>
+		<countryId>CO</countryId>
+		<name>Colombian Peso</name>
+		<symbol>COP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CRC</currencyId>
+		<countryId>CR</countryId>
+		<name>Costa Rican Colon</name>
+		<symbol>CRC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CUP</currencyId>
+		<countryId>CU</countryId>
+		<name>Cuban Peso</name>
+		<symbol>CUP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CVE</currencyId>
+		<countryId>CV</countryId>
+		<name>Cape Verde Escudo</name>
+		<symbol>CVE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CYP</currencyId>
+		<countryId>CY</countryId>
+		<name>Cyprus Pound</name>
+		<symbol>CYP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>CZK</currencyId>
+		<countryId>CZ</countryId>
+		<name>Czech Koruna</name>
+		<symbol>CZK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>DEM</currencyId>
+		<countryId>DE</countryId>
+		<name>Deutsche Mark</name>
+		<symbol>DEM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>DJF</currencyId>
+		<countryId>DJ</countryId>
+		<name>Djibouti Franc</name>
+		<symbol>DJF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>DKK</currencyId>
+		<countryId>DK</countryId>
+		<name>Danish Krone</name>
+		<symbol>DKK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>DOP</currencyId>
+		<countryId>DO</countryId>
+		<name>Dominican Peso</name>
+		<symbol>DOP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>DZD</currencyId>
+		<countryId>DZ</countryId>
+		<name>Algerian Dinar</name>
+		<symbol>DZD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ECS</currencyId>
+		<countryId>EC</countryId>
+		<name>Sucre</name>
+		<symbol>ECS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ECV</currencyId>
+		<countryId>EC</countryId>
+		<name>Unidad de Valor Constante (UVC)</name>
+		<symbol>ECV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>EEK</currencyId>
+		<countryId>EE</countryId>
+		<name>Kroon</name>
+		<symbol>EEK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>EGP</currencyId>
+		<countryId>EG</countryId>
+		<name>Egyptian Pound</name>
+		<symbol>EGP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ESP</currencyId>
+		<countryId>ES</countryId>
+		<name>Spanish Peseta</name>
+		<symbol>ESP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ETB</currencyId>
+		<countryId>ET</countryId>
+		<name>Ethiopian Birr</name>
+		<symbol>ETB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>EUR</currencyId>
+		<countryId>EU</countryId>
+		<name>Euro Dollar</name>
+		<symbol>EUR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>FIM</currencyId>
+		<countryId>FI</countryId>
+		<name>Markka</name>
+		<symbol>FIM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>FJD</currencyId>
+		<countryId>FJ</countryId>
+		<name>Fiji Dollar</name>
+		<symbol>FJD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>FKP</currencyId>
+		<countryId>FK</countryId>
+		<name>Falkland Islands Pound</name>
+		<symbol>FKP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>FRF</currencyId>
+		<countryId>FR</countryId>
+		<name>French Franc</name>
+		<symbol>FRF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GBP</currencyId>
+		<countryId>GB</countryId>
+		<name>Pound Sterling</name>
+		<symbol>GBP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GEL</currencyId>
+		<countryId>GE</countryId>
+		<name>Lari</name>
+		<symbol>GEL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GHC</currencyId>
+		<countryId>GH</countryId>
+		<name>Cedi</name>
+		<symbol>GHC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GIP</currencyId>
+		<countryId>GI</countryId>
+		<name>Gibraltar Pound</name>
+		<symbol>GIP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GMD</currencyId>
+		<countryId>GM</countryId>
+		<name>Dalasi</name>
+		<symbol>GMD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GNF</currencyId>
+		<countryId>GN</countryId>
+		<name>Guinea Franc</name>
+		<symbol>GNF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GRD</currencyId>
+		<countryId>GR</countryId>
+		<name>Drachma</name>
+		<symbol>GRD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GTQ</currencyId>
+		<countryId>GT</countryId>
+		<name>Quetzal</name>
+		<symbol>GTQ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GWP</currencyId>
+		<countryId>GW</countryId>
+		<name>Guinea-Bissau Peso</name>
+		<symbol>GWP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>GYD</currencyId>
+		<countryId>GY</countryId>
+		<name>Guyana Dollar</name>
+		<symbol>GYD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>HKD</currencyId>
+		<countryId>HK</countryId>
+		<name>Hong Kong Dollar</name>
+		<symbol>HKD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>HNL</currencyId>
+		<countryId>HN</countryId>
+		<name>Lempira</name>
+		<symbol>HNL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>HRK</currencyId>
+		<countryId>HR</countryId>
+		<name>Kuna</name>
+		<symbol>HRK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>HTG</currencyId>
+		<countryId>HT</countryId>
+		<name>Gourde</name>
+		<symbol>HTG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>HUF</currencyId>
+		<countryId>HU</countryId>
+		<name>Forint</name>
+		<symbol>HUF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>IDR</currencyId>
+		<countryId>ID</countryId>
+		<name>Rupiah</name>
+		<symbol>IDR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>IEP</currencyId>
+		<countryId>IE</countryId>
+		<name>Irish Pound</name>
+		<symbol>IEP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ILS</currencyId>
+		<countryId>IL</countryId>
+		<name>Shekel</name>
+		<symbol>ILS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>INR</currencyId>
+		<countryId>IN</countryId>
+		<name>Indian Rupee</name>
+		<symbol>INR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>IQD</currencyId>
+		<countryId>IQ</countryId>
+		<name>Iraqi Dinar</name>
+		<symbol>IQD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>IRR</currencyId>
+		<countryId>IR</countryId>
+		<name>Iranian Rial</name>
+		<symbol>IRR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ISK</currencyId>
+		<countryId>IS</countryId>
+		<name>Iceland Krona</name>
+		<symbol>ISK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ITL</currencyId>
+		<countryId>IT</countryId>
+		<name>Italian Lira</name>
+		<symbol>ITL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>JMD</currencyId>
+		<countryId>JM</countryId>
+		<name>Jamaican Dollar</name>
+		<symbol>JMD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>JOD</currencyId>
+		<countryId>JO</countryId>
+		<name>Jordanian Dinar</name>
+		<symbol>JOD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>JPY</currencyId>
+		<countryId>JP</countryId>
+		<name>Yen</name>
+		<symbol>JPY</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KES</currencyId>
+		<countryId>KE</countryId>
+		<name>Kenyan Shilling</name>
+		<symbol>KES</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KGS</currencyId>
+		<countryId>KG</countryId>
+		<name>Som</name>
+		<symbol>KGS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KHR</currencyId>
+		<countryId>KH</countryId>
+		<name>Riel</name>
+		<symbol>KHR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KMF</currencyId>
+		<countryId>KM</countryId>
+		<name>Comoro Franc</name>
+		<symbol>KMF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KPW</currencyId>
+		<countryId>KP</countryId>
+		<name>North Korean Won</name>
+		<symbol>KPW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KRW</currencyId>
+		<countryId>KR</countryId>
+		<name>Won</name>
+		<symbol>KRW</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KWD</currencyId>
+		<countryId>KW</countryId>
+		<name>Kuwaiti Dinar</name>
+		<symbol>KWD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KYD</currencyId>
+		<countryId>KY</countryId>
+		<name>Cayman Islands Dollar</name>
+		<symbol>KYD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>KZT</currencyId>
+		<countryId>KZ</countryId>
+		<name>Tenge</name>
+		<symbol>KZT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LAK</currencyId>
+		<countryId>LA</countryId>
+		<name>Kip</name>
+		<symbol>LAK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LBP</currencyId>
+		<countryId>LB</countryId>
+		<name>Lebanese Pound</name>
+		<symbol>LBP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LKR</currencyId>
+		<countryId>LK</countryId>
+		<name>Sri Lanka Rupee</name>
+		<symbol>LKR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LRD</currencyId>
+		<countryId>LR</countryId>
+		<name>Liberian Dollar</name>
+		<symbol>LRD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LSL</currencyId>
+		<countryId>LS</countryId>
+		<name>Loti</name>
+		<symbol>LSL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LTL</currencyId>
+		<countryId>LT</countryId>
+		<name>Lithuanian Litas</name>
+		<symbol>LTL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LUF</currencyId>
+		<countryId>LU</countryId>
+		<name>Luxembourg Franc</name>
+		<symbol>LUF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LVL</currencyId>
+		<countryId>LV</countryId>
+		<name>Latvian Lats</name>
+		<symbol>LVL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>LYD</currencyId>
+		<countryId>LY</countryId>
+		<name>Libyan Dinar</name>
+		<symbol>LYD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MAD</currencyId>
+		<countryId>MA</countryId>
+		<name>Moroccan Dirham</name>
+		<symbol>MAD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MDL</currencyId>
+		<countryId>MD</countryId>
+		<name>Moldovan Leu</name>
+		<symbol>MDL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MGF</currencyId>
+		<countryId>MG</countryId>
+		<name>Malagasy Franc</name>
+		<symbol>MGF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MKD</currencyId>
+		<countryId>MK</countryId>
+		<name>Denar</name>
+		<symbol>MKD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MMK</currencyId>
+		<countryId>MM</countryId>
+		<name>Kyat</name>
+		<symbol>MMK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MNT</currencyId>
+		<countryId>MN</countryId>
+		<name>Tugrik</name>
+		<symbol>MNT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MOP</currencyId>
+		<countryId>MO</countryId>
+		<name>Pataca</name>
+		<symbol>MOP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MRO</currencyId>
+		<countryId>MR</countryId>
+		<name>Ouguiya</name>
+		<symbol>MRO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MTL</currencyId>
+		<countryId>MT</countryId>
+		<name>Maltese Lira</name>
+		<symbol>MTL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MUR</currencyId>
+		<countryId>MU</countryId>
+		<name>Mauritius Rupee</name>
+		<symbol>MUR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MVR</currencyId>
+		<countryId>MV</countryId>
+		<name>Rufiyaa</name>
+		<symbol>MVR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MWK</currencyId>
+		<countryId>MW</countryId>
+		<name>Kwacha</name>
+		<symbol>MWK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MXN</currencyId>
+		<countryId>MX</countryId>
+		<name>Mexican Nuevo Peso</name>
+		<symbol>MXN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MYR</currencyId>
+		<countryId>MY</countryId>
+		<name>Malaysian Ringgit</name>
+		<symbol>MYR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>MZM</currencyId>
+		<countryId>MZ</countryId>
+		<name>Metical</name>
+		<symbol>MZM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>NAD</currencyId>
+		<countryId>NA</countryId>
+		<name>Namibia Dollar</name>
+		<symbol>NAD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>NGN</currencyId>
+		<countryId>NG</countryId>
+		<name>Naira</name>
+		<symbol>NGN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>NIO</currencyId>
+		<countryId>NI</countryId>
+		<name>Cordoba Oro</name>
+		<symbol>NIO</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>NLG</currencyId>
+		<countryId>NL</countryId>
+		<name>Netherlands Guilder</name>
+		<symbol>NLG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>NOK</currencyId>
+		<countryId>NO</countryId>
+		<name>Norwegian Krone</name>
+		<symbol>NOK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>NPR</currencyId>
+		<countryId>NP</countryId>
+		<name>Nepalese Rupee</name>
+		<symbol>NPR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>NZD</currencyId>
+		<countryId>NZ</countryId>
+		<name>New Zealand Dollar</name>
+		<symbol>NZD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>OMR</currencyId>
+		<countryId>OM</countryId>
+		<name>Rial Omani</name>
+		<symbol>OMR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PAB</currencyId>
+		<countryId>PA</countryId>
+		<name>Balboa</name>
+		<symbol>PAB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PEN</currencyId>
+		<countryId>PE</countryId>
+		<name>Nuevo Sol</name>
+		<symbol>PEN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PGK</currencyId>
+		<countryId>PG</countryId>
+		<name>Kina</name>
+		<symbol>PGK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PHP</currencyId>
+		<countryId>PH</countryId>
+		<name>Philippine Peso</name>
+		<symbol>PHP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PKR</currencyId>
+		<countryId>PK</countryId>
+		<name>Pakistan Rupee</name>
+		<symbol>PKR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PLN</currencyId>
+		<countryId>PL</countryId>
+		<name>Zloty</name>
+		<symbol>PLN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PLZ</currencyId>
+		<countryId>PL</countryId>
+		<name>Zloty</name>
+		<symbol>PLZ</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PTE</currencyId>
+		<countryId>PT</countryId>
+		<name>Portuguese Escudo</name>
+		<symbol>PTE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>PYG</currencyId>
+		<countryId>PY</countryId>
+		<name>Guarani</name>
+		<symbol>PYG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>QAR</currencyId>
+		<countryId>QA</countryId>
+		<name>Qatari Rial</name>
+		<symbol>QAR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ROL</currencyId>
+		<countryId>RO</countryId>
+		<name>Leu</name>
+		<symbol>ROL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>RUR</currencyId>
+		<countryId>RU</countryId>
+		<name>Russian Ruble</name>
+		<symbol>RUR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>RWF</currencyId>
+		<countryId>RW</countryId>
+		<name>Rwanda Franc</name>
+		<symbol>RWF</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SAR</currencyId>
+		<countryId>SA</countryId>
+		<name>Saudi Riyal</name>
+		<symbol>SAR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SBD</currencyId>
+		<countryId>Sb</countryId>
+		<name>Solomon Islands Dollar</name>
+		<symbol>SBD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SCR</currencyId>
+		<countryId>SC</countryId>
+		<name>Seychelles Rupee</name>
+		<symbol>SCR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SDD</currencyId>
+		<countryId>SD</countryId>
+		<name>Sudanese Dinar</name>
+		<symbol>SDD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SEK</currencyId>
+		<countryId>SE</countryId>
+		<name>Swedish Krona</name>
+		<symbol>SEK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SGD</currencyId>
+		<countryId>SG</countryId>
+		<name>Singapore Dollar</name>
+		<symbol>SGD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SHP</currencyId>
+		<countryId>SH</countryId>
+		<name>St. Helena Pound</name>
+		<symbol>SHP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SIT</currencyId>
+		<countryId>SI</countryId>
+		<name>Tolar</name>
+		<symbol>SIT</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SKK</currencyId>
+		<countryId>SK</countryId>
+		<name>Slovak Koruna</name>
+		<symbol>SKK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SLL</currencyId>
+		<countryId>SL</countryId>
+		<name>Leone</name>
+		<symbol>SLL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SOS</currencyId>
+		<countryId>SO</countryId>
+		<name>Somali Shilling</name>
+		<symbol>SOS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SRG</currencyId>
+		<countryId>SR</countryId>
+		<name>Surinam Guilder</name>
+		<symbol>SRG</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>STD</currencyId>
+		<countryId>ST</countryId>
+		<name>Dobra</name>
+		<symbol>STD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SVC</currencyId>
+		<countryId>SV</countryId>
+		<name>El Salvador Colon</name>
+		<symbol>SVC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SYP</currencyId>
+		<countryId>SY</countryId>
+		<name>Syrian Pound</name>
+		<symbol>SYP</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>SZL</currencyId>
+		<countryId>SZ</countryId>
+		<name>Lilangeni</name>
+		<symbol>SZL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>THB</currencyId>
+		<countryId>TH</countryId>
+		<name>Baht</name>
+		<symbol>THB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>TJR</currencyId>
+		<countryId>TJ</countryId>
+		<name>Tajik Ruble</name>
+		<symbol>TJR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>TMM</currencyId>
+		<countryId>TM</countryId>
+		<name>Manat</name>
+		<symbol>TMM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>TND</currencyId>
+		<countryId>TN</countryId>
+		<name>Tunisian Dollar</name>
+		<symbol>TND</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>TPE</currencyId>
+		<countryId>TP</countryId>
+		<name>Timor Escudo</name>
+		<symbol>TPE</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>TRL</currencyId>
+		<countryId>TR</countryId>
+		<name>Turkish Lira</name>
+		<symbol>TRL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>TTD</currencyId>
+		<countryId>TT</countryId>
+		<name>Trinidad and Tobago Dollar</name>
+		<symbol>TTD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>TWD</currencyId>
+		<countryId>TW</countryId>
+		<name>New Taiwan Dollar</name>
+		<symbol>TWD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>TZS</currencyId>
+		<countryId>TZ</countryId>
+		<name>Tanzanian Shilling</name>
+		<symbol>TZS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>UAH</currencyId>
+		<countryId>UA</countryId>
+		<name>Hryvnya</name>
+		<symbol>UAH</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>UAK</currencyId>
+		<countryId>UA</countryId>
+		<name>Karbovanets</name>
+		<symbol>UAK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>UGX</currencyId>
+		<countryId>UG</countryId>
+		<name>Uganda Shilling</name>
+		<symbol>UGX</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>USD</currencyId>
+		<countryId>US</countryId>
+		<name>US Dollar</name>
+		<symbol>USD</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>UYU</currencyId>
+		<countryId>UY</countryId>
+		<name>Peso Uruguayo</name>
+		<symbol>UYU</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>UZS</currencyId>
+		<countryId>UZ</countryId>
+		<name>Uzbekistan Sum</name>
+		<symbol>UZS</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>VEB</currencyId>
+		<countryId>VE</countryId>
+		<name>Bolivar</name>
+		<symbol>VEB</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>VND</currencyId>
+		<countryId>VN</countryId>
+		<name>Dong</name>
+		<symbol>VND</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>VUV</currencyId>
+		<countryId>VU</countryId>
+		<name>Vatu</name>
+		<symbol>VUV</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>WST</currencyId>
+		<countryId>WS</countryId>
+		<name>Tala</name>
+		<symbol>WST</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>YER</currencyId>
+		<countryId>YE</countryId>
+		<name>Yemeni Rial</name>
+		<symbol>YER</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>YUM</currencyId>
+		<countryId>YU</countryId>
+		<name>New Dinar</name>
+		<symbol>YUM</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ZAL</currencyId>
+		<countryId>ZA</countryId>
+		<name>Financial Rand</name>
+		<symbol>ZAL</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ZAR</currencyId>
+		<countryId>ZA</countryId>
+		<name>Rand</name>
+		<symbol>ZAR</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ZMK</currencyId>
+		<countryId>ZM</countryId>
+		<name>Kwacha</name>
+		<symbol>ZMK</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ZRN</currencyId>
+		<countryId>ZR</countryId>
+		<name>New Zaire</name>
+		<symbol>ZRN</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Currency" name="Load">
+		<currencyId>ZWD</currencyId>
+		<countryId>ZW</countryId>
+		<name>Zimbabwe Dollar</name>
+		<symbol>ZWD</symbol>
+	</method>
+</batch>

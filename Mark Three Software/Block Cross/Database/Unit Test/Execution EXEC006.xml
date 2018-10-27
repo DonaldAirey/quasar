@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<batch name="Staged Orders">
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.Execution" name="InsertFile">
+		<configurationId>US TICKER</configurationId>
+		<destinationOrderId>DEST002</destinationOrderId>
+		<executionId>EXEC006</executionId>
+		<executionQuantity>15000</executionQuantity>
+		<executionPrice>49.37</executionPrice>
+		<tradeDate>10/10/2005</tradeDate>
+		<settlementDate>10/13/2005</settlementDate>
+	</method>
+</batch>

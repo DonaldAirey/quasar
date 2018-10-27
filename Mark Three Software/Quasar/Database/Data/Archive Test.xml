@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Archive Securities">
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAM</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAME</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AANB</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAON</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAPL</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAS</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AASI</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AASIU</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AASIW</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AASIZ</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AASP</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAT</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AATK</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAUK</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AB</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABANP</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABAX</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABBK</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABBKP</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABCB</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABCL</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABCR</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABCW</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABERF</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABF</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABFI</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABFS</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABFSP</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABG</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABGX</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABI</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABIO</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABIX</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABK</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABL</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABLE</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABM</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABMC</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABMD</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABN</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABP</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABR</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABRI</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABS</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABSC</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABT</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABTE</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABTL</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABX</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ABY</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AC</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ACA</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ACAI</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ACAS</equityId>
+	</method>
+	<method assembly="Service.External" type="Shadows.WebService.External.Equity" name="Archive">
+		<configurationId>US TICKER</configurationId>
+		<equityId>ACAT</equityId>
+	</method>
+</batch>

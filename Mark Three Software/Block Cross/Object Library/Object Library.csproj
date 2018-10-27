@@ -1,0 +1,215 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB0EDBB6-E00A-4C59-B06B-F249679A64CB}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Object Library</AssemblyName>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>true</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MarkThree.Guardian</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Blotter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Branch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Broker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClearingBroker.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Match.cs" />
+    <Compile Include="Folder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FormBlotterProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBranchProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBrokerProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClearingBrokerProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInstitutionProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormObjectProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Institution.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Object.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemFolder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="User.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Blotter 16x16.png" />
+    <EmbeddedResource Include="Blotter 32x32.png" />
+    <EmbeddedResource Include="Branch 16x16.png" />
+    <EmbeddedResource Include="Branch 32x32.png" />
+    <EmbeddedResource Include="Broker 16x16.png" />
+    <EmbeddedResource Include="Broker 32x32.png" />
+    <EmbeddedResource Include="ClearingBroker 16x16.png" />
+    <EmbeddedResource Include="ClearingBroker 32x32.png" />
+    <EmbeddedResource Include="Folder 16x16.bmp" />
+    <EmbeddedResource Include="Folder 32x32.bmp" />
+    <EmbeddedResource Include="FormBlotterProperties.resx">
+      <DependentUpon>FormBlotterProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBranchProperties.resx">
+      <DependentUpon>FormBranchProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBrokerProperties.resx">
+      <DependentUpon>FormBrokerProperties.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClearingBrokerProperties.resx">
+      <DependentUpon>FormClearingBrokerProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInstitutionProperties.resx">
+      <DependentUpon>FormInstitutionProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormObjectProperties.resx">
+      <DependentUpon>FormObjectProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Institution 16x16.png" />
+    <EmbeddedResource Include="Institution 32x32.png" />
+    <EmbeddedResource Include="Object 16x16.png" />
+    <EmbeddedResource Include="Object 32x32.png" />
+    <EmbeddedResource Include="SystemFolder 16x16.png" />
+    <EmbeddedResource Include="SystemFolder 32x32.png" />
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Batch\Batch.csproj">
+      <Project>{D8E26866-EB0B-4868-AF59-F2A1F94CBC41}</Project>
+      <Name>Batch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Mark Three Library\Mark Three Library.csproj">
+      <Project>{734051D9-B2A3-44E9-A88B-7B4FDB90109F}</Project>
+      <Name>Mark Three Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Client Market Data\Client Market Data.csproj">
+      <Project>{B42CF522-8BF7-41E6-A80A-B694670FC9A3}</Project>
+      <Name>Client Market Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Market Data\Market Data.csproj">
+      <Project>{79E97A94-4385-40E7-B4A2-D36C16ABB1D3}</Project>
+      <Name>Market Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="HTMLPageWelcome.htm" />
+    <Content Include="Large Guardian.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

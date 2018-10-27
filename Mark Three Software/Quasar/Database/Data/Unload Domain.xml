@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch>
+	<method assembly="WebService" type="Shadows.WebService.BatchHandler" name="UnloadDomain">
+		<tickerRate>40.0</tickerRate>
+	</method>
+</batch>

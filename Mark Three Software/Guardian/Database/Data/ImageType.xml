@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="ImageType">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.ImageType" name="Load">
+      <imageTypeCode>0</imageTypeCode>
+      <description>Small (16 x 16)</description>
+      <externalId0>SMALL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.ImageType" name="Load">
+      <imageTypeCode>1</imageTypeCode>
+      <description>Medium (24 x 24)</description>
+      <externalId0>MEDIUM</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.ImageType" name="Load">
+      <imageTypeCode>3</imageTypeCode>
+      <description>Large (32 x 32)</description>
+      <externalId0>LARGE</externalId0>
+    </method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.ImageType" name="Load">
+			<imageTypeCode>4</imageTypeCode>
+			<description>Extra Large (48 x 48)</description>
+			<externalId0>EXTRA LARGE</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.ImageType" name="Load">
+			<imageTypeCode>5</imageTypeCode>
+			<description>Icon</description>
+			<externalId0>ICON</externalId0>
+		</method>
+	</transaction>
+</batch>

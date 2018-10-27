@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="UK Equity Price">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>ARM</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>295</closePrice>
+		<lastPrice>295</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>BA/A</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>319</closePrice>
+		<lastPrice>319</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>BP/</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>589.5</closePrice>
+		<lastPrice>589.5</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>BATS</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>655</closePrice>
+		<lastPrice>655</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>CWG</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>454</closePrice>
+		<lastPrice>454</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>CPG</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>487</closePrice>
+		<lastPrice>487</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>FP/</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>175.5</closePrice>
+		<lastPrice>175.5</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>GSK</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>760.00</closePrice>
+		<lastPrice>760.00</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>HSBA</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>778</closePrice>
+		<lastPrice>778</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>ICI</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>302</closePrice>
+		<lastPrice>302</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>ISYS</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>99.75</closePrice>
+		<lastPrice>99.75</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>LANE</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>884</closePrice>
+		<lastPrice>884</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>LOG</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>404</closePrice>
+		<lastPrice>404</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>MKS</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>385.75</closePrice>
+		<lastPrice>385.75</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>NXT</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>980</closePrice>
+		<lastPrice>980</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>NRK</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>690</closePrice>
+		<lastPrice>690</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>PSON</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>770</closePrice>
+		<lastPrice>770</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>REED</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>630</closePrice>
+		<lastPrice>630</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>RTO</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>269.75</closePrice>
+		<lastPrice>269.75</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>RTR</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>538</closePrice>
+		<lastPrice>538</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>SGE</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>212</closePrice>
+		<lastPrice>212</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>SPW</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>417</closePrice>
+		<lastPrice>417</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>SAB</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>470.25</closePrice>
+		<lastPrice>470.25</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>TSCO</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>249.75</closePrice>
+		<lastPrice>249.75</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>ULVR</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>588.5</closePrice>
+		<lastPrice>588.5</lastPrice>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Price" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<securityId>VOD</securityId>
+		<currencyId>GBP</currencyId>
+		<closePrice>134.5</closePrice>
+		<lastPrice>134.5</lastPrice>
+	</method>
+</batch>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Exchange">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>SFE</exchangeId>
+		<name>Sydney Futures Exchange Ltd</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>EASDAQ</exchangeId>
+		<name>NASDAQ Europe</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>TSE</exchangeId>
+		<name>Toronto Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>LSE</exchangeId>
+		<name>London Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>ME</exchangeId>
+		<name>Montreal Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>VSE</exchangeId>
+		<name>Vancouver Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>PSE</exchangeId>
+		<name>Prague Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>XETRA</exchangeId>
+		<name>German Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>XCSE</exchangeId>
+		<name>Copenhagen Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>MEFFRV</exchangeId>
+		<name>Spanish Options Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>MEFF</exchangeId>
+		<name>Spanish Financial Futures Market</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>HSE</exchangeId>
+		<name>Helsinki Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>SOM</exchangeId>
+		<name>Finnish Options Market</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>FOEX</exchangeId>
+		<name>Finnish Option Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>ASE</exchangeId>
+		<name>Athens Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>SEHK</exchangeId>
+		<name>Hong Kong Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>HKFE</exchangeId>
+		<name>Hong Kong Futures Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>TASE</exchangeId>
+		<name>Tel-Aviv Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>TSE</exchangeId>
+		<name>Tokyo Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>OSE</exchangeId>
+		<name>Osaka Security Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>OTC</exchangeId>
+		<name>Over the Counter</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>NSE</exchangeId>
+		<name>Nagoya Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>KSE</exchangeId>
+		<name>Korea Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>MEX</exchangeId>
+		<name>Mexican Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>AEX</exchangeId>
+		<name>Amsterdam Exchanges</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>OSE</exchangeId>
+		<name>Oslo Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>NZSE</exchangeId>
+		<name>New Zealand Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>NZFOE</exchangeId>
+		<name>New Zealand Futures &amp; Options Exchange Ltd</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>BVL</exchangeId>
+		<name>Lima Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>WSE</exchangeId>
+		<name>Warsaw Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>BVL</exchangeId>
+		<name>Lisbon Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>XSSE</exchangeId>
+		<name>Stockholm Stock Exchange Ltd</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>SIMEX</exchangeId>
+		<name>Singapore International Monetary Exchange Ltd</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>SES</exchangeId>
+		<name>Stock Exchange of Singapore Ltd</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>SET</exchangeId>
+		<name>The Stock Exchange of Thailand</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>ISE</exchangeId>
+		<name>Istanbul Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>TSE</exchangeId>
+		<name>Taiwan Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>KCBT</exchangeId>
+		<name>Kansas City Board of Trade</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>CBOE</exchangeId>
+		<name>Chicago Board Options Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>CBOT</exchangeId>
+		<name>Chicago Board of Trade</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>CME</exchangeId>
+		<name>Chicago Mercantile Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>BSE</exchangeId>
+		<name>Boston Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>CSE</exchangeId>
+		<name>Chicago Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>PHLX</exchangeId>
+		<name>Philadephia Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>NYSE</exchangeId>
+		<name>New York Stock Exchange</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>NASDAQ</exchangeId>
+		<name>The NASDAQ Stock Market</name>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Exchange" name="Load">
+		<exchangeId>AMEX</exchangeId>
+		<name>American Stock Exchange</name>
+	</method>
+</batch>

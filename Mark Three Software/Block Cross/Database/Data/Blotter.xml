@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Blotters">
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>ZODIAC EQUITY DESK BLOTTER</blotterId>
+		<name>Equity Desk</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>VICTOR MARGOLIN BLOTTER</blotterId>
+		<name>Victor Margolin</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>RUSSELL JACKSON BLOTTER</blotterId>
+		<name>Russell Jackson</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>ROBERTO GARCIA BLOTTER</blotterId>
+		<name>Roberto Garcia</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>ELAINE RUSSO BLOTTER</blotterId>
+		<name>Elaine Russo</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>GLOBAL STRATEGY DESK BLOTTER</blotterId>
+		<name>Strategy Desk</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>GLOBAL EQUITY DESK BLOTTER</blotterId>
+		<name>Equity Desk</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>MANNY CORTEZ BLOTTER</blotterId>
+		<name>Manny Cortez</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>KATE SCHWARTZ BLOTTER</blotterId>
+		<name>Kate Schwartz</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>CHARLES RODRIGUEZ BLOTTER</blotterId>
+		<name>Charles Rodriguez</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>GLOBAL BOND DESK BLOTTER</blotterId>
+		<name>Bond Desk</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>CHRIS HENDERSON BLOTTER</blotterId>
+		<name>Chris Henderson</name>
+		<partyTypeCode>BROKER</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>YOSHIO SHIMURA BLOTTER</blotterId>
+		<name>Yoshio Shimura</name>
+		<partyTypeCode>BROKER</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>GILBERT HOROWITZ BLOTTER</blotterId>
+		<name>Gilbert Horowitz</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>SUSAN CHUNG BLOTTER</blotterId>
+		<name>Susan Chung</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>TONY DE SILVA BLOTTER</blotterId>
+		<name>Tony De Silva</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>CAROL HILL BLOTTER</blotterId>
+		<name>Carol Hill</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Blotter" name="Load">
+		<blotterId>GARY BROWN BLOTTER</blotterId>
+		<name>Gary Brown</name>
+		<partyTypeCode>USE PARENT</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+</batch>

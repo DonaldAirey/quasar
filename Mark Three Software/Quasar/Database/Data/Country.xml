@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Country">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AD</countryId>
+		<name>Andorra</name>
+		<abbreviation>AD</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AE</countryId>
+		<name>United Arab Emirates</name>
+		<abbreviation>AE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AF</countryId>
+		<name>Afghanistan</name>
+		<abbreviation>AF</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AG</countryId>
+		<name>Antigua and Barbuda</name>
+		<abbreviation>AG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AI</countryId>
+		<name>Anguilla</name>
+		<abbreviation>AI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AL</countryId>
+		<name>Albania</name>
+		<abbreviation>AL</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AM</countryId>
+		<name>Armenia</name>
+		<abbreviation>AM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AN</countryId>
+		<name>Netherlands Antilles</name>
+		<abbreviation>AN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AO</countryId>
+		<name>Angola</name>
+		<abbreviation>AO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AQ</countryId>
+		<name>Antarctica</name>
+		<abbreviation>AQ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AR</countryId>
+		<name>Argentina</name>
+		<abbreviation>AR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AS</countryId>
+		<name>American Samoa</name>
+		<abbreviation>AS</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AT</countryId>
+		<name>Austria</name>
+		<abbreviation>AT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AU</countryId>
+		<name>Australia</name>
+		<abbreviation>AU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AW</countryId>
+		<name>Aruba</name>
+		<abbreviation>AW</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>AZ</countryId>
+		<name>Azerbaijan</name>
+		<abbreviation>AZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BA</countryId>
+		<name>Bosnia and Herzegovina</name>
+		<abbreviation>BA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BB</countryId>
+		<name>Barbados</name>
+		<abbreviation>BB</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BD</countryId>
+		<name>Bangladesh</name>
+		<abbreviation>BD</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BE</countryId>
+		<name>Belgium</name>
+		<abbreviation>BE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BF</countryId>
+		<name>Burkina Faso</name>
+		<abbreviation>BF</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BG</countryId>
+		<name>Bulgaria</name>
+		<abbreviation>BG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BH</countryId>
+		<name>Bahrain</name>
+		<abbreviation>BH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BI</countryId>
+		<name>Burundi</name>
+		<abbreviation>BI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BJ</countryId>
+		<name>Benin</name>
+		<abbreviation>BJ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BM</countryId>
+		<name>Bermuda</name>
+		<abbreviation>BM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BN</countryId>
+		<name>Brunei Darussalam</name>
+		<abbreviation>BN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BO</countryId>
+		<name>Bolivia</name>
+		<abbreviation>BO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BR</countryId>
+		<name>Brazil</name>
+		<abbreviation>BR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BS</countryId>
+		<name>Bahamas</name>
+		<abbreviation>BS</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BT</countryId>
+		<name>Bhutan</name>
+		<abbreviation>BT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BV</countryId>
+		<name>Bouvet Island</name>
+		<abbreviation>BV</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BW</countryId>
+		<name>Botswana</name>
+		<abbreviation>BW</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BY</countryId>
+		<name>Belarus</name>
+		<abbreviation>BY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>BZ</countryId>
+		<name>Belize</name>
+		<abbreviation>BZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CA</countryId>
+		<name>Canada</name>
+		<abbreviation>CA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CC</countryId>
+		<name>Cocos (Keeling) Islands</name>
+		<abbreviation>CC</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CF</countryId>
+		<name>Central African Republic</name>
+		<abbreviation>CF</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CG</countryId>
+		<name>Congo</name>
+		<abbreviation>CG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CH</countryId>
+		<name>Switzerland</name>
+		<abbreviation>CH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CI</countryId>
+		<name>Cote D'Ivoire (Ivory Coast)</name>
+		<abbreviation>CI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CK</countryId>
+		<name>Cook Islands</name>
+		<abbreviation>CK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CL</countryId>
+		<name>Chile</name>
+		<abbreviation>CL</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CM</countryId>
+		<name>Cameroon</name>
+		<abbreviation>CM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CN</countryId>
+		<name>China</name>
+		<abbreviation>CN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CO</countryId>
+		<name>Colombia</name>
+		<abbreviation>CO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CR</countryId>
+		<name>Costa Rica</name>
+		<abbreviation>CR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CS</countryId>
+		<name>Czechoslovakia (former)</name>
+		<abbreviation>CS</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CU</countryId>
+		<name>Cuba</name>
+		<abbreviation>CU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CV</countryId>
+		<name>Cape Verde</name>
+		<abbreviation>CV</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CX</countryId>
+		<name>Christmas Island</name>
+		<abbreviation>CX</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CY</countryId>
+		<name>Cyprus</name>
+		<abbreviation>CY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>CZ</countryId>
+		<name>Czech Republic</name>
+		<abbreviation>CZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>DE</countryId>
+		<name>Germany</name>
+		<abbreviation>DE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>DJ</countryId>
+		<name>Djibouti</name>
+		<abbreviation>DJ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>DK</countryId>
+		<name>Denmark</name>
+		<abbreviation>DK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>DM</countryId>
+		<name>Dominica</name>
+		<abbreviation>DM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>DO</countryId>
+		<name>Dominican Republic</name>
+		<abbreviation>DO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>DZ</countryId>
+		<name>Algeria</name>
+		<abbreviation>DZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>EC</countryId>
+		<name>Ecuador</name>
+		<abbreviation>EC</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>EE</countryId>
+		<name>Estonia</name>
+		<abbreviation>EE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>EU</countryId>
+		<name>Europe</name>
+		<abbreviation>EU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>EG</countryId>
+		<name>Egypt</name>
+		<abbreviation>EG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>EH</countryId>
+		<name>Western Sahara</name>
+		<abbreviation>EH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ER</countryId>
+		<name>Eritrea</name>
+		<abbreviation>ER</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ES</countryId>
+		<name>Spain</name>
+		<abbreviation>ES</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ET</countryId>
+		<name>Ethiopia</name>
+		<abbreviation>ET</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>FI</countryId>
+		<name>Finland</name>
+		<abbreviation>FI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>FJ</countryId>
+		<name>Fiji</name>
+		<abbreviation>FJ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>FK</countryId>
+		<name>Falkland Islands (Malvinas)</name>
+		<abbreviation>FK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>FM</countryId>
+		<name>Micronesia</name>
+		<abbreviation>FM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>FO</countryId>
+		<name>Faroe Islands</name>
+		<abbreviation>FO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>FR</countryId>
+		<name>France</name>
+		<abbreviation>FR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>FX</countryId>
+		<name>France, Metropolitan</name>
+		<abbreviation>FX</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GA</countryId>
+		<name>Gabon</name>
+		<abbreviation>GA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GB</countryId>
+		<name>Great Britain (UK)</name>
+		<abbreviation>GB</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GD</countryId>
+		<name>Grenada</name>
+		<abbreviation>GD</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GE</countryId>
+		<name>Georgia</name>
+		<abbreviation>GE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GF</countryId>
+		<name>French Guiana</name>
+		<abbreviation>GF</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GH</countryId>
+		<name>Ghana</name>
+		<abbreviation>GH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GI</countryId>
+		<name>Gibraltar</name>
+		<abbreviation>GI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GL</countryId>
+		<name>Greenland</name>
+		<abbreviation>GL</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GM</countryId>
+		<name>Gambia</name>
+		<abbreviation>GM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GN</countryId>
+		<name>Guinea</name>
+		<abbreviation>GN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GP</countryId>
+		<name>Guadeloupe</name>
+		<abbreviation>GP</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GQ</countryId>
+		<name>Equatorial Guinea</name>
+		<abbreviation>GQ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GR</countryId>
+		<name>Greece</name>
+		<abbreviation>GR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GS</countryId>
+		<name>S. Georgia and S. Sandwich Isls.</name>
+		<abbreviation>GS</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GT</countryId>
+		<name>Guatemala</name>
+		<abbreviation>GT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GU</countryId>
+		<name>Guam</name>
+		<abbreviation>GU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GW</countryId>
+		<name>Guinea-Bissau</name>
+		<abbreviation>GW</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>GY</countryId>
+		<name>Guyana</name>
+		<abbreviation>GY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>HK</countryId>
+		<name>Hong Kong</name>
+		<abbreviation>HK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>HM</countryId>
+		<name>Heard and McDonald Islands</name>
+		<abbreviation>HM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>HN</countryId>
+		<name>Honduras</name>
+		<abbreviation>HN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>HR</countryId>
+		<name>Croatia (Hrvatska)</name>
+		<abbreviation>HR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>HT</countryId>
+		<name>Haiti</name>
+		<abbreviation>HT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>HU</countryId>
+		<name>Hungary</name>
+		<abbreviation>HU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ID</countryId>
+		<name>Indonesia</name>
+		<abbreviation>ID</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>IE</countryId>
+		<name>Ireland</name>
+		<abbreviation>IE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>IL</countryId>
+		<name>Israel</name>
+		<abbreviation>IL</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>IN</countryId>
+		<name>India</name>
+		<abbreviation>IN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>IO</countryId>
+		<name>British Indian Ocean Territory</name>
+		<abbreviation>IO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>IQ</countryId>
+		<name>Iraq</name>
+		<abbreviation>IQ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>IR</countryId>
+		<name>Iran</name>
+		<abbreviation>IR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>IS</countryId>
+		<name>Iceland</name>
+		<abbreviation>IS</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>IT</countryId>
+		<name>Italy</name>
+		<abbreviation>IT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>JM</countryId>
+		<name>Jamaica</name>
+		<abbreviation>JM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>JO</countryId>
+		<name>Jordan</name>
+		<abbreviation>JO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>JP</countryId>
+		<name>Japan</name>
+		<abbreviation>JP</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KE</countryId>
+		<name>Kenya</name>
+		<abbreviation>KE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KG</countryId>
+		<name>Kyrgyzstan</name>
+		<abbreviation>KG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KH</countryId>
+		<name>Cambodia</name>
+		<abbreviation>KH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KI</countryId>
+		<name>Kiribati</name>
+		<abbreviation>KI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KM</countryId>
+		<name>Comoros</name>
+		<abbreviation>KM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KN</countryId>
+		<name>Saint Kitts and Nevis</name>
+		<abbreviation>KN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KP</countryId>
+		<name>Korea (North)</name>
+		<abbreviation>KP</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KR</countryId>
+		<name>Korea (South)</name>
+		<abbreviation>KR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KW</countryId>
+		<name>Kuwait</name>
+		<abbreviation>KW</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KY</countryId>
+		<name>Cayman Islands</name>
+		<abbreviation>KY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>KZ</countryId>
+		<name>Kazakhstan</name>
+		<abbreviation>KZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LA</countryId>
+		<name>Laos</name>
+		<abbreviation>LA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LB</countryId>
+		<name>Lebanon</name>
+		<abbreviation>LB</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LC</countryId>
+		<name>Saint Lucia</name>
+		<abbreviation>LC</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LI</countryId>
+		<name>Liechtenstein</name>
+		<abbreviation>LI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LK</countryId>
+		<name>Sri Lanka</name>
+		<abbreviation>LK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LR</countryId>
+		<name>Liberia</name>
+		<abbreviation>LR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LS</countryId>
+		<name>Lesotho</name>
+		<abbreviation>LS</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LT</countryId>
+		<name>Lithuania</name>
+		<abbreviation>LT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LU</countryId>
+		<name>Luxembourg</name>
+		<abbreviation>LU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LV</countryId>
+		<name>Latvia</name>
+		<abbreviation>LV</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>LY</countryId>
+		<name>Libya</name>
+		<abbreviation>LY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MA</countryId>
+		<name>Morocco</name>
+		<abbreviation>MA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MC</countryId>
+		<name>Monaco</name>
+		<abbreviation>MC</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MD</countryId>
+		<name>Moldova</name>
+		<abbreviation>MD</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MG</countryId>
+		<name>Madagascar</name>
+		<abbreviation>MG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MH</countryId>
+		<name>Marshall Islands</name>
+		<abbreviation>MH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MK</countryId>
+		<name>Macedonia</name>
+		<abbreviation>MK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ML</countryId>
+		<name>Mali</name>
+		<abbreviation>ML</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MM</countryId>
+		<name>Myanmar</name>
+		<abbreviation>MM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MN</countryId>
+		<name>Mongolia</name>
+		<abbreviation>MN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MO</countryId>
+		<name>Macau</name>
+		<abbreviation>MO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MP</countryId>
+		<name>Northern Mariana Islands</name>
+		<abbreviation>MP</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MQ</countryId>
+		<name>Martinique</name>
+		<abbreviation>MQ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MR</countryId>
+		<name>Mauritania</name>
+		<abbreviation>MR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MS</countryId>
+		<name>Montserrat</name>
+		<abbreviation>MS</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MT</countryId>
+		<name>Malta</name>
+		<abbreviation>MT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MU</countryId>
+		<name>Mauritius</name>
+		<abbreviation>MU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MV</countryId>
+		<name>Maldives</name>
+		<abbreviation>MV</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MW</countryId>
+		<name>Malawi</name>
+		<abbreviation>MW</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MX</countryId>
+		<name>Mexico</name>
+		<abbreviation>MX</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MY</countryId>
+		<name>Malaysia</name>
+		<abbreviation>MY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>MZ</countryId>
+		<name>Mozambique</name>
+		<abbreviation>MZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NA</countryId>
+		<name>Namibia</name>
+		<abbreviation>NA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NC</countryId>
+		<name>New Caledonia</name>
+		<abbreviation>NC</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NE</countryId>
+		<name>Niger</name>
+		<abbreviation>NE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NF</countryId>
+		<name>Norfolk Island</name>
+		<abbreviation>NF</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NG</countryId>
+		<name>Nigeria</name>
+		<abbreviation>NG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NI</countryId>
+		<name>Nicaragua</name>
+		<abbreviation>NI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NL</countryId>
+		<name>Netherlands</name>
+		<abbreviation>NL</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NO</countryId>
+		<name>Norway</name>
+		<abbreviation>NO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NP</countryId>
+		<name>Nepal</name>
+		<abbreviation>NP</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NR</countryId>
+		<name>Nauru</name>
+		<abbreviation>NR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NT</countryId>
+		<name>Neutral Zone</name>
+		<abbreviation>NT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NU</countryId>
+		<name>Niue</name>
+		<abbreviation>NU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>NZ</countryId>
+		<name>New Zealand (Aotearoa)</name>
+		<abbreviation>NZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>OM</countryId>
+		<name>Oman</name>
+		<abbreviation>OM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PA</countryId>
+		<name>Panama</name>
+		<abbreviation>PA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PE</countryId>
+		<name>Peru</name>
+		<abbreviation>PE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PF</countryId>
+		<name>French Polynesia</name>
+		<abbreviation>PF</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PG</countryId>
+		<name>Papua New Guinea</name>
+		<abbreviation>PG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PH</countryId>
+		<name>Philippines</name>
+		<abbreviation>PH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PK</countryId>
+		<name>Pakistan</name>
+		<abbreviation>PK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PL</countryId>
+		<name>Poland</name>
+		<abbreviation>PL</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PM</countryId>
+		<name>St. Pierre and Miquelon</name>
+		<abbreviation>PM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PN</countryId>
+		<name>Pitcairn</name>
+		<abbreviation>PN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PR</countryId>
+		<name>Puerto Rico</name>
+		<abbreviation>PR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PT</countryId>
+		<name>Portugal</name>
+		<abbreviation>PT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PW</countryId>
+		<name>Palau</name>
+		<abbreviation>PW</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>PY</countryId>
+		<name>Paraguay</name>
+		<abbreviation>PY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>QA</countryId>
+		<name>Qatar</name>
+		<abbreviation>QA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>RE</countryId>
+		<name>Reunion</name>
+		<abbreviation>RE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>RO</countryId>
+		<name>Romania</name>
+		<abbreviation>RO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>RU</countryId>
+		<name>Russian Federation</name>
+		<abbreviation>RU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>RW</countryId>
+		<name>Rwanda</name>
+		<abbreviation>RW</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SA</countryId>
+		<name>Saudi Arabia</name>
+		<abbreviation>SA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>Sb</countryId>
+		<name>Solomon Islands</name>
+		<abbreviation>Sb</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SC</countryId>
+		<name>Seychelles</name>
+		<abbreviation>SC</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SD</countryId>
+		<name>Sudan</name>
+		<abbreviation>SD</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SE</countryId>
+		<name>Sweden</name>
+		<abbreviation>SE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SG</countryId>
+		<name>Singapore</name>
+		<abbreviation>SG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SH</countryId>
+		<name>St. Helena</name>
+		<abbreviation>SH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SI</countryId>
+		<name>Slovenia</name>
+		<abbreviation>SI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SJ</countryId>
+		<name>Svalbard and Jan Mayen Islands</name>
+		<abbreviation>SJ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SK</countryId>
+		<name>Slovak Republic</name>
+		<abbreviation>SK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SL</countryId>
+		<name>Sierra Leone</name>
+		<abbreviation>SL</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SM</countryId>
+		<name>San Marino</name>
+		<abbreviation>SM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SN</countryId>
+		<name>Senegal</name>
+		<abbreviation>SN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SO</countryId>
+		<name>Somalia</name>
+		<abbreviation>SO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SR</countryId>
+		<name>SuriName</name>
+		<abbreviation>SR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ST</countryId>
+		<name>Sao Tome and Principe</name>
+		<abbreviation>ST</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SU</countryId>
+		<name>USSR (former)</name>
+		<abbreviation>SU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SV</countryId>
+		<name>El Salvador</name>
+		<abbreviation>SV</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SY</countryId>
+		<name>Syria</name>
+		<abbreviation>SY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>SZ</countryId>
+		<name>Swaziland</name>
+		<abbreviation>SZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TC</countryId>
+		<name>Turks and Caicos Islands</name>
+		<abbreviation>TC</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TD</countryId>
+		<name>Chad</name>
+		<abbreviation>TD</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TF</countryId>
+		<name>French Southern Territories</name>
+		<abbreviation>TF</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TG</countryId>
+		<name>Togo</name>
+		<abbreviation>TG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TH</countryId>
+		<name>Thailand</name>
+		<abbreviation>TH</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TJ</countryId>
+		<name>Tajikistan</name>
+		<abbreviation>TJ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TK</countryId>
+		<name>Tokelau</name>
+		<abbreviation>TK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TM</countryId>
+		<name>Turkmenistan</name>
+		<abbreviation>TM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TN</countryId>
+		<name>Tunisia</name>
+		<abbreviation>TN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TO</countryId>
+		<name>Tonga</name>
+		<abbreviation>TO</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TP</countryId>
+		<name>East Timor</name>
+		<abbreviation>TP</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TR</countryId>
+		<name>Turkey</name>
+		<abbreviation>TR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TT</countryId>
+		<name>Trinidad and Tobago</name>
+		<abbreviation>TT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TV</countryId>
+		<name>Tuvalu</name>
+		<abbreviation>TV</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TW</countryId>
+		<name>Taiwan</name>
+		<abbreviation>TW</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>TZ</countryId>
+		<name>Tanzania</name>
+		<abbreviation>TZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>UA</countryId>
+		<name>Ukraine</name>
+		<abbreviation>UA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>UG</countryId>
+		<name>Uganda</name>
+		<abbreviation>UG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>UK</countryId>
+		<name>United Kingdom</name>
+		<abbreviation>UK</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>UM</countryId>
+		<name>US Minor Outlying Islands</name>
+		<abbreviation>UM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>US</countryId>
+		<name>United States</name>
+		<abbreviation>US</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>UY</countryId>
+		<name>Uruguay</name>
+		<abbreviation>UY</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>UZ</countryId>
+		<name>Uzbekistan</name>
+		<abbreviation>UZ</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>VA</countryId>
+		<name>Vatican City State (Holy See)</name>
+		<abbreviation>VA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>VC</countryId>
+		<name>Saint Vincent and the Grenadines</name>
+		<abbreviation>VC</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>VE</countryId>
+		<name>Venezuela</name>
+		<abbreviation>VE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>VG</countryId>
+		<name>Virgin Islands (British)</name>
+		<abbreviation>VG</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>VI</countryId>
+		<name>Virgin Islands (U.S.)</name>
+		<abbreviation>VI</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>VN</countryId>
+		<name>Viet Nam</name>
+		<abbreviation>VN</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>VU</countryId>
+		<name>Vanuatu</name>
+		<abbreviation>VU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>WF</countryId>
+		<name>Wallis and Futuna Islands</name>
+		<abbreviation>WF</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>WS</countryId>
+		<name>Samoa</name>
+		<abbreviation>WS</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>YE</countryId>
+		<name>Yemen</name>
+		<abbreviation>YE</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>YT</countryId>
+		<name>Mayotte</name>
+		<abbreviation>YT</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>YU</countryId>
+		<name>Yugoslavia</name>
+		<abbreviation>YU</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ZA</countryId>
+		<name>South Africa</name>
+		<abbreviation>ZA</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ZM</countryId>
+		<name>Zambia</name>
+		<abbreviation>ZM</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ZR</countryId>
+		<name>Zaire</name>
+		<abbreviation>ZR</abbreviation>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Country" name="Load">
+		<countryId>ZW</countryId>
+		<name>Zimbabwe</name>
+		<abbreviation>ZW</abbreviation>
+	</method>
+</batch>

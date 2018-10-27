@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="System Folders">
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>GUARDIAN ADMINISTRATOR FOLDER</systemFolderId>
+    <name>Guardian Administrator</name>
+    <description>Person Folder of Guardian Administrator</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>GUARDIAN ADMINISTRATOR</userId>
+    <systemFolderId>GUARDIAN ADMINISTRATOR FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GUARDIAN ADMINISTRATOR ZODIAC CAPITAL MAPPING</objectTreeId>
+		<parentId>GUARDIAN ADMINISTRATOR FOLDER</parentId>
+    <childId>ZODIAC CAPITAL</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GUARDIAN ADMINISTRATOR BOUTIQUE ASSET MANAGEMENT MAPPING</objectTreeId>
+		<parentId>GUARDIAN ADMINISTRATOR FOLDER</parentId>
+    <childId>BOUTIQUE ASSET MANAGEMENT</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GUARDIAN ADMINISTRATOR GLOBAL ASSET MANAGEMENT MAPPING</objectTreeId>
+		<parentId>GUARDIAN ADMINISTRATOR FOLDER</parentId>
+    <childId>GLOBAL ASSET MANAGEMENT</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GUARDIAN ADMINISTRATOR HARRIS BROTHERS MAPPING</objectTreeId>
+		<parentId>GUARDIAN ADMINISTRATOR FOLDER</parentId>
+    <childId>HARRIS BROTHERS</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GUARDIAN ADMINISTRATOR SCHOONER SECURITIES MAPPING</objectTreeId>
+		<parentId>GUARDIAN ADMINISTRATOR FOLDER</parentId>
+    <childId>SCHOONER SECURITIES</childId>
+  </method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>VICTOR MARGOLIN FOLDER</systemFolderId>
+    <name>Victor Margolin</name>
+    <description>Person Folder of Victor Margolin</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+		<userId>VICTOR MARGOLIN</userId>
+    <systemFolderId>VICTOR MARGOLIN FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>VICTOR MARGOLIN ZODIAC EQUITY DESK MAPPING</objectTreeId>
+		<parentId>VICTOR MARGOLIN FOLDER</parentId>
+    <childId>ZODIAC EQUITY DESK BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>RUSSELL JACKSON FOLDER</systemFolderId>
+    <name>Russell Jackson</name>
+    <description>Person Folder of Russell Jackson</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+		<userId>RUSSELL JACKSON</userId>
+		<systemFolderId>RUSSELL JACKSON FOLDER</systemFolderId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>RUSSELL JACKSON ZODIAC EQUITY DESK MAPPING</objectTreeId>
+		<parentId>RUSSELL JACKSON FOLDER</parentId>
+    <childId>ZODIAC EQUITY DESK BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>ROBERTO GARCIA FOLDER</systemFolderId>
+    <name>Roberto Garcia</name>
+    <description>Person Folder of Roberto Garcia</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>ROBERTO GARCIA</userId>
+    <systemFolderId>ROBERTO GARCIA FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>ROBERTO GARCIA BOUTIQUE ASSET MANAGEMENT MAPPING</objectTreeId>
+		<parentId>ROBERTO GARCIA FOLDER</parentId>
+    <childId>BOUTIQUE ASSET MANAGEMENT</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>ELAINE RUSSO FOLDER</systemFolderId>
+    <name>Elaine Russo</name>
+    <description>Person Folder of Elaine Russo</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>ELAINE RUSSO</userId>
+    <systemFolderId>ELAINE RUSSO FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>ELAINE RUSSO BOUTIQUE ASSET MANAGEMENT MAPPING</objectTreeId>
+		<parentId>ELAINE RUSSO FOLDER</parentId>
+    <childId>BOUTIQUE ASSET MANAGEMENT</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>MANNY CORTEZ FOLDER</systemFolderId>
+    <name>Manny Cortez</name>
+    <description>Person Folder of Manny Cortez</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>MANNY CORTEZ</userId>
+    <systemFolderId>MANNY CORTEZ FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>MANNY CORTEZ GLOBAL EQUITY DESK MAPPING</objectTreeId>
+		<parentId>MANNY CORTEZ FOLDER</parentId>
+    <childId>GLOBAL EQUITY DESK BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>KATE SCHWARTZ FOLDER</systemFolderId>
+    <name>Kate Schwartz</name>
+    <description>Person Folder of Kate Schwartz</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>KATE SCHWARTZ</userId>
+    <systemFolderId>KATE SCHWARTZ FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>KATE SCHWARTZ GLOBAL EQUITY DESK MAPPING</objectTreeId>
+		<parentId>KATE SCHWARTZ FOLDER</parentId>
+    <childId>GLOBAL EQUITY DESK BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>CHARLES RODRIGUEZ FOLDER</systemFolderId>
+    <name>Charles Rodriguez</name>
+    <description>Person Folder of Charles Rodriguez</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>CHARLES RODRIGUEZ</userId>
+    <systemFolderId>CHARLES RODRIGUEZ FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>CHARLES RODRIGUEZ GLOBAL EQUITY DESK MAPPING</objectTreeId>
+		<parentId>CHARLES RODRIGUEZ FOLDER</parentId>
+    <childId>GLOBAL EQUITY DESK BLOTTER</childId>
+  </method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+		<systemFolderId>CHRIS HENDERSON FOLDER</systemFolderId>
+		<name>Chris Henderson</name>
+		<description>Person Folder of Chris Henderson</description>
+		<url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+		<userId>CHRIS HENDERSON</userId>
+		<systemFolderId>CHRIS HENDERSON FOLDER</systemFolderId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>CHRIS HENDERSON HARRIS BOSTON MAPPING</objectTreeId>
+		<parentId>CHRIS HENDERSON FOLDER</parentId>
+		<childId>HARRIS BOSTON</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+		<systemFolderId>YOSHIO SHIMURA FOLDER</systemFolderId>
+		<name>Yoshio Shimura</name>
+		<description>Person Folder of Yoshio Shimura</description>
+		<url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+		<userId>YOSHIO SHIMURA</userId>
+		<systemFolderId>YOSHIO SHIMURA FOLDER</systemFolderId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>YOSHIO SHIMURA HARRIS BOSTON MAPPING</objectTreeId>
+		<parentId>YOSHIO SHIMURA FOLDER</parentId>
+		<childId>HARRIS BOSTON</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>GILBERT HOROWITZ FOLDER</systemFolderId>
+    <name>Gilbert Horowitz</name>
+    <description>Person Folder of Gilbert Horowitz</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>GILBERT HOROWITZ</userId>
+    <systemFolderId>GILBERT HOROWITZ FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GILBERT HOROWITZ GILBERT HOROWITZ MAPPING</objectTreeId>
+		<parentId>GILBERT HOROWITZ FOLDER</parentId>
+    <childId>GILBERT HOROWITZ BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>SUSAN CHUNG FOLDER</systemFolderId>
+    <name>Susan Chung</name>
+    <description>Person Folder of Susan Chung</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>SUSAN CHUNG</userId>
+    <systemFolderId>SUSAN CHUNG FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>SUSAN CHUNG SUSAN CHUNG MAPPING</objectTreeId>
+		<parentId>SUSAN CHUNG FOLDER</parentId>
+    <childId>SUSAN CHUNG BLOTTER</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>TONY DE SILVA FOLDER</systemFolderId>
+    <name>Tony De Silva</name>
+    <description>Person Folder of Tony De Silva</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>TONY DE SILVA</userId>
+    <systemFolderId>TONY DE SILVA FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>TONY DE SILVA HARRIS NEW YORK MAPPING</objectTreeId>
+		<parentId>TONY DE SILVA FOLDER</parentId>
+    <childId>HARRIS NEW YORK</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>CAROL HILL FOLDER</systemFolderId>
+    <name>Carol Hill</name>
+    <description>Person Folder of Carol Hill</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>CAROL HILL</userId>
+    <systemFolderId>CAROL HILL FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>CAROL HILL SCHOONER NEW YORK MAPPING</objectTreeId>
+		<parentId>CAROL HILL FOLDER</parentId>
+    <childId>SCHOONER NEW YORK</childId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.SystemFolder" name="Load">
+    <systemFolderId>GARY BROWN FOLDER</systemFolderId>
+    <name>Gary Brown</name>
+    <description>Person Folder of Gary Brown</description>
+    <url>file://C:/My Documents/Visual Studio Projects/Mark Three Software/Guardian/Web Pages/welcome.htm</url>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.User" name="Update">
+    <userId>GARY BROWN</userId>
+    <systemFolderId>GARY BROWN FOLDER</systemFolderId>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.ObjectTree" name="Load">
+		<objectTreeId>GARY BROWN GARY BROWN MAPPING</objectTreeId>
+		<parentId>GARY BROWN FOLDER</parentId>
+    <childId>GARY BROWN BLOTTER</childId>
+  </method>
+</batch>

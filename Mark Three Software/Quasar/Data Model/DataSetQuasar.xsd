@@ -1,0 +1,1998 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="DataSetQuasar" 
+                  targetNamespace="http://tempuri.org/DataSetQuasar.xsd"
+                  elementFormDefault="qualified"
+                  attributeFormDefault="qualified"
+                  xmlns="http://tempuri.org/DataSetQuasar.xsd"
+                  xmlns:mstns="http://tempuri.org/DataSetQuasar.xsd"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+									xmlns:mtsm="urn:schemas-markthreesoftware-com:schema-markup">
+	<xs:element name="DataSetQuasar" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Account">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Object">
+								<xs:sequence>
+									<xs:element name="AccountId" type="xs:int" />
+									<xs:element name="CurrencyId" type="xs:int" />
+									<xs:element name="SchemeId" type="xs:int" minOccurs="0" />
+									<xs:element name="ModelId" type="xs:int" minOccurs="0" />
+									<xs:element name="BlotterId" type="xs:int" minOccurs="0" />
+									<xs:element name="StylesheetId" type="xs:int" />
+									<xs:element name="CountryId" type="xs:int" minOccurs="0" />
+									<xs:element name="ProvinceId" type="xs:int" minOccurs="0" />
+									<xs:element name="TypeCode" type="xs:string" default="Account" />
+									<xs:element name="AccountTypeCode" type="xs:int" />
+									<xs:element name="LotHandlingCode" type="xs:int" minOccurs="0" />
+									<xs:element name="TimeInForceCode" type="xs:int" minOccurs="0" />
+									<xs:element name="Mnemonic" type="xs:string" minOccurs="0" />
+									<xs:element name="Address0" type="xs:string" minOccurs="0" />
+									<xs:element name="Address1" type="xs:string" minOccurs="0" />
+									<xs:element name="Address2" type="xs:string" minOccurs="0" />
+									<xs:element name="City" type="xs:string" minOccurs="0" />
+									<xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+									<xs:element name="UserData0" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData1" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData2" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData3" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData4" type="xs:string" minOccurs="0" />
+									<xs:element name="UserData5" type="xs:string" minOccurs="0" />
+									<xs:element name="UserData6" type="xs:string" minOccurs="0" />
+									<xs:element name="UserData7" type="xs:string" minOccurs="0" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AccountType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AccountTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Algorithm">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AlgorithmId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="AlgorithmTypeCode" type="xs:int" />
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="Assembly" type="xs:string" />
+							<xs:element name="Type" type="xs:string" />
+							<xs:element name="Method" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="AlgorithmType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AlgorithmTypeCode" type="xs:int" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" />
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Allocation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AllocationId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="BlockOrderId" type="xs:int" />
+							<xs:element name="AccountId" type="xs:int" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="SettlementId" type="xs:int" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+							<xs:element name="TransactionTypeCode" type="xs:int" />
+							<xs:element name="Quantity" type="xs:decimal" />
+							<xs:element name="Price" type="xs:decimal" />
+							<xs:element name="Commission" type="xs:decimal" />
+							<xs:element name="AccruedInterest" type="xs:decimal" />
+							<xs:element name="UserFee0" type="xs:decimal" />
+							<xs:element name="UserFee1" type="xs:decimal" />
+							<xs:element name="UserFee2" type="xs:decimal" />
+							<xs:element name="UserFee3" type="xs:decimal" />
+							<xs:element name="TradeDate" type="xs:dateTime" />
+							<xs:element name="SettlementDate" type="xs:dateTime" />
+							<xs:element name="CreatedTime" type="xs:dateTime" />
+							<xs:element name="CreatedUserId" type="xs:int" />
+							<xs:element name="ModifiedTime" type="xs:dateTime" />
+							<xs:element name="ModifiedUserId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BlockOrder">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BlockOrderId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="BlotterId" type="xs:int" />
+							<xs:element name="AccountId" type="xs:int" minOccurs="0" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="SettlementId" type="xs:int" />
+							<xs:element name="BrokerId" type="xs:int" minOccurs="0" />
+							<xs:element name="StatusCode" type="xs:int" />
+							<xs:element name="TransactionTypeCode" type="xs:int" />
+							<xs:element name="TimeInForceCode" type="xs:int" minOccurs="0" />
+							<xs:element name="OrderTypeCode" type="xs:int" minOccurs="0" />
+							<xs:element name="ConditionCode" type="xs:int" minOccurs="0" />
+							<xs:element name="IsDeleted" type="xs:boolean" default="false" />
+							<xs:element name="IsAgency" type="xs:boolean" default="false" />
+							<xs:element name="QuantityExecuted" type="xs:decimal" minOccurs="0" />
+							<xs:element name="QuantityOrdered" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Price1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Price2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CreatedTime" type="xs:dateTime" />
+							<xs:element name="CreatedUserId" type="xs:int" />
+							<xs:element name="ModifiedTime" type="xs:dateTime" />
+							<xs:element name="ModifiedUserId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BlockOrderTree">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ParentId" type="xs:int" />
+							<xs:element name="ChildId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Blotter">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Object">
+								<xs:sequence>
+									<xs:element name="BlotterId" type="xs:int" />
+									<xs:element name="BlockOrderStylesheetId" type="xs:int" minOccurs="0" />
+									<xs:element name="PlacementStylesheetId" type="xs:int" minOccurs="0" />
+									<xs:element name="ExecutionStylesheetId" type="xs:int" minOccurs="0" />
+									<xs:element name="TicketStylesheetId" type="xs:int" minOccurs="0" />
+									<xs:element name="AlgorithmId" type="xs:int" minOccurs="0" />
+									<xs:element name="TypeCode" type="xs:string" default="Blotter" />
+									<xs:element name="BlotterTypeCode" type="xs:int" />
+									<xs:element name="DefaultBlotter" type="xs:boolean" default="false" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BlotterType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BlotterTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="BlotterMap">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BlotterMapId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="BlotterId" type="xs:int" />
+							<xs:element name="MinimumQuantity" type="xs:decimal" default="0.0" />
+							<xs:element name="MaximumQuantity" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Broker">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Object">
+								<xs:sequence>
+									<xs:element name="BrokerId" type="xs:int" />
+									<xs:element name="TypeCode" type="xs:string" default="Broker" />
+									<xs:element name="Connected" type="xs:boolean" default="false" />
+									<xs:element name="Symbol" type="xs:string" />
+									<xs:element name="Phone" type="xs:string" minOccurs="0" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Condition">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ConditionCode" type="xs:int" />
+							<xs:element name="Mnemonic" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Configuration">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ConfigurationId" type="xs:string" />
+							<xs:element name="ParameterId" type="xs:string" />
+							<xs:element name="ColumnIndex" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Country">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="CountryId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="Abbreviation" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Currency">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Security">
+								<xs:sequence>
+									<xs:element name="CurrencyId" type="xs:int" />
+									<xs:element name="SecurityTypeCode" type="xs:int" default="0" />
+									<xs:element name="PriceFactor" type="xs:decimal" default="1.0" />
+									<xs:element name="QuantityFactor" type="xs:decimal" default="1.0" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Debt">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Security">
+								<xs:sequence>
+									<xs:element name="DebtId" type="xs:int" />
+									<xs:element name="IssuerId" type="xs:int" minOccurs="0" />
+									<xs:element name="SettlementId" type="xs:int" />
+									<xs:element name="SecurityTypeCode" type="xs:int" default="2" />
+									<xs:element name="DebtTypeCode" type="xs:int" />
+									<xs:element name="PriceFactor" type="xs:decimal" default="10.0" />
+									<xs:element name="QuantityFactor" type="xs:decimal" default="0.001" />
+									<xs:element name="FaceOutstanding" type="xs:decimal" default="0" />
+									<xs:element name="Coupon" type="xs:decimal" />
+									<xs:element name="MaturityDate" type="xs:dateTime" />
+									<xs:element name="DatedDate" type="xs:dateTime" minOccurs="0" />
+									<xs:element name="FirstCoupon" type="xs:dateTime" minOccurs="0" />
+									<xs:element name="Frequency" type="xs:int" default="0" />
+									<xs:element name="RedemptionValue" type="xs:decimal" default="100.0" />
+									<xs:element name="IncomeTaxRate" type="xs:decimal" default="0.0" />
+									<xs:element name="CapitalGainsTaxRate" type="xs:decimal" default="0.0" />
+									<xs:element name="CutoffPeriod" type="xs:int" default="12" />
+									<xs:element name="IssuePrice" type="xs:int" default="12" />
+									<xs:element name="TrueYield" type="xs:boolean" default="true" />
+									<xs:element name="WeekendCode" type="xs:int" default="0" />
+									<xs:element name="ExdividendDays" type="xs:int" minOccurs="0" />
+									<xs:element name="Rating0" type="xs:int" minOccurs="0" />
+									<xs:element name="Rating1" type="xs:int" minOccurs="0" />
+									<xs:element name="Rating2" type="xs:int" minOccurs="0" />
+									<xs:element name="Rating3" type="xs:int" minOccurs="0" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="DebtType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="DebtTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Equity">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Security">
+								<xs:sequence>
+									<xs:element name="EquityId" type="xs:int" />
+									<xs:element name="IssuerId" type="xs:int" minOccurs="0" />
+									<xs:element name="ExchangeId" type="xs:int" minOccurs="0" />
+									<xs:element name="SettlementId" type="xs:int" />
+									<xs:element name="SecurityTypeCode" type="xs:int" default="1" />
+									<xs:element name="EquityTypeCode" type="xs:int" />
+									<xs:element name="PriceFactor" type="xs:decimal" default="1.0" />
+									<xs:element name="QuantityFactor" type="xs:decimal" default="1.0" />
+									<xs:element name="SharesOutstanding" type="xs:decimal" minOccurs="0" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="EquityType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="EquityTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Exchange">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ExchangeId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Execution">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ExecutionId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="BlockOrderId" type="xs:int" />
+							<xs:element name="BrokerId" type="xs:int" />
+							<xs:element name="IsDeleted" type="xs:boolean" default="false" />
+							<xs:element name="Quantity" type="xs:decimal" />
+							<xs:element name="Price" type="xs:decimal" />
+							<xs:element name="Commission" type="xs:decimal" default="0.0" />
+							<xs:element name="AccruedInterest" type="xs:decimal" default="0.0" />
+							<xs:element name="UserFee0" type="xs:decimal" default="0.0" />
+							<xs:element name="UserFee1" type="xs:decimal" default="0.0" />
+							<xs:element name="UserFee2" type="xs:decimal" default="0.0" />
+							<xs:element name="UserFee3" type="xs:decimal" default="0.0" />
+							<xs:element name="TradeDate" type="xs:dateTime" />
+							<xs:element name="SettlementDate" type="xs:dateTime" />
+							<xs:element name="CreatedTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="CreatedUserId" type="xs:int" minOccurs="0" />
+							<xs:element name="ModifiedTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="ModifiedUserId" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Folder" type="Folder" />
+				<xs:element name="Holiday">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="HolidayId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="CountryId" type="xs:int" />
+							<xs:element name="SecurityTypeCode" type="xs:int" />
+							<xs:element name="Date" type="xs:dateTime" />
+							<xs:element name="HolidayTypeCode" type="xs:int" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="HolidayType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="HolidayTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Issuer">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Object">
+								<xs:sequence>
+									<xs:element name="IssuerId" type="xs:int" />
+									<xs:element name="CountryId" type="xs:int" minOccurs="0" />
+									<xs:element name="ProvinceId" type="xs:int" minOccurs="0" />
+									<xs:element name="TypeCode" type="xs:string" default="Issuer" />
+									<xs:element name="IssuerTypeCode" type="xs:int" />
+									<xs:element name="Address0" type="xs:string" minOccurs="0" />
+									<xs:element name="Address1" type="xs:string" minOccurs="0" />
+									<xs:element name="Address2" type="xs:string" minOccurs="0" />
+									<xs:element name="City" type="xs:string" minOccurs="0" />
+									<xs:element name="PostalCode" type="xs:string" minOccurs="0" />
+									<xs:element name="Rating0" type="xs:decimal" minOccurs="0" />
+									<xs:element name="Rating1" type="xs:decimal" minOccurs="0" />
+									<xs:element name="Rating2" type="xs:decimal" minOccurs="0" />
+									<xs:element name="Rating3" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData0" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData1" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData2" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData3" type="xs:decimal" minOccurs="0" />
+									<xs:element name="UserData4" type="xs:string" minOccurs="0" />
+									<xs:element name="UserData5" type="xs:string" minOccurs="0" />
+									<xs:element name="UserData6" type="xs:string" minOccurs="0" />
+									<xs:element name="UserData7" type="xs:string" minOccurs="0" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="IssuerType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="IssuerTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="LotHandling">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="LotHandlingCode" type="xs:int" />
+							<xs:element name="Mnemonic" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Model">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Object">
+								<xs:sequence>
+									<xs:element name="ModelId" type="xs:int" />
+									<xs:element name="AlgorithmId" type="xs:int" />
+									<xs:element name="SchemeId" type="xs:int" minOccurs="0" />
+									<xs:element name="TypeCode" type="xs:string" default="Model" />
+									<xs:element name="ModelTypeCode" type="xs:int" />
+									<xs:element name="Temporary" type="xs:boolean" default="false" />
+									<xs:element name="SecuritySelf" type="xs:boolean" default="false" />
+									<xs:element name="SectorSelf" type="xs:boolean" default="false" />
+									<xs:element name="EquityRounding" type="xs:decimal" default="100" />
+									<xs:element name="DebtRounding" type="xs:decimal" default="1000" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ModelType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ModelTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Object" type="Object"></xs:element>
+				<xs:element name="ObjectTree">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ParentId" type="xs:int" />
+							<xs:element name="ChildId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Order">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OrderId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="BlockOrderId" type="xs:int" />
+							<xs:element name="AccountId" type="xs:int" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="SettlementId" type="xs:int" />
+							<xs:element name="BrokerId" type="xs:int" minOccurs="0" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+							<xs:element name="TransactionTypeCode" type="xs:int" />
+							<xs:element name="TimeInForceCode" type="xs:int" />
+							<xs:element name="OrderTypeCode" type="xs:int" />
+							<xs:element name="ConditionCode" type="xs:int" minOccurs="0" />
+							<xs:element name="IsDeleted" type="xs:boolean" default="false" />
+							<xs:element name="IsAgency" type="xs:boolean" default="false" />
+							<xs:element name="Quantity" type="xs:decimal" />
+							<xs:element name="Price1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Price2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Note" type="xs:string" minOccurs="0" />
+							<xs:element name="CreatedTime" type="xs:dateTime" />
+							<xs:element name="CreatedUserId" type="xs:int" />
+							<xs:element name="ModifiedTime" type="xs:dateTime" />
+							<xs:element name="ModifiedUserId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OrderTree">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ParentId" type="xs:int" />
+							<xs:element name="ChildId" type="xs:int" />
+							<xs:element name="IsDeleted" type="xs:boolean" default="false" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="OrderType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OrderTypeCode" type="xs:int" />
+							<xs:element name="Mnemonic" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Placement">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PlacementId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="BlockOrderId" type="xs:int" />
+							<xs:element name="BrokerId" type="xs:int" />
+							<xs:element name="TimeInForceCode" type="xs:int" />
+							<xs:element name="OrderTypeCode" type="xs:int" />
+							<xs:element name="IsDeleted" type="xs:boolean" default="false" />
+							<xs:element name="IsRouted" type="xs:boolean" default="false" />
+							<xs:element name="Quantity" type="xs:decimal" />
+							<xs:element name="Price1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Price2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="CreatedTime" type="xs:dateTime" />
+							<xs:element name="CreatedUserId" type="xs:int" />
+							<xs:element name="ModifiedTime" type="xs:dateTime" />
+							<xs:element name="ModifiedUserId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Position">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AccountId" type="xs:int" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+							<xs:element name="UserData0" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData4" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData5" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData6" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData7" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PositionTarget">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ModelId" type="xs:int" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+							<xs:element name="Percent" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="PositionType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PositionTypeCode" type="xs:int" />
+							<xs:element name="Mnemonic" type="xs:string" />
+							<xs:element name="Sign" type="xs:decimal" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Price">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="CurrencyId" type="xs:int" />
+							<xs:element name="ClosePrice" type="xs:decimal" default="0.0" />
+							<xs:element name="PriceChange" type="xs:decimal" default="0.0" mtsm:persistent="false" />
+							<xs:element name="LastPrice" type="xs:decimal" default="0.0" />
+							<xs:element name="LastSize" type="xs:decimal" default="0.0" />
+							<xs:element name="BidPrice" type="xs:decimal" default="0.0" />
+							<xs:element name="BidSize" type="xs:decimal" default="0.0" />
+							<xs:element name="AskPrice" type="xs:decimal" default="0.0" />
+							<xs:element name="AskSize" type="xs:decimal" default="0.0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Property">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="PropertyCode" type="xs:int" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ProposedOrder">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ProposedOrderId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="BlotterId" type="xs:int" minOccurs="0" />
+							<xs:element name="AccountId" type="xs:int" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="SettlementId" type="xs:int" />
+							<xs:element name="BrokerId" type="xs:int" minOccurs="0" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+							<xs:element name="TransactionTypeCode" type="xs:int" />
+							<xs:element name="TimeInForceCode" type="xs:int" />
+							<xs:element name="OrderTypeCode" type="xs:int" />
+							<xs:element name="ConditionCode" type="xs:int" minOccurs="0" />
+							<xs:element name="IsAgency" type="xs:boolean" default="false" />
+							<xs:element name="Quantity" type="xs:decimal" />
+							<xs:element name="Price1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Price2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Note" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ProposedOrderTree">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ParentId" type="xs:int" />
+							<xs:element name="ChildId" type="xs:int" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Province">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ProvinceId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="CountryId" type="xs:int" />
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="Abbreviation" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Restriction">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="RestrictionId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="Severity" type="xs:int" />
+							<xs:element name="Approval" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Scheme">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Object">
+								<xs:sequence>
+									<xs:element name="SchemeId" type="xs:int" />
+									<xs:element name="TypeCode" type="xs:string" default="Scheme" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Sector">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Object">
+								<xs:sequence>
+									<xs:element name="SectorId" type="xs:int" />
+									<xs:element name="TypeCode" type="xs:string" default="Sector" />
+									<xs:element name="SortOrder" type="xs:int" default="0" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SectorTarget">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ModelId" type="xs:int" />
+							<xs:element name="SectorId" type="xs:int" />
+							<xs:element name="Percent" type="xs:decimal" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Security" type="Security"></xs:element>
+				<xs:element name="SecurityType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SecurityTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Status">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="StatusCode" type="xs:int" />
+							<xs:element name="Mnemonic" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TaxLot">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TaxLotId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="AccountId" type="xs:int" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+							<xs:element name="Quantity" type="xs:decimal" />
+							<xs:element name="Cost" type="xs:decimal" />
+							<xs:element name="LocalCost" type="xs:decimal" default="0.0" />
+							<xs:element name="TradeDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="SettlementDate" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="UserData0" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData1" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData2" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData3" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData4" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData5" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData6" type="xs:decimal" minOccurs="0" />
+							<xs:element name="UserData7" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Type">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="Specification" type="xs:string" />
+							<xs:element name="TypeCode" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Stylesheet">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="StylesheetId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="StylesheetTypeCode" type="xs:int" />
+							<xs:element name="Name" type="xs:string" />
+							<xs:element name="Text" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="StylesheetType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="StylesheetTypeCode" type="xs:int" />
+							<xs:element name="Name" type="xs:string" minOccurs="0" />
+							<xs:element name="Description" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SystemFolder">
+					<xs:complexType>
+						<xs:complexContent>
+							<xs:extension base="Folder">
+								<xs:sequence>
+									<xs:element name="SystemFolderId" type="xs:int" />
+									<xs:element name="TypeCode" type="xs:string" default="System Folder" />
+								</xs:sequence>
+							</xs:extension>
+						</xs:complexContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TimeInForce">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TimeInForceCode" type="xs:int" />
+							<xs:element name="Mnemonic" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="TransactionType">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="TransactionTypeCode" type="xs:int" />
+							<xs:element name="QuantitySign" type="xs:decimal" />
+							<xs:element name="CashSign" type="xs:decimal" />
+							<xs:element name="Mnemonic" type="xs:string" />
+							<xs:element name="Description" type="xs:string" />
+							<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="User" type="User" />
+				<xs:element name="Violation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ViolationId" type="xs:int" msdata:AutoIncrement="true" />
+							<xs:element name="RestrictionId" type="xs:int" />
+							<xs:element name="AccountId" type="xs:int" />
+							<xs:element name="SecurityId" type="xs:int" />
+							<xs:element name="PositionTypeCode" type="xs:int" />
+							<xs:element name="Description" type="xs:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="PKAccount" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:key>
+		<xs:key name="PKAccountType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:AccountType" />
+			<xs:field xpath="mstns:AccountTypeCode" />
+		</xs:key>
+		<xs:unique name="UKAccountTypeExternalId0">
+			<xs:selector xpath=".//mstns:AccountType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKAccountTypeExternalId1">
+			<xs:selector xpath=".//mstns:AccountType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKAlgorithm" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Algorithm" />
+			<xs:field xpath="mstns:AlgorithmId" />
+		</xs:key>
+		<xs:unique name="UKAlgorithmExternalId0">
+			<xs:selector xpath=".//mstns:Algorithm" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKAlgorithmExternalId1">
+			<xs:selector xpath=".//mstns:Algorithm" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKAlgorithmType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:AlgorithmType" />
+			<xs:field xpath="mstns:AlgorithmTypeCode" />
+		</xs:key>
+		<xs:unique name="UKAlgorithmTypeExternalId0">
+			<xs:selector xpath=".//mstns:AlgorithmType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKAlgorithmTypeExternalId1">
+			<xs:selector xpath=".//mstns:AlgorithmType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKAllocation" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:AllocationId" />
+		</xs:key>
+		<xs:unique name="UKAllocationAccountIdSecurityIdPositionTypeCode">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:AccountId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:unique>
+		<xs:key name="PKBlockOrder" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:BlockOrder" />
+			<xs:field xpath="mstns:BlockOrderId" />
+		</xs:key>
+		<xs:unique name="UKBlockOrderBlotterIdSecurityIdTransactionTypeCode">
+			<xs:selector xpath=".//mstns:BlockOrder" />
+			<xs:field xpath="mstns:BlotterId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:TransactionTypeCode" />
+		</xs:unique>
+		<xs:key name="PKBlockOrderTree" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:BlockOrderTree" />
+			<xs:field xpath="mstns:ParentId" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:key>
+		<xs:key name="PKBlotter" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Blotter" />
+			<xs:field xpath="mstns:BlotterId" />
+		</xs:key>
+		<xs:key name="PKBlotterType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:BlotterType" />
+			<xs:field xpath="mstns:BlotterTypeCode" />
+		</xs:key>
+		<xs:unique name="UKBlotterTypeExternalId0">
+			<xs:selector xpath=".//mstns:BlotterType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKBlotterTypeExternalId1">
+			<xs:selector xpath=".//mstns:BlotterType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKBlotterMap" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:BlotterMap" />
+			<xs:field xpath="mstns:BlotterMapId" />
+		</xs:key>
+		<xs:unique name="UKBlotterMapExternalId0">
+			<xs:selector xpath=".//mstns:BlotterMap" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKBlotterMapExternalId1">
+			<xs:selector xpath=".//mstns:BlotterMap" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKBroker" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Broker" />
+			<xs:field xpath="mstns:BrokerId" />
+		</xs:key>
+		<xs:key name="PKCondition" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Condition" />
+			<xs:field xpath="mstns:ConditionCode" />
+		</xs:key>
+		<xs:key name="PKConfiguration" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Configuration" />
+			<xs:field xpath="mstns:ConfigurationId" />
+			<xs:field xpath="mstns:ParameterId" />
+		</xs:key>
+		<xs:key name="PKCountry" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Country" />
+			<xs:field xpath="mstns:CountryId" />
+		</xs:key>
+		<xs:unique name="UKCountryExternalId0">
+			<xs:selector xpath=".//mstns:Country" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKCountryExternalId1">
+			<xs:selector xpath=".//mstns:Country" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKCurrency" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Currency" />
+			<xs:field xpath="mstns:CurrencyId" />
+		</xs:key>
+		<xs:key name="PKDebt" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Debt" />
+			<xs:field xpath="mstns:DebtId" />
+		</xs:key>
+		<xs:key name="PKDebtType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:DebtType" />
+			<xs:field xpath="mstns:DebtTypeCode" />
+		</xs:key>
+		<xs:unique name="UKDebtTypeExternalId0">
+			<xs:selector xpath=".//mstns:DebtType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKDebtTypeExternalId1">
+			<xs:selector xpath=".//mstns:DebtType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKDebtTypeExternalId2">
+			<xs:selector xpath=".//mstns:DebtType" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKDebtTypeExternalId3">
+			<xs:selector xpath=".//mstns:DebtType" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKEquity" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Equity" />
+			<xs:field xpath="mstns:EquityId" />
+		</xs:key>
+		<xs:key name="PKEquityType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:EquityType" />
+			<xs:field xpath="mstns:EquityTypeCode" />
+		</xs:key>
+		<xs:unique name="UKEquityTypeExternalId0">
+			<xs:selector xpath=".//mstns:EquityType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKEquityTypeExternalId1">
+			<xs:selector xpath=".//mstns:EquityType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKEquityTypeExternalId2">
+			<xs:selector xpath=".//mstns:EquityType" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKEquityTypeExternalId3">
+			<xs:selector xpath=".//mstns:EquityType" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKExecution" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Execution" />
+			<xs:field xpath="mstns:ExecutionId" />
+		</xs:key>
+		<xs:key name="PKExchange" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Exchange" />
+			<xs:field xpath="mstns:ExchangeId" />
+		</xs:key>
+		<xs:unique name="UKExchangeExternalId0">
+			<xs:selector xpath=".//mstns:Exchange" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKExchangeExternalId1">
+			<xs:selector xpath=".//mstns:Exchange" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKExchangeExternalId2">
+			<xs:selector xpath=".//mstns:Exchange" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKExchangeExternalId3">
+			<xs:selector xpath=".//mstns:Exchange" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="KeyFolder" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Folder" />
+			<xs:field xpath="mstns:FolderId" />
+		</xs:key>
+		<xs:key name="KeySystemFolder" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SystemFolder" />
+			<xs:field xpath="mstns:SystemFolderId" />
+		</xs:key>
+		<xs:keyref name="FolderSystemFolder" refer="KeyFolder">
+			<xs:selector xpath=".//mstns:SystemFolder" />
+			<xs:field xpath="mstns:SystemFolderId" />
+		</xs:keyref>
+		<xs:keyref name="ObjectFolder" refer="PKObject">
+			<xs:selector xpath=".//mstns:Folder" />
+			<xs:field xpath="mstns:FolderId" />
+		</xs:keyref>
+		<xs:keyref name="SystemFolderUser" refer="KeySystemFolder">
+			<xs:selector xpath=".//mstns:User" />
+			<xs:field xpath="mstns:SystemFolderId" />
+		</xs:keyref>
+		<xs:key name="PKHoliday" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Holiday" />
+			<xs:field xpath="mstns:HolidayId" />
+		</xs:key>
+		<xs:unique name="UKHolidayExternalId0">
+			<xs:selector xpath=".//mstns:Holiday" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKHolidayExternalId1">
+			<xs:selector xpath=".//mstns:Holiday" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKHolidayType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:HolidayType" />
+			<xs:field xpath="mstns:HolidayTypeCode" />
+		</xs:key>
+		<xs:key name="PKIssuer" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Issuer" />
+			<xs:field xpath="mstns:IssuerId" />
+		</xs:key>
+		<xs:key name="PKIssuerType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:IssuerType" />
+			<xs:field xpath="mstns:IssuerTypeCode" />
+		</xs:key>
+		<xs:unique name="UKIssuerTypeExternalId0">
+			<xs:selector xpath=".//mstns:IssuerType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKIssuerTypeExternalId1">
+			<xs:selector xpath=".//mstns:IssuerType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKIssuerTypeExternalId2">
+			<xs:selector xpath=".//mstns:IssuerType" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKIssuerTypeExternalId3">
+			<xs:selector xpath=".//mstns:IssuerType" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKUser" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:User" />
+			<xs:field xpath="mstns:UserId" />
+		</xs:key>
+		<xs:unique name="UKUserUserName">
+			<xs:selector xpath=".//mstns:User" />
+			<xs:field xpath="mstns:UserName" />
+		</xs:unique>
+		<xs:key name="PKLotHandling" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:LotHandling" />
+			<xs:field xpath="mstns:LotHandlingCode" />
+		</xs:key>
+		<xs:unique name="UKLotHandlingExternalId0">
+			<xs:selector xpath=".//mstns:LotHandling" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKLotHandlingExternalId1">
+			<xs:selector xpath=".//mstns:LotHandling" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKLotHandlingExternalId2">
+			<xs:selector xpath=".//mstns:LotHandling" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKLotHandlingExternalId3">
+			<xs:selector xpath=".//mstns:LotHandling" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKModel" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Model" />
+			<xs:field xpath="mstns:ModelId" />
+		</xs:key>
+		<xs:key name="PKModelType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ModelType" />
+			<xs:field xpath="mstns:ModelTypeCode" />
+		</xs:key>
+		<xs:unique name="UKModelTypeExternalId0">
+			<xs:selector xpath=".//mstns:ModelType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKModelTypeExternalId1">
+			<xs:selector xpath=".//mstns:ModelType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKPositionTarget" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:PositionTarget" />
+			<xs:field xpath="mstns:ModelId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:key>
+		<xs:key name="PKSectorTarget" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SectorTarget" />
+			<xs:field xpath="mstns:ModelId" />
+			<xs:field xpath="mstns:SectorId" />
+		</xs:key>
+		<xs:key name="PKObject" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ObjectId" />
+		</xs:key>
+		<xs:unique name="UKObjectExternalId0">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKObjectExternalId1">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKObjectExternalId2">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKObjectExternalId3">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:unique name="UKObjectExternalId4">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ExternalId4" />
+		</xs:unique>
+		<xs:unique name="UKObjectExternalId5">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ExternalId5" />
+		</xs:unique>
+		<xs:unique name="UKObjectExternalId6">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ExternalId6" />
+		</xs:unique>
+		<xs:unique name="UKObjectExternalId7">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:ExternalId7" />
+		</xs:unique>
+		<xs:key name="PKObjectTree" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ObjectTree" />
+			<xs:field xpath="mstns:ParentId" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:key>
+		<xs:key name="PKType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Type" />
+			<xs:field xpath="mstns:TypeCode" />
+		</xs:key>
+		<xs:unique name="KeyTypeExternalId0">
+			<xs:selector xpath=".//mstns:Type" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:key name="PKOrder" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:OrderId" />
+		</xs:key>
+		<xs:unique name="UKOrderAccountIdSecurityIdPositionTypeCode">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:AccountId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:unique>
+		<xs:key name="PKOrderTree" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:OrderTree" />
+			<xs:field xpath="mstns:ParentId" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:key>
+		<xs:key name="PKOrderType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:OrderType" />
+			<xs:field xpath="mstns:OrderTypeCode" />
+		</xs:key>
+		<xs:unique name="UKOrderTypeExternalId0">
+			<xs:selector xpath=".//mstns:OrderType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKOrderTypeExternalId1">
+			<xs:selector xpath=".//mstns:OrderType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKOrderTypeExternalId2">
+			<xs:selector xpath=".//mstns:OrderType" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKOrderTypeExternalId3">
+			<xs:selector xpath=".//mstns:OrderType" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKPlacement" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Placement" />
+			<xs:field xpath="mstns:PlacementId" />
+		</xs:key>
+		<xs:key name="PKPosition" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Position" />
+			<xs:field xpath="mstns:AccountId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:key>
+		<xs:key name="PKPositionType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:PositionType" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:key>
+		<xs:unique name="UKPositionTypeExternalId0">
+			<xs:selector xpath=".//mstns:PositionType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKPositionTypeExternalId1">
+			<xs:selector xpath=".//mstns:PositionType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKPositionTypeExternalId2">
+			<xs:selector xpath=".//mstns:PositionType" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKPositionTypeExternalId3">
+			<xs:selector xpath=".//mstns:PositionType" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKPrice" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Price" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:CurrencyId" />
+		</xs:key>
+		<xs:key name="PKProperty" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Property" />
+			<xs:field xpath="mstns:PropertyCode" />
+		</xs:key>
+		<xs:unique name="UKPropertyExternalId0">
+			<xs:selector xpath=".//mstns:Property" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKPropertyExternalId1">
+			<xs:selector xpath=".//mstns:Property" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKPropertyExternalId2">
+			<xs:selector xpath=".//mstns:Property" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKPropertyExternalId3">
+			<xs:selector xpath=".//mstns:Property" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKProposedOrder" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ProposedOrder" />
+			<xs:field xpath="mstns:ProposedOrderId" />
+		</xs:key>
+		<xs:unique name="KeyUserUserName">
+			<xs:selector xpath=".//mstns:User" />
+			<xs:field xpath="mstns:UserName" />
+		</xs:unique>
+		<xs:unique name="UKProposedOrderAccountIdSecurityIdPositionTypeCode">
+			<xs:selector xpath=".//mstns:ProposedOrder" />
+			<xs:field xpath="mstns:AccountId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:unique>
+		<xs:key name="PKProposedOrderTree" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ProposedOrderTree" />
+			<xs:field xpath="mstns:ParentId" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:key>
+		<xs:key name="PKProvince" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Province" />
+			<xs:field xpath="mstns:ProvinceId" />
+		</xs:key>
+		<xs:unique name="UKProvinceExternalId0">
+			<xs:selector xpath=".//mstns:Province" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKProvinceExternalId1">
+			<xs:selector xpath=".//mstns:Province" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKRestriction" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Restriction" />
+			<xs:field xpath="mstns:RestrictionId" />
+		</xs:key>
+		<xs:key name="PKScheme" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Scheme" />
+			<xs:field xpath="mstns:SchemeId" />
+		</xs:key>
+		<xs:key name="PKSector" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Sector" />
+			<xs:field xpath="mstns:SectorId" />
+		</xs:key>
+		<xs:key name="PKSecurity" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Security" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:key>
+		<xs:key name="PKSecurityType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SecurityType" />
+			<xs:field xpath="mstns:SecurityTypeCode" />
+		</xs:key>
+		<xs:unique name="UKSecurityTypeExternalId0">
+			<xs:selector xpath=".//mstns:SecurityType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKSecurityTypeExternalId1">
+			<xs:selector xpath=".//mstns:SecurityType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKSecurityTypeExternalId2">
+			<xs:selector xpath=".//mstns:SecurityType" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKSecurityTypeExternalId3">
+			<xs:selector xpath=".//mstns:SecurityType" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKStatus" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Status" />
+			<xs:field xpath="mstns:StatusCode" />
+		</xs:key>
+		<xs:unique name="UKStatusExternalId0">
+			<xs:selector xpath=".//mstns:Status" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKStatusExternalId1">
+			<xs:selector xpath=".//mstns:Status" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKStatusExternalId2">
+			<xs:selector xpath=".//mstns:Status" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKStatusExternalId3">
+			<xs:selector xpath=".//mstns:Status" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKStylesheet" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Stylesheet" />
+			<xs:field xpath="mstns:StylesheetId" />
+		</xs:key>
+		<xs:unique name="UKStylesheetExternalId0">
+			<xs:selector xpath=".//mstns:Stylesheet" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKStylesheetExternalId1">
+			<xs:selector xpath=".//mstns:Stylesheet" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKStylesheetType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:StylesheetType" />
+			<xs:field xpath="mstns:StylesheetTypeCode" />
+		</xs:key>
+		<xs:unique name="UKStylesheetTypeExternalId0">
+			<xs:selector xpath=".//mstns:StylesheetType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKStylesheetTypeExternalId1">
+			<xs:selector xpath=".//mstns:StylesheetType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:key name="PKTaxLot" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:TaxLotId" />
+		</xs:key>
+		<xs:unique name="UKTaxLotAccountIdSecurityIdPositionTypeCode">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:AccountId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:unique>
+		<xs:unique name="UKTaxLotExternalId0">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKTaxLotExternalId1">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKTaxLotExternalId2">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKTaxLotExternalId3">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKTimeInForce" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:TimeInForce" />
+			<xs:field xpath="mstns:TimeInForceCode" />
+		</xs:key>
+		<xs:unique name="UKTimeInForceExternalId0">
+			<xs:selector xpath=".//mstns:TimeInForce" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKTimeInForceExternalId1">
+			<xs:selector xpath=".//mstns:TimeInForce" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKTimeInForceExternalId2">
+			<xs:selector xpath=".//mstns:TimeInForce" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKTimeInForceExternalId3">
+			<xs:selector xpath=".//mstns:TimeInForce" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKTransactionType" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:TransactionType" />
+			<xs:field xpath="mstns:TransactionTypeCode" />
+		</xs:key>
+		<xs:unique name="UKTransactionTypeExternalId0">
+			<xs:selector xpath=".//mstns:TransactionType" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKTransactionTypeExternalId1">
+			<xs:selector xpath=".//mstns:TransactionType" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKTransactionTypeExternalId2">
+			<xs:selector xpath=".//mstns:TransactionType" />
+			<xs:field xpath="mstns:ExternalId2" />
+		</xs:unique>
+		<xs:unique name="UKTransactionTypeExternalId3">
+			<xs:selector xpath=".//mstns:TransactionType" />
+			<xs:field xpath="mstns:ExternalId3" />
+		</xs:unique>
+		<xs:key name="PKViolation" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Violation" />
+			<xs:field xpath="mstns:ViolationId" />
+		</xs:key>
+		<xs:keyref name="FKAccountTypeAccount" refer="PKAccountType">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:AccountTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKAccountAllocation" refer="PKAccount">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:keyref>
+		<xs:keyref name="FKAccountOrder" refer="PKAccount">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:keyref>
+		<xs:keyref name="FKAccountPosition" refer="PKAccount">
+			<xs:selector xpath=".//mstns:Position" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:keyref>
+		<xs:keyref name="FKAccountProposedOrder" refer="PKAccount">
+			<xs:selector xpath=".//mstns:ProposedOrder" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:keyref>
+		<xs:keyref name="FKAccountTaxLot" refer="PKAccount">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:keyref>
+		<xs:keyref name="FKAccountViolation" refer="PKAccount">
+			<xs:selector xpath=".//mstns:Violation" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:keyref>
+		<xs:keyref name="FKAlgorithmBlotter" refer="PKAlgorithm">
+			<xs:selector xpath=".//mstns:Blotter" />
+			<xs:field xpath="mstns:AlgorithmId" />
+		</xs:keyref>
+		<xs:keyref name="FKAlgorithmModel" refer="PKAlgorithm">
+			<xs:selector xpath=".//mstns:Model" />
+			<xs:field xpath="mstns:AlgorithmId" />
+		</xs:keyref>
+		<xs:keyref name="FKAlgorithmTypeAlgorithm" refer="PKAlgorithmType">
+			<xs:selector xpath=".//mstns:Algorithm" />
+			<xs:field xpath="mstns:AlgorithmTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKBlockOrderAllocation" refer="PKBlockOrder">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:BlockOrderId" />
+		</xs:keyref>
+		<xs:keyref name="FKBlockOrderBlockOrderTreeChildId" refer="PKBlockOrder">
+			<xs:selector xpath=".//mstns:BlockOrderTree" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:keyref>
+		<xs:keyref name="FKBlockOrderBlockOrderTreeParentId" refer="PKBlockOrder">
+			<xs:selector xpath=".//mstns:BlockOrderTree" />
+			<xs:field xpath="mstns:ParentId" />
+		</xs:keyref>
+		<xs:keyref name="FKBlockOrderExecution" refer="PKBlockOrder">
+			<xs:selector xpath=".//mstns:Execution" />
+			<xs:field xpath="mstns:BlockOrderId" />
+		</xs:keyref>
+		<xs:keyref name="FKBlockOrderOrder" refer="PKBlockOrder">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:BlockOrderId" />
+		</xs:keyref>
+		<xs:keyref name="FKBlockOrderPlacement" refer="PKBlockOrder">
+			<xs:selector xpath=".//mstns:Placement" />
+			<xs:field xpath="mstns:BlockOrderId" />
+		</xs:keyref>
+		<xs:keyref name="FKBlotterAccount" refer="PKBlotter">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:BlotterId" />
+		</xs:keyref>
+		<xs:keyref name="FKBlotterBlotterMap" refer="PKBlotter">
+			<xs:selector xpath=".//mstns:BlotterMap" />
+			<xs:field xpath="mstns:BlotterId" />
+		</xs:keyref>
+		<xs:keyref name="FKBlotterTypeBlotter" refer="PKBlotterType">
+			<xs:selector xpath=".//mstns:Blotter" />
+			<xs:field xpath="mstns:BlotterTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKBlotterBlockOrder" refer="PKBlotter">
+			<xs:selector xpath=".//mstns:BlockOrder" />
+			<xs:field xpath="mstns:BlotterId" />
+		</xs:keyref>
+		<xs:keyref name="FKBrokerExecution" refer="PKBroker">
+			<xs:selector xpath=".//mstns:Execution" />
+			<xs:field xpath="mstns:BrokerId" />
+		</xs:keyref>
+		<xs:keyref name="FKBrokerPlacement" refer="PKBroker">
+			<xs:selector xpath=".//mstns:Placement" />
+			<xs:field xpath="mstns:BrokerId" />
+		</xs:keyref>
+		<xs:keyref name="FKCountryAccount" refer="PKCountry">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:CountryId" />
+		</xs:keyref>
+		<xs:keyref name="FKCountrySecurity" refer="PKCountry">
+			<xs:selector xpath=".//mstns:Security" />
+			<xs:field xpath="mstns:CountryId" />
+		</xs:keyref>
+		<xs:keyref name="FKCountryHoliday" refer="PKCountry">
+			<xs:selector xpath=".//mstns:Holiday" />
+			<xs:field xpath="mstns:CountryId" />
+		</xs:keyref>
+		<xs:keyref name="FKCountryProvince" refer="PKCountry">
+			<xs:selector xpath=".//mstns:Province" />
+			<xs:field xpath="mstns:CountryId" />
+		</xs:keyref>
+		<xs:keyref name="FKCurrencyAccount" refer="PKCurrency">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:CurrencyId" />
+		</xs:keyref>
+		<xs:keyref name="FKCurrencyPrice" refer="PKCurrency">
+			<xs:selector xpath=".//mstns:Price" />
+			<xs:field xpath="mstns:CurrencyId" />
+		</xs:keyref>
+		<xs:keyref name="FKDebtTypeDebt" refer="PKDebtType">
+			<xs:selector xpath=".//mstns:Debt" />
+			<xs:field xpath="mstns:DebtTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKEquityTypeEquity" refer="PKEquityType">
+			<xs:selector xpath=".//mstns:Equity" />
+			<xs:field xpath="mstns:EquityTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKExchangeEquity" refer="PKExchange">
+			<xs:selector xpath=".//mstns:Equity" />
+			<xs:field xpath="mstns:ExchangeId" />
+		</xs:keyref>
+		<xs:keyref name="FKHolidayTypeHoliday" refer="PKHolidayType">
+			<xs:selector xpath=".//mstns:Holiday" />
+			<xs:field xpath="mstns:HolidayTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKIssuerTypeIssuer" refer="PKIssuerType">
+			<xs:selector xpath=".//mstns:Issuer" />
+			<xs:field xpath="mstns:IssuerTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKIssuerDebt" refer="PKIssuer">
+			<xs:selector xpath=".//mstns:Debt" />
+			<xs:field xpath="mstns:IssuerId" />
+		</xs:keyref>
+		<xs:keyref name="FKUserAllocationCreatedUserId" refer="PKUser">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:CreatedUserId" />
+		</xs:keyref>
+		<xs:keyref name="FKUserAllocationModifiedUserId" refer="PKUser">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:ModifiedUserId" />
+		</xs:keyref>
+		<xs:keyref name="FKUserExecutionCreatedUserId" refer="PKUser">
+			<xs:selector xpath=".//mstns:Execution" />
+			<xs:field xpath="mstns:CreatedUserId" />
+		</xs:keyref>
+		<xs:keyref name="FKUserExecutionModifiedUserId" refer="PKUser">
+			<xs:selector xpath=".//mstns:Execution" />
+			<xs:field xpath="mstns:ModifiedUserId" />
+		</xs:keyref>
+		<xs:keyref name="FKUserPlacementCreatedUserId" refer="PKUser">
+			<xs:selector xpath=".//mstns:Placement" />
+			<xs:field xpath="mstns:CreatedUserId" />
+		</xs:keyref>
+		<xs:keyref name="FKUserPlacementModifiedUserId" refer="PKUser">
+			<xs:selector xpath=".//mstns:Placement" />
+			<xs:field xpath="mstns:ModifiedUserId" />
+		</xs:keyref>
+		<xs:keyref name="FKLotHandlingAccount" refer="PKLotHandling">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:LotHandlingCode" />
+		</xs:keyref>
+		<xs:keyref name="FKModelAccount" refer="PKModel">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:ModelId" />
+		</xs:keyref>
+		<xs:keyref name="FKModelPositionTarget" refer="PKModel">
+			<xs:selector xpath=".//mstns:PositionTarget" />
+			<xs:field xpath="mstns:ModelId" />
+		</xs:keyref>
+		<xs:keyref name="FKModelTypeModel" refer="PKModelType">
+			<xs:selector xpath=".//mstns:Model" />
+			<xs:field xpath="mstns:ModelTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKModelSectorTarget" refer="PKModel">
+			<xs:selector xpath=".//mstns:SectorTarget" />
+			<xs:field xpath="mstns:ModelId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectAccount" refer="PKObject">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectBlotter" refer="PKObject">
+			<xs:selector xpath=".//mstns:Blotter" />
+			<xs:field xpath="mstns:BlotterId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectBroker" refer="PKObject">
+			<xs:selector xpath=".//mstns:Broker" />
+			<xs:field xpath="mstns:BrokerId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectIssuer" refer="PKObject">
+			<xs:selector xpath=".//mstns:Issuer" />
+			<xs:field xpath="mstns:IssuerId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectUser" refer="PKObject">
+			<xs:selector xpath=".//mstns:User" />
+			<xs:field xpath="mstns:UserId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectModel" refer="PKObject">
+			<xs:selector xpath=".//mstns:Model" />
+			<xs:field xpath="mstns:ModelId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectObjectTreeChildId" refer="PKObject">
+			<xs:selector xpath=".//mstns:ObjectTree" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectObjectTreeParentId" refer="PKObject">
+			<xs:selector xpath=".//mstns:ObjectTree" />
+			<xs:field xpath="mstns:ParentId" />
+		</xs:keyref>
+		<xs:keyref name="FKTypeObject" refer="PKType">
+			<xs:selector xpath=".//mstns:Object" />
+			<xs:field xpath="mstns:TypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectScheme" refer="PKObject">
+			<xs:selector xpath=".//mstns:Scheme" />
+			<xs:field xpath="mstns:SchemeId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectSector" refer="PKObject">
+			<xs:selector xpath=".//mstns:Sector" />
+			<xs:field xpath="mstns:SectorId" />
+		</xs:keyref>
+		<xs:keyref name="FKObjectSecurity" refer="PKObject">
+			<xs:selector xpath=".//mstns:Security" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKOrderOrderTreeChildId" refer="PKOrder">
+			<xs:selector xpath=".//mstns:OrderTree" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:keyref>
+		<xs:keyref name="FKOrderOrderTreeParentId" refer="PKOrder">
+			<xs:selector xpath=".//mstns:OrderTree" />
+			<xs:field xpath="mstns:ParentId" />
+		</xs:keyref>
+		<xs:keyref name="FKOrderTypeOrder" refer="PKOrderType">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:OrderTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKOrderTypePlacement" refer="PKOrderType">
+			<xs:selector xpath=".//mstns:Placement" />
+			<xs:field xpath="mstns:OrderTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKPositionTypePosition" refer="PKPositionType">
+			<xs:selector xpath=".//mstns:Position" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKPositionTypePositionTarget" refer="PKPositionType">
+			<xs:selector xpath=".//mstns:PositionTarget" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKPositionTypeTaxLot" refer="PKPositionType">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKPositionTypeViolation" refer="PKPositionType">
+			<xs:selector xpath=".//mstns:Violation" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKProposedOrderProposedOrderTreeChildId" refer="PKProposedOrder">
+			<xs:selector xpath=".//mstns:ProposedOrderTree" />
+			<xs:field xpath="mstns:ChildId" />
+		</xs:keyref>
+		<xs:keyref name="FKProposedOrderProposedOrderTreeParentId" refer="PKProposedOrder">
+			<xs:selector xpath=".//mstns:ProposedOrderTree" />
+			<xs:field xpath="mstns:ParentId" />
+		</xs:keyref>
+		<xs:keyref name="FKProvinceAccount" refer="PKProvince">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:ProvinceId" />
+		</xs:keyref>
+		<xs:keyref name="FKRestrictionViolation" refer="PKRestriction">
+			<xs:selector xpath=".//mstns:Violation" />
+			<xs:field xpath="mstns:RestrictionId" />
+		</xs:keyref>
+		<xs:keyref name="FKSchemeAccount" refer="PKScheme">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:SchemeId" />
+		</xs:keyref>
+		<xs:keyref name="FKSchemeModel" refer="PKScheme">
+			<xs:selector xpath=".//mstns:Model" />
+			<xs:field xpath="mstns:SchemeId" />
+		</xs:keyref>
+		<xs:keyref name="FKSectorSectorTarget" refer="PKSector">
+			<xs:selector xpath=".//mstns:SectorTarget" />
+			<xs:field xpath="mstns:SectorId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityAccount" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:CurrencyId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityAllocationSecurityId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityAllocationSettlementId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:SettlementId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityBlockOrderSecurityId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:BlockOrder" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityBlockOrderSettlementId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:BlockOrder" />
+			<xs:field xpath="mstns:SettlementId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityBlotterMap" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:BlotterMap" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityDebtDebtId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Debt" />
+			<xs:field xpath="mstns:DebtId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityDebtSettlementId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Debt" />
+			<xs:field xpath="mstns:SettlementId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityCurrency" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Currency" />
+			<xs:field xpath="mstns:CurrencyId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityEquityEquityId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Equity" />
+			<xs:field xpath="mstns:EquityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityEquitySettlementId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Equity" />
+			<xs:field xpath="mstns:SettlementId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityOrderSecurityId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityOrderSettlementId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:SettlementId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityPosition" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Position" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityPositionTarget" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:PositionTarget" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityPrice" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Price" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityProposedOrderSecurityId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:ProposedOrder" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityProposedOrderSettlementId" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:ProposedOrder" />
+			<xs:field xpath="mstns:SettlementId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityTaxLot" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:TaxLot" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityViolation" refer="PKSecurity">
+			<xs:selector xpath=".//mstns:Violation" />
+			<xs:field xpath="mstns:SecurityId" />
+		</xs:keyref>
+		<xs:keyref name="FKSecurityTypeSecurity" refer="PKSecurityType">
+			<xs:selector xpath=".//mstns:Security" />
+			<xs:field xpath="mstns:SecurityTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKStatusBlockOrder" refer="PKStatus">
+			<xs:selector xpath=".//mstns:BlockOrder" />
+			<xs:field xpath="mstns:StatusCode" />
+		</xs:keyref>
+		<xs:keyref name="FKStylesheetAccount" refer="PKStylesheet">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:StylesheetId" />
+		</xs:keyref>
+		<xs:keyref name="FKStylesheetBlotterBlockOrderStylesheetId" refer="PKStylesheet">
+			<xs:selector xpath=".//mstns:Blotter" />
+			<xs:field xpath="mstns:BlockOrderStylesheetId" />
+		</xs:keyref>
+		<xs:keyref name="FKStylesheetBlotterPlacementStylesheetId" refer="PKStylesheet">
+			<xs:selector xpath=".//mstns:Blotter" />
+			<xs:field xpath="mstns:PlacementStylesheetId" />
+		</xs:keyref>
+		<xs:keyref name="FKStylesheetBlotterExecutionStylesheetId" refer="PKStylesheet">
+			<xs:selector xpath=".//mstns:Blotter" />
+			<xs:field xpath="mstns:ExecutionStylesheetId" />
+		</xs:keyref>
+		<xs:keyref name="FKStylesheetBlotterTicketStylesheetId" refer="PKStylesheet">
+			<xs:selector xpath=".//mstns:Blotter" />
+			<xs:field xpath="mstns:TicketStylesheetId" />
+		</xs:keyref>
+		<xs:keyref name="FKStylesheetTypeStylesheet" refer="PKStylesheetType">
+			<xs:selector xpath=".//mstns:Stylesheet" />
+			<xs:field xpath="mstns:StylesheetTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKTimeInForceAccount" refer="PKTimeInForce">
+			<xs:selector xpath=".//mstns:Account" />
+			<xs:field xpath="mstns:TimeInForceCode" />
+		</xs:keyref>
+		<xs:keyref name="FKTimeInForceOrder" refer="PKTimeInForce">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:TimeInForceCode" />
+		</xs:keyref>
+		<xs:keyref name="FKTimeInForcePlacement" refer="PKTimeInForce">
+			<xs:selector xpath=".//mstns:Placement" />
+			<xs:field xpath="mstns:TimeInForceCode" />
+		</xs:keyref>
+		<xs:keyref name="FKTransactionTypeAllocation" refer="PKTransactionType">
+			<xs:selector xpath=".//mstns:Allocation" />
+			<xs:field xpath="mstns:TransactionTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKTransactionTypeBlockOrder" refer="PKTransactionType">
+			<xs:selector xpath=".//mstns:BlockOrder" />
+			<xs:field xpath="mstns:TransactionTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKTransactionTypeOrder" refer="PKTransactionType">
+			<xs:selector xpath=".//mstns:Order" />
+			<xs:field xpath="mstns:TransactionTypeCode" />
+		</xs:keyref>
+		<xs:keyref name="FKTransactionTypeProposedOrder" refer="PKTransactionType">
+			<xs:selector xpath=".//mstns:ProposedOrder" />
+			<xs:field xpath="mstns:TransactionTypeCode" />
+		</xs:keyref>
+		<xs:unique name="UKRestrictionExternalId0">
+			<xs:selector xpath=".//mstns:Restriction" />
+			<xs:field xpath="mstns:ExternalId0" />
+		</xs:unique>
+		<xs:unique name="UKRestrictionExternalId1">
+			<xs:selector xpath=".//mstns:Restriction" />
+			<xs:field xpath="mstns:ExternalId1" />
+		</xs:unique>
+		<xs:unique name="UKViolationRestrictionIdAccountId">
+			<xs:selector xpath=".//mstns:Violation" />
+			<xs:field xpath="mstns:RestrictionId" />
+			<xs:field xpath="mstns:AccountId" />
+		</xs:unique>
+		<xs:unique name="UKViolationAccountIdSecurityIdPositionTypeCode">
+			<xs:selector xpath=".//mstns:Violation" />
+			<xs:field xpath="mstns:AccountId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:unique>
+		<xs:unique name="UKViolationRestrictionIdAccountIdSecurityIdPositionTypeCode">
+			<xs:selector xpath=".//mstns:Violation" />
+			<xs:field xpath="mstns:RestrictionId" />
+			<xs:field xpath="mstns:AccountId" />
+			<xs:field xpath="mstns:SecurityId" />
+			<xs:field xpath="mstns:PositionTypeCode" />
+		</xs:unique>
+	</xs:element>
+	<xs:complexType name="Folder">
+		<xs:complexContent>
+			<xs:extension base="Object">
+				<xs:sequence>
+					<xs:element name="FolderId" type="xs:int" />
+					<xs:element name="TypeCode" type="xs:string" default="Folder" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="Object">
+		<xs:sequence>
+			<xs:element name="Description" type="xs:string" minOccurs="0" />
+			<xs:element name="ExternalId0" type="xs:string" minOccurs="0" />
+			<xs:element name="ExternalId1" type="xs:string" minOccurs="0" />
+			<xs:element name="ExternalId2" type="xs:string" minOccurs="0" />
+			<xs:element name="ExternalId3" type="xs:string" minOccurs="0" />
+			<xs:element name="ExternalId4" type="xs:string" minOccurs="0" />
+			<xs:element name="ExternalId5" type="xs:string" minOccurs="0" />
+			<xs:element name="ExternalId6" type="xs:string" minOccurs="0" />
+			<xs:element name="ExternalId7" type="xs:string" minOccurs="0" />
+			<xs:element name="GroupPermission" type="xs:int" default="0" />
+			<xs:element name="Hidden" type="xs:boolean" default="false" />
+			<xs:element name="Name" type="xs:string" />
+			<xs:element name="ObjectId" type="xs:int" msdata:AutoIncrement="true" />
+			<xs:element name="Owner" type="xs:int" default="0" />
+			<xs:element name="OwnerPermission" type="xs:int" default="0" />
+			<xs:element name="ReadOnly" type="xs:boolean" default="false" />
+			<xs:element name="TypeCode" type="xs:string" default="Object" />
+			<xs:element name="WorldPermission" type="xs:int" default="0" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Security">
+		<xs:complexContent>
+			<xs:extension base="Object">
+				<xs:sequence>
+					<xs:element name="SecurityId" type="xs:int" />
+					<xs:element name="CountryId" type="xs:int" />
+					<xs:element name="TypeCode" type="xs:string" default="Security" />
+					<xs:element name="SecurityTypeCode" type="xs:int" />
+					<xs:element name="QuantityFactor" type="xs:decimal" />
+					<xs:element name="PriceFactor" type="xs:decimal" />
+					<xs:element name="Symbol" type="xs:string" minOccurs="0" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="User">
+		<xs:complexContent>
+			<xs:extension base="Object">
+				<xs:sequence>
+					<xs:element name="Preferences" type="xs:hexBinary" minOccurs="0" />
+					<xs:element name="SystemFolderId" type="xs:int" minOccurs="0" />
+					<xs:element name="TypeCode" type="xs:string" default="User" />
+					<xs:element name="UserId" type="xs:int" />
+					<xs:element name="UserName" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>

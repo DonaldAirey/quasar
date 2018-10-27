@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MarkThree.Guardian.Forms" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DetailWindowMenuStripItemChecked" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ConsoleWindowMenuStripItemChecked" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SplitContainer1SplitterDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">128</Value>
+    </Setting>
+    <Setting Name="SplitContainer1Panel2Collapsed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SplitContainer2SplitterDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">256</Value>
+    </Setting>
+    <Setting Name="SplitContainer2Panel1Collapsed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SplitContainer2Panel2Collapsed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SplitContainer3SplitterDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="SplitContainer4SplitterDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="SplitContainer5SplitterDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">171</Value>
+    </Setting>
+    <Setting Name="SplitContainer1Size" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">604, 218</Value>
+    </Setting>
+    <Setting Name="SplitContainer2Size" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">604, 86</Value>
+    </Setting>
+    <Setting Name="SplitContainer3Size" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">504, 230</Value>
+    </Setting>
+    <Setting Name="SplitContainer4Size" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">504, 126</Value>
+    </Setting>
+    <Setting Name="SplitContainer5Size" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">504, 47</Value>
+    </Setting>
+    <Setting Name="QuoteWindowMenuStripItemChecked" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SplitContainer6Size" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">504, 126</Value>
+    </Setting>
+    <Setting Name="SplitContainer6SplitterDistance" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">171</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

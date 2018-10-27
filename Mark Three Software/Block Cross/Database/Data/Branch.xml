@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Branch">
+	<method assembly="External Service" type="MarkThree.Guardian.External.Branch" name="Load">
+		<branchId>HARRIS BOSTON</branchId>
+		<name>Boston Office</name>
+		<shortName>Boston</shortName>
+		<partyTypeCode>BROKER</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Branch" name="Load">
+		<branchId>HARRIS DALLAS</branchId>
+		<name>Dallas Office</name>
+		<partyTypeCode>BROKER</partyTypeCode>
+		<shortName>Dallas</shortName>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Branch" name="Load">
+		<branchId>HARRIS NEW YORK</branchId>
+		<name>New York Office</name>
+		<shortName>New York</shortName>
+		<partyTypeCode>BROKER</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Branch" name="Load">
+		<branchId>SCHOONER NEW YORK</branchId>
+		<name>New York Office</name>
+		<shortName>New York</shortName>
+		<partyTypeCode>BROKER</partyTypeCode>
+		<executionStylesheetId>EXECUTION VIEWER</executionStylesheetId>
+		<executionDetailStylesheetId>EXECUTION DETAIL VIEWER</executionDetailStylesheetId>
+		<matchStylesheetId>MATCH VIEWER</matchStylesheetId>
+		<matchHistoryStylesheetId>MATCH HISTORY VIEWER</matchHistoryStylesheetId>
+		<workingOrderStylesheetId>WORKING ORDER VIEWER</workingOrderStylesheetId>
+	</method>
+</batch>

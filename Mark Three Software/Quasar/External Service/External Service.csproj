@@ -1,0 +1,264 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{39830474-E2EA-416D-A81F-53A45AED1BD2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>External Service</AssemblyName>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>true</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MarkThree.Quasar.External</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\..\Batch\Batch.csproj">
+      <Project>{D8E26866-EB0B-4868-AF59-F2A1F94CBC41}</Project>
+      <Name>Batch</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Mark Three Library\Mark Three Library.csproj">
+      <Project>{734051D9-B2A3-44E9-A88B-7B4FDB90109F}</Project>
+      <Name>Mark Three Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data Model\Data Model.csproj">
+      <Project>{1B677580-B71F-4D19-AF42-D0FBE8ECC236}</Project>
+      <Name>Data Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Quasar Library\Quasar Library.csproj">
+      <Project>{7EBF09C2-CDA4-4C45-BA29-AD3CF4527D86}</Project>
+      <Name>Quasar Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core Service\Core Service.csproj">
+      <Name>Service Core</Name>
+      <Project>{5498D834-FCBB-41DF-982C-D2F15009A7B5}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+    <ProjectReference Include="..\Server Data Model\Server Data Model.csproj">
+      <Project>{57A34267-8BA7-44DB-A9C7-16DF655C4EF3}</Project>
+      <Name>Server Data Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AccountType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Algorithm.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AlgorithmType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Blotter.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BlotterMap.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="BlotterType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Broker.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Condition.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Configuration.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Country.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Currency.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Debt.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="DebtType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Equity.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="EquityType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Exchange.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Folder.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Holiday.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="HolidayType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Issuer.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="IssuerType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="LotHandling.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Model.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ModelType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Object.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="ObjectTree.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="OrderType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Position.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PositionTarget.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="PositionType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Price.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Property.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Province.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Scheme.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Sector.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SectorTarget.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Security.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SecurityType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Status.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Stylesheet.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="StylesheetType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="SystemFolder.cs" />
+    <Compile Include="TaxLot.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TimeInForce.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="TransactionType.cs">
+      <SubType>code</SubType>
+    </Compile>
+    <Compile Include="Type.cs" />
+    <Compile Include="User.cs" />
+    <None Include="Compile External Service.cmd" />
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

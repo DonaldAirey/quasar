@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Traders">
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+    <traderId>Guardian ADMINISTRATOR</traderId>
+    <name>Guardian Administrator</name>
+    <startTimeDefault>10:00 AM</startTimeDefault>
+    <stopTimeDefault>3:30 PM</stopTimeDefault>
+		<isAgencyMatch>true</isAgencyMatch>
+		<isAlgorithmicMatch>true</isAlgorithmicMatch>
+		<isHedgeMatch>true</isHedgeMatch>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<isPrincipalMatch>true</isPrincipalMatch>
+		<isProprietaryMatch>true</isProprietaryMatch>
+		<userName>Guardian Admin</userName>
+  </method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>System Process #1</traderId>
+		<name>System Process #1</name>
+		<isAgencyMatch>true</isAgencyMatch>
+		<isAlgorithmicMatch>true</isAlgorithmicMatch>
+		<isHedgeMatch>true</isHedgeMatch>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<isPrincipalMatch>true</isPrincipalMatch>
+		<isProprietaryMatch>true</isProprietaryMatch>
+		<userName>ASPNET</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>System Process</traderId>
+		<name>System Process</name>
+		<isAgencyMatch>true</isAgencyMatch>
+		<isAlgorithmicMatch>true</isAlgorithmicMatch>
+		<isHedgeMatch>true</isHedgeMatch>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<isPrincipalMatch>true</isPrincipalMatch>
+		<isProprietaryMatch>true</isProprietaryMatch>
+		<userName>SYSTEM</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>System Process #2</traderId>
+		<name>System Process #2</name>
+		<isAgencyMatch>true</isAgencyMatch>
+		<isAlgorithmicMatch>true</isAlgorithmicMatch>
+		<isHedgeMatch>true</isHedgeMatch>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<isPrincipalMatch>true</isPrincipalMatch>
+		<isProprietaryMatch>true</isProprietaryMatch>
+		<userName>NETWORK SERVICE</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>VICTOR MARGOLIN</traderId>
+		<blotterIdDefault>ZODIAC EQUITY DESK BLOTTER</blotterIdDefault>
+		<isAgencyMatch>true</isAgencyMatch>
+		<isAlgorithmicMatch>true</isAlgorithmicMatch>
+		<isHedgeMatch>true</isHedgeMatch>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<isPrincipalMatch>true</isPrincipalMatch>
+		<isProprietaryMatch>true</isProprietaryMatch>
+		<name>Victor Margolin</name>
+		<userName>Victor Margolin</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>RUSSELL JACKSON</traderId>
+		<blotterIdDefault>ZODIAC EQUITY DESK BLOTTER</blotterIdDefault>
+		<isAgencyMatch>true</isAgencyMatch>
+		<isAlgorithmicMatch>true</isAlgorithmicMatch>
+		<isHedgeMatch>true</isHedgeMatch>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<isPrincipalMatch>true</isPrincipalMatch>
+		<isProprietaryMatch>true</isProprietaryMatch>
+		<name>Russell Jackson</name>
+		<userName>Russell Jackson</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>ROBERTO GARCIA</traderId>
+		<blotterIdDefault>ROBERTO GARCIA BLOTTER</blotterIdDefault>
+		<isAgencyMatch>true</isAgencyMatch>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<name>Roberto Garcia</name>
+		<userName>Roberto Garcia</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>ELAINE RUSSO</traderId>
+		<blotterIdDefault>ELAINE RUSSO BLOTTER</blotterIdDefault>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<name>Elaine Russo</name>
+		<userName>Elaine Russo</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>MANNY CORTEZ</traderId>
+		<blotterIdDefault>MANNY CORTEZ BLOTTER</blotterIdDefault>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<name>Manny Cortez</name>
+		<userName>Manny Cortez</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>KATE SCHWARTZ</traderId>
+		<blotterIdDefault>KATE SCHWARTZ BLOTTER</blotterIdDefault>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<name>Kate Schwartz</name>
+		<userName>Kate Schwartz</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+		<traderId>CHARLES RODRIGUEZ</traderId>
+		<blotterIdDefault>CHARLES RODRIGUEZ BLOTTER</blotterIdDefault>
+		<isInstitutionMatch>true</isInstitutionMatch>
+		<name>Charles Rodriguez</name>
+		<userName>Charles Rodriguez</userName>
+	</method>
+	<method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+    <traderId>YOSHIO SHIMURA</traderId>
+    <blotterIdDefault>YOSHIO SHIMURA BLOTTER</blotterIdDefault>
+    <isAgencyMatch>true</isAgencyMatch>
+    <isHedgeMatch>true</isHedgeMatch>
+    <isInstitutionMatch>true</isInstitutionMatch>
+    <isPrincipalMatch>true</isPrincipalMatch>
+    <name>Yoshio Shimura</name>
+    <userName>Yoshio Shimura</userName>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+    <traderId>CHRIS HENDERSON</traderId>
+    <blotterIdDefault>CHRIS HENDERSON BLOTTER</blotterIdDefault>
+    <isInstitutionMatch>true</isInstitutionMatch>
+    <name>Chris Henderson</name>
+    <userName>Chris Henderson</userName>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+    <traderId>GILBERT HOROWITZ</traderId>
+    <blotterIdDefault>GILBERT HOROWITZ BLOTTER</blotterIdDefault>
+    <isAgencyMatch>true</isAgencyMatch>
+    <isInstitutionMatch>true</isInstitutionMatch>
+    <isPrincipalMatch>true</isPrincipalMatch>
+    <name>Gilbert Horowitz</name>
+    <userName>Gilbert Horowitz</userName>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+    <traderId>SUSAN CHUNG</traderId>
+    <blotterIdDefault>SUSAN CHUNG BLOTTER</blotterIdDefault>
+    <isAgencyMatch>true</isAgencyMatch>
+    <isInstitutionMatch>true</isInstitutionMatch>
+    <name>Susan Chung</name>
+    <userName>Susan Chung</userName>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+    <traderId>TONY DE SILVA</traderId>
+    <blotterIdDefault>TONY DE SILVA BLOTTER</blotterIdDefault>
+    <isAgencyMatch>true</isAgencyMatch>
+    <isInstitutionMatch>true</isInstitutionMatch>
+    <name>Tony De Silva</name>
+    <userName>Tony De Silva</userName>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+    <traderId>CAROL HILL</traderId>
+    <blotterIdDefault>CAROL HILL BLOTTER</blotterIdDefault>
+    <isAgencyMatch>true</isAgencyMatch>
+    <isHedgeMatch>true</isHedgeMatch>
+    <isInstitutionMatch>true</isInstitutionMatch>
+    <isPrincipalMatch>true</isPrincipalMatch>
+    <name>Carol Hill</name>
+    <userName>Carol Hill</userName>
+  </method>
+  <method assembly="External Service" type="MarkThree.Guardian.External.Trader" name="Load">
+    <traderId>GARY BROWN</traderId>
+    <blotterIdDefault>GARY BROWN BLOTTER</blotterIdDefault>
+    <isAgencyMatch>true</isAgencyMatch>
+    <isHedgeMatch>true</isHedgeMatch>
+    <isInstitutionMatch>true</isInstitutionMatch>
+    <isPrincipalMatch>true</isPrincipalMatch>
+    <name>Gary Brown</name>
+    <userName>Gary Brown</userName>
+  </method>
+</batch>

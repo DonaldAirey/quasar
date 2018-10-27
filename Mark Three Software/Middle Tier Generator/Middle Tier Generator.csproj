@@ -1,0 +1,198 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A930A413-04BB-4AB2-AB39-B44633335CBE}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Middle Tier Generator</AssemblyName>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>true</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MarkThree.MiddleTier</RootNamespace>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>0618</NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>0618</NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop, Version=7.1.40304.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="Mark Three Software.ico" />
+    <Compile Include="DataSetClass\CollectGarbageMethod.cs" />
+    <Compile Include="DataSetClass\IsGarbageCollectingProperty.cs" />
+    <Compile Include="DataSetClass\IncrementRowVersionMethod.cs" />
+    <Compile Include="DataSetClass\GetDataSetMethod.cs" />
+    <Compile Include="DataSetClass\ReconcileMethod.cs" />
+    <Compile Include="DataSetClass\TableRowChangingMethod.cs" />
+    <Compile Include="DataSetClass\DisposeMethod.cs" />
+    <Compile Include="DataSetClass\StaticConstructor.cs" />
+    <Compile Include="DataSetClass\DeletedEventField.cs" />
+    <Compile Include="DataSetClass\DeletedExclusionField.cs" />
+    <Compile Include="DataSetClass\GarbageCollectorField.cs" />
+    <Compile Include="DataSetClass\FreshnessTimeField.cs" />
+    <Compile Include="DataSetClass\MasterRowVersionField.cs" />
+    <Compile Include="DataSetClass\DeletedDataSetField.cs" />
+    <Compile Include="DataSetClass\IsGarbageCollectingField.cs" />
+    <Compile Include="DataSetClass\DurableResourceField.cs" />
+    <Compile Include="DataSetClass\VolatileResourceField.cs" />
+    <Compile Include="DataSetClass\DeletedTimeColumnField.cs" />
+    <Compile Include="DataSetClass\RowVersionColumnField.cs" />
+    <Compile Include="DataSetClass\PrimaryKeyOffset.cs" />
+    <Compile Include="RowClass\EndEditMethod.cs" />
+    <Compile Include="RowClass\BeginEditMethod.cs" />
+    <Compile Include="RowClass\ChildRowsMethod.cs" />
+    <Compile Include="TableClass\ColumnField.cs" />
+    <Compile Include="TableClass\Delete.cs" />
+    <Compile Include="TableClass\Insert.cs" />
+    <Compile Include="TableClass\ParentRelationField.cs" />
+    <Compile Include="TableClass\ChildRelationField.cs" />
+    <Compile Include="TableClass\IndexField.cs" />
+    <Compile Include="TableClass\RowChangedEvent.cs" />
+    <Compile Include="TableClass\RowChangingEvent.cs" />
+    <Compile Include="TableClass\RowDeletedEvent.cs" />
+    <Compile Include="TableClass\RowDeletingEvent.cs" />
+    <Compile Include="TableClass\Update.cs" />
+    <Compile Include="TableClass\VoidConstructor.cs" />
+    <Compile Include="TableClass\CountProperty.cs" />
+    <Compile Include="TableClass\ColumnProperty.cs" />
+    <Compile Include="RowClass\ColumnProperty.cs" />
+    <Compile Include="TableClass\AddRowWithValuesMethod.cs" />
+    <Compile Include="TableClass\AddRowMethod.cs" />
+    <Compile Include="TableClass\ChildRelationProperty.cs" />
+    <Compile Include="TableClass\RowIndexerProperty.cs" />
+    <Compile Include="TableClass\ParentRelationProperty.cs" />
+    <Compile Include="TableClass\KeyProperty.cs" />
+    <Compile Include="TableClass\InitializeRelationsMethod.cs" />
+    <Compile Include="TableClass\GetEnumeratorMethod.cs" />
+    <Compile Include="TableClass\NewTableRowMethod.cs" />
+    <Compile Include="TableClass\NewRowFromBuilderMethod.cs" />
+    <Compile Include="TableClass\GetRowTypeMethod.cs" />
+    <Compile Include="TableClass\OnRowChangedMethod.cs" />
+    <Compile Include="TableClass\OnRowChangingMethod.cs" />
+    <Compile Include="TableClass\OnRowDeletedMethod.cs" />
+    <Compile Include="TableClass\FindByMethod.cs" />
+    <Compile Include="RowClass\IsNullProperty.cs" />
+    <Compile Include="TableClass\OnRowDeletingMethod.cs" />
+    <Compile Include="RowClass\ParentRowProperty.cs" />
+    <Compile Include="TableClass\RemoveMethod.cs" />
+    <Compile Include="RowClass\Constructor.cs" />
+    <Compile Include="RowClass\TableField.cs" />
+    <Compile Include="DataSetClass\ThreadWaitTimeField.cs" />
+    <Compile Include="PrimaryIndexClass.cs" />
+    <Compile Include="IndexClass.cs" />
+    <Compile Include="MiddleTierGenerator.cs" />
+    <Compile Include="DataSetClass\DataSetClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Namespace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ChangeEventArgsClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RowClass\FilterDelegate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RowClass\RowClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TableClass\TableClass.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <None Include="Middle Tier Generator.reg" />
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data Model Schema\Data Model Schema.csproj">
+      <Project>{11AD479E-B83C-4611-AA96-0AF71289119D}</Project>
+      <Name>Data Model Schema</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

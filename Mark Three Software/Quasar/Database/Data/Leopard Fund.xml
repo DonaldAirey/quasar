@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Leopard Fund">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>LPDFUND</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Leopard Fund</name>
+		<mnemonic>LEOPARD</mnemonic>
+		<currencyId>USD</currencyId>
+		<modelId>LEOPARD</modelId>
+		<schemeId>CUSTOM</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>LPDCURR</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Leopard Currency</name>
+		<mnemonic>CURRENCY</mnemonic>
+		<currencyId>USD</currencyId>
+		<lotHandlingCode>FIFO</lotHandlingCode>
+		<schemeId>CUSTOM</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>LPDBOND</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Leopard Bond</name>
+		<mnemonic>BOND</mnemonic>
+		<currencyId>USD</currencyId>
+		<lotHandlingCode>FIFO</lotHandlingCode>
+		<schemeId>CUSTOM</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>LPDDOME</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Leopard Domestic</name>
+		<mnemonic>DOMESTIC</mnemonic>
+		<currencyId>USD</currencyId>
+		<lotHandlingCode>FIFO</lotHandlingCode>
+		<schemeId>CUSTOM</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+		<accountId>LPDFORE</accountId>
+		<accountTypeCode>ACCOUNT</accountTypeCode>
+		<name>Leopard Foreign</name>
+		<mnemonic>FOREIGN</mnemonic>
+		<currencyId>GBP</currencyId>
+		<lotHandlingCode>FIFO</lotHandlingCode>
+		<schemeId>CUSTOM</schemeId>
+		<stylesheetId>APPRAISAL</stylesheetId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>LPDFUND</parentId>
+		<childId>LPDCURR</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>LPDFUND</parentId>
+		<childId>LPDBOND</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>LPDFUND</parentId>
+		<childId>LPDDOME</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+		<parentId>LPDFUND</parentId>
+		<childId>LPDFORE</childId>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>2000</taxLotId>
+		<accountId>LPDCURR</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>5000000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>2001</taxLotId>
+		<accountId>LPDCURR</accountId>
+		<securityId>CAD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>7500000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>2002</taxLotId>
+		<accountId>LPDCURR</accountId>
+		<securityId>GBP</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>6000000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2010</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>912795KS9</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>5200000</quantity>
+		<cost>99.502</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2011</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>912795LD1</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3200000</quantity>
+		<cost>99.420</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2012</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>912795LF6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>800000</quantity>
+		<cost>98.910</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2031</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>9128276F4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>920000</quantity>
+		<cost>100.55469</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2032</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>912827J78</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1200000</quantity>
+		<cost>103.37813</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2033</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>912827R87</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>777000</quantity>
+		<cost>110.12781</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2034</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>912827Y55</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>3200000</quantity>
+		<cost>109.9031</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2201</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>5758234N6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>30000</quantity>
+		<cost>104.50000</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2202</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>64970KQA8</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>780000</quantity>
+		<cost>106.82000</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2204</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>9860813R6</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>980000</quantity>
+		<cost>107.72000</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2206</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>130174KK0</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>4000000</quantity>
+		<cost>104.63000</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2209</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>149123AZ4</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>540000</quantity>
+		<cost>125.9033</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2211</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>539830AK5</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>900000</quantity>
+		<cost>120.1760</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2215</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>887315AV1</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>8800000</quantity>
+		<cost>105.6313</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CUSIP</configurationId>
+		<taxLotId>2220</taxLotId>
+		<accountId>LPDBOND</accountId>
+		<securityId>925524AJ9</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>9300000</quantity>
+		<cost>110.1869</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>2000</taxLotId>
+		<accountId>LPDDOME</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2200000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>2400</taxLotId>
+		<accountId>LPDDOME</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>125300</quantity>
+		<cost>13.75</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>2401</taxLotId>
+		<accountId>LPDDOME</accountId>
+		<securityId>F</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>83400</quantity>
+		<cost>16.51</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>2402</taxLotId>
+		<accountId>LPDDOME</accountId>
+		<securityId>GE</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>93200</quantity>
+		<cost>32.99</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<taxLotId>2403</taxLotId>
+		<accountId>LPDDOME</accountId>
+		<securityId>P</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>52000</quantity>
+		<cost>60.73</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>2001</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>CAD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>4500000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<taxLotId>2500</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>AL</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>160000</quantity>
+		<cost>66.12</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<taxLotId>2501</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>BBD.B</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>520000</quantity>
+		<cost>15.35</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<taxLotId>2502</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>NT</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>1220000</quantity>
+		<cost>9.50</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>CA TICKER</configurationId>
+		<taxLotId>2503</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>RIM</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>130000</quantity>
+		<cost>35.5</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>2003</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>GBP</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>2200000</quantity>
+		<cost>1.00</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<taxLotId>2600</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>BP/</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>6400</quantity>
+		<cost>540.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<taxLotId>2601</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>GSK</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>4200</quantity>
+		<cost>720.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<taxLotId>2602</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>RTO</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>8800</quantity>
+		<cost>300.25</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<configurationId>UK TICKER</configurationId>
+		<taxLotId>2603</taxLotId>
+		<accountId>LPDFORE</accountId>
+		<securityId>VOD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>12000</quantity>
+		<cost>125.75</cost>
+	</method>
+</batch>

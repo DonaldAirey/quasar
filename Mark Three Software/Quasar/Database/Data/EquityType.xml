@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="EquityType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.EquityType" name="Load">
+		<equityTypeCode>0</equityTypeCode>
+		<description>Preferred Stock</description>
+		<externalId0>PREFERRED STOCK</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.EquityType" name="Load">
+		<equityTypeCode>1</equityTypeCode>
+		<description>Common Stock</description>
+		<externalId0>COMMON STOCK</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.EquityType" name="Load">
+		<equityTypeCode>2</equityTypeCode>
+		<description>Warrant</description>
+		<externalId0>WARRANT</externalId0>
+	</method>
+</batch>

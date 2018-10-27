@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Broker Accounts">
+	<method assembly="External Service" type="MarkThree.Guardian.External.BrokerAccount" name="Load">
+		<brokerId>ATLAS BANK</brokerId>
+		<traderId>Guardian ADMINISTRATOR</traderId>
+		<description>The first clearing account for Atlas Bank</description>
+		<mnemonic>00001</mnemonic>
+	</method>
+</batch>

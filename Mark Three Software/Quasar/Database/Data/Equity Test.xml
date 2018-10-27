@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Equity">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>A</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>AGILENT TECHNOLOGIES INC</name>
+		<symbol>A</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AA</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NYSE</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALCOA INC</name>
+		<symbol>AA</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AABC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NASDAQ</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ACCESS ANYTIME BANCORP INC</name>
+		<symbol>AABC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AAC</equityId>
+		<countryId>US</countryId>
+		<exchangeId>AMEX</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ABLEAUCTIONS COM INC</name>
+		<symbol>AAC</symbol>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Equity" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<equityId>AACB</equityId>
+		<countryId>US</countryId>
+		<exchangeId>NASDAQ</exchangeId>
+		<settlementId>USD</settlementId>
+		<equityTypeCode>COMMON STOCK</equityTypeCode>
+		<name>ALLIANCE ATLANTIS COMMUNICAT</name>
+		<symbol>AACB</symbol>
+	</method>
+</batch>

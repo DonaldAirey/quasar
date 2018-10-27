@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Status">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Security" name="Update">
+      <configurationId>US Ticker</configurationId>
+      <securityId>HD</securityId>
+      <name>Harley David</name>
+      <symbol>HLEE</symbol>
+    </method>
+  </transaction>
+</batch>

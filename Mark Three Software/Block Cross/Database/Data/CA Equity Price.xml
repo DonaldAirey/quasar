@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="CA Equity Price">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>A</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>14.15</closePrice>
+      <lastPrice>14.15</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>AL</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>64.08</closePrice>
+      <lastPrice>64.08</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>BMO</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>36.83</closePrice>
+      <lastPrice>36.83</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>BNS</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>50.07</closePrice>
+      <lastPrice>50.07</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>ABX</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>29.01</closePrice>
+      <lastPrice>29.01</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>BCE</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>34.15</closePrice>
+      <lastPrice>34.15</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>BVF</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>71.75</closePrice>
+      <lastPrice>71.75</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>BBD.B</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>14.25</closePrice>
+      <lastPrice>14.25</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>CM</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>53.55</closePrice>
+      <lastPrice>53.55</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>CNR</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>81.11</closePrice>
+      <lastPrice>81.11</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>CTR.A</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>25.6</closePrice>
+      <lastPrice>25.6</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>CLS</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>51.89</closePrice>
+      <lastPrice>51.89</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>DFS</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>28</closePrice>
+      <lastPrice>28</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>FHR</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>40.55</closePrice>
+      <lastPrice>40.55</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>HSE</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>17.25</closePrice>
+      <lastPrice>17.25</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>N</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>29.7</closePrice>
+      <lastPrice>29.7</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>MG.A</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>110.9</closePrice>
+      <lastPrice>110.9</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>NA</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>31.06</closePrice>
+      <lastPrice>31.06</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>NXY</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>37.42</closePrice>
+      <lastPrice>37.42</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>NRD</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>17.49</closePrice>
+      <lastPrice>17.49</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>NT</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>8.21</closePrice>
+      <lastPrice>8.21</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>NCX</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>34</closePrice>
+      <lastPrice>34</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>PCA</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>38.25</closePrice>
+      <lastPrice>38.25</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>PDG</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>18.26</closePrice>
+      <lastPrice>18.26</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>RIM</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>37.61</closePrice>
+      <lastPrice>37.61</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>RY</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>51.65</closePrice>
+      <lastPrice>51.65</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>SJR.B</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>30.29</closePrice>
+      <lastPrice>30.29</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>SU</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>54.75</closePrice>
+      <lastPrice>54.75</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>TLM</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>63.45</closePrice>
+      <lastPrice>63.45</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>TEK.B</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>14.6</closePrice>
+      <lastPrice>14.6</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>T</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>18.45</closePrice>
+      <lastPrice>18.45</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>TOC</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>49.4</closePrice>
+      <lastPrice>49.4</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>TD</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>42.85</closePrice>
+      <lastPrice>42.85</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>TA</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>22.45</closePrice>
+      <lastPrice>22.45</lastPrice>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <securityId>TRP</securityId>
+      <currencyId>CAD</currencyId>
+      <closePrice>22.56</closePrice>
+      <lastPrice>22.56</lastPrice>
+    </method>
+  </transaction>
+</batch>

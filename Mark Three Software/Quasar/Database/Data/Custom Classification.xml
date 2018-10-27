@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Custom Classification Scheme">
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Scheme" name="Load">
+			<schemeId>CUSTOM</schemeId>
+			<name>Custom Classification</name>
+			<description>A Custom Classification Scheme</description>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>CE</sectorId>
+			<name>Cash &amp; Equivalents</name>
+			<sortOrder>0</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>FI</sectorId>
+			<name>Fixed Income</name>
+			<sortOrder>1</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>EQ</sectorId>
+			<name>Equity</name>
+			<sortOrder>2</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>CECURR</sectorId>
+			<name>Cash</name>
+			<sortOrder>3</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>CEEQUI</sectorId>
+			<name>Equivalents</name>
+			<sortOrder>4</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>FIUS</sectorId>
+			<name>US Government</name>
+			<sortOrder>5</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>FIMUNI</sectorId>
+			<name>Municipal Debt</name>
+			<sortOrder>6</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>FICORP</sectorId>
+			<name>Cororate Debt</name>
+			<sortOrder>7</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>EQUS</sectorId>
+			<name>United States</name>
+			<sortOrder>8</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>EQCA</sectorId>
+			<name>Canada</name>
+			<sortOrder>9</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Sector" name="Load">
+			<sectorId>EQUK</sectorId>
+			<name>United Kingdom</name>
+			<sortOrder>10</sortOrder>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CUSTOM</parentId>
+			<childId>CE</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CUSTOM</parentId>
+			<childId>FI</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CUSTOM</parentId>
+			<childId>EQ</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CE</parentId>
+			<childId>CECURR</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CE</parentId>
+			<childId>CEEQUI</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>FI</parentId>
+			<childId>FIUS</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>FI</parentId>
+			<childId>FIMUNI</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>FI</parentId>
+			<childId>FICORP</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>EQ</parentId>
+			<childId>EQUS</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>EQ</parentId>
+			<childId>EQCA</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>EQ</parentId>
+			<childId>EQUK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CECURR</parentId>
+			<childId>USD</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CECURR</parentId>
+			<childId>CAD</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CECURR</parentId>
+			<childId>GBP</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>CECURR</parentId>
+			<childId>EUR</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>CEEQUI</parentId>
+			<childId>912795KS9</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>CEEQUI</parentId>
+			<childId>912795LD1</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>CEEQUI</parentId>
+			<childId>912795LF6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912827G55</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>9128276F4</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912827J78</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912827R87</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912827Y55</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DQ8</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DG0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DP0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DS4</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DT2</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DV7</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EA2</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EB0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DZ8</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EC8</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810CE6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DY1</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EF1</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EG9</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EE4</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810CC0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EJ3</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810ED6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EK0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EL8</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EH7</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EN4</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810ET1</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DX3</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810ES3</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810DW5</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EM6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EP9</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EV6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EX2</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EZ7</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EY0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810FA1</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EQ7</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810FM5</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810FB9</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810FJ2</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810EW4</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810FE3</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810FP8</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810FF0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>912810FG8</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIUS</parentId>
+			<childId>9128277C0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIMUNI</parentId>
+			<childId>575765UU4</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIMUNI</parentId>
+			<childId>5758234N6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIMUNI</parentId>
+			<childId>64970KQA8</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIMUNI</parentId>
+			<childId>650034MZ1</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIMUNI</parentId>
+			<childId>9860813R6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIMUNI</parentId>
+			<childId>1307746M9</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIMUNI</parentId>
+			<childId>130174KK0</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FIMUNI</parentId>
+			<childId>797391HN2</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>674599BF1</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>149123AZ4</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>00209AAF3</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>539830AK5</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>459200AG6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>742718AU3</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>060505AE4</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>887315AV1</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>718154CF2</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>370425RP7</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>617446DW6</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>925524AJ9</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>00184AAC9</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>0000000001</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>0000000002</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>0000000003</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>0000000004</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CUSIP</configurationId>
+			<parentId>FICORP</parentId>
+			<childId>0000000005</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>T</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>F</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>GE</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>P</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>AIG</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>BAX</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>BJS</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>MDT</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<parentId>EQUS</parentId>
+			<childId>VIA</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CA TICKER</configurationId>
+			<parentId>EQCA</parentId>
+			<childId>AL</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CA TICKER</configurationId>
+			<parentId>EQCA</parentId>
+			<childId>BBD.B</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CA TICKER</configurationId>
+			<parentId>EQCA</parentId>
+			<childId>NT</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>CA TICKER</configurationId>
+			<parentId>EQCA</parentId>
+			<childId>RIM</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>UK TICKER</configurationId>
+			<parentId>EQUK</parentId>
+			<childId>BP/</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>UK TICKER</configurationId>
+			<parentId>EQUK</parentId>
+			<childId>GSK</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>UK TICKER</configurationId>
+			<parentId>EQUK</parentId>
+			<childId>RTO</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<configurationId>UK TICKER</configurationId>
+			<parentId>EQUK</parentId>
+			<childId>VOD</childId>
+		</method>
+	</transaction>
+</batch>

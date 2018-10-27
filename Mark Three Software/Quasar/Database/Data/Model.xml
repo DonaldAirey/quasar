@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Models">
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Model" name="Load">
+			<modelId>SECURITY SELF</modelId>
+			<algorithmId>REBALANCER SECURITY</algorithmId>
+			<modelTypeCode>SECURITY MODEL</modelTypeCode>
+			<name>Security (Self)</name>
+			<description>Creates a dynamic model having percentages equal to the portfolio''s holdings.</description>
+			<securitySelf>true</securitySelf>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Model" name="Load">
+			<modelId>SECTOR SELF</modelId>
+			<algorithmId>REBALANCER SECTOR WRAP</algorithmId>
+			<modelTypeCode>SECTOR MODEL</modelTypeCode>
+			<name>Sector (Self)</name>
+			<description>Creates a dynamic model having percentages equal to the current portfolio's sector weightings.</description>
+			<sectorSelf>true</sectorSelf>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Model" name="Load">
+			<modelId>CUSTOM MODEL</modelId>
+			<algorithmId>REBALANCER SECTOR WRAP</algorithmId>
+			<schemeId>CUSTOM</schemeId>
+			<modelTypeCode>SECURITY MODEL</modelTypeCode>
+			<name>Custom Model</name>
+			<description>Empty Custom Model.</description>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Model" name="Load">
+			<modelId>MEDIUM RISK</modelId>
+			<algorithmId>REBALANCER SECTOR WRAP</algorithmId>
+			<schemeId>L1GICS</schemeId>
+			<modelTypeCode>SECTOR MODEL</modelTypeCode>
+			<name>Medium Risk</name>
+			<description>Medium Risk Portfolio Model.</description>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>MEDIUM RISK</modelId>
+			<sectorId>L1$$</sectorId>
+			<percent>0.15</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>MEDIUM RISK</modelId>
+			<sectorId>L110</sectorId>
+			<percent>0.35</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>MEDIUM RISK</modelId>
+			<sectorId>L125</sectorId>
+			<percent>0.30</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>MEDIUM RISK</modelId>
+			<sectorId>L145</sectorId>
+			<percent>0.10</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>MEDIUM RISK</modelId>
+			<sectorId>L150</sectorId>
+			<percent>0.10</percent>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Model" name="Load">
+			<modelId>BLENDED RISK</modelId>
+			<algorithmId>REBALANCER SECTOR MERGE</algorithmId>
+			<schemeId>L1GICS</schemeId>
+			<modelTypeCode>SECTOR MODEL</modelTypeCode>
+			<name>Blended Risk</name>
+			<description>Explorer Blended Risk Sector Merge Model.</description>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>BLENDED RISK</modelId>
+			<sectorId>L1$$</sectorId>
+			<percent>0.15</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>BLENDED RISK</modelId>
+			<sectorId>L110</sectorId>
+			<percent>0.40</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>BLENDED RISK</modelId>
+			<sectorId>L125</sectorId>
+			<percent>0.30</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>BLENDED RISK</modelId>
+			<sectorId>L145</sectorId>
+			<percent>0.10</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>BLENDED RISK</modelId>
+			<sectorId>L150</sectorId>
+			<percent>0.05</percent>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Model" name="Load">
+			<modelId>HIGH RISK</modelId>
+			<algorithmId>REBALANCER SECURITY</algorithmId>
+			<schemeId>L1GICS</schemeId>
+			<modelTypeCode>SECURITY MODEL</modelTypeCode>
+			<name>High Risk</name>
+			<description>Explorer High Risk Equity Model.</description>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>ADSK</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.080</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>AHC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.025</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>NT</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.070</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>F</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.050</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>FON</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.020</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>GM</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.090</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>MDS</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.090</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>MOT</securityId>
+			<positionTypeCode>SHORT</positionTypeCode>
+			<percent>0.050</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>MSFT</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.050</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>NBR</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.060</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>P</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.100</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>SBC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.020</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>SEBL</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.030</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>SUN</securityId>
+			<positionTypeCode>SHORT</positionTypeCode>
+			<percent>0.120</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>T</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.060</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>HIGH RISK</modelId>
+			<securityId>WGO</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.100</percent>
+		</method>
+	</transaction>
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Model" name="Load">
+			<modelId>LEOPARD</modelId>
+			<algorithmId>REBALANCER SECTOR MERGE</algorithmId>
+			<schemeId>CUSTOM</schemeId>
+			<modelTypeCode>SECTOR MODEL</modelTypeCode>
+			<name>Leopard Fund Model</name>
+			<description>Leopard Fund Allocation Model.</description>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>LEOPARD</modelId>
+			<sectorId>CE</sectorId>
+			<percent>0.10</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>LEOPARD</modelId>
+			<sectorId>FI</sectorId>
+			<percent>0.35</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.SectorTarget" name="Load">
+			<modelId>LEOPARD</modelId>
+			<sectorId>EQ</sectorId>
+			<percent>0.55</percent>
+		</method>
+	</transaction>
+</batch>

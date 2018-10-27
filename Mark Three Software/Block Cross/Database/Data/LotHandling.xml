@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="LotHandling">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.LotHandling" name="Load">
+      <lotHandlingCode>0</lotHandlingCode>
+      <mnemonic>FIFO</mnemonic>
+      <description>First In/First Out</description>
+      <externalId0>FIFO</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.LotHandling" name="Load">
+      <lotHandlingCode>1</lotHandlingCode>
+      <mnemonic>LIFO</mnemonic>
+      <description>Last In/First Out</description>
+      <externalId0>LIFO</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.LotHandling" name="Load">
+      <lotHandlingCode>2</lotHandlingCode>
+      <mnemonic>MINTAX</mnemonic>
+      <description>Minimum Tax</description>
+      <externalId0>MINTAX</externalId0>
+    </method>
+  </transaction>
+</batch>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="US Municipal Bond">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>575765UU4</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>MA MUN WHSL ELEC PWR </name>
+      <symbol>575765UU4</symbol>
+      <coupon>0.052500000</coupon>
+      <maturityDate>07/01/2012</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>5758234N6</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>MA STATE REF SER. </name>
+      <symbol>5758234N6</symbol>
+      <coupon>0.050000000</coupon>
+      <maturityDate>02/01/2005</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>64970KQA8</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>NY CITY MUN WTR AUTH </name>
+      <symbol>64970KQA8</symbol>
+      <coupon>0.055000000</coupon>
+      <maturityDate>06/15/2015</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>650034MZ1</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>NY STATE URBAN DEV CORP REV </name>
+      <symbol>650034MZ1</symbol>
+      <coupon>0.050000000</coupon>
+      <maturityDate>04/01/2011</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>9860813R6</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>YONKERS PUBLIC IMPROV </name>
+      <symbol>9860813R6</symbol>
+      <coupon>0.050000000</coupon>
+      <maturityDate>10/01/2008</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>1307746M9</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>CA STATE UNIV SYSTEMWIDE </name>
+      <symbol>1307746M9</symbol>
+      <coupon>0.053750000</coupon>
+      <maturityDate>11/01/2014</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>130174KK0</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>CA EDL FACS AUTH REV </name>
+      <symbol>130174KK0</symbol>
+      <coupon>0.052000000</coupon>
+      <maturityDate>10/01/2005</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>797391HN2</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>SAN DIEGO COUNTY PARTN REF COPS </name>
+      <symbol>797391HN2</symbol>
+      <coupon>0.051250000</coupon>
+      <maturityDate>09/01/2005</maturityDate>
+    </method>
+  </transaction>
+</batch>

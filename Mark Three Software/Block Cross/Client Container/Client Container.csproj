@@ -1,0 +1,167 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C5E0B5F-2766-452A-B73D-C875B87A707C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarkThree.Guardian.Forms</RootNamespace>
+    <AssemblyName>Client Container</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>Guardian.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Batch, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9e74401225b20b7d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Batch\bin\Debug\Batch.dll</HintPath>
+    </Reference>
+    <Reference Include="Client Market Data, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Client Market Data\bin\Debug\Client Market Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Guardian Library, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Guardian Library\bin\Debug\Guardian Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Mark Three Library, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9e74401225b20b7d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Mark Three Library\bin\Debug\Mark Three Library.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Market Data, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Market Data\bin\Debug\Market Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Object Library, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Object Library\bin\Debug\Object Library.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="release.config" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Configuration Sections\Configuration Sections.csproj">
+      <Project>{1B311B69-1820-4BF1-8FEA-B7C8CAC24728}</Project>
+      <Name>Configuration Sections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Mark Three Forms\Mark Three Forms.csproj">
+      <Project>{F2341647-233E-4DD4-92DB-6F94C8BF809A}</Project>
+      <Name>Mark Three Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\TOMS Scraper\TOMS Scraper.csproj">
+      <Project>{B5A05359-F09D-416D-9FFA-158EC5FDEF94}</Project>
+      <Name>TOMS Scraper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\User Preferences\User Preferences.csproj">
+      <Project>{1DF71D9A-9E96-4B71-8E18-A18E0198979F}</Project>
+      <Name>User Preferences</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Web Transaction Protocol\Web Transaction Protocol.csproj">
+      <Project>{74388B9C-302F-4A56-861D-F67CED6E4E88}</Project>
+      <Name>Web Transaction Protocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Folder List\Folder List.csproj">
+      <Project>{F6F1B20C-9241-4D64-B96D-C8D64C29E2FD}</Project>
+      <Name>Folder List</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Guardian Forms\Guardian Forms.csproj">
+      <Project>{30799B5C-B071-41AC-8B95-39B97F91CEDB}</Project>
+      <Name>Guardian Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negotiation Service\Negotiation Service.csproj">
+      <Project>{7D13F826-88FC-4BE2-B01D-B60BC30D91E9}</Project>
+      <Name>Negotiation Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Block Cross.ico" />
+    <Content Include="Guardian.ico" />
+    <Content Include="Guardian.JPG" />
+    <None Include="Images\Preferences.png" />
+    <Content Include="Images\Help 24x24.png" />
+    <Content Include="Images\Help 32x32.png" />
+    <Content Include="Images\Help.png" />
+    <Content Include="Images\Menu Green 32x32.png" />
+    <Content Include="Images\Menu Green 24x24.png" />
+    <Content Include="Images\MenuGreen.png" />
+    <Content Include="Images\Preferences 24x24.png" />
+    <Content Include="Images\Preferences 32x32.png" />
+    <Content Include="Large Block Cross.jpg" />
+    <Content Include="Welcome.htm" />
+    <EmbeddedResource Include="HTMLPageWelcome.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Welcome_files\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

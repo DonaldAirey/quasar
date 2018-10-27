@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="OrderType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.OrderType" name="Load">
+		<orderTypeCode>0</orderTypeCode>
+		<mnemonic>MKT</mnemonic>
+		<description>Market</description>
+		<externalId0>MKT</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.OrderType" name="Load">
+		<orderTypeCode>1</orderTypeCode>
+		<mnemonic>LMT</mnemonic>
+		<description>Limit</description>
+		<externalId0>LMT</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.OrderType" name="Load">
+		<orderTypeCode>2</orderTypeCode>
+		<mnemonic>STP</mnemonic>
+		<description>Stop Loss</description>
+		<externalId0>STP</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.OrderType" name="Load">
+		<orderTypeCode>3</orderTypeCode>
+		<mnemonic>STPLMT</mnemonic>
+		<description>Stop Limit</description>
+		<externalId0>STPLMT</externalId0>
+	</method>
+</batch>

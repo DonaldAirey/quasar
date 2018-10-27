@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Volume Categories">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.VolumeCategory" name="Load">
+      <volumeCategoryId>LOW</volumeCategoryId>
+			<description>1 Million</description>
+			<mnemonic>Low</mnemonic>
+			<highVolumeRange>1000000</highVolumeRange>
+			<lowVolumeRange>0</lowVolumeRange>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.VolumeCategory" name="Load">
+      <volumeCategoryId>MEDIUM</volumeCategoryId>
+			<description>5 Million</description>
+			<mnemonic>Mid</mnemonic>
+			<highVolumeRange>5000000</highVolumeRange>
+			<lowVolumeRange>1000000</lowVolumeRange>
+		</method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.VolumeCategory" name="Load">
+			<volumeCategoryId>HIGH</volumeCategoryId>
+			<description>Above 5 Million</description>
+			<mnemonic>High</mnemonic>
+			<lowVolumeRange>5000000</lowVolumeRange>
+		</method>
+	</transaction>
+</batch>

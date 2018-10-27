@@ -1,0 +1,154 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B4EED7F4-410C-4CFF-827F-A3D61C55FFF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarkThree.Guardian.Forms</RootNamespace>
+    <AssemblyName>Order Form</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Batch, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9e74401225b20b7d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Batch\bin\Debug\Batch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Client Market Data, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Client Market Data\bin\Debug\Client Market Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Destination Order Viewer, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Destination Order Viewer\bin\Debug\Destination Order Viewer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Execution Viewer, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Execution Viewer\bin\Debug\Execution Viewer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Guardian Library, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Guardian Library\bin\Debug\Guardian Library.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mark Three Forms, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9e74401225b20b7d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Mark Three Forms\bin\Debug\Mark Three Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Mark Three Library, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9e74401225b20b7d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Mark Three Library\bin\Debug\Mark Three Library.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Market Data, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Market Data\bin\Debug\Market Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Object Library, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Object Library\bin\Debug\Object Library.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Source Order Viewer, Version=1.1.0.0, Culture=neutral, PublicKeyToken=612c61628830b03a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Source Order Viewer\bin\Debug\Source Order Viewer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="User Preferences, Version=1.1.0.0, Culture=neutral, PublicKeyToken=9e74401225b20b7d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\User Preferences\bin\Debug\User Preferences.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrder.Designer.cs">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SourceOrder.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Blotter Detail Viewer\Blotter Detail Viewer.csproj">
+      <Project>{FDFF870B-8922-49E4-9AD8-AB41CF28A559}</Project>
+      <Name>Blotter Detail Viewer</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Client Library\Client Library.csproj">
+      <Project>{CA7BFF86-4027-4378-BB22-C6C84B830206}</Project>
+      <Name>Client Library</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\Guardian Forms\Guardian Forms.csproj">
+      <Project>{30799B5C-B071-41AC-8B95-39B97F91CEDB}</Project>
+      <Name>Guardian Forms</Name>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FormOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Public Key.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

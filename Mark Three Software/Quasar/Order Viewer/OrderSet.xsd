@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OrderSet" targetNamespace="http://tempuri.org/OrderSet.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/OrderSet.xsd" xmlns:mstns="http://tempuri.org/OrderSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="OrderSet" msdata:IsDataSet="true">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="Order">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="RowVersion" type="xs:long" default="1" />
+                            <xs:element name="OrderId" type="xs:int" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" />
+                            <xs:element name="BlockOrderId" type="xs:int" minOccurs="0" />
+                            <xs:element name="BlotterId" type="xs:int" minOccurs="0" />
+                            <xs:element name="AccountId" type="xs:int" minOccurs="0" />
+                            <xs:element name="AccountName" type="xs:string" minOccurs="0" />
+                            <xs:element name="AccountMnemonic" type="xs:string" minOccurs="0" />
+                            <xs:element name="SecurityId" type="xs:int" minOccurs="0" />
+                            <xs:element name="SecurityName" type="xs:string" minOccurs="0" />
+                            <xs:element name="SecuritySymbol" type="xs:string" minOccurs="0" />
+                            <xs:element name="SettlementId" type="xs:int" minOccurs="0" />
+                            <xs:element name="SettlementName" type="xs:string" minOccurs="0" />
+                            <xs:element name="SettlementSymbol" type="xs:string" minOccurs="0" />
+                            <xs:element name="BrokerId" type="xs:int" minOccurs="0" />
+                            <xs:element name="BrokerName" type="xs:string" minOccurs="0" />
+                            <xs:element name="BrokerSymbol" type="xs:string" minOccurs="0" />
+                            <xs:element name="PositionTypeCode" type="xs:int" minOccurs="0" />
+                            <xs:element name="PositionTypeMnemonic" type="xs:string" minOccurs="0" />
+                            <xs:element name="TransactionTypeCode" type="xs:int" minOccurs="0" />
+                            <xs:element name="TransactionTypeMnemonic" type="xs:string" minOccurs="0" />
+                            <xs:element name="TimeInForceCode" type="xs:int" minOccurs="0" />
+                            <xs:element name="TimeInForceMnemonic" type="xs:string" minOccurs="0" />
+                            <xs:element name="OrderTypeCode" type="xs:int" minOccurs="0" />
+                            <xs:element name="OrderTypeMnemonic" type="xs:string" minOccurs="0" />
+                            <xs:element name="ConditionCode" type="xs:int" minOccurs="0" />
+                            <xs:element name="ConditionMnemonic" type="xs:string" minOccurs="0" />
+                            <xs:element name="IsLocal" type="xs:boolean" default="false" />
+                            <xs:element name="Deleted" type="xs:boolean" default="false" />
+                            <xs:element name="Agency" type="xs:boolean" default="false" />
+                            <xs:element name="Quantity" type="xs:decimal" minOccurs="0" />
+                            <xs:element name="Price1" type="xs:decimal" minOccurs="0" />
+                            <xs:element name="Price2" type="xs:decimal" minOccurs="0" />
+                            <xs:element name="Note" type="xs:string" minOccurs="0" />
+                            <xs:element name="CreatedTime" type="xs:dateTime" minOccurs="0" />
+                            <xs:element name="CreatedLoginId" type="xs:int" minOccurs="0" />
+                            <xs:element name="CreatedLoginName" type="xs:string" minOccurs="0" />
+                            <xs:element name="ModifiedTime" type="xs:dateTime" minOccurs="0" />
+                            <xs:element name="ModifiedLoginId" type="xs:int" minOccurs="0" />
+                            <xs:element name="ModifiedLoginName" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

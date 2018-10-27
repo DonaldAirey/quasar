@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="HolidayType">
+	<method assembly="External Service" type="MarkThree.Quasar.External.HolidayType" name="Load">
+		<holidayTypeCode>0</holidayTypeCode>
+		<description>Both Trading and Settlement Holiday</description>
+		<externalId0>BOTH</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.HolidayType" name="Load">
+		<holidayTypeCode>1</holidayTypeCode>
+		<description>Trading Holiday</description>
+		<externalId0>TRADE</externalId0>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.HolidayType" name="Load">
+		<holidayTypeCode>2</holidayTypeCode>
+		<description>Settlements Holiday</description>
+		<externalId0>SETTLE</externalId0>
+	</method>
+</batch>

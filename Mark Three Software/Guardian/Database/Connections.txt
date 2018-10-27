@@ -1,0 +1,4 @@
+DBRefFolders found in your dbp file
+Connect String: Data Source=.;Initial Catalog=Guardian;Integrated Security=True;Connect Timeout=0;Packet Size=4096;Workstation ID=ARIEL
+Provider: Microsoft SQL Server
+

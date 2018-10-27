@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Status">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.TimeInForce" name="Update">
+      <timeInForceCode>DAY</timeInForceCode>
+      <mnemonic>DAY</mnemonic>
+    </method>
+  </transaction>
+</batch>

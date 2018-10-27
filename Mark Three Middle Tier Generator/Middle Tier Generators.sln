@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mark Three Library", "..\Mark Three Software\Mark Three Library\Mark Three Library.csproj", "{734051D9-B2A3-44E9-A88B-7B4FDB90109F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middle Tier Generator", "..\Mark Three Software\Middle Tier Generator\Middle Tier Generator.csproj", "{A930A413-04BB-4AB2-AB39-B44633335CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middle Tier Compiler", "..\Mark Three Software\Middle Tier Compiler\Middle Tier Compiler.csproj", "{94C76290-F15D-4DD5-9651-6EEC2A896D1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27B65D50-030B-4F35-9D7C-35D325CA9ED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database Generator", "..\Mark Three Software\Database Generator\Database Generator.csproj", "{C83797E1-A4D2-486B-B12D-A39FFE8C8031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Model Schema", "..\Mark Three Software\Data Model Schema\Data Model Schema.csproj", "{11AD479E-B83C-4611-AA96-0AF71289119D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{734051D9-B2A3-44E9-A88B-7B4FDB90109F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734051D9-B2A3-44E9-A88B-7B4FDB90109F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734051D9-B2A3-44E9-A88B-7B4FDB90109F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734051D9-B2A3-44E9-A88B-7B4FDB90109F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A930A413-04BB-4AB2-AB39-B44633335CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A930A413-04BB-4AB2-AB39-B44633335CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A930A413-04BB-4AB2-AB39-B44633335CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A930A413-04BB-4AB2-AB39-B44633335CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C76290-F15D-4DD5-9651-6EEC2A896D1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C76290-F15D-4DD5-9651-6EEC2A896D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C76290-F15D-4DD5-9651-6EEC2A896D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C76290-F15D-4DD5-9651-6EEC2A896D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C83797E1-A4D2-486B-B12D-A39FFE8C8031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83797E1-A4D2-486B-B12D-A39FFE8C8031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83797E1-A4D2-486B-B12D-A39FFE8C8031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83797E1-A4D2-486B-B12D-A39FFE8C8031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AD479E-B83C-4611-AA96-0AF71289119D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

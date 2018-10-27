@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="Market" targetNamespace="http://tempuri.org/Market.xsd" elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/Market.xsd" xmlns:mstns="http://tempuri.org/Market.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="Market" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="Bid">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="BidId" type="xs:int" minOccurs="0" msdata:AutoIncrement="true" />
+							<xs:element name="SecurityId" type="xs:int" minOccurs="0" />
+							<xs:element name="Price" type="xs:double" minOccurs="0" />
+							<xs:element name="Quantity" type="xs:double" minOccurs="0" />
+							<xs:element name="Time" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Ask">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="AskId" type="xs:int" minOccurs="0" msdata:AutoIncrement="true" />
+							<xs:element name="SecurityId" type="xs:int" minOccurs="0" />
+							<xs:element name="Price" type="xs:double" minOccurs="0" />
+							<xs:element name="Quantity" type="xs:double" minOccurs="0" />
+							<xs:element name="Time" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="LastPrice">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="securityId" type="xs:int" minOccurs="0" />
+							<xs:element name="price" type="xs:double" minOccurs="0" />
+							<xs:element name="quantity" type="xs:double" minOccurs="0" />
+							<xs:element name="time" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:key name="PKBid" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Bid" />
+			<xs:field xpath="mstns:BidId" />
+		</xs:key>
+		<xs:key name="PKAsk" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:Ask" />
+			<xs:field xpath="mstns:AskId" />
+		</xs:key>
+	</xs:element>
+</xs:schema>

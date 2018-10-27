@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="Start Price Simulator">
+  <method assembly="Price Simulator" type="MarkThree.Guardian.Server.Price" name="Start" />
+</batch>

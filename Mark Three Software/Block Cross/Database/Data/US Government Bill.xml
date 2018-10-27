@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="US Government Bill">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>912795KS9</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>US TREASURY BILL </name>
+      <symbol>912795KS9</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>07/18/2005</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>912795LD1</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>US TREASURY BILL </name>
+      <symbol>912795LD1</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>10/10/2005</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>912795LF6</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>GOVERNMENT NOTE</debtTypeCode>
+      <name>US TREASURY BILL </name>
+      <symbol>912795LF6</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>10/17/2005</maturityDate>
+    </method>
+  </transaction>
+</batch>

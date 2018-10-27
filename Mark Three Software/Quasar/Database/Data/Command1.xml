@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Update GICS Level 1">
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>00001</taxLotId>
+		<accountId>9100</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<quantity>10500000</quantity>
+		<cost>1.0</cost>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+		<taxLotId>00002</taxLotId>
+		<accountId>9100</accountId>
+		<securityId>USD</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<quantity>8560000</quantity>
+		<cost>1.0</cost>
+	</method>
+</batch>

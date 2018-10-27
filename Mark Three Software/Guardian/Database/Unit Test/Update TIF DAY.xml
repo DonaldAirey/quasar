@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<batch name="Staged Orders">
+	<method assembly="Trading Service" type="MarkThree.Guardian.Trading.WorkingOrder" name="UpdateFile">
+		<workingOrderId>WORK001</workingOrderId>
+		<timeInForceCode>DAY</timeInForceCode>
+	</method>
+</batch>

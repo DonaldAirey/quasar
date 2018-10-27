@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="US Corporate Bond">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>674599BF1</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>OCCIDENTAL PETE CORP</name>
+      <symbol>674599BF1</symbol>
+      <coupon>0.101250000</coupon>
+      <maturityDate>09/15/2009</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>149123AZ4</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>CATERPILLAR INC</name>
+      <symbol>149123AZ4</symbol>
+      <coupon>0.093750000</coupon>
+      <maturityDate>03/15/2021</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>00209AAF3</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>AT&amp;T WIRELESS INC</name>
+      <symbol>00209AAF3</symbol>
+      <coupon>0.087500000</coupon>
+      <maturityDate>03/01/2031</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>539830AK5</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>LOCKHEED MARTIN</name>
+      <symbol>539830AK5</symbol>
+      <coupon>0.085000000</coupon>
+      <maturityDate>12/01/2029</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>459200AG6</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>INTERNATIONAL BUSINESS MACHINES</name>
+      <symbol>459200AG6</symbol>
+      <coupon>0.083750000</coupon>
+      <maturityDate>11/01/2019</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>742718AU3</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>PROCTOR &amp; GAMBLE</name>
+      <symbol>742718AU3</symbol>
+      <coupon>0.085000000</coupon>
+      <maturityDate>08/10/2009</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>060505AE4</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>BANK OF AMERICA</name>
+      <symbol>060505AE4</symbol>
+      <coupon>0.078750000</coupon>
+      <maturityDate>05/16/2005</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>887315AV1</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>TIME WARNER INC</name>
+      <symbol>887315AV1</symbol>
+      <coupon>0.079750000</coupon>
+      <maturityDate>08/15/2005</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>718154CF2</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>PHILIP MORRIS COS INC</name>
+      <symbol>718154CF2</symbol>
+      <coupon>0.077500000</coupon>
+      <maturityDate>01/15/2027</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>370425RP7</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>GENERAL MOTORS CORP</name>
+      <symbol>370425RP7</symbol>
+      <coupon>0.077500000</coupon>
+      <maturityDate>01/19/2010</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>617446DW6</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>MORGAN STANLEY DEAN WITTER</name>
+      <symbol>617446DW6</symbol>
+      <coupon>0.077500000</coupon>
+      <maturityDate>06/15/2005</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>925524AJ9</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>VIACOM INC</name>
+      <symbol>925524AJ9</symbol>
+      <coupon>0.077000000</coupon>
+      <maturityDate>07/30/2010</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>925524AJ9</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>LOCKHEED MARTIN</name>
+      <symbol>925524AJ9</symbol>
+      <coupon>0.076500000</coupon>
+      <maturityDate>05/01/2016</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>00184AAC9</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>AOL TIME WARNER</name>
+      <symbol>00184AAC9</symbol>
+      <coupon>0.076250000</coupon>
+      <maturityDate>04/15/2031</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>00184AAA34</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>AOL TIME WARNER INC</name>
+      <symbol>00184AAA34</symbol>
+      <coupon>0.061300000</coupon>
+      <maturityDate>04/15/2006</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>00202NAA37</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>APP FINANCE VI MAURITIUS</name>
+      <symbol>00202NAA37</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>11/18/2012</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>00808VAA35</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>AETHER SYSTEMS INC</name>
+      <symbol>00808VAA35</symbol>
+      <coupon>0.060000000</coupon>
+      <maturityDate>03/22/2005</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>031162AC47</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>AMGEN INC</name>
+      <symbol>031162AC47</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>03/01/2032</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>035290AC92</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>ANIXTER INTL INC</name>
+      <symbol>035290AC92</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>06/28/2020</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>042735AY61</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>ARROW ELECTRONIC INC</name>
+      <symbol>042735AY61</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>02/21/2021</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>053499AA70</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>AVAYA INC</name>
+      <symbol>053499AA70</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>10/31/2021</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>15101QAA67</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>CELESTICA INC</name>
+      <symbol>15101QAA67</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>08/01/2020</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>151313AH61</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>CENDANT CORP</name>
+      <symbol>151313AH61</symbol>
+      <coupon>0.030000000</coupon>
+      <maturityDate>05/04/2021</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>224044AW71</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>COX COMMUNICATIONS INC</name>
+      <symbol>224044AW71</symbol>
+      <coupon>0.030000000</coupon>
+      <maturityDate>03/14/2030</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>224044AX54</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>COX COMMUNICATIONS INC</name>
+      <symbol>224044AX54</symbol>
+      <coupon>0.4300000</coupon>
+      <maturityDate>04/19/2020</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>278762AD13</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>ECHOSTAR COMMUNICATIONS</name>
+      <symbol>278762AD13</symbol>
+      <coupon>0.048800000</coupon>
+      <maturityDate>01/01/2007</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>278762AE95</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>ECHOSTAR COMMUNICATIONS</name>
+      <symbol>278762AE95</symbol>
+      <coupon>0.057500000</coupon>
+      <maturityDate>05/15/2008</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>27876GAG38</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>ECHOSTAR DBS CORP</name>
+      <symbol>27876GAG38</symbol>
+      <coupon>0.093800000</coupon>
+      <maturityDate>02/01/2009</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>31563NAA19</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>FIAT FINANCE LUX LTD SA</name>
+      <symbol>31563NAA19</symbol>
+      <coupon>0.032500000</coupon>
+      <maturityDate>01/09/2007</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>33938EAF43</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>FLEXTRONICS INTL LTD</name>
+      <symbol>33938EAF43</symbol>
+      <coupon>0.098800000</coupon>
+      <maturityDate>07/01/2010</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>35100EAD67</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>FOUR SEASONS HTL</name>
+      <symbol>35100EAD67</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>09/23/2029</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>421933AC63</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>HEALTH MANAGEMENT ASSOC</name>
+      <symbol>421933AC63</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>01/28/2022</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>492386AP20</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>KERR-MCGEE CORP.</name>
+      <symbol>492386AP20</symbol>
+      <coupon>0.052500000</coupon>
+      <maturityDate>02/15/2010</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>502424AB00</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>L-3 COMMUNICATIONS HLDGS</name>
+      <symbol>502424AB00</symbol>
+      <coupon>0.052500000</coupon>
+      <maturityDate>06/01/2009</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>526057AE42</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>LENNAR CORP</name>
+      <symbol>526057AE42</symbol>
+      <coupon>0.099500000</coupon>
+      <maturityDate>05/01/2010</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>526057AF17</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>LENNAR CORP</name>
+      <symbol>526057AF17</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>04/04/2021</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>629568AD88</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>NABORS INDUSTRIES INC</name>
+      <symbol>629568AD88</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>06/20/2020</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>629568AF37</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>NABORS INDUSTRIES LTD</name>
+      <symbol>629568AF37</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>02/05/2021</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>834182AL15</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>SOLECTRON CORP</name>
+      <symbol>834182AL15</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>11/20/2020</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>861012AB81</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>STMICROELECTRONICS NV</name>
+      <symbol>861012AB81</symbol>
+      <coupon>0.0000000</coupon>
+      <maturityDate>09/22/2009</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>Y49920AA23</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>KOREA TELECOM</name>
+      <symbol>Y49920AA23</symbol>
+      <coupon>0.2500000</coupon>
+      <maturityDate>01/04/2007</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>0000000001</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>AMERICAN INTERNATIONAL</name>
+      <symbol>0000000001</symbol>
+      <coupon>0.5000000</coupon>
+      <maturityDate>05/17/2007</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>0000000002</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>BJ SERVICES COMPANY</name>
+      <symbol>0000000002</symbol>
+      <coupon>0.5000000</coupon>
+      <maturityDate>04/24/2022</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>0000000003</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>BAXTER INTERNATIONAL</name>
+      <symbol>0000000003</symbol>
+      <coupon>0.012500000</coupon>
+      <maturityDate>06/01/2021</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>0000000004</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>MEDTRONICS INC</name>
+      <symbol>0000000004</symbol>
+      <coupon>0.012500000</coupon>
+      <maturityDate>09/15/2021</maturityDate>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Debt" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <debtId>0000000005</debtId>
+      <countryId>US</countryId>
+      <settlementId>USD</settlementId>
+      <debtTypeCode>CORPORATE BOND</debtTypeCode>
+      <name>VIACOM LIBERTY MEDIA</name>
+      <symbol>0000000005</symbol>
+      <coupon>0.032500000</coupon>
+      <maturityDate>03/15/2021</maturityDate>
+    </method>
+  </transaction>
+</batch>

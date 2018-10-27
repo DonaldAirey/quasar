@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="Quantitative Data">
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>T</securityId>
+		<positionTypeCode>LONG</positionTypeCode>
+		<userData1>20.0</userData1>
+		<userData2>7000.0</userData2>
+	</method>
+	<method assembly="External Service" type="MarkThree.Quasar.External.Position" name="Load">
+		<configurationId>US TICKER</configurationId>
+		<accountId>0237</accountId>
+		<securityId>FON</securityId>
+		<positionTypeCode>SHORT</positionTypeCode>
+		<userData1>27.5</userData1>
+		<userData2>8000.0</userData2>
+	</method>
+</batch>

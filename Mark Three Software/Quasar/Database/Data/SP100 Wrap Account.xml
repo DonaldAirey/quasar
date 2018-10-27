@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="S&amp;P100 Wrap Accounts">
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2000</accountId>
+			<accountTypeCode>ACCOUNT GROUP</accountTypeCode>
+			<name>S&amp;P100 Wrap</name>
+			<description>This is a group of account that track the S&amp;P 100</description>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<lotHandlingCode>FIFO</lotHandlingCode>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2100</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #200</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22000</taxLotId>
+			<accountId>2100</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>1500000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2101</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #201</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22001</taxLotId>
+			<accountId>2101</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>250000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2102</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #202</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22002</taxLotId>
+			<accountId>2102</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>3400000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2103</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #203</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22003</taxLotId>
+			<accountId>2103</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>12500000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2104</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #204</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22004</taxLotId>
+			<accountId>2104</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>800000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2105</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #205</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22005</taxLotId>
+			<accountId>2105</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>870000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2106</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #206</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22006</taxLotId>
+			<accountId>2106</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>1200000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2107</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #207</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22007</taxLotId>
+			<accountId>2107</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>8330000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2108</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #208</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22008</taxLotId>
+			<accountId>2108</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>540000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2109</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #209</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22009</taxLotId>
+			<accountId>2109</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>700000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2110</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #210</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22010</taxLotId>
+			<accountId>2110</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>1500000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2111</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #211</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22011</taxLotId>
+			<accountId>2111</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>250000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2112</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #212</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22012</taxLotId>
+			<accountId>2112</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>3400000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2113</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #213</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22013</taxLotId>
+			<accountId>2113</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>12500000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2114</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #214</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22014</taxLotId>
+			<accountId>2114</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>800000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Account" name="Load">
+			<accountId>2115</accountId>
+			<accountTypeCode>ACCOUNT</accountTypeCode>
+			<name>Account #215</name>
+			<currencyId>USD</currencyId>
+			<modelId>SP100</modelId>
+			<schemeId>GICS</schemeId>
+			<stylesheetId>APPRAISAL</stylesheetId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.TaxLot" name="Load">
+			<taxLotId>22015</taxLotId>
+			<accountId>2115</accountId>
+			<securityId>USD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<quantity>870000</quantity>
+			<cost>1.00</cost>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>2000</parentId>
+			<childId>2100</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>2000</parentId>
+			<childId>2101</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>2000</parentId>
+			<childId>2102</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>2000</parentId>
+			<childId>2103</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>2000</parentId>
+			<childId>2104</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>2000</parentId>
+			<childId>2105</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>2000</parentId>
+			<childId>2106</childId>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.ObjectTree" name="Load">
+			<parentId>2000</parentId>
+			<childId>2107</childId>
+		</method>
+	</transaction>
+</batch>

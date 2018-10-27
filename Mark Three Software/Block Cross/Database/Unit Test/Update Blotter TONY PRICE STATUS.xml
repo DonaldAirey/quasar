@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii" ?>
+<batch name="Staged Orders">
+    <method assembly="Trading Service" type="MarkThree.Guardian.Trading.WorkingOrder" name="UpdateFile">
+        <configurationId>US TICKER</configurationId>
+        <workingOrderId>WORK001</workingOrderId>
+        <statusCode>OPEN</statusCode>
+        <blotterId>TONY DE SILVA BLOTTER</blotterId>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Price" name="Load">
+      <configurationId>US TICKER</configurationId>
+      <securityId>HD</securityId>
+      <currencyId>USD</currencyId>
+      <closePrice>20</closePrice>
+      <lastPrice>50.25</lastPrice>
+    </method>
+</batch>

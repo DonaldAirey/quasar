@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<batch name="Status">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>0</statusCode>
+      <mnemonic>New</mnemonic>
+      <description>New</description>
+      <externalId0>NEW</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>1</statusCode>
+      <mnemonic>Open</mnemonic>
+      <description>Open</description>
+      <externalId0>OPEN</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>2</statusCode>
+      <mnemonic>Done</mnemonic>
+      <description>Closed</description>
+      <externalId0>DONE</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>3</statusCode>
+      <mnemonic>Pending</mnemonic>
+      <description>Pending</description>
+      <externalId0>PENDING</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>4</statusCode>
+      <mnemonic>Confirmed</mnemonic>
+      <description>Confirmed</description>
+      <externalId0>CONFIRMED</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>5</statusCode>
+      <mnemonic>Declined</mnemonic>
+      <description>Declined</description>
+      <externalId0>DECLINED</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>6</statusCode>
+      <mnemonic>Filled</mnemonic>
+      <description>The order has completed.</description>
+      <externalId0>FILLED</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>7</statusCode>
+      <mnemonic>Partial</mnemonic>
+      <description>The order is not yet complete.</description>
+      <externalId0>PARTIAL FILL</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>8</statusCode>
+      <mnemonic>Error</mnemonic>
+      <description>An error occured with this item.</description>
+      <externalId0>ERROR</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>9</statusCode>
+      <mnemonic>Submit</mnemonic>
+      <description>The order has been submitted to the crossing network.</description>
+      <externalId0>SUBMITTED</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>10</statusCode>
+      <mnemonic>Negot</mnemonic>
+      <description>Two parties are negotiating a transaction.</description>
+      <externalId0>NEGOTIATING</externalId0>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+      <statusCode>11</statusCode>
+      <mnemonic>Accept</mnemonic>
+      <description>Accept the negotiated items.</description>
+      <externalId0>ACCEPTED</externalId0>
+    </method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+			<statusCode>12</statusCode>
+			<mnemonic>Active</mnemonic>
+			<description>A match between two counter parties is active.</description>
+			<externalId0>ACTIVE</externalId0>
+		</method>
+		<method assembly="External Service" type="MarkThree.Guardian.External.Status" name="Load">
+			<statusCode>13</statusCode>
+			<mnemonic>Expired</mnemonic>
+			<description>A match between two counter parties has expired.</description>
+			<externalId0>EXPIRED</externalId0>
+		</method>
+	</transaction>
+</batch>

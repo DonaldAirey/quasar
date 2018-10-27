@@ -1,0 +1,5 @@
+sn -q -R "C:\My Documents\Visual Studio 2005\Projects\Mark Three Software\Batch\obj\Release\Batch.dll" "C:\Cryptography\Mark Three Software\Key Pair.snk"
+sn -q -R "C:\My Documents\Visual Studio 2005\Projects\Mark Three Software\Configuration Sections\obj\Release\Configuration Sections.dll" "C:\Cryptography\Mark Three Software\Key Pair.snk"
+sn -q -R "C:\My Documents\Visual Studio 2005\Projects\Mark Three Software\Mark Three Library\obj\Release\Mark Three Library.dll" "C:\Cryptography\Mark Three Software\Key Pair.snk"
+sn -q -R "C:\My Documents\Visual Studio 2005\Projects\Mark Three Software\User Preferences\obj\Release\User Preferences.dll" "C:\Cryptography\Mark Three Software\Key Pair.snk"
+sn -q -R "C:\My Documents\Visual Studio 2005\Projects\Mark Three Software\Web Transaction Protocol\obj\Release\Web Transaction Protocol.dll" "C:\Cryptography\Mark Three Software\Key Pair.snk"

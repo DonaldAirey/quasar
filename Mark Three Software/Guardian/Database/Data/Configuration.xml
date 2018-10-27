@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<batch name="Configuration">
+  <transaction>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>US TICKER</configurationId>
+      <parameterId>childId</parameterId>
+      <columnIndex>1</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>US TICKER</configurationId>
+      <parameterId>securityId</parameterId>
+      <columnIndex>1</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>US TICKER</configurationId>
+      <parameterId>settlementId</parameterId>
+      <columnIndex>0</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>US TICKER</configurationId>
+      <parameterId>equityId</parameterId>
+      <columnIndex>1</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <parameterId>childId</parameterId>
+      <columnIndex>2</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <parameterId>securityId</parameterId>
+      <columnIndex>2</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <parameterId>settlementId</parameterId>
+      <columnIndex>0</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>CA TICKER</configurationId>
+      <parameterId>equityId</parameterId>
+      <columnIndex>2</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <parameterId>childId</parameterId>
+      <columnIndex>3</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <parameterId>securityId</parameterId>
+      <columnIndex>3</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <parameterId>equityId</parameterId>
+      <columnIndex>3</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>UK TICKER</configurationId>
+      <parameterId>settlementId</parameterId>
+      <columnIndex>0</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <parameterId>childId</parameterId>
+      <columnIndex>4</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <parameterId>securityId</parameterId>
+      <columnIndex>4</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <parameterId>settlementId</parameterId>
+      <columnIndex>0</columnIndex>
+    </method>
+    <method assembly="External Service" type="MarkThree.Guardian.External.Configuration" name="Load">
+      <configurationId>CUSIP</configurationId>
+      <parameterId>debtId</parameterId>
+      <columnIndex>4</columnIndex>
+    </method>
+  </transaction>
+</batch>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch>
+	<method assembly="Market.Simulator" type="Shadows.Quasar.Market.Simulator.Broker" name="Start">
+		<name>ILND</name>
+	</method>
+</batch>

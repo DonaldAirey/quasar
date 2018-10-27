@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<batch name="S&amp;P 100 Model">
+	<transaction>
+		<method assembly="External Service" type="MarkThree.Quasar.External.Model" name="Load">
+			<modelId>SP100</modelId>
+			<algorithmId>REBALANCER SECURITY</algorithmId>
+			<schemeId>L1GICS</schemeId>
+			<modelTypeCode>SECURITY MODEL</modelTypeCode>
+			<name>S&amp;P 100</name>
+			<description>A model of the S&amp;P 100 stock index.</description>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>AES</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>AOL</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>T</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>AA</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>ATI</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>AEP</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>AXP</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>AIG</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>AMGN</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BUD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>AVP</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BHI</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>ONE</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BAC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BAX</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BDK</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BA</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BCC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BMY</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>BNI</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>CI</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>CPB</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>CSCO</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>C</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>CCU</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>KO</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>CL</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>CSC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>DAL</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>DOW</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>DD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>EMC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>EK</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>ETR</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>FDX</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>F</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>GD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>GE</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>GM</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>G</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>HAL</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>HET</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>HIG</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>HNZ</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>HD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>HON</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>INTC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>IBM</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>IP</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>JPM</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>JNJ</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>LEH</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>LTD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>LU</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MAY</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MCD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MEDI</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MDT</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MRK</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MER</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MSFT</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MMM</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MWD</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>NXTL</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>NSM</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>NSC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>ORCL</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>PEP</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>PFE</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>MO</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>PG</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>ROK</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>SLE</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>SBC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>SLB</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>S</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>SO</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>TXN</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>TOY</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>TYC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>USB</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>UIS</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>UTX</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>WMT</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>DIS</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>WFC</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>WY</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>WMB</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+		<method assembly="External Service" type="MarkThree.Quasar.External.PositionTarget" name="Load">
+			<configurationId>US TICKER</configurationId>
+			<modelId>SP100</modelId>
+			<securityId>XRX</securityId>
+			<positionTypeCode>LONG</positionTypeCode>
+			<percent>0.01</percent>
+		</method>
+	</transaction>
+</batch>

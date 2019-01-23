@@ -330,7 +330,7 @@ namespace MarkThree.Guardian
 									destinationRow = destinationTable.NewRow();
 									foreach (DataColumn destinationColumn in destinationTable.Columns)
 										destinationRow[destinationColumn.Ordinal] = sourceData[destinationColumn.Ordinal];
-									destinationTable.Rows.Add((Row)destinationRow);
+									destinationTable.Rows.Add(destinationRow);
 
 								}
 								else
@@ -359,8 +359,12 @@ namespace MarkThree.Guardian
 							isAnythingMerged = true;
 
 						}
-						catch (Exception)
+						catch (Exception exception)
 						{
+
+							// Record any errors trying to read the data.
+							EventLog.Error("{0}: {1}", exception.Message, exception.StackTrace);
+
 							// Remove the offensive record from the incoming buffer.
 							sourceRows.Remove(sourceRow);
 

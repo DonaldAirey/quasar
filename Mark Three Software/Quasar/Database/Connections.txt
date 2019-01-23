@@ -1,0 +1,4 @@
+DBRefFolders found in your dbp file
+Connect String: Data Source=ARIEL;Initial Catalog=Quasar;Integrated Security=True;Connect Timeout=0;Encrypt=False;Packet Size=4096;Workstation ID=ARIEL
+Provider: Microsoft SQL Server
+

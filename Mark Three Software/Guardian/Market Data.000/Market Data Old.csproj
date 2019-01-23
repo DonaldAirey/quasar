@@ -4,7 +4,7 @@
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{734051D9-B2A3-44E9-A88B-7B4FDB90109F}</ProjectGuid>
+    <ProjectGuid>{79E97A94-4385-40E7-B4A2-D36C16ABB1D3}</ProjectGuid>
     <SccProjectName>
     </SccProjectName>
     <SccLocalPath>
@@ -19,15 +19,14 @@
     </ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>Mark Three Library</AssemblyName>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <AssemblyName>Market Data</AssemblyName>
+    <AssemblyOriginatorKeyFile>Public Key.snk</AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
-    <DelaySign>false</DelaySign>
+    <DelaySign>true</DelaySign>
     <OutputType>Library</OutputType>
-    <RootNamespace>MarkThree</RootNamespace>
+    <RootNamespace>MarkThree.Guardian</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <StartupObject>
     </StartupObject>
@@ -35,7 +34,7 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <OldToolsVersion>2.0</OldToolsVersion>
     <PublishUrl>publish\</PublishUrl>
@@ -53,7 +52,6 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -73,12 +71,11 @@
     <Optimize>false</Optimize>
     <RegisterForComInterop>false</RegisterForComInterop>
     <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <WarningLevel>4</WarningLevel>
     <DebugType>full</DebugType>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -103,119 +100,63 @@
     <DebugType>none</DebugType>
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
-    <Reference Include="System.configuration" />
     <Reference Include="System.Data">
       <Name>System.Data</Name>
     </Reference>
-    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Action.cs" />
-    <Compile Include="CamelCase.cs" />
-    <Compile Include="CertificateMappingStore.cs" />
-    <Compile Include="CertificateMap.cs" />
-    <Compile Include="ConversionString.cs" />
-    <Compile Include="DataAction.cs">
-      <SubType>Code</SubType>
+    <Compile Include="DataSetMarket.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetMarket.xsd</DependentUpon>
     </Compile>
-    <Compile Include="AuthenticationMode.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="CommonElement.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="CompressedStreamReader.cs" />
-    <Compile Include="ActionQueue.cs" />
-    <Compile Include="Crypt.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DistinctList.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="DualList.cs" />
-    <Compile Include="EventLog.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ExtendedWindowStyle.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="HolidayType.cs" />
-    <Compile Include="ImageType.cs" />
-    <Compile Include="Impersonate.cs" />
-    <Compile Include="IViewerSite.cs" />
-    <Compile Include="MetaAssembly.cs" />
-    <Compile Include="RecordNotFoundException.cs" />
-    <Compile Include="Service.cs" />
-    <Compile Include="MessageEventArgs.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Movement.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="OrderedList.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="OrdType.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Percent.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="PriceType.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Side.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Sounds.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="SpreadsheetColumn.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="TimeInForce.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Timeouts.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="TypeSpecification.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="UserAbortException.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="CSharpCompiler.cs" />
-    <Compile Include="UserPreferences.cs">
+    <Compile Include="MarketData.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="WaitQueue.cs">
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relation.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="WebPage.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="WindowStyle.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="EventLog.resx">
-      <DependentUpon>EventLog.cs</DependentUpon>
+    <Content Include="DataSetMarket.xsd">
+      <Generator>Middle Tier Generator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>DataSetMarket.Designer.cs</LastGenOutput>
+    </Content>
+    <None Include="DataSetMarket.xsc">
+      <DependentUpon>DataSetMarket.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMarket.xss">
+      <DependentUpon>DataSetMarket.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMarket.xsx">
+      <DependentUpon>DataSetMarket.xsd</DependentUpon>
+    </None>
+    <None Include="Public Key.snk" />
+    <EmbeddedResource Include="MarketData.resx">
+      <DependentUpon>MarketData.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserPreferences.resx">
-      <DependentUpon>UserPreferences.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Batch\Batch.csproj">
+      <Project>{D8E26866-EB0B-4868-AF59-F2A1F94CBC41}</Project>
+      <Name>Batch</Name>
+      <Private>True</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Mark Three Library\Mark Three Library.csproj">
+      <Project>{734051D9-B2A3-44E9-A88B-7B4FDB90109F}</Project>
+      <Name>Mark Three Library</Name>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

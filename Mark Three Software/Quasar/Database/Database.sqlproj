@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <UpgradedFromDBP>True</UpgradedFromDBP>
+    <Name>dbpProjectName</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{218f9180-abd4-40b3-bdde-f4f93106230b}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <UpgradedFromDBP>True</UpgradedFromDBP>
+    <RootNamespace>dbpProjectName</RootNamespace>
+    <PostUpgradeAddToSCC>;C:\Source\quasar\Mark Three Software\Quasar\Database\Database.sqlproj;C:\Source\quasar\Mark Three Software\Quasar\Database\Connections.txt</PostUpgradeAddToSCC>
+    <UpgradedFromDBP>True</UpgradedFromDBP>
+    <AssemblyName>dbpProjectName</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+    <Folder Include="Function" />
+    <Folder Include="Query" />
+    <Folder Include="Script" />
+    <Folder Include="Stored Procedure" />
+    <Folder Include="Stylesheet" />
+    <Folder Include="Table" />
+    <Folder Include="Trigger" />
+    <Folder Include="Properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <NotInBuild Include="Connections.txt" />
+    <NotInBuild Include="Function\RevisionNeeded.sql" />
+    <NotInBuild Include="Query\Archive Unused Securities.sql" />
+    <NotInBuild Include="Query\Drop All.sql" />
+    <NotInBuild Include="Query\label version.sql" />
+    <NotInBuild Include="Query\make tax lots.sql" />
+    <NotInBuild Include="Stored Procedure\ObjectEpilog.sql" />
+    <NotInBuild Include="Stored Procedure\ObjectProlog.sql" />
+    <NotInBuild Include="Stored Procedure\RemoveConstraint.sql" />
+    <NotInBuild Include="Stored Procedure\RemoveObject.sql" />
+    <NotInBuild Include="Table\Account.sql" />
+    <NotInBuild Include="Table\AccountType.sql" />
+    <NotInBuild Include="Table\Algorithm.sql" />
+    <NotInBuild Include="Table\AlgorithmType.sql" />
+    <NotInBuild Include="Table\Allocation.sql" />
+    <NotInBuild Include="Table\BlockOrder.sql" />
+    <NotInBuild Include="Table\BlockOrderTree.sql" />
+    <NotInBuild Include="Table\Blotter.sql" />
+    <NotInBuild Include="Table\BlotterMap.sql" />
+    <NotInBuild Include="Table\BlotterType.sql" />
+    <NotInBuild Include="Table\Broker.sql" />
+    <NotInBuild Include="Table\Condition.sql" />
+    <NotInBuild Include="Table\Configuration.sql" />
+    <NotInBuild Include="Table\Country.sql" />
+    <NotInBuild Include="Table\Currency.sql" />
+    <NotInBuild Include="Table\Debt.sql" />
+    <NotInBuild Include="Table\DebtType.sql" />
+    <NotInBuild Include="Table\Equity.sql" />
+    <NotInBuild Include="Table\EquityType.sql" />
+    <NotInBuild Include="Table\Exchange.sql" />
+    <NotInBuild Include="Table\ExchangeMap.sql" />
+    <NotInBuild Include="Table\Execution.sql" />
+    <NotInBuild Include="Table\Folder.sql" />
+    <NotInBuild Include="Table\FolderType.sql" />
+    <NotInBuild Include="Table\Holiday.sql" />
+    <NotInBuild Include="Table\HolidayType.sql" />
+    <NotInBuild Include="Table\Issuer.sql" />
+    <NotInBuild Include="Table\IssuerType.sql" />
+    <NotInBuild Include="Table\LotHandling.sql" />
+    <NotInBuild Include="Table\Model.sql" />
+    <NotInBuild Include="Table\ModelType.sql" />
+    <NotInBuild Include="Table\Object.sql" />
+    <NotInBuild Include="Table\ObjectTree.sql" />
+    <NotInBuild Include="Table\Order.sql" />
+    <NotInBuild Include="Table\OrderTree.sql" />
+    <NotInBuild Include="Table\OrderType.sql" />
+    <NotInBuild Include="Table\Placement.sql" />
+    <NotInBuild Include="Table\Position.sql" />
+    <NotInBuild Include="Table\PositionTarget.sql" />
+    <NotInBuild Include="Table\PositionType.sql" />
+    <NotInBuild Include="Table\Price.sql" />
+    <NotInBuild Include="Table\Property.sql" />
+    <NotInBuild Include="Table\ProposedOrder.sql" />
+    <NotInBuild Include="Table\ProposedOrderTree.sql" />
+    <NotInBuild Include="Table\Province.sql" />
+    <NotInBuild Include="Table\Restriction.sql" />
+    <NotInBuild Include="Table\Scheme.sql" />
+    <NotInBuild Include="Table\Sector.sql" />
+    <NotInBuild Include="Table\SectorTarget.sql" />
+    <NotInBuild Include="Table\Security.sql" />
+    <NotInBuild Include="Table\SecurityType.sql" />
+    <NotInBuild Include="Table\Status.sql" />
+    <NotInBuild Include="Table\Stylesheet.sql" />
+    <NotInBuild Include="Table\StylesheetType.sql" />
+    <NotInBuild Include="Table\SystemFolder.sql" />
+    <NotInBuild Include="Table\TaxLot.sql" />
+    <NotInBuild Include="Table\TimeInForce.sql" />
+    <NotInBuild Include="Table\TransactionType.sql" />
+    <NotInBuild Include="Table\Type.sql" />
+    <NotInBuild Include="Table\User.sql" />
+    <NotInBuild Include="Table\VersionControl.sql" />
+    <NotInBuild Include="Table\VersionHistory.sql" />
+    <NotInBuild Include="Table\VersionTag.sql" />
+    <NotInBuild Include="Table\Violation.sql" />
+    <NotInBuild Include="Trigger\VersionHistory.sql" />
+  </ItemGroup>
+</Project>
